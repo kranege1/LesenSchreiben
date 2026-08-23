@@ -58,8 +58,8 @@ export class AppSpeech {
             console.error("Speech Recognition Error:", e);
             if (e.error === 'not-allowed') {
                 this.onError("Zugriff auf Mikrofon verweigert. Bitte in den Einstellungen erlauben.");
-            } else if (e.error === 'no-speech') {
-                // Silently ignore or show brief notification
+            } else if (e.error === 'no-speech' || e.error === 'network') {
+                // Silently ignore. The 'onend' handler will automatically restart recognition if isListening is true.
             } else {
                 this.onError(`Erkennungsfehler: ${e.error}`);
             }
