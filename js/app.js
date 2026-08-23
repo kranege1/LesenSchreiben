@@ -850,8 +850,14 @@ class Application {
             // Incorrect attempt
             this.sentenceHasError = true;
             this.wordMistakes++;
-            if (!this.mistakenWords.includes(activeWord.clean)) {
-                this.mistakenWords.push(activeWord.clean);
+            const existingMistake = this.mistakenWords.find(m => m.target === activeWord.clean);
+            if (!existingMistake) {
+                this.mistakenWords.push({
+                    target: activeWord.clean,
+                    attempt: attempt
+                });
+            } else {
+                existingMistake.attempt = attempt;
             }
             
             // Visual Shake feedback on wrapper & input field
@@ -1083,7 +1089,7 @@ class Application {
         const isSuccess = !this.sentenceHasError;
         const stats = {
             points: earnedPoints,
-            mistakes: this.mistakenWords,
+            mistakes: this.mistakenWords.map(m => m.target),
             skipped: this.skippedWords
         };
         
@@ -1136,7 +1142,7 @@ class Application {
         const isSuccess = !this.sentenceHasError;
         const stats = {
             points: earnedPoints,
-            mistakes: this.mistakenWords,
+            mistakes: this.mistakenWords.map(m => m.target),
             skipped: this.skippedWords
         };
 
@@ -1209,6 +1215,65 @@ class Application {
         const skippedList = document.getElementById('summary-skipped-list');
         skippedList.innerHTML = "";
 
+        const mistakenTargets = this.mistakenWords.map(m => m.target);
+
+        // Spelling feedback rules helper
+        const getSpellingFeedback = (attempt, target) => {
+            if (!attempt) return `Du hast das Wort nicht fertig geschrieben.`;
+            const attemptLower = attempt.toLowerCase();
+            const targetLower = target.toLowerCase();
+
+            if (attemptLower === targetLower) {
+                if (target[0] === target[0].toUpperCase() && attempt[0] === attempt[0].toLowerCase()) {
+                    if (target === "Setzen" || target === "Spielen" || target === "Lernen" || target === "Essen") {
+                        return `Du hast <b>"${attempt}"</b> klein geschrieben. Hier ist es ein Namenwort (Substantivierung: "das ${target}"), daher schreibt man es groß!`;
+                    }
+                    return `Du hast <b>"${attempt}"</b> klein geschrieben. Nomen (Namenwörter) wie <b>"${target}"</b> schreibt man groß!`;
+                }
+                if (target[0] === target[0].toLowerCase() && attempt[0] === attempt[0].toUpperCase()) {
+                    return `Du hast <b>"${attempt}"</b> groß geschrieben. Dieses Wort schreibt man klein: <b>"${target}"</b>.`;
+                }
+            }
+
+            const doubleConsonants = ['bb', 'dd', 'ff', 'gg', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt'];
+            for (let dc of doubleConsonants) {
+                const sc = dc[0];
+                if (targetLower.includes(dc) && !attemptLower.includes(dc) && attemptLower.includes(sc)) {
+                    return `Nach einem kurz gesprochenen Vokal (Selbstlaut) wird der Mitlaut verdoppelt. Schreib <b>"${target}"</b> mit <b>"${dc}"</b> statt "${sc}".`;
+                }
+                if (!targetLower.includes(dc) && attemptLower.includes(dc) && targetLower.includes(sc)) {
+                    return `Hier schreibt man nur einen einfachen Mitlaut: Schreib <b>"${target}"</b> mit <b>"${sc}"</b> statt "${dc}".`;
+                }
+            }
+
+            if (targetLower.includes('tz') && !attemptLower.includes('tz') && attemptLower.includes('z')) {
+                return `Nach einem kurzen Vokal schreiben wir meist <b>"tz"</b> (wie in <b>"${target}"</b>) statt nur "z".`;
+            }
+            if (targetLower.includes('ck') && !attemptLower.includes('ck') && attemptLower.includes('k')) {
+                return `Nach einem kurzen Vokal schreiben wir meist <b>"ck"</b> (wie in <b>"${target}"</b>) statt nur "k".`;
+            }
+
+            if (targetLower.includes('ie') && !attemptLower.includes('ie') && attemptLower.includes('i')) {
+                return `Hier wird das "i" lang gesprochen. Schreib <b>"${target}"</b> mit <b>"ie"</b> statt nur "i".`;
+            }
+            if (targetLower.includes('ieh') && !attemptLower.includes('ieh') && attemptLower.includes('ie')) {
+                return `Hier gehört ein Dehnungs-h dazu. Schreib <b>"${target}"</b> mit <b>"ieh"</b>.`;
+            }
+
+            if (targetLower.startsWith('v') && attemptLower.startsWith('f')) {
+                return `Vorsicht beim "F-Laut"! Manches schreibt man mit "V" (wie den "Vogel" oder <b>"${target}"</b>).`;
+            }
+            if (targetLower.startsWith('f') && attemptLower.startsWith('v')) {
+                return `Dieses Wort schreibt man mit "F" am Anfang: <b>"${target}"</b>.`;
+            }
+
+            if (targetLower.includes('ä') && attemptLower.includes('e')) {
+                return `Tipp: Leite das Wort von der Grundform ab (z. B. Äpfel von Apfel). Schreib <b>"${target}"</b> mit <b>"ä"</b>.`;
+            }
+
+            return `Du hast <b>"${attempt}"</b> geschrieben, gesucht war aber <b>"${target}"</b>. Schau dir die Buchstaben noch einmal genau an!`;
+        };
+
         this.currentSentence.words.forEach((wData, idx) => {
             const span = document.createElement('span');
             span.style.padding = '4px 8px';
@@ -1222,10 +1287,45 @@ class Application {
                 span.style.color = '#FF9500';
                 skippedList.appendChild(span);
                 document.getElementById('summary-skipped-container').style.display = 'block';
-            } else if (this.mistakenWords.includes(wData.clean)) {
+            } else if (mistakenTargets.includes(wData.clean)) {
+                const mistakeObj = this.mistakenWords.find(m => m.target === wData.clean);
+                const explanation = getSpellingFeedback(mistakeObj ? mistakeObj.attempt : "", wData.clean);
+                
                 span.style.background = 'rgba(255, 59, 48, 0.15)';
                 span.style.color = 'var(--error-red)';
-                mistakesList.appendChild(span);
+                
+                const wordBox = document.createElement('div');
+                wordBox.style.display = 'flex';
+                wordBox.style.flexDirection = 'column';
+                wordBox.style.gap = '4px';
+                wordBox.style.width = '100%';
+                wordBox.style.padding = '8px 12px';
+                wordBox.style.borderRadius = '8px';
+                wordBox.style.background = 'var(--system-gray-light)';
+                
+                const headerLine = document.createElement('div');
+                headerLine.style.display = 'flex';
+                headerLine.style.gap = '12px';
+                headerLine.style.alignItems = 'center';
+                
+                headerLine.appendChild(span);
+                
+                const attemptLabel = document.createElement('span');
+                attemptLabel.style.fontSize = '13px';
+                attemptLabel.style.color = 'var(--text-secondary)';
+                attemptLabel.innerHTML = `Deine Eingabe: <span style="text-decoration: line-through; color: var(--error-red); font-weight: 600;">${mistakeObj ? mistakeObj.attempt : "?"}</span>`;
+                headerLine.appendChild(attemptLabel);
+                
+                wordBox.appendChild(headerLine);
+                
+                const explanationText = document.createElement('div');
+                explanationText.style.fontSize = '12.5px';
+                explanationText.style.color = 'var(--text-primary)';
+                explanationText.style.lineHeight = '1.4';
+                explanationText.innerHTML = `💡 ${explanation}`;
+                wordBox.appendChild(explanationText);
+                
+                mistakesList.appendChild(wordBox);
                 document.getElementById('summary-mistakes-container').style.display = 'block';
             } else {
                 span.style.background = 'rgba(52, 199, 89, 0.15)';
@@ -1254,6 +1354,17 @@ class Application {
                 
                 // Track reading error in progress store since child stalled
                 this.sentenceHasError = true;
+                const activeWord = this.currentSentence.words[this.currentWordIndex];
+                if (activeWord) {
+                    const alreadyLogged = this.mistakenWords.find(m => m.target === activeWord.clean);
+                    if (!alreadyLogged) {
+                        this.mistakenWords.push({
+                            target: activeWord.clean,
+                            attempt: "(nicht gesprochen / Hilfe benötigt)"
+                        });
+                    }
+                }
+                
                 await this.db.recordResult(
                     this.currentProfile.id,
                     this.currentSentence.id,
