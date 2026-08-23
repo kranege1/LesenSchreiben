@@ -561,6 +561,7 @@ class Application {
         this.sentenceHasError = false;
         this.skippedWords = [];
         this.mistakenWords = [];
+        this.wordMistakeCounts = {};
         
         // Update Story Progress Bar if in story mode
         this.updateStoryProgressBar();
@@ -851,6 +852,12 @@ class Application {
             // Incorrect attempt
             this.sentenceHasError = true;
             this.wordMistakes++;
+            
+            if (!this.wordMistakeCounts[this.currentWordIndex]) {
+                this.wordMistakeCounts[this.currentWordIndex] = 0;
+            }
+            this.wordMistakeCounts[this.currentWordIndex]++;
+            
             const existingMistake = this.mistakenWords.find(m => m.target === activeWord.clean);
             if (!existingMistake) {
                 this.mistakenWords.push({
@@ -1076,18 +1083,24 @@ class Application {
 
     async finishCurrentSentence() {
         let earnedPoints = 0;
-        const totalMistakes = this.mistakenWords.length;
-        const totalSkips = this.skippedWords.length;
-
-        if (totalSkips > 0) {
-            earnedPoints = 0;
-        } else if (totalMistakes === 0) {
-            earnedPoints = 10;
-        } else if (totalMistakes <= 2) {
-            earnedPoints = 5;
-        } else {
-            earnedPoints = 2;
-        }
+        const words = this.currentSentence.words;
+        
+        words.forEach((wData, idx) => {
+            const mistakes = this.wordMistakeCounts[idx] || 0;
+            const isSkipped = this.skippedWords.includes(idx);
+            
+            if (isSkipped) {
+                earnedPoints += 0;
+            } else if (mistakes === 0) {
+                earnedPoints += 10;
+            } else if (mistakes === 1) {
+                earnedPoints += 5;
+            } else if (mistakes === 2) {
+                earnedPoints += 2;
+            } else {
+                earnedPoints += 0;
+            }
+        });
 
         const isSuccess = !this.sentenceHasError;
         const stats = {
@@ -1129,18 +1142,24 @@ class Application {
 
     async finishCurrentReadingSentence() {
         let earnedPoints = 0;
-        const totalMistakes = this.mistakenWords.length;
-        const totalSkips = this.skippedWords.length;
-
-        if (totalSkips > 0) {
-            earnedPoints = 0;
-        } else if (totalMistakes === 0) {
-            earnedPoints = 10;
-        } else if (totalMistakes <= 2) {
-            earnedPoints = 5;
-        } else {
-            earnedPoints = 2;
-        }
+        const words = this.currentSentence.words;
+        
+        words.forEach((wData, idx) => {
+            const mistakes = this.wordMistakeCounts[idx] || 0;
+            const isSkipped = this.skippedWords.includes(idx);
+            
+            if (isSkipped) {
+                earnedPoints += 0;
+            } else if (mistakes === 0) {
+                earnedPoints += 10;
+            } else if (mistakes === 1) {
+                earnedPoints += 5;
+            } else if (mistakes === 2) {
+                earnedPoints += 2;
+            } else {
+                earnedPoints += 0;
+            }
+        });
 
         const isSuccess = !this.sentenceHasError;
         const stats = {
@@ -1424,6 +1443,12 @@ class Application {
                 
                 // Track reading error in progress store since child stalled
                 this.sentenceHasError = true;
+                
+                if (!this.wordMistakeCounts[this.currentWordIndex]) {
+                    this.wordMistakeCounts[this.currentWordIndex] = 0;
+                }
+                this.wordMistakeCounts[this.currentWordIndex]++;
+                
                 const activeWord = this.currentSentence.words[this.currentWordIndex];
                 if (activeWord) {
                     const alreadyLogged = this.mistakenWords.find(m => m.target === activeWord.clean);
