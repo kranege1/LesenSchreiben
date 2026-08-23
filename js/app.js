@@ -681,17 +681,14 @@ class Application {
         }
 
         // Autoplay sentence at the beginning of writing mode, then play active word
-        const isLastWord = this.currentWordIndex === this.currentSentence.words.length - 1;
         if (this.currentWordIndex === 0) {
             this.audio.playSentence(this.currentSentence.id, this.currentSentence.sentence).then(() => {
-                if (this.currentMode === 'write' && this.currentWordIndex === 0 && !isLastWord) {
+                if (this.currentMode === 'write' && this.currentWordIndex === 0) {
                     this.audio.playWord(activeWord.word);
                 }
             });
         } else {
-            if (!isLastWord) {
-                this.audio.playWord(activeWord.word);
-            }
+            this.audio.playWord(activeWord.word);
         }
     }
 
@@ -877,10 +874,7 @@ class Application {
             }, 600);
 
             // Play mistake buzzer/sound or repeat word
-            const isLastWord = this.currentWordIndex === this.currentSentence.words.length - 1;
-            if (!isLastWord) {
-                await this.audio.playWord(activeWord.word);
-            }
+            await this.audio.playWord(activeWord.word);
 
             // Scaffolding Logic:
             if (this.wordMistakes === 1) {
