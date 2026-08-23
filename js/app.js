@@ -581,6 +581,26 @@ class Application {
 
         // Render masked & active word bubbles
         words.forEach((wData, idx) => {
+            const wrapper = document.createElement('div');
+            wrapper.style.display = 'inline-flex';
+            wrapper.style.alignItems = 'center';
+            wrapper.style.gap = '4px';
+            
+            const raw = wData.word;
+            const clean = wData.clean;
+            const cleanIdx = raw.indexOf(clean);
+            const leadingPunct = cleanIdx > 0 ? raw.substring(0, cleanIdx) : "";
+            const trailingPunct = cleanIdx !== -1 ? raw.substring(cleanIdx + clean.length) : "";
+
+            if (leadingPunct) {
+                const lpSpan = document.createElement('span');
+                lpSpan.style.fontSize = '24px';
+                lpSpan.style.fontWeight = '700';
+                lpSpan.style.color = 'var(--text-primary)';
+                lpSpan.innerText = leadingPunct;
+                wrapper.appendChild(lpSpan);
+            }
+
             const bubble = document.createElement('div');
             bubble.className = 'word-bubble';
             
@@ -589,28 +609,33 @@ class Application {
                 this.audio.playWord(wData.word);
             });
             
-            const raw = wData.word;
-            const clean = wData.clean;
-            const cleanIdx = raw.indexOf(clean);
-            const leadingPunct = cleanIdx > 0 ? raw.substring(0, cleanIdx) : "";
-            const trailingPunct = cleanIdx !== -1 ? raw.substring(cleanIdx + clean.length) : "";
-            
             if (idx < this.currentWordIndex) {
                 // Solved
-                bubble.innerText = wData.word;
+                bubble.innerText = wData.clean;
                 bubble.classList.add('correct');
             } else if (idx === this.currentWordIndex) {
                 // Active
                 bubble.classList.add('active', 'masked');
-                // Display placeholder dashes matching word length with punctuation
-                bubble.innerText = leadingPunct + wData.clean.split('').map(() => '_').join(' ') + trailingPunct;
+                // Display placeholder dashes matching word length
+                bubble.innerText = wData.clean.split('').map(() => '_').join(' ');
             } else {
                 // Masked / Unsolved
                 bubble.classList.add('masked');
-                bubble.innerText = leadingPunct + wData.clean.split('').map(() => '_').join(' ') + trailingPunct;
+                bubble.innerText = wData.clean.split('').map(() => '_').join(' ');
             }
 
-            container.appendChild(bubble);
+            wrapper.appendChild(bubble);
+
+            if (trailingPunct) {
+                const tpSpan = document.createElement('span');
+                tpSpan.style.fontSize = '24px';
+                tpSpan.style.fontWeight = '700';
+                tpSpan.style.color = 'var(--text-primary)';
+                tpSpan.innerText = trailingPunct;
+                wrapper.appendChild(tpSpan);
+            }
+
+            container.appendChild(wrapper);
         });
 
         // Initialize Active word states
@@ -679,19 +704,14 @@ class Application {
     updateActiveWordBubble() {
         const container = document.getElementById('write-sentence-container');
         if (!container || !this.currentSentence) return;
-        const activeBubble = container.children[this.currentWordIndex];
+        const activeWrapper = container.children[this.currentWordIndex];
+        const activeBubble = activeWrapper ? activeWrapper.querySelector('.word-bubble') : null;
         if (!activeBubble || !activeBubble.classList.contains('active')) return;
         
         const activeWord = this.currentSentence.words[this.currentWordIndex];
         const cleanChars = activeWord.clean.split('');
         
-        const raw = activeWord.word;
-        const clean = activeWord.clean;
-        const cleanIdx = raw.indexOf(clean);
-        const leadingPunct = cleanIdx > 0 ? raw.substring(0, cleanIdx) : "";
-        const trailingPunct = cleanIdx !== -1 ? raw.substring(cleanIdx + clean.length) : "";
-        
-        let html = leadingPunct;
+        let html = '';
         for (let i = 0; i < cleanChars.length; i++) {
             if (i < this.inputBuffer.length) {
                 html += this.inputBuffer[i];
@@ -702,7 +722,6 @@ class Application {
             }
             if (i < cleanChars.length - 1) html += ' ';
         }
-        html += trailingPunct;
         activeBubble.innerHTML = html;
     }
 
@@ -793,7 +812,8 @@ class Application {
         const attempt = this.inputBuffer.trim();
         const target = activeWord.clean;
         
-        const wordBubble = document.getElementById('write-sentence-container').children[this.currentWordIndex];
+        const wordWrapper = document.getElementById('write-sentence-container').children[this.currentWordIndex];
+        const wordBubble = wordWrapper ? wordWrapper.querySelector('.word-bubble') : null;
         const indicator = document.getElementById('write-input-indicator');
 
         if (attempt === target) {
@@ -802,7 +822,7 @@ class Application {
             
             // Turn active bubble green immediately
             if (wordBubble) {
-                wordBubble.innerText = activeWord.word;
+                wordBubble.innerText = activeWord.clean;
                 wordBubble.classList.remove('active', 'masked');
                 wordBubble.classList.add('correct');
             }
@@ -856,11 +876,11 @@ class Application {
             this.sentenceHasError = true;
             this.wordMistakes++;
             
-            // Visual Shake feedback on bubble & input field
-            wordBubble.classList.add('shake');
+            // Visual Shake feedback on wrapper & input field
+            if (wordWrapper) wordWrapper.classList.add('shake');
             indicator.classList.add('shake');
             setTimeout(() => {
-                wordBubble.classList.remove('shake');
+                if (wordWrapper) wordWrapper.classList.remove('shake');
                 indicator.classList.remove('shake');
             }, 600);
 
