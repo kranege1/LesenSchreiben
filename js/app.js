@@ -577,6 +577,7 @@ class Application {
             this.switchView('read-view');
             this.setupReadingSentence();
         }
+        this.clearLetterStuckTimer();
     }
 
     // --- WRITE MODE LOGIC ---
@@ -694,6 +695,9 @@ class Application {
         } else {
             this.audio.playWord(activeWord.clean);
         }
+
+        // Initialize stuck timer for first letter
+        this.resetLetterStuckTimer();
     }
 
     updateWriteInputIndicator() {
@@ -712,6 +716,34 @@ class Application {
 
         indicator.innerHTML = rendered || "Zeichne oder tippe unten...";
         this.updateActiveWordBubble();
+
+        // Update grammatical hints helper for difficulties
+        const tipBox = document.getElementById('write-word-tip-box');
+        if (tipBox) {
+            if (this.wordMistakes > 0) {
+                const word = activeWord.clean;
+                let wortart = "Kleinwort (klein schreiben)";
+                const firstChar = word.charAt(0);
+                
+                if (firstChar === firstChar.toUpperCase() && firstChar !== firstChar.toLowerCase()) {
+                    const commonSentenceStarters = ["Der", "Die", "Das", "Ein", "Eine", "Im", "In", "Am", "An", "Es", "Sie", "Er", "Wir", "Und", "Aber", "Bei"];
+                    if (commonSentenceStarters.includes(word) && this.currentWordIndex === 0) {
+                        wortart = "Artikel / Pronomen (groß schreiben am Satzanfang)";
+                    } else {
+                        wortart = "Nomen / Namenwort (groß schreiben)";
+                    }
+                } else {
+                    if (word.endsWith('en') || word.endsWith('et') || word.endsWith('st') || word.endsWith('te')) {
+                        wortart = "Verb (Zeitwort) / Adjektiv (klein schreiben)";
+                    } else {
+                        wortart = "Wort (klein schreiben)";
+                    }
+                }
+                tipBox.innerHTML = `💡 Tipp: ${wortart}`;
+            } else {
+                tipBox.innerHTML = "";
+            }
+        }
     }
 
     updateActiveWordBubble() {
@@ -800,7 +832,8 @@ class Application {
         if (this.inputBuffer.length < activeWord.clean.length) {
             this.inputBuffer += char;
             this.updateWriteInputIndicator();
-
+            this.resetLetterStuckTimer();
+ 
             // Automatically check ONLY if it is the last word of the sentence and the buffer matches the word length
             const isLastWord = this.currentWordIndex === this.currentSentence.words.length - 1;
             if (isLastWord && this.inputBuffer.length === activeWord.clean.length) {
@@ -815,6 +848,7 @@ class Application {
         if (this.inputBuffer.length > 0) {
             this.inputBuffer = this.inputBuffer.slice(0, -1);
             this.updateWriteInputIndicator();
+            this.resetLetterStuckTimer();
         }
     }
 
@@ -842,6 +876,7 @@ class Application {
             
             // Advance
             this.currentWordIndex++;
+            this.clearLetterStuckTimer();
             if (this.currentWordIndex >= this.currentSentence.words.length) {
                 // Full sentence solved!
                 this.showStatusToast("Satz komplett gelöst! 🎉");
@@ -880,6 +915,7 @@ class Application {
             // Play mistake buzzer/sound or repeat word
             this.audio.playErrorSound();
             await this.audio.playWord(activeWord.clean);
+            this.resetLetterStuckTimer();
 
             // Scaffolding Logic:
             if (this.wordMistakes === 1) {
@@ -1443,9 +1479,51 @@ class Application {
             this.audioCtx = null;
         }
         this.analyser = null;
+        this.clearLetterStuckTimer();
         
         const container = document.getElementById('mic-visualizer-container');
         if (container) container.style.display = 'none';
+    }
+
+    resetLetterStuckTimer() {
+        this.clearLetterStuckTimer();
+        
+        if (this.currentMode !== 'write' || !this.currentSentence) return;
+        
+        const activeWord = this.currentSentence.words[this.currentWordIndex];
+        if (!activeWord) return;
+        
+        const nextCharIdx = this.inputBuffer.length;
+        if (nextCharIdx >= activeWord.clean.length) return;
+        
+        const nextChar = activeWord.clean.charAt(nextCharIdx).toLowerCase();
+        const letterSoundName = this._getGermanLetterName(nextChar);
+        
+        this.letterStuckTimer = setTimeout(async () => {
+            this.showStatusToast(`Tipp: Der nächste Buchstabe ist "${nextChar.toUpperCase()}"`);
+            await this.audio.speak(letterSoundName);
+            
+            // Loop timer if still stuck
+            this.resetLetterStuckTimer();
+        }, 5500); // 5.5 seconds delay
+    }
+
+    clearLetterStuckTimer() {
+        if (this.letterStuckTimer) {
+            clearTimeout(this.letterStuckTimer);
+            this.letterStuckTimer = null;
+        }
+    }
+
+    _getGermanLetterName(char) {
+        const dict = {
+            'a': 'a', 'b': 'be', 'c': 'ze', 'd': 'de', 'e': 'e', 'f': 'eff', 'g': 'ge',
+            'h': 'ha', 'i': 'i', 'j': 'jot', 'k': 'ka', 'l': 'ell', 'm': 'em', 'n': 'en',
+            'o': 'o', 'p': 'pe', 'q': 'ku', 'r': 'er', 's': 'es', 't': 'te', 'u': 'u',
+            'v': 'vau', 'w': 'we', 'x': 'ix', 'y': 'ypsilon', 'z': 'zett',
+            'ä': 'ä', 'ö': 'ö', 'ü': 'ü', 'ß': 'eszett'
+        };
+        return dict[char.toLowerCase()] || char;
     }
 
     async updateProfileScoreUI(profileId, pointsToAdd = 0) {
@@ -1503,10 +1581,17 @@ class Application {
                 
                 const activeWord = this.currentSentence.words[this.currentWordIndex];
                 if (activeWord) {
-                    const alreadyLogged = this.mistakenWords.find(m => m.target === activeWord.clean);
+                    const cleanWord = activeWord.clean;
+                    let typeHint = "klein geschrieben";
+                    if (cleanWord.charAt(0) === cleanWord.charAt(0).toUpperCase()) {
+                        typeHint = "Nomen / Namenwort (groß)";
+                    }
+                    this.showStatusToast(`Tipp: "${cleanWord}" ist ein ${typeHint}. Tippe darauf, um Hilfe zu hören! 🔊`);
+                    
+                    const alreadyLogged = this.mistakenWords.find(m => m.target === cleanWord);
                     if (!alreadyLogged) {
                         this.mistakenWords.push({
-                            target: activeWord.clean,
+                            target: cleanWord,
                             attempt: "(nicht gesprochen / Hilfe benötigt)"
                         });
                     }
