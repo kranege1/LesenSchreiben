@@ -154,9 +154,18 @@ export class AppAudio {
     }
 
     /**
-     * Stop all active speech immediately
+     * Stop all active speech and media playback immediately
      */
     stop() {
+        if (this.audioElement) {
+            try {
+                this.audioElement.pause();
+                this.audioElement.removeAttribute('src');
+                this.audioElement.load();
+            } catch (e) {
+                // Ignore
+            }
+        }
         if (this.synth.speaking) {
             this.synth.cancel();
         }

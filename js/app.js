@@ -537,6 +537,9 @@ class Application {
     }
 
     async nextSentence() {
+        if (this.audio) this.audio.stop();
+        if (this.speech) this.speech.stop();
+
         let sentence;
         if (this.currentStory) {
             if (this.storySentenceIndex < this.storySentences.length) {
