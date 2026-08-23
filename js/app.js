@@ -1231,7 +1231,12 @@ class Application {
         this.audio.onPlayProgress = null;
         if (pbContainer) pbContainer.style.display = 'none';
 
-        this.showSummaryModal(earnedPoints, progressRecord);
+        const hasSignificantErrors = this.skippedWords.length > 0 || this.mistakenWords.length > 1;
+        if (hasSignificantErrors) {
+            this.showSummaryModal(earnedPoints, progressRecord);
+        } else {
+            this.nextSentence();
+        }
     }
 
     async finishCurrentReadingSentence() {
@@ -1283,7 +1288,14 @@ class Application {
             this.toggleSpeechListening();
         }
 
-        this.showSummaryModal(earnedPoints, progressRecord);
+        const hasSignificantErrors = this.skippedWords.length > 0 || this.mistakenWords.length > 1;
+        if (hasSignificantErrors) {
+            this.showSummaryModal(earnedPoints, progressRecord);
+        } else {
+            setTimeout(() => {
+                this.nextSentence();
+            }, 800);
+        }
     }
 
     showSummaryModal(points, progressRecord) {
