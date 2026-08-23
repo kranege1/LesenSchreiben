@@ -651,6 +651,7 @@ class Application {
         this.canvas.setGhosting(activeWord.clean, false);
         
         this.updateWriteInputIndicator();
+        this.updateStoryProgressBar();
         
         // Hide pencil panel by default for a clean layout, unless they select it
         if (this.currentWordIndex === 0) {
