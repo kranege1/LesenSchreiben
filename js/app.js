@@ -1235,6 +1235,7 @@ class Application {
         if (hasSignificantErrors) {
             this.showSummaryModal(earnedPoints, progressRecord);
         } else {
+            this.showCenterPointsSplash(earnedPoints);
             this.nextSentence();
         }
     }
@@ -1292,6 +1293,7 @@ class Application {
         if (hasSignificantErrors) {
             this.showSummaryModal(earnedPoints, progressRecord);
         } else {
+            this.showCenterPointsSplash(earnedPoints);
             setTimeout(() => {
                 this.nextSentence();
             }, 800);
@@ -1616,6 +1618,20 @@ class Application {
                 }, 1400);
             }
         }
+    }
+
+    showCenterPointsSplash(points) {
+        const container = document.getElementById('center-splash-container');
+        if (!container) return;
+
+        const el = document.createElement('div');
+        el.className = 'splash-points';
+        el.innerHTML = `🌟 +${points} Punkte`;
+        container.appendChild(el);
+
+        setTimeout(() => {
+            el.remove();
+        }, 1200);
     }
 
     // Stuck Tracking timer (> 4 seconds trigger helper)
