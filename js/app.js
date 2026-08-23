@@ -574,6 +574,12 @@ class Application {
             const bubble = document.createElement('div');
             bubble.className = 'word-bubble';
             
+            const raw = wData.word;
+            const clean = wData.clean;
+            const cleanIdx = raw.indexOf(clean);
+            const leadingPunct = cleanIdx > 0 ? raw.substring(0, cleanIdx) : "";
+            const trailingPunct = cleanIdx !== -1 ? raw.substring(cleanIdx + clean.length) : "";
+            
             if (idx < this.currentWordIndex) {
                 // Solved
                 bubble.innerText = wData.word;
@@ -581,12 +587,12 @@ class Application {
             } else if (idx === this.currentWordIndex) {
                 // Active
                 bubble.classList.add('active', 'masked');
-                // Display placeholder dashes matching word length
-                bubble.innerText = wData.clean.split('').map(() => '_').join(' ');
+                // Display placeholder dashes matching word length with punctuation
+                bubble.innerText = leadingPunct + wData.clean.split('').map(() => '_').join(' ') + trailingPunct;
             } else {
                 // Masked / Unsolved
                 bubble.classList.add('masked');
-                bubble.innerText = wData.clean.split('').map(() => '_').join(' ');
+                bubble.innerText = leadingPunct + wData.clean.split('').map(() => '_').join(' ') + trailingPunct;
             }
 
             container.appendChild(bubble);
@@ -664,7 +670,13 @@ class Application {
         const activeWord = this.currentSentence.words[this.currentWordIndex];
         const cleanChars = activeWord.clean.split('');
         
-        let html = '';
+        const raw = activeWord.word;
+        const clean = activeWord.clean;
+        const cleanIdx = raw.indexOf(clean);
+        const leadingPunct = cleanIdx > 0 ? raw.substring(0, cleanIdx) : "";
+        const trailingPunct = cleanIdx !== -1 ? raw.substring(cleanIdx + clean.length) : "";
+        
+        let html = leadingPunct;
         for (let i = 0; i < cleanChars.length; i++) {
             if (i < this.inputBuffer.length) {
                 html += this.inputBuffer[i];
@@ -675,6 +687,7 @@ class Application {
             }
             if (i < cleanChars.length - 1) html += ' ';
         }
+        html += trailingPunct;
         activeBubble.innerHTML = html;
     }
 

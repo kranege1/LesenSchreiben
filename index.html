@@ -26,10 +26,12 @@
     <!-- Apple HIG Glassmorphism Header -->
     <header>
         <div style="flex: 1; display: flex; align-items: center; justify-content: flex-start;"></div>
-        
-        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center;">
-            <h1 id="app-title-logo" style="margin: 0; font-size: 20px; justify-content: center;">✍️ Lesen & Schreiben</h1>
-            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-23 09:02:39]</span>
+
+        <div
+            style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center;">
+            <h1 id="app-title-logo" style="margin: 0; font-size: 20px; justify-content: center;">✍️ Lesen & Schreiben
+            </h1>
+            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-23 09:11:38]</span>
         </div>
 
         <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end;">
@@ -77,20 +79,27 @@
                 </div>
 
                 <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
-                    <button id="btn-create-profile" class="btn btn-primary" style="flex: 1; min-width: 120px;">Profil anlegen</button>
-                    <button id="btn-select-profile" class="btn btn-success" style="flex: 1; min-width: 120px; display: none;">Profil auswählen</button>
-                    <button id="btn-delete-profile" class="btn btn-danger" style="display: none; min-height: 44px; min-width: 44px; padding: 0;">🗑️</button>
-                    
+                    <button id="btn-create-profile" class="btn btn-primary" style="flex: 1; min-width: 120px;">Profil
+                        anlegen</button>
+                    <button id="btn-select-profile" class="btn btn-success"
+                        style="flex: 1; min-width: 120px; display: none;">Profil auswählen</button>
+                    <button id="btn-delete-profile" class="btn btn-danger"
+                        style="display: none; min-height: 44px; min-width: 44px; padding: 0;">🗑️</button>
+
                     <!-- Edit Grade inline if a profile is selected -->
-                    <div id="edit-grade-container" style="display: none; align-items: center; justify-content: center; gap: 8px; width: 100%; margin-top: 12px; border-top: 1px solid var(--system-gray-light); padding-top: 12px;">
-                        <label for="edit-profile-grade" style="font-size: 14px; font-weight: 600;">Klasse ändern:</label>
-                        <select id="edit-profile-grade" style="min-height: 36px; padding: 4px 8px; font-size: 14px; border-radius: 8px; border: 1px solid var(--system-gray-light); background: var(--system-background); font-family: var(--font-rounded);">
+                    <div id="edit-grade-container"
+                        style="display: none; align-items: center; justify-content: center; gap: 8px; width: 100%; margin-top: 12px; border-top: 1px solid var(--system-gray-light); padding-top: 12px;">
+                        <label for="edit-profile-grade" style="font-size: 14px; font-weight: 600;">Klasse
+                            ändern:</label>
+                        <select id="edit-profile-grade"
+                            style="min-height: 36px; padding: 4px 8px; font-size: 14px; border-radius: 8px; border: 1px solid var(--system-gray-light); background: var(--system-background); font-family: var(--font-rounded);">
                             <option value="1">1. Klasse</option>
                             <option value="2">2. Klasse</option>
                             <option value="3">3. Klasse</option>
                             <option value="4">4. Klasse</option>
                         </select>
-                        <button id="btn-save-grade" class="btn btn-primary" style="min-height: 36px; padding: 0 12px; font-size: 14px; border-radius: 8px;">Speichern</button>
+                        <button id="btn-save-grade" class="btn btn-primary"
+                            style="min-height: 36px; padding: 0 12px; font-size: 14px; border-radius: 8px;">Speichern</button>
                     </div>
                 </div>
             </div>
@@ -141,12 +150,14 @@
             <!-- Story Progress Bar for Dictation -->
             <div id="write-story-progress-container"
                 style="display: none; width: 100%; max-width: 800px; margin: 0 auto 16px auto; padding: 0 12px; box-sizing: border-box;">
-                <div style="width: 100%; height: 8px; background-color: var(--system-gray-light); border-radius: 4px; overflow: hidden; position: relative;">
+                <div
+                    style="width: 100%; height: 8px; background-color: var(--system-gray-light); border-radius: 4px; overflow: hidden; position: relative;">
                     <div id="write-story-progress-bar"
                         style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--accent-blue), #5856d6); transition: width 0.3s ease;">
                     </div>
                 </div>
-                <div style="display: flex; justify-content: space-between; font-size: 13px; margin-top: 6px; color: var(--text-secondary); font-weight: 500;">
+                <div
+                    style="display: flex; justify-content: space-between; font-size: 13px; margin-top: 6px; color: var(--text-secondary); font-weight: 500;">
                     <span id="write-story-progress-text">Geschichte: Am Strand</span>
                     <span id="write-story-progress-percent">0%</span>
                 </div>
@@ -221,12 +232,14 @@
             <!-- Story Progress Bar for Reading -->
             <div id="read-story-progress-container"
                 style="display: none; width: 100%; max-width: 800px; margin: 0 auto 16px auto; padding: 0 12px; box-sizing: border-box;">
-                <div style="width: 100%; height: 8px; background-color: var(--system-gray-light); border-radius: 4px; overflow: hidden; position: relative;">
+                <div
+                    style="width: 100%; height: 8px; background-color: var(--system-gray-light); border-radius: 4px; overflow: hidden; position: relative;">
                     <div id="read-story-progress-bar"
                         style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--success-green), #30d158); transition: width 0.3s ease;">
                     </div>
                 </div>
-                <div style="display: flex; justify-content: space-between; font-size: 13px; margin-top: 6px; color: var(--text-secondary); font-weight: 500;">
+                <div
+                    style="display: flex; justify-content: space-between; font-size: 13px; margin-top: 6px; color: var(--text-secondary); font-weight: 500;">
                     <span id="read-story-progress-text">Geschichte: Am Strand</span>
                     <span id="read-story-progress-percent">0%</span>
                 </div>
@@ -236,8 +249,11 @@
 
                 <!-- Left Panel: Large text for reading and karaoke -->
                 <div class="left-panel">
-                    <div class="input-header" style="border-bottom: 1px solid var(--system-gray-light); padding-bottom: 12px; margin-bottom: 12px;">
-                        <h4 id="read-mode-title" style="margin: 0; font-size: 16px; font-weight: 600; color: var(--text-secondary);">Satz laut vorlesen</h4>
+                    <div class="input-header"
+                        style="border-bottom: 1px solid var(--system-gray-light); padding-bottom: 12px; margin-bottom: 12px;">
+                        <h4 id="read-mode-title"
+                            style="margin: 0; font-size: 16px; font-weight: 600; color: var(--text-secondary);">Satz
+                            laut vorlesen</h4>
                     </div>
                     <div id="read-sentence-container" class="reading-container" style="flex: 1;">
                         <!-- Words highlighted dynamically -->
@@ -303,11 +319,14 @@
             <div class="profile-card" style="max-width: 600px; width: 100%; text-align: left;">
                 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px;">
                     <h2 style="margin: 0; font-size: 24px;">📚 Geschichten & Diktat</h2>
-                    <button id="btn-stories-back" class="btn btn-secondary" style="min-height: 36px; padding: 6px 12px; font-size: 14px;">↩️ Menü</button>
+                    <button id="btn-stories-back" class="btn btn-secondary"
+                        style="min-height: 36px; padding: 6px 12px; font-size: 14px;">↩️ Menü</button>
                 </div>
-                <p style="color: var(--text-secondary); margin-bottom: 20px;">Wähle eine Geschichte aus, um sie zu lesen oder als Diktat zu schreiben:</p>
-                
-                <div id="stories-list" style="display: flex; flex-direction: column; gap: 12px; max-height: 480px; overflow-y: auto; padding-right: 6px;">
+                <p style="color: var(--text-secondary); margin-bottom: 20px;">Wähle eine Geschichte aus, um sie zu lesen
+                    oder als Diktat zu schreiben:</p>
+
+                <div id="stories-list"
+                    style="display: flex; flex-direction: column; gap: 12px; max-height: 480px; overflow-y: auto; padding-right: 6px;">
                     <!-- Filled dynamically in app.js -->
                 </div>
             </div>
