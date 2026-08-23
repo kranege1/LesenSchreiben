@@ -2077,10 +2077,10 @@
     "story": null
   },
   {
-    "id": "g3_tiere_adler_kreisen_majestyvoll_hoch",
+    "id": "g3_tiere_adler_kreisen_majest_tisch_hoc",
     "grade": 3,
     "theme": "Tiere",
-    "sentence": "Adler kreisen majestyvoll hoch über den Berggipfeln.",
+    "sentence": "Adler kreisen majestätisch hoch über den Berggipfeln.",
     "words": [
       {
         "word": "Adler",
@@ -2099,12 +2099,13 @@
         ]
       },
       {
-        "word": "majestyvoll",
-        "clean": "majestyvoll",
+        "word": "majestätisch",
+        "clean": "majestätisch",
         "syllables": [
           "ma",
-          "jesty",
-          "voll"
+          "je",
+          "stä",
+          "tisch"
         ]
       },
       {

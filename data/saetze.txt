@@ -37,7 +37,7 @@
 2 | Tiere | Junge Enten folgen ihrer Mutter im Wasser.
 2 | Tiere | Der Storch klappert laut auf dem Kirchendach.
 3 | Tiere | Der flinke Fischotter taucht geschickt nach Beute.
-3 | Tiere | Adler kreisen majestyvoll hoch über den Berggipfeln.
+3 | Tiere | Adler kreisen majestätisch hoch über den Berggipfeln.
 3 | Tiere | Der schlaue Fuchs wittert Gefahr und bleibt stehen.
 3 | Tiere | Wildschweine durchwühlen den feuchten Waldboden nach Wurzeln.
 3 | Tiere | Die fleißigen Ameisen transportieren schwere Kiefernnadeln.
