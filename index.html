@@ -31,7 +31,7 @@
             style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center;">
             <h1 id="app-title-logo" style="margin: 0; font-size: 20px; justify-content: center;">✍️ Lesen & Schreiben
             </h1>
-            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-23 09:53:05]</span>
+            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-23 09:55:00]</span>
         </div>
 
         <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end;">
@@ -268,8 +268,18 @@
                 <div class="right-panel" style="justify-content: center; align-items: center;">
                     <div class="mic-control-panel">
                         <button id="btn-read-mic" class="mic-btn" aria-label="Mikrofon starten">🎤</button>
-                        <p id="mic-status-label" style="font-weight:600; color: var(--accent-blue);">Tippe auf das
-                            Mikrofon, um zu lesen</p>
+                        <p id="mic-status-label" style="font-weight:600; color: var(--accent-blue);">Tippe auf das Mikrofon, um zu lesen</p>
+                        
+                        <!-- Graphical Microphone Audio Level Bars -->
+                        <div id="mic-visualizer-container" style="display: none; align-items: center; justify-content: center; gap: 6px; height: 30px; margin-top: 16px; width: 100%;">
+                            <div class="mic-bar" style="width: 4px; height: 5px; background: var(--accent-blue); border-radius: 2px; transition: height 0.05s ease;"></div>
+                            <div class="mic-bar" style="width: 4px; height: 5px; background: var(--accent-blue); border-radius: 2px; transition: height 0.05s ease;"></div>
+                            <div class="mic-bar" style="width: 4px; height: 5px; background: var(--accent-blue); border-radius: 2px; transition: height 0.05s ease;"></div>
+                            <div class="mic-bar" style="width: 4px; height: 5px; background: var(--accent-blue); border-radius: 2px; transition: height 0.05s ease;"></div>
+                            <div class="mic-bar" style="width: 4px; height: 5px; background: var(--accent-blue); border-radius: 2px; transition: height 0.05s ease;"></div>
+                            <div class="mic-bar" style="width: 4px; height: 5px; background: var(--accent-blue); border-radius: 2px; transition: height 0.05s ease;"></div>
+                            <div class="mic-bar" style="width: 4px; height: 5px; background: var(--accent-blue); border-radius: 2px; transition: height 0.05s ease;"></div>
+                        </div>
                     </div>
                 </div>
 

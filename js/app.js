@@ -168,6 +168,7 @@ class Application {
         // Stop any running speech & audio
         if (this.speech) this.speech.stop();
         if (this.audio) this.audio.stop();
+        this.stopAudioVisualizer();
         this.clearStuckTimer();
 
         // Switch active CSS class
@@ -972,12 +973,14 @@ class Application {
             this.speech.stop();
             btn.classList.remove('recording');
             statusLbl.innerText = "Tippe auf das Mikrofon, um zu lesen";
+            this.stopAudioVisualizer();
             this.clearStuckTimer();
         } else {
             const activeWords = this.currentSentence.words;
             this.speech.start(activeWords, this.currentWordIndex, 'de-AT');
             btn.classList.add('recording');
             statusLbl.innerText = "Ich höre zu... Lies laut vor!";
+            this.startAudioVisualizer();
             this.resetStuckTimer();
         }
     }
@@ -1341,6 +1344,70 @@ class Application {
         const modal = document.getElementById('summary-modal');
         if (modal) modal.classList.remove('active');
         this.nextSentence();
+    }
+
+    // --- AUDIO VISUALIZER ---
+    async startAudioVisualizer() {
+        this.stopAudioVisualizer();
+        
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            this.visualizerStream = stream;
+            
+            const AudioContext = window.AudioContext || window.webkitAudioContext;
+            this.audioCtx = new AudioContext();
+            
+            const source = this.audioCtx.createMediaStreamSource(stream);
+            this.analyser = this.audioCtx.createAnalyser();
+            this.analyser.fftSize = 32;
+            
+            source.connect(this.analyser);
+            
+            const container = document.getElementById('mic-visualizer-container');
+            if (container) container.style.display = 'flex';
+            
+            this.visualizeMic();
+        } catch (e) {
+            console.warn("Could not start mic visualizer:", e);
+        }
+    }
+
+    visualizeMic() {
+        if (!this.analyser) return;
+        
+        const dataArray = new Uint8Array(this.analyser.frequencyBinCount);
+        this.analyser.getByteFrequencyData(dataArray);
+        
+        const bars = document.querySelectorAll('.mic-bar');
+        if (bars.length > 0) {
+            bars.forEach((bar, idx) => {
+                const val = dataArray[idx % dataArray.length] || 0;
+                // Map frequency value (0-255) to height (5px to 30px)
+                const height = 5 + (val / 255) * 25;
+                bar.style.height = `${height}px`;
+            });
+        }
+        
+        this.visualizerFrameId = requestAnimationFrame(() => this.visualizeMic());
+    }
+
+    stopAudioVisualizer() {
+        if (this.visualizerFrameId) {
+            cancelAnimationFrame(this.visualizerFrameId);
+            this.visualizerFrameId = null;
+        }
+        if (this.visualizerStream) {
+            this.visualizerStream.getTracks().forEach(track => track.stop());
+            this.visualizerStream = null;
+        }
+        if (this.audioCtx) {
+            this.audioCtx.close().catch(() => {});
+            this.audioCtx = null;
+        }
+        this.analyser = null;
+        
+        const container = document.getElementById('mic-visualizer-container');
+        if (container) container.style.display = 'none';
     }
 
     // Stuck Tracking timer (> 4 seconds trigger helper)
