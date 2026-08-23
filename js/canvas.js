@@ -19,7 +19,7 @@ export class PencilCanvas {
         
         this.lineColor = 'rgba(0, 122, 255, 0.15)'; // light blue lineatur
         this.centerLineColor = 'rgba(255, 59, 48, 0.15)'; // red center line option or helper
-        this.lineWidthBase = 4;
+        this.lineWidthBase = 8;
         
         this._setupListeners();
         this.resize();
@@ -99,6 +99,13 @@ export class PencilCanvas {
         this.ctx.fillStyle = 'rgba(0, 122, 255, 0.03)';
         this.ctx.fillRect(10, yOffset + lineSpacing, width - 20, lineSpacing);
         
+        // Draw helpful labels for the lines
+        this.ctx.fillStyle = 'rgba(142, 142, 147, 0.5)';
+        this.ctx.font = '10px sans-serif';
+        this.ctx.fillText("Oben (d, h, k, l, t, A...)", 15, yOffset + lineSpacing - 18);
+        this.ctx.fillText("Mitte (a, e, i, o, u...)", 15, yOffset + (lineSpacing * 2) - 18);
+        this.ctx.fillText("Unten (g, j, p, q, y...)", 15, yOffset + (lineSpacing * 3) - 18);
+        
         this.ctx.restore();
     }
 
@@ -126,7 +133,7 @@ export class PencilCanvas {
                 const pt = stroke[i];
                 // Apply pressure sensitivity to line width if available
                 const w = this.lineWidthBase * (pt.pressure || 0.5) * 2;
-                this.ctx.lineWidth = Math.max(1.5, w);
+                this.ctx.lineWidth = Math.max(3.0, w);
                 
                 // Draw a small path segment
                 this.ctx.lineTo(pt.x, pt.y);
