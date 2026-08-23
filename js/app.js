@@ -146,7 +146,7 @@ class Application {
         document.getElementById('btn-write-speak').addEventListener('click', () => {
             if (this.currentSentence) {
                 const activeWord = this.currentSentence.words[this.currentWordIndex];
-                this.audio.playWord(activeWord.word);
+                this.audio.playWord(activeWord.clean);
             }
         });
         document.getElementById('btn-write-speak-sentence').addEventListener('click', () => {
@@ -613,7 +613,7 @@ class Application {
             
             // Speak the word when the bubble is clicked
             bubble.addEventListener('click', () => {
-                this.audio.playWord(wData.word);
+                this.audio.playWord(wData.clean);
             });
             
             if (idx < this.currentWordIndex) {
@@ -684,11 +684,11 @@ class Application {
         if (this.currentWordIndex === 0) {
             this.audio.playSentence(this.currentSentence.id, this.currentSentence.sentence).then(() => {
                 if (this.currentMode === 'write' && this.currentWordIndex === 0) {
-                    this.audio.playWord(activeWord.word);
+                    this.audio.playWord(activeWord.clean);
                 }
             });
         } else {
-            this.audio.playWord(activeWord.word);
+            this.audio.playWord(activeWord.clean);
         }
     }
 
@@ -874,7 +874,7 @@ class Application {
             }, 600);
 
             // Play mistake buzzer/sound or repeat word
-            await this.audio.playWord(activeWord.word);
+            await this.audio.playWord(activeWord.clean);
 
             // Scaffolding Logic:
             if (this.wordMistakes === 1) {
@@ -956,7 +956,7 @@ class Application {
     async playWordHelpAt(idx) {
         if (!this.currentSentence) return;
         const wData = this.currentSentence.words[idx];
-        await this.audio.playWord(wData.word);
+        await this.audio.playWord(wData.clean);
         this.resetStuckTimer();
     }
 
