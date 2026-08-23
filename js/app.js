@@ -975,7 +975,7 @@ class Application {
             this.clearStuckTimer();
         } else {
             const activeWords = this.currentSentence.words;
-            this.speech.start(activeWords, 'de-AT');
+            this.speech.start(activeWords, this.currentWordIndex, 'de-AT');
             btn.classList.add('recording');
             statusLbl.innerText = "Ich höre zu... Lies laut vor!";
             this.resetStuckTimer();
@@ -1059,7 +1059,7 @@ class Application {
         
         // Feed matching simulator next step to speech engine if listening
         if (this.speech.isListening) {
-            this.speech.currentWordIdx = this.currentWordIndex + 1;
+            this.speech.currentWordIndex = this.currentWordIndex + 1;
         }
 
         this.currentWordIndex++;

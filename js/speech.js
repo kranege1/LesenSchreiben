@@ -80,16 +80,17 @@ export class AppSpeech {
     /**
      * Start speech recognition for a sentence
      * @param {Array} wordsArray - Array of word objects (from sentences.json)
+     * @param {number} startIndex - Index to start matching from
      * @param {string} locale - 'de-AT' or 'de-DE'
      */
-    start(wordsArray, locale = 'de-AT') {
+    start(wordsArray, startIndex = 0, locale = 'de-AT') {
         if (!this.isSupported()) {
             this.onError("Spracherkennung wird von diesem Browser nicht unterstützt.");
             return;
         }
 
         this.targetWords = wordsArray.map(w => w.clean.toLowerCase());
-        this.currentWordIndex = 0;
+        this.currentWordIndex = startIndex;
         this.isListening = true;
         
         this.recognition.lang = locale;
