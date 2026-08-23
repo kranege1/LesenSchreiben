@@ -162,6 +162,41 @@ class Application {
         document.getElementById('btn-read-word-skip').addEventListener('click', () => this.handleReadWordSkip());
         document.getElementById('btn-read-skip').addEventListener('click', () => this.nextSentence());
         document.getElementById('btn-summary-close').addEventListener('click', () => this.closeSummaryModal());
+
+        // Global App Reload & Cache clear
+        const reloadBtn = document.getElementById('btn-app-reload');
+        if (reloadBtn) {
+            reloadBtn.addEventListener('click', async () => {
+                this.showStatusToast("App wird neu geladen und Cache geleert... 🔄");
+                
+                // Clear service workers
+                if ('serviceWorker' in navigator) {
+                    try {
+                        const regs = await navigator.serviceWorker.getRegistrations();
+                        for (let reg of regs) {
+                            await reg.unregister();
+                        }
+                    } catch (e) {
+                        console.warn("Failed to unregister service workers:", e);
+                    }
+                }
+                
+                // Clear Cache Storage
+                if ('caches' in window) {
+                    try {
+                        const keys = await caches.keys();
+                        for (let key of keys) {
+                            await caches.delete(key);
+                        }
+                    } catch (e) {
+                        console.warn("Failed to clear caches:", e);
+                    }
+                }
+                
+                // Force reload
+                window.location.reload(true);
+            });
+        }
     }
 
     switchView(viewId) {
