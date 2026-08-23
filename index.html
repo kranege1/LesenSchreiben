@@ -123,6 +123,20 @@
 
         <!-- 3. Schreib-Modus (Writing Mode) -->
         <section id="write-view" class="view">
+            <!-- Story Progress Bar for Dictation -->
+            <div id="write-story-progress-container"
+                style="display: none; width: 100%; max-width: 800px; margin: 0 auto 16px auto; padding: 0 12px; box-sizing: border-box;">
+                <div style="width: 100%; height: 8px; background-color: var(--system-gray-light); border-radius: 4px; overflow: hidden; position: relative;">
+                    <div id="write-story-progress-bar"
+                        style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--accent-blue), #5856d6); transition: width 0.3s ease;">
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: 13px; margin-top: 6px; color: var(--text-secondary); font-weight: 500;">
+                    <span id="write-story-progress-text">Geschichte: Am Strand</span>
+                    <span id="write-story-progress-percent">0%</span>
+                </div>
+            </div>
+
             <div class="workspace">
 
                 <!-- Left Panel: Sentence bubbles and visual input state -->
@@ -189,6 +203,20 @@
 
         <!-- 4. Lese-Modus (Reading Mode) -->
         <section id="read-view" class="view">
+            <!-- Story Progress Bar for Reading -->
+            <div id="read-story-progress-container"
+                style="display: none; width: 100%; max-width: 800px; margin: 0 auto 16px auto; padding: 0 12px; box-sizing: border-box;">
+                <div style="width: 100%; height: 8px; background-color: var(--system-gray-light); border-radius: 4px; overflow: hidden; position: relative;">
+                    <div id="read-story-progress-bar"
+                        style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--success-green), #30d158); transition: width 0.3s ease;">
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: 13px; margin-top: 6px; color: var(--text-secondary); font-weight: 500;">
+                    <span id="read-story-progress-text">Geschichte: Am Strand</span>
+                    <span id="read-story-progress-percent">0%</span>
+                </div>
+            </div>
+
             <div class="workspace">
 
                 <!-- Left Panel: Large text for reading and karaoke -->

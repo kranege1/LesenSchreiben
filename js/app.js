@@ -429,7 +429,40 @@ class Application {
         this.currentStory = null;
         this.storySentences = [];
         this.storySentenceIndex = 0;
+        
+        // Hide story progress containers when stopping
+        const writeProgress = document.getElementById('write-story-progress-container');
+        const readProgress = document.getElementById('read-story-progress-container');
+        if (writeProgress) writeProgress.style.display = 'none';
+        if (readProgress) readProgress.style.display = 'none';
+        
         this.switchView('menu-view');
+    }
+
+    updateStoryProgressBar() {
+        const mode = this.currentMode; // 'write' or 'read'
+        if (!mode) return;
+        
+        const container = document.getElementById(`${mode}-story-progress-container`);
+        const bar = document.getElementById(`${mode}-story-progress-bar`);
+        const text = document.getElementById(`${mode}-story-progress-text`);
+        const percentEl = document.getElementById(`${mode}-story-progress-percent`);
+
+        if (!container) return;
+
+        if (this.currentStory && this.storySentences && this.storySentences.length > 0) {
+            const count = this.storySentences.length;
+            const current = this.storySentenceIndex; // already incremented in nextSentence()
+            const percent = Math.round((current / count) * 100);
+
+            if (bar) bar.style.width = `${percent}%`;
+            if (text) text.innerText = `Geschichte: ${this.currentStory} (Satz ${current} von ${count})`;
+            if (percentEl) percentEl.innerText = `${percent}%`;
+
+            container.style.display = 'block';
+        } else {
+            container.style.display = 'none';
+        }
     }
 
     async nextSentence() {
@@ -456,6 +489,9 @@ class Application {
         this.currentSentence = sentence;
         this.currentWordIndex = 0;
         this.sentenceHasError = false;
+        
+        // Update Story Progress Bar if in story mode
+        this.updateStoryProgressBar();
         
         if (this.currentMode === 'write') {
             this.switchView('write-view');
