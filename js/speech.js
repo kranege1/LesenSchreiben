@@ -205,14 +205,29 @@ export class AppSpeech {
         if (sNorm.length < 2 || tNorm.length < 2) return false;
 
         const distance = this._editDistance(sNorm, tNorm);
-        
-        // Forgiving tolerance thresholds scaled to target word size
-        if (tNorm.length <= 4) {
-            return distance <= 1; // Allow 1 typo/mishearing for short words (e.g., und -> unt, ist -> is)
-        } else if (tNorm.length <= 8) {
-            return distance <= 2; // Allow up to 2 typos for medium words
+        const tolerance = localStorage.getItem('speechTolerance') || 'lax';
+
+        if (tolerance === 'strict') {
+            // Strict: require exact spelling or only 1 mistake for very long words
+            if (tNorm.length > 6) {
+                return distance <= 1;
+            }
+            return false;
+        } else if (tolerance === 'medium') {
+            // Medium: 1 error for short, 2 for long
+            if (tNorm.length <= 5) {
+                return distance <= 1;
+            }
+            return distance <= 2;
         } else {
-            return distance <= 3; // Allow up to 3 typos for very long compound words (e.g. majestätisch)
+            // Lax (Default / child-friendly):
+            if (tNorm.length <= 4) {
+                return distance <= 1; // Allow 1 typo/mishearing for short words (e.g., und -> unt, ist -> is)
+            } else if (tNorm.length <= 8) {
+                return distance <= 2; // Allow up to 2 typos for medium words
+            } else {
+                return distance <= 3; // Allow up to 3 typos for very long compound words (e.g. majestätisch)
+            }
         }
     }
 

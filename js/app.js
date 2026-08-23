@@ -205,6 +205,23 @@ class Application {
                 window.location.reload(true);
             });
         }
+
+        // Settings listeners
+        const settingsBtn = document.getElementById('btn-app-settings');
+        if (settingsBtn) {
+            settingsBtn.addEventListener('click', () => this.showSettingsView());
+        }
+        const settingsBackBtn = document.getElementById('btn-settings-back');
+        if (settingsBackBtn) {
+            settingsBackBtn.addEventListener('click', () => this.switchView('menu-view'));
+        }
+        
+        document.getElementById('btn-tolerance-strict').addEventListener('click', () => this.selectTolerance('strict'));
+        document.getElementById('btn-tolerance-medium').addEventListener('click', () => this.selectTolerance('medium'));
+        document.getElementById('btn-tolerance-lax').addEventListener('click', () => this.selectTolerance('lax'));
+        
+        document.getElementById('btn-check-audio').addEventListener('click', () => this.checkAudioStatus());
+        document.getElementById('btn-generate-audio').addEventListener('click', () => this.generateMissingAudio());
     }
 
     switchView(viewId) {
@@ -1878,6 +1895,123 @@ class Application {
             this.updateWriteInputIndicator();
             this.showStatusToast(`Erkannt: "${bestMatch}"`);
             this.resetLetterStuckTimer();
+        }
+    }
+
+    showSettingsView() {
+        // Highlight active tolerance level
+        const activeLevel = localStorage.getItem('speechTolerance') || 'lax';
+        this.selectTolerance(activeLevel, false); // select without showing toast
+        
+        // Reset results display
+        const resultsBox = document.getElementById('audio-check-results');
+        if (resultsBox) {
+            resultsBox.style.display = 'none';
+            resultsBox.innerHTML = "";
+        }
+        
+        const btnGen = document.getElementById('btn-generate-audio');
+        if (btnGen) btnGen.style.display = 'none';
+
+        this.switchView('settings-view');
+    }
+
+    selectTolerance(level, showToast = true) {
+        localStorage.setItem('speechTolerance', level);
+        
+        const levels = ['strict', 'medium', 'lax'];
+        levels.forEach(lvl => {
+            const btn = document.getElementById(`btn-tolerance-${lvl}`);
+            if (btn) {
+                if (lvl === level) {
+                    btn.className = 'btn btn-primary';
+                    btn.style.flex = '1';
+                } else {
+                    btn.className = 'btn btn-secondary';
+                    btn.style.flex = '1';
+                }
+            }
+        });
+
+        if (showToast) {
+            const labels = { 'strict': 'Streng', 'medium': 'Mittel', 'lax': 'Tolerant' };
+            this.showStatusToast(`Toleranz geändert auf: ${labels[level]}`);
+        }
+    }
+
+    async checkAudioStatus() {
+        const resultsBox = document.getElementById('audio-check-results');
+        const btnGen = document.getElementById('btn-generate-audio');
+        if (!resultsBox) return;
+
+        resultsBox.style.display = 'block';
+        resultsBox.innerHTML = "Prüfe Audio-Datenbank auf dem Server... ⏳";
+        
+        try {
+            const res = await fetch('/api/audio-status');
+            if (!res.ok) {
+                throw new Error("HTTP Status " + res.status);
+            }
+            const data = await res.json();
+            
+            if (data.error) {
+                resultsBox.innerHTML = `<span style="color: var(--error-red); font-weight: 700;">Fehler:</span> ${data.error}`;
+                return;
+            }
+
+            const missingSents = data.missing_sentences || [];
+            const missingWds = data.missing_words || [];
+            const totalMissing = missingSents.length + missingWds.length;
+            
+            let html = `<b>Status:</b> ${data.has_edge_tts ? "edge-tts ist installiert ✅" : "edge-tts fehlt auf Server ⚠️"}<br><br>`;
+            
+            if (totalMissing === 0) {
+                html += `<span style="color: var(--success-green); font-weight: 700;">Super! Alle Audio-Dateien existieren komplett! 🎉</span>`;
+                if (btnGen) btnGen.style.display = 'none';
+            } else {
+                html += `<span style="color: #FF9500; font-weight: 700;">Gefundene Lücken: ${totalMissing} fehlende Dateien!</span><br>`;
+                html += `• Fehlende Sätze: ${missingSents.length}<br>`;
+                html += `• Fehlende Wörter: ${missingWds.length}<br>`;
+                
+                if (data.has_edge_tts) {
+                    if (btnGen) btnGen.style.display = 'inline-block';
+                } else {
+                    html += `<br><span style="color: var(--error-red);">Hinweis: Installiere <code>edge-tts</code> auf dem Server, um Generierung freizugeben.</span>`;
+                }
+            }
+            resultsBox.innerHTML = html;
+        } catch (e) {
+            console.error("Audio check failed:", e);
+            resultsBox.innerHTML = `<span style="color: var(--error-red); font-weight: 700;">Fehler:</span> Konnte Server-API nicht erreichen.<br>Bitte starte <code>python server.py</code> anstatt <code>http.server</code>!`;
+        }
+    }
+
+    async generateMissingAudio() {
+        const resultsBox = document.getElementById('audio-check-results');
+        const btnGen = document.getElementById('btn-generate-audio');
+        if (!resultsBox) return;
+
+        resultsBox.innerHTML = "Generiere fehlende Audios auf dem Server... Bitte warten... 🎙️⏳";
+        if (btnGen) btnGen.style.disabled = true;
+
+        try {
+            const res = await fetch('/api/generate-missing-audio', { method: 'POST' });
+            if (!res.ok) {
+                throw new Error("HTTP Status " + res.status);
+            }
+            const data = await res.json();
+            
+            if (data.error) {
+                resultsBox.innerHTML = `<span style="color: var(--error-red); font-weight: 700;">Generierung fehlgeschlagen:</span> ${data.error}`;
+            } else {
+                resultsBox.innerHTML = `<span style="color: var(--success-green); font-weight: 700;">Erfolgreich!</span> ${data.generated} Audio-Dateien wurden erfolgreich generiert! 🎉`;
+                if (btnGen) btnGen.style.display = 'none';
+            }
+        } catch (e) {
+            console.error("Audio generation failed:", e);
+            resultsBox.innerHTML = `<span style="color: var(--error-red); font-weight: 700;">Fehler:</span> Verbindung zum Server unterbrochen.`;
+        } finally {
+            if (btnGen) btnGen.style.disabled = false;
         }
     }
 }
