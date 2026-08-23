@@ -25,14 +25,18 @@
 
     <!-- Apple HIG Glassmorphism Header -->
     <header>
-        <div style="display: flex; flex-direction: column; justify-content: center; gap: 2px;">
-            <h1 id="app-title-logo" style="margin: 0; font-size: 20px;">✍️ Lesen & Schreiben</h1>
-            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-23
-                06:41:00]</span>
+        <div style="flex: 1; display: flex; align-items: center; justify-content: flex-start;"></div>
+        
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center;">
+            <h1 id="app-title-logo" style="margin: 0; font-size: 20px; justify-content: center;">✍️ Lesen & Schreiben</h1>
+            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-23 06:41:00]</span>
         </div>
-        <div id="active-profile-badge" class="profile-badge" style="display: none;">
-            <img id="active-profile-avatar" class="avatar-img" src="" alt="Avatar">
-            <span id="active-profile-name">Spieler</span>
+
+        <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end;">
+            <div id="active-profile-badge" class="profile-badge" style="display: none;">
+                <img id="active-profile-avatar" class="avatar-img" src="" alt="Avatar">
+                <span id="active-profile-name">Spieler</span>
+            </div>
         </div>
     </header>
 

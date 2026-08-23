@@ -42,7 +42,7 @@ body {
 
 /* Header & Glassmorphism */
 header {
-    height: var(--header-height);
+    height: calc(var(--header-height) + env(safe-area-inset-top, 24px));
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -50,7 +50,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 24px;
+    padding: env(safe-area-inset-top, 24px) 24px 0 24px;
     position: fixed;
     top: 0;
     left: 0;
@@ -94,7 +94,7 @@ h1 {
 
 /* View Container */
 main {
-    margin-top: var(--header-height);
+    margin-top: calc(var(--header-height) + env(safe-area-inset-top, 24px));
     flex: 1;
     position: relative;
     overflow: hidden;
