@@ -280,6 +280,7 @@ main {
     grid-template-columns: 1.1fr 0.9fr;
     gap: 24px;
     height: 100%;
+    min-height: 0; /* Allow shrinking in flex layouts */
     transition: var(--transition-smooth);
 }
 
@@ -294,8 +295,9 @@ main {
 .left-panel {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
     justify-content: space-between;
+    min-height: 0; /* Allow shrinking */
 }
 
 .right-panel {
@@ -306,6 +308,7 @@ main {
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    min-height: 0; /* Allow shrinking */
 }
 
 /* Wort-Bubbles (Writing Mode) */
@@ -313,14 +316,15 @@ main {
     background: var(--card-background);
     border-radius: var(--radius-ios);
     box-shadow: var(--shadow-soft);
-    padding: 32px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     flex: 1;
-    min-height: 150px;
+    min-height: 100px;
+    overflow-y: auto; /* Enable scroll if sentence is very long */
 }
 
 .word-bubble {
@@ -362,8 +366,8 @@ main {
     background: var(--card-background);
     border-radius: var(--radius-ios);
     box-shadow: var(--shadow-soft);
-    padding: 40px;
-    font-size: 36px;
+    padding: 30px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.6;
     display: flex;
@@ -373,6 +377,7 @@ main {
     align-items: center;
     flex: 1;
     font-family: var(--font-rounded);
+    overflow-y: auto; /* Enable vertical scroll if text overflows */
 }
 
 .reading-word {
