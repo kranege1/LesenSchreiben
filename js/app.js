@@ -567,14 +567,17 @@ class Application {
         }
 
         // Autoplay sentence at the beginning of writing mode, then play active word
+        const isLastWord = this.currentWordIndex === this.currentSentence.words.length - 1;
         if (this.currentWordIndex === 0) {
             this.audio.playSentence(this.currentSentence.id, this.currentSentence.sentence).then(() => {
-                if (this.currentMode === 'write' && this.currentWordIndex === 0) {
+                if (this.currentMode === 'write' && this.currentWordIndex === 0 && !isLastWord) {
                     this.audio.playWord(activeWord.word);
                 }
             });
         } else {
-            this.audio.playWord(activeWord.word);
+            if (!isLastWord) {
+                this.audio.playWord(activeWord.word);
+            }
         }
     }
 
@@ -673,6 +676,10 @@ class Application {
     }
 
     handleKeyPress(char) {
+        if (char === ' ') {
+            this.checkWrittenWord();
+            return;
+        }
         const activeWord = this.currentSentence.words[this.currentWordIndex];
         if (this.inputBuffer.length < activeWord.clean.length) {
             this.inputBuffer += char;
@@ -774,7 +781,10 @@ class Application {
             }, 600);
 
             // Play mistake buzzer/sound or repeat word
-            await this.audio.playWord(activeWord.word);
+            const isLastWord = this.currentWordIndex === this.currentSentence.words.length - 1;
+            if (!isLastWord) {
+                await this.audio.playWord(activeWord.word);
+            }
 
             // Scaffolding Logic:
             if (this.wordMistakes === 1) {
@@ -1007,54 +1017,64 @@ class Application {
             
             const card = document.createElement('div');
             card.style.display = 'flex';
-            card.style.flexDirection = 'column';
-            card.style.gap = '12px';
-            card.style.padding = '20px';
+            card.style.justifyContent = 'space-between';
+            card.style.alignItems = 'center';
+            card.style.gap = '16px';
+            card.style.padding = '12px 18px';
             card.style.background = 'var(--card-background)';
             card.style.borderRadius = '16px';
             card.style.border = '1px solid var(--system-gray-light)';
             
-            // Header: Title and sentence count
-            const header = document.createElement('div');
-            header.style.display = 'flex';
-            header.style.justifyContent = 'space-between';
-            header.style.alignItems = 'center';
+            // Left column: Info
+            const info = document.createElement('div');
+            info.style.display = 'flex';
+            info.style.flexDirection = 'column';
+            info.style.gap = '4px';
+            info.style.flex = '1';
+            
+            const titleRow = document.createElement('div');
+            titleRow.style.display = 'flex';
+            titleRow.style.alignItems = 'baseline';
+            titleRow.style.gap = '8px';
             
             const title = document.createElement('h3');
             title.style.margin = '0';
-            title.style.fontSize = '18px';
+            title.style.fontSize = '16px';
             title.style.fontWeight = '700';
             title.innerText = storyName;
             
             const count = document.createElement('span');
-            count.style.fontSize = '12px';
+            count.style.fontSize = '11px';
             count.style.opacity = '0.6';
-            count.innerText = `${sList.length} Sätze`;
+            count.innerText = `(${sList.length} Sätze)`;
             
-            header.appendChild(title);
-            header.appendChild(count);
-            card.appendChild(header);
+            titleRow.appendChild(title);
+            titleRow.appendChild(count);
+            info.appendChild(titleRow);
             
-            // Preview of the first sentence
+            // Preview
             const preview = document.createElement('p');
             preview.style.margin = '0';
-            preview.style.fontSize = '14px';
+            preview.style.fontSize = '13px';
             preview.style.color = 'var(--text-secondary)';
             preview.style.fontStyle = 'italic';
-            preview.innerText = `"${sList[0].sentence.substring(0, 60)}..."`;
-            card.appendChild(preview);
+            preview.innerText = `"${sList[0].sentence.substring(0, 50)}..."`;
+            info.appendChild(preview);
             
-            // Actions
+            card.appendChild(info);
+            
+            // Right column: Actions
             const actions = document.createElement('div');
             actions.style.display = 'flex';
-            actions.style.gap = '12px';
-            actions.style.marginTop = '8px';
+            actions.style.gap = '8px';
             
             const btnWrite = document.createElement('button');
             btnWrite.className = 'btn btn-primary';
-            btnWrite.style.flex = '1';
-            btnWrite.style.minHeight = '44px';
-            btnWrite.innerText = "✍️ Diktat schreiben";
+            btnWrite.style.minHeight = '36px';
+            btnWrite.style.padding = '6px 12px';
+            btnWrite.style.fontSize = '13px';
+            btnWrite.innerText = "✍️ Diktat";
+            btnWrite.style.minWidth = '80px';
             btnWrite.addEventListener('click', () => {
                 this.currentStory = storyName;
                 this.storySentences = sList;
@@ -1064,9 +1084,11 @@ class Application {
             
             const btnRead = document.createElement('button');
             btnRead.className = 'btn btn-success';
-            btnRead.style.flex = '1';
-            btnRead.style.minHeight = '44px';
-            btnRead.innerText = "🗣️ Vorlesen";
+            btnRead.style.minHeight = '36px';
+            btnRead.style.padding = '6px 12px';
+            btnRead.style.fontSize = '13px';
+            btnRead.innerText = "🗣️ Lesen";
+            btnRead.style.minWidth = '80px';
             btnRead.addEventListener('click', () => {
                 this.currentStory = storyName;
                 this.storySentences = sList;

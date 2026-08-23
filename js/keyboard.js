@@ -81,6 +81,29 @@ export class SmartKeyboard {
             grid.appendChild(key);
         });
 
+        // Add a Space key
+        const spaceKey = document.createElement('button');
+        spaceKey.className = 'keyboard-key space-key';
+        spaceKey.innerText = '␣ Leertaste';
+        spaceKey.setAttribute('aria-label', 'Leertaste');
+        spaceKey.style.minWidth = '140px';
+        spaceKey.style.backgroundColor = '#E5E5EA';
+        spaceKey.style.flexGrow = '1';
+        
+        spaceKey.addEventListener('pointerdown', (e) => {
+            e.preventDefault();
+            spaceKey.classList.add('active');
+        });
+        spaceKey.addEventListener('pointerup', (e) => {
+            e.preventDefault();
+            spaceKey.classList.remove('active');
+            this.onKeyPress(' ');
+        });
+        spaceKey.addEventListener('pointerleave', () => {
+            spaceKey.classList.remove('active');
+        });
+        grid.appendChild(spaceKey);
+
         // Add a backspace/delete key at the end
         const delKey = document.createElement('button');
         delKey.className = 'keyboard-key delete-key';
