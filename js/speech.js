@@ -201,17 +201,19 @@ export class AppSpeech {
      * Allow minor speech variations (e.g. spelling of umlauts or endings)
      */
     _isFuzzyMatch(sNorm, tNorm) {
-        if (sNorm.length < 2 || tNorm.length < 2) return false;
-        
         if (sNorm === tNorm) return true;
+        if (sNorm.length < 2 || tNorm.length < 2) return false;
 
-        // Levenshtein / simple edit distance fallback for longer words
-        if (tNorm.length > 5) {
-            const distance = this._editDistance(sNorm, tNorm);
-            return distance <= 1; // allow 1 character difference
+        const distance = this._editDistance(sNorm, tNorm);
+        
+        // Forgiving tolerance thresholds scaled to target word size
+        if (tNorm.length <= 4) {
+            return distance <= 1; // Allow 1 typo/mishearing for short words (e.g., und -> unt, ist -> is)
+        } else if (tNorm.length <= 8) {
+            return distance <= 2; // Allow up to 2 typos for medium words
+        } else {
+            return distance <= 3; // Allow up to 3 typos for very long compound words (e.g. majestätisch)
         }
-
-        return false;
     }
 
     _editDistance(a, b) {
