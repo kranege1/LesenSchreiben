@@ -511,8 +511,18 @@ class Application {
             const current = this.storySentenceIndex; // already incremented in nextSentence()
             const percent = Math.round((current / count) * 100);
 
+            const wordCount = this.currentSentence ? this.currentSentence.words.length : 0;
+            const currentWord = Math.min(this.currentWordIndex + 1, wordCount || 1);
+
             if (bar) bar.style.width = `${percent}%`;
-            if (text) text.innerText = `Geschichte: ${this.currentStory} (Satz ${current} von ${count})`;
+            
+            let label = `Geschichte: ${this.currentStory} (Satz ${current} von ${count}`;
+            if (wordCount > 0) {
+                label += `, Wort ${currentWord} von ${wordCount}`;
+            }
+            label += `)`;
+            
+            if (text) text.innerText = label;
             if (percentEl) percentEl.innerText = `${percent}%`;
 
             container.style.display = 'block';
@@ -915,6 +925,7 @@ class Application {
         });
 
         this.highlightActiveReadingWord();
+        this.updateStoryProgressBar();
         this.resetStuckTimer();
     }
 
@@ -968,6 +979,7 @@ class Application {
         if (matchedIdx >= this.currentWordIndex) {
             this.currentWordIndex = matchedIdx + 1;
             this.highlightActiveReadingWord();
+            this.updateStoryProgressBar();
             this.resetStuckTimer();
         }
     }
