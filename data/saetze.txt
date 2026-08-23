@@ -1,0 +1,540 @@
+# ==========================================
+# KATEGORIE 1: TIERE (50 Sätze)
+# ==========================================
+1 | Tiere | Der Hund bellt laut im Garten.
+1 | Tiere | Die Katze trinkt frische Milch.
+1 | Tiere | Eine Ente schwimmt auf dem See.
+1 | Tiere | Das Pferd frisst grünes Heu.
+1 | Tiere | Der kleine Hase hoppelt über das Feld.
+1 | Tiere | Die Maus versteckt sich im Loch.
+1 | Tiere | Ein Vogel singt hoch im Baum.
+1 | Tiere | Das Schaf steht auf der Weide.
+1 | Tiere | Der Frosch hüpft in den Teich.
+1 | Tiere | Die Kuh gibt uns gute Milch.
+1 | Tiere | Ein Huhn pickt Körner am Boden.
+1 | Tiere | Der Esel trägt einen schweren Korb.
+1 | Tiere | Die Gans schnattert am Bach.
+1 | Tiere | Das Ferkel suhlt sich im Schlamm.
+1 | Tiere | Der Fisch schwimmt flink im Wasser.
+1 | Tiere | Die kleine Meise sucht nach Samen.
+1 | Tiere | Der Maulwurf gräbt unter der Erde.
+2 | Tiere | Das Eichhörnchen sammelt Nüsse für den Winter.
+2 | Tiere | Die fleißigen Bienen bauen eine Wabe.
+2 | Tiere | Der Biber baut eine feste Burg aus Ästen.
+2 | Tiere | Im Wald ruft eine weise Eule in der Nacht.
+2 | Tiere | Der Maulwurf schiebt einen Erdhügel auf.
+2 | Tiere | Rehe grasen friedlich am Waldrand.
+2 | Tiere | Ein kleiner Dachs schläft tief in seiner Höhle.
+2 | Tiere | Der Specht klopft laut an den Baumstamm.
+2 | Tiere | Die Schwalben bauen ein Nest unter dem Dach.
+2 | Tiere | Ein brauner Bär fängt Fische im Fluss.
+2 | Tiere | Der Fuchs schleicht vorsichtig durch das Dickicht.
+2 | Tiere | Das kleine Kitz liegt gut versteckt im hohen Gras.
+2 | Tiere | Im Garten summen viele bunte Hummeln.
+2 | Tiere | Der Marienkäfer krabbelt auf ein grünes Blatt.
+2 | Tiere | Die Ziege klettert mutig auf den steilen Stein.
+2 | Tiere | Das Fohlen springt fröhlich über die Wiese.
+2 | Tiere | Junge Enten folgen ihrer Mutter im Wasser.
+2 | Tiere | Der Storch klappert laut auf dem Kirchendach.
+3 | Tiere | Der flinke Fischotter taucht geschickt nach Beute.
+3 | Tiere | Adler kreisen majestyvoll hoch über den Berggipfeln.
+3 | Tiere | Der schlaue Fuchs wittert Gefahr und bleibt stehen.
+3 | Tiere | Wildschweine durchwühlen den feuchten Waldboden nach Wurzeln.
+3 | Tiere | Die fleißigen Ameisen transportieren schwere Kiefernnadeln.
+3 | Tiere | Igel rollen sich bei Gefahr zu einer stacheligen Kugel zusammen.
+3 | Tiere | Murmeltiere warnen ihre Familie mit einem lauten Pfiff.
+3 | Tiere | Der bunte Eisvogel lauert auf einem Ast über dem Bach.
+3 | Tiere | Fledermäuse jagen in der Dämmerung nach Nachtfaltern.
+3 | Tiere | Der Luchs bewegt sich auf leisen Pfoten durch den Schnee.
+3 | Tiere | Im Schilf brütet ein scheues Teichhuhn seine Eier aus.
+3 | Tiere | Hirsche tragen im Spätherbst eindrucksvolle Geweihe.
+3 | Tiere | Der Salamander versteckt sich unter feuchtem Moos.
+3 | Tiere | Zugvögel fliegen gemeinsam in den warmen Süden.
+3 | Tiere | Gämse klettern trittsicher an steilen Felswänden empor.
+
+# ==========================================
+# KATEGORIE 2: SCHULE (50 Sätze)
+# ==========================================
+1 | Schule | Ich packe meine Schultasche ein.
+1 | Schule | Die Tafel ist groß und grün.
+1 | Schule | Wir malen ein schönes Bild.
+1 | Schule | Das Kind liest ein erstes Buch.
+1 | Schule | Im Federmäppchen liegt ein roter Stift.
+1 | Schule | Wir sitzen brav auf unseren Plätzen.
+1 | Schule | Die Lehrerin schreibt an die Tafel.
+1 | Schule | In der Pause essen wir einen Apfel.
+1 | Schule | Das Lineal ist dreißig Zentimeter lang.
+1 | Schule | Ich spitze meinen Bleistift an.
+1 | Schule | Wir schneiden bunte Kreise aus Papier.
+1 | Schule | Der Radiergummi löscht den Fehler weg.
+1 | Schule | Auf dem Tisch liegt ein weißes Blatt.
+1 | Schule | Wir singen gemeinsam ein lustiges Lied.
+1 | Schule | Die Schulglocke läutet zur großen Pause.
+1 | Schule | Alle Kinder lachen auf dem Pausenhof.
+1 | Schule | Mein Heft hat blaue Linien.
+2 | Schule | Heute schreiben wir ein kurzes Diktat.
+2 | Schule | In der Turnhalle spielen wir Völkerball.
+2 | Schule | Wir rechnen schwierige Plusaufgaben im Kopf.
+2 | Schule | Im Werkunterricht bauen wir ein kleines Holzhaus.
+2 | Schule | Die Kinder leihen Bücher in der Bibliothek aus.
+2 | Schule | Mit der Schere schneiden wir Formen aus Tonpapier.
+2 | Schule | Der Stundenplan zeigt heute vier Fächer an.
+2 | Schule | In Sachkunde lernen wir die heimischen Bäume kennen.
+2 | Schule | Alle Schüler melden sich mit der rechten Hand.
+2 | Schule | Wir kleben die bunten Blätter in das Sammelheft.
+2 | Schule | Der Hausmeister öffnet pünktlich die Schultür.
+2 | Schule | Zur Jause trinke ich frisches Wasser.
+2 | Schule | Wir vergleichen unsere Ergebnisse an der Tafel.
+2 | Schule | In der Leseecke liegen viele spannende Geschichten.
+2 | Schule | Der Spitzer fängt alle Holzspäne sauber auf.
+2 | Schule | Wir üben fleißig das Schreiben mit der Füllfeder.
+2 | Schule | Im Musikraum stehen Trommeln und ein Klavier.
+3 | Schule | In Mathematik lösen wir knifflige Textaufgaben.
+3 | Schule | Die Klasse plant einen gemeinsamen Ausflug ins Museum.
+3 | Schule | Wir untersuchen verschiedene Getreidearten unter der Lupe.
+3 | Schule | Beim Staffellauf feuern sich alle Kinder gegenseitig an.
+3 | Schule | Im Deutschunterricht bestimmen wir die Nomen und Verben.
+3 | Schule | Der Schülersprecher wird heute demokratisch gewählt.
+3 | Schule | Für das Referat haben wir ein großes Plakat gestaltet.
+3 | Schule | Im Kunstunterricht mischen wir Grundfarben auf der Palette.
+3 | Schule | Vor den Ferien räumen alle gründlich ihre Fächer auf.
+3 | Schule | Wir lernen die Verkehrsregeln für die Fahrradprüfung.
+3 | Schule | Im Wörterbuch suchen wir unbekannte Wörter nach dem Alphabet.
+3 | Schule | Die Schülerzeitung berichtet über das letzte Schulfest.
+3 | Schule | In der Gruppenarbeit lösen wir das Rätsel gemeinsam.
+3 | Schule | Wir schreiben eine spannende Erlebniserzählung über das Wochenende.
+3 | Schule | Die Klassenlehrerin liest uns ein Kapitel aus dem Abenteuerbuch vor.
+
+# ==========================================
+# KATEGORIE 3: JAHRESZEITEN (50 Sätze)
+# ==========================================
+1 | Jahreszeiten | Im Frühling blühen die ersten Blumen.
+1 | Jahreszeiten | Die warme Sonne scheint am Himmel.
+1 | Jahreszeiten | Im Sommer essen wir leckeres Eis.
+1 | Jahreszeiten | Wir baden im kühlen Wasser.
+1 | Jahreszeiten | Der Herbst bringt bunte Blätter.
+1 | Jahreszeiten | Ein starker Wind weht durch die Bäume.
+1 | Jahreszeiten | Im Winter fällt weißer Schnee.
+1 | Jahreszeiten | Wir bauen einen großen Schneemann.
+1 | Jahreszeiten | Die Vögel bauen im März ihre Nester.
+1 | Jahreszeiten | Im Juni reifen süße Erdbeeren.
+1 | Jahreszeiten | Draußen regnet es dicke Tropfen.
+1 | Jahreszeiten | Wir ziehen feste Gummistiefel an.
+1 | Jahreszeiten | Im Winter tragen wir eine warme Mütze.
+1 | Jahreszeiten | Die Blumen brauchen viel Regenwasser.
+1 | Jahreszeiten | Im Garten wachsen gelbe Tulpen.
+1 | Jahreszeiten | Wir werfen weiße Schneebälle.
+1 | Jahreszeiten | Ein bunter Regenbogen steht am Himmel.
+2 | Jahreszeiten | Im April wechseln sich Sonne und Regen oft ab.
+2 | Jahreszeiten | Die Schwalben kehren aus dem warmen Süden zurück.
+2 | Jahreszeiten | Im Freibad springen wir mutig vom Sprungturm.
+2 | Jahreszeiten | Reife Äpfel fallen von den schweren Ästen.
+2 | Jahreszeiten | Im Oktober lassen wir bunte Drachen steigen.
+2 | Jahreszeiten | Frostige Eiszapfen hängen an der Dachrinne.
+2 | Jahreszeiten | Die Tiere im Wald suchen Futter für den Winter.
+2 | Jahreszeiten | Erste Knospen öffnen sich an den Hecken.
+2 | Jahreszeiten | Ein lautes Sommergewitter zieht über das Land.
+2 | Jahreszeiten | Wir sammeln braune Kastanien und Eicheln im Wald.
+2 | Jahreszeiten | Auf dem zugefrorenen See fahren wir Schlittschuh.
+2 | Jahreszeiten | Der dichte Herbstnebel verdeckt die Häuser im Tal.
+2 | Jahreszeiten | Im Mai blühen die Kirschbäume in voller Pracht.
+2 | Jahreszeiten | Wir füllen das Vogelhäuschen mit Körnern auf.
+2 | Jahreszeiten | Das Laub raschelt unter unseren Schuhen.
+2 | Jahreszeiten | Wir rodeln mit dem Holzschlitten den steilen Hügel hinab.
+2 | Jahreszeiten | Die Sonne wärmt den feuchten Boden im Frühjahr.
+3 | Jahreszeiten | Schneeglöckchen durchbrechen die noch gefrorene Schneedecke.
+3 | Jahreszeiten | Während der Hitzewelle suchen alle Tiere schattige Plätze.
+3 | Jahreszeiten | Die Bauern bringen im Spätsommer das goldene Getreide ein.
+3 | Jahreszeiten | Wenn die Tage kürzer werden, verfärbt sich der Mischwald.
+3 | Jahreszeiten | Nach klaren Frostnächten glitzert der Raureif auf den Halmen.
+3 | Jahreszeiten | Zugvögel sammeln sich in großen Schwärmen für den Flug.
+3 | Jahreszeiten | Ein lauer Sommerabend lädt zum draußen Sitzen ein.
+3 | Jahreszeiten | Dichte Schneeflocken verwandeln die Berge in eine Winterlandschaft.
+3 | Jahreszeiten | Die Bäche schwellen durch die Frühlingsschneeschmelze an.
+3 | Jahreszeiten | Kürbisse leuchten im goldenen Licht der Herbstsonne.
+3 | Jahreszeiten | Bei starkem Glatteis müssen die Straßen gestreut werden.
+3 | Jahreszeiten | Die Natur erwacht nach dem langen Winterschlaf zu neuem Leben.
+3 | Jahreszeiten | Im August beobachten wir nachts viele Sternschnuppen.
+3 | Jahreszeiten | Nebelschwaden hängen frühmorgens über den nassen Wiesen.
+3 | Jahreszeiten | Stürmische Herbstwinde reißen die letzten Blätter von den Zweigen.
+
+# ==========================================
+# KATEGORIE 4: NATUR (50 Sätze)
+# ==========================================
+1 | Natur | Ein kleiner Baum steht am Weg.
+1 | Natur | Das grüne Gras ist frisch gemäht.
+1 | Natur | Ein klarer Bach fließt durch das Tal.
+1 | Natur | Der blaue Himmel hat keine Wolken.
+1 | Natur | Auf der Wiese wachsen gelbe Blumen.
+1 | Natur | Im Wald riecht es nach feuchter Erde.
+1 | Natur | Der Stein am Fluss ist ganz glatt.
+1 | Natur | Die Sonne geht am Abend unter.
+1 | Natur | Eine Pflanze braucht Licht und Wasser.
+1 | Natur | Im Garten wachsen rote Beeren.
+1 | Natur | Der Berg ist sehr hoch und steil.
+1 | Natur | Die Tannenzapfen liegen auf dem Boden.
+1 | Natur | Ein Käfer sitzt auf dem Blütenblatt.
+1 | Natur | Der Wind rauscht leise in den Blättern.
+1 | Natur | Der Weg führt tief in den Wald.
+1 | Natur | Ein Bach plätschert über kleine Steine.
+1 | Natur | Über dem See steht eine Nebelwand.
+2 | Natur | Im dichten Schilf verstecken sich viele Libellen.
+2 | Natur | Die Wurzeln der alten Eiche reichen tief in die Erde.
+2 | Natur | Im Bergbach schwimmen kleine Forellen gegen die Strömung.
+2 | Natur | Auf der Waldlichtung wachsen süße Waldbeeren.
+2 | Natur | Pilze wachsen gerne an schattigen und feuchten Stellen.
+2 | Natur | Der Wasserfall stürzt tosend über die Felskante.
+2 | Natur | Moos fühlt sich wie ein weicher Teppich an.
+2 | Natur | Die Rinde der Birke ist auffallend weiß.
+2 | Natur | Ein Schmetterling saugt Nektar aus der roten Blüte.
+2 | Natur | In der dunklen Höhle tropft Wasser von der Decke.
+2 | Natur | Am Ufer des Teiches quaken grüne Frösche.
+2 | Natur | Der Pfad schlängelt sich durch die weite Almwiese.
+2 | Natur | Hohe Felsen ragen senkrecht in den Himmel empor.
+2 | Natur | Regenwürmer lockern den harten Boden auf.
+2 | Natur | Die Hecke bietet Schutz für viele kleine Singvögel.
+2 | Natur | Im Hochgebirge liegt auch im Sommer noch Schnee.
+2 | Natur | Aus einer kleinen Eichel wächst ein großer Baum.
+3 | Natur | Der dichte Nebelwald beherbergt seltene Tierarten.
+3 | Natur | Bäche formen über Jahrhunderte tiefe Schluchten im Gestein.
+3 | Natur | Flechten wachsen sehr langsam auf harten Steinflächen.
+3 | Natur | Die Bienen bestäuben die Obstbäume während der Blütezeit.
+3 | Natur | Ein geschütztes Moor speichert riesige Mengen an Wasser.
+3 | Natur | Lawinen donnern im Winter an unbewaldeten Hängen ins Tal.
+3 | Natur | Im feuchten Waldboden zersetzen Mikroorganismen altes Holz.
+3 | Natur | Sonneneinstrahlung und Wasser ermöglichen die Photosynthese der Pflanzen.
+3 | Natur | Auf der alpinen Rasenstufe trotzen Blumen dem rauen Bergklima.
+3 | Natur | Ein mächtiger Gletscher schmilzt langsam unter der Sommersonne.
+3 | Natur | Der Fluss mündet nach vielen Kilometern in ein weites Meer.
+3 | Natur | Totholz im Urwald dient unzähligen Käferarten als Lebensraum.
+3 | Natur | Unterirdische Quellen treten an Berghängen als Quelltöpfe hervor.
+3 | Natur | Die Gezeiten bewegen zweimal täglich riesige Wassermassen an der Küste.
+3 | Natur | Im dichten Dschungel wachsen seltene Orchideen auf hohen Baumkronen.
+
+# ==========================================
+# KATEGORIE 5: ABENTEUER (50 Sätze)
+# ==========================================
+1 | Abenteuer | Wir suchen einen geheimen Schatz.
+1 | Abenteuer | Die alte Burg hat dicke Mauern.
+1 | Abenteuer | Das Holzschiff fährt weit hinaus.
+1 | Abenteuer | Der mutige Ritter hat ein Schild.
+1 | Abenteuer | In der Höhle brennt ein kleines Feuer.
+1 | Abenteuer | Wir bauen ein Zelt im Garten auf.
+1 | Abenteuer | Die Karte zeigt den Weg zum Gold.
+1 | Abenteuer | Der Schlüssel öffnet eine schwere Truhe.
+1 | Abenteuer | Wir klettern auf den großen Baum.
+1 | Abenteuer | Ein grüner Drache schläft am Berg.
+1 | Abenteuer | Das Boot fährt durch die Wellen.
+1 | Abenteuer | Wir leuchten mit der Taschenlampe.
+1 | Abenteuer | Die alte Treppe knarrt leise.
+1 | Abenteuer | Wir entdecken eine verborgene Tür.
+1 | Abenteuer | Der Kompass zeigt nach Norden.
+1 | Abenteuer | Ein Riese stapft durch den Wald.
+1 | Abenteuer | Wir schleichen ganz leise im Kreis.
+2 | Abenteuer | Die Schatzsucher graben tief im weichen Sand.
+2 | Abenteuer | Ein starker Sturm schüttelt das alte Segelschiff.
+2 | Abenteuer | Der Zauberer braut einen Trank im Kessel.
+2 | Abenteuer | Wir überqueren eine schwankende Hängebrücke über der Schlucht.
+2 | Abenteuer | Auf dem Dachboden finden wir eine staubige Holztruhe.
+2 | Abenteuer | Der Ritter reitet auf seinem schwarzen Pferd zum Schloss.
+2 | Abenteuer | Die geheimnisvolle Höhle ist voller glitzernder Steine.
+2 | Abenteuer | Mit dem Kanu paddeln wir den reißenden Fluss hinab.
+2 | Abenteuer | Ein kleiner Roboter erforscht den roten Planeten Mars.
+2 | Abenteuer | Wir lösen das schwierige Rätsel der alten Pyramide.
+2 | Abenteuer | Die Abenteurer schlagen ihr Lager am Flussufer auf.
+2 | Abenteuer | Ein Drachenritter bewacht das schwere Burgtor bei Nacht.
+2 | Abenteuer | Die Forscher entdecken eine unbekannte Insel im Ozean.
+2 | Abenteuer | Wir klettern mit Seil und Haken am Fels empor.
+2 | Abenteuer | Der Detektiv sucht nach verdächtigen Fußspuren im Matsch.
+2 | Abenteuer | Das Raumschiff landet sicher auf der Mondstation.
+2 | Abenteuer | Hinter dem Wasserfall verbirgt sich ein dunkler Geheimgang.
+3 | Abenteuer | Die Taucher entdecken ein altes Schiffswrack auf dem Meeresgrund.
+3 | Abenteuer | Mit der Schatzkarte entziffern wir die uralten Hieroglyphen.
+3 | Abenteuer | Die Polarforscher kämpfen sich durch einen eisigen Schneesturm.
+3 | Abenteuer | In der verlassenen Festung hallen geheimnisvolle Schritte wider.
+3 | Abenteuer | Das Expeditionsteam bahnt sich einen Weg durch das Unterholz.
+3 | Abenteuer | Der Kapitän blickt durch das Fernrohr auf die ferne Küstenlinie.
+3 | Abenteuer | Mutige Astronauten schweben schwerelos außerhalb der Raumstation.
+3 | Abenteuer | Wir entkommen in letzter Sekunde aus dem unterirdischen Labyrinth.
+3 | Abenteuer | Der Heißluftballon steigt lautlos über die schneebedeckten Gipfel.
+3 | Abenteuer | Eine geheime Botschaft ist mit unsichtbarer Tinte geschrieben.
+3 | Abenteuer | Die Schatzsucher überwinden tiefe Fallen im alten Tempel.
+3 | Abenteuer | Das U-Boot taucht in die tiefste Meeresschlucht hinab.
+3 | Abenteuer | Im dichten Dschungel stoßen die Entdecker auf eine vergessene Stadt.
+3 | Abenteuer | Mit Kompass und Höhenmesser bestimmen wir den genauen Standort.
+3 | Abenteuer | Die Besatzung hisst bei Sonnenaufgang die großen Segel zur Weiterfahrt.
+
+# ==========================================
+# KATEGORIE: STUMMES H / DEHNUNGS-H (40 Sätze)
+# ==========================================
+1 | Stummes h | Das weiße Reh steht am Waldrand.
+1 | Stummes h | Wir fahren mit der Bahn nach Hause.
+1 | Stummes h | Der Bauer mäht das hohe Gras.
+1 | Stummes h | Ein Huhn pickt Körner auf dem Hof.
+1 | Stummes h | Das Mehl steht in der Küche.
+1 | Stummes h | Der Stuhl ist aus festem Holz gebaut.
+1 | Stummes h | Die alte Kuh hat ein dickes Horn.
+1 | Stummes h | Ein roter Hahn kräht am frühen Morgen.
+1 | Stummes h | Im Winter frieren meine kalten Ohren.
+1 | Stummes h | Wir wohnen in einem kleinen Haus.
+2 | Stummes h | Der Zahnarzt prüft jeden einzelnen Zahn.
+2 | Stummes h | Die Uhr schlägt laut zwölf Mal.
+2 | Stummes h | Der Lehrer erklärt eine schwere Aufgabe.
+2 | Stummes h | Im Schuh versteckt sich eine kleine Bohne.
+2 | Stummes h | Ein kühler Wind weht über das Moor.
+2 | Stummes h | Wir bohren ein tiefes Loch in das Brett.
+2 | Stummes h | Das Schaf frisst trockenes Stroh im Stall.
+2 | Stummes h | Der Maler rührt die graue Farbe an.
+2 | Stummes h | Aus dem Schornstein steigt grauer Rauch ohne Flamme.
+2 | Stummes h | Der tapfere Ritter führt sein schnelles Pferd.
+2 | Stummes h | Wir zählen alle Ziffern an der Tafel.
+2 | Stummes h | Der kleine Spatz sitzt zahm auf meiner Hand.
+2 | Stummes h | Die Lokomotive fährt auf der eisernen Bahn.
+2 | Stummes h | Im Wald wachsen viele hohe Tannen.
+2 | Stummes h | Wir belohnen den braven Hund mit Futter.
+3 | Stummes h | Der Pfad führt durch ein unheimliches Tal.
+3 | Stummes h | Bei starkem Sturm droht dem Segelboot Gefahr.
+3 | Stummes h | Die Forscher bohren tief in das uralte Eis.
+3 | Stummes h | Wir nehmen uns genügend Zeit für die Erholung.
+3 | Stummes h | Der Künstler malt ein sehr berühmtes Bild.
+3 | Stummes h | Die Polizei mahnt die Autofahrer zur Vorsicht.
+3 | Stummes h | Das weite Tal dehnt sich bis zum Horizont aus.
+3 | Stummes h | Auf der Wiese wiehern die edlen Pferde.
+3 | Stummes h | Der Schneider näht den Saum mit weißem Garn.
+3 | Stummes h | Wir rühren den Kuchenteig in der Schüssel um.
+3 | Stummes h | Nach dem langen Lauf brauche ich dringend Ruhe.
+3 | Stummes h | Der Junge prahlt gerne mit seinen Erfolgen.
+3 | Stummes h | Ein schmaler Hohlweg schneidet tief in den Hügel.
+3 | Stummes h | Die alte Eiche hat einen gewaltigen Stammumfang.
+3 | Stummes h | Frisches Quellwasser quillt aus der kühlen Erde.
+
+# ==========================================
+# KATEGORIE: DOPPELKONSONANTEN (40 Sätze)
+# ==========================================
+1 | Doppelkonsonant | Die gelbe Sonne scheint sehr hell.
+1 | Doppelkonsonant | Wir essen eine reife Banane.
+1 | Doppelkonsonant | Der rote Ball rollt über den Rasen.
+1 | Doppelkonsonant | Eine dicke Puppe liegt im Puppenwagen.
+1 | Doppelkonsonant | Das Kind schwimmt schnell durch das Becken.
+1 | Doppelkonsonant | Der Teller steht auf dem Holztisch.
+1 | Doppelkonsonant | Im Garten bellt ein kleiner Hund.
+1 | Doppelkonsonant | Wir rennen um die Wette.
+1 | Doppelkonsonant | Die Katze leckt ihre weichen Pfoten.
+1 | Doppelkonsonant | Die Mutter kocht eine warme Suppe.
+2 | Doppelkonsonant | Bunte Blätter fallen im Herbst vom Baum.
+2 | Doppelkonsonant | Der Vogel füttert seine kleinen Kücken.
+2 | Doppelkonsonant | Das Wasser fließt leise in die Wanne.
+2 | Doppelkonsonant | Ein schweres Schiff fährt über den Fluss.
+2 | Doppelkonsonant | Wir sammeln reife Kirschen im Garten.
+2 | Doppelkonsonant | Der braune Dackel schnüffelt an der Hecke.
+2 | Doppelkonsonant | Das Messer schneidet das knusprige Brot.
+2 | Doppelkonsonant | Am Himmel stehen viele weiße Wolken.
+2 | Doppelkonsonant | Die Ameisen krabbeln über die Tannennadeln.
+2 | Doppelkonsonant | Im Wald knacken trockene Äste unter den Schuhen.
+2 | Doppelkonsonant | Der Eimer ist voll mit frischem Quellwasser.
+2 | Doppelkonsonant | Wir klettern mutig auf das steile Klettergerüst.
+2 | Doppelkonsonant | Ein lauter Knall erschreckt die Tiere im Stall.
+2 | Doppelkonsonant | Das kleine Lamm springt über die Koppel.
+2 | Doppelkonsonant | Wir stellen die Stühle ordentlich an den Tisch.
+3 | Doppelkonsonant | Der Sturm rüttelt heftig an den Fensterläden.
+3 | Doppelkonsonant | Die Bergsteiger klettern über eine schmale Felsspalte.
+3 | Doppelkonsonant | Im dichten Schilf schwimmen scheue Entenküken.
+3 | Doppelkonsonant | Der Richter fällt ein gerechtes Urteil im Prozess.
+3 | Doppelkonsonant | Wir gewinnen das spannende Basketballspiel am Ende.
+3 | Doppelkonsonant | Die Flammen lodern hoch im offenen Kaminfeuer.
+3 | Doppelkonsonant | Der Ritter trägt einen Helm aus glänzendem Metall.
+3 | Doppelkonsonant | Ein feiner Nebel hüllt die ganze Stadt ein.
+3 | Doppelkonsonant | Wir füllen den Rucksack mit Proviant für die Wanderung.
+3 | Doppelkonsonant | Die Wellen branden ununterbrochen gegen die Klippen.
+3 | Doppelkonsonant | In der Werkstatt hämmern die Handwerker an den Brettern.
+3 | Doppelkonsonant | Das schlaue Eichhörnchen knackt eine harte Walnuss.
+3 | Doppelkonsonant | Die Kinder paddeln mit ganzer Kraft gegen den Wind.
+3 | Doppelkonsonant | Auf der Rennstrecke beschleunigt der Sportwagen rasant.
+3 | Doppelkonsonant | Das Schlossgespenst rasselt mitten in der Nacht mit Ketten.
+
+# ==========================================
+# KATEGORIE: LANGES IE (30 Sätze)
+# ==========================================
+1 | Langes ie | Die kleine Biene summt im Garten.
+1 | Langes ie | Wir spielen heute ein neues Spiel.
+1 | Langes ie | Der Postbote bringt einen Brief.
+1 | Langes ie | Sieben Zwerge wohnen hinter den Bergen.
+1 | Langes ie | Der Vogel fliegt hoch in den Himmel.
+1 | Langes ie | Auf der Wiese steht ein braunes Rind.
+1 | Langes ie | Wir singen ein fröhliches Lied.
+1 | Langes ie | Ein Dieb stiehlt den goldenen Ring.
+1 | Langes ie | Das Eis ist sehr süß und kalt.
+1 | Langes ie | Er biegt den dünnen Zweig vorsichtig.
+2 | Langes ie | Der Bach fließt ruhig durch das weite Tal.
+2 | Langes ie | Im Spiegel sehe ich mein eigenes Gesicht.
+2 | Langes ie | Der schlaue Riese baut eine stabile Brücke.
+2 | Langes ie | Wir gießen die Blumen mit der Kanne.
+2 | Langes ie | Der Ritter zieht sein scharfes Schwert.
+2 | Langes ie | Ein Sieb trennt die Steine vom Sand.
+2 | Langes ie | Im Winter frieren die kleinen Seen zu.
+2 | Langes ie | Das Kätzchen schmiegt sich an meinen Arm.
+2 | Langes ie | Der Pfeil fliegt zielsicher in die Mitte.
+2 | Langes ie | Wir wiegen das Mehl auf der Küchenwaage ab.
+3 | Langes ie | Der Kapitän befiehlt das Setzen der Segel.
+3 | Langes ie | Hinter der Biegung verbirgt sich ein dunkler Tunnel.
+3 | Langes ie | Die Kerze brennt mit einer ruhigen Flamme.
+3 | Langes ie | Wir genießen die warme Abendsonne auf dem Balkon.
+3 | Langes ie | Das geschickte Wiesel schlüpft durch das Astloch.
+3 | Langes ie | Die Soldaten verteidigen die Festung gegen Angreifer.
+3 | Langes ie | Ein dichter Nebel breitet sich über dem Tal aus.
+3 | Langes ie | Wir vergleichen die verschiedenen Schriftarten miteinander.
+3 | Langes ie | Der Adler schlägt mit seinen riesigen Flügeln.
+3 | Langes ie | Die alte Holztür quietscht laut beim Öffnen.
+
+# ==========================================
+# KATEGORIE: CK UND TZ (30 Sätze)
+# ==========================================
+1 | ck und tz | Die Katze sitzt auf dem Dach.
+1 | ck und tz | Im Ofen backt ein leckerer Kuchen.
+1 | ck und tz | Ich ziehe meine warme Jacke an.
+1 | ck und tz | Der Hund leckt die Schüssel sauber.
+1 | ck und tz | Ein Blitz zuckt über den dunklen Himmel.
+1 | ck und tz | Wir setzen uns auf die Holzbank.
+1 | ck und tz | Im Sack liegen viele dicke Äpfel.
+1 | ck und tz | Der Wecker tickt leise auf dem Tisch.
+1 | ck und tz | Eine Schnecke kriecht über das Blatt.
+1 | ck und tz | Die neue Mütze schützt vor der Kälte.
+2 | ck und tz | Der Zauberer trägt einen spitzen Hut.
+2 | ck und tz | Wir pflücken reife Beeren am Waldrand.
+2 | ck und tz | Ein Eichhörnchen versteckt eine Walnuss.
+2 | ck und tz | Das Boot legt am hölzernen Steg an.
+2 | ck und tz | Der Regen spritzt an die Fensterscheibe.
+2 | ck und tz | Die Kinder putzen gründlich ihre Zähne.
+2 | ck und tz | Der Specht pickt nach Käfern in der Rinde.
+2 | ck und tz | Auf dem Marktplatz stehen viele Marktstände.
+2 | ck und tz | Der Bäcker backt frische Brötchen am Morgen.
+2 | ck und tz | Ein spitzer Stock bohrt sich in die Erde.
+3 | ck und tz | Der Wanderer entdeckt eine tiefe Schlucht im Fels.
+3 | ck und tz | Plötzlich blitzt es gewaltig über der Bergkette.
+3 | ck und tz | Wir schützen die seltenen Pflanzen im Nationalpark.
+3 | ck und tz | Die Lokomotive stößt dicke Rauchwolken aus.
+3 | ck und tz | Ein geschickter Artist tanzt auf dem Seil.
+3 | ck und tz | Der Förster beobachtet das Kitz am Dickicht.
+3 | ck und tz | Die Schatztruhe knackt beim vorsichtigen Aufbrechen.
+3 | ck und tz | Wir trotzen dem eisigen Wind auf dem Berggipfel.
+3 | ck und tz | Im Gebüsch raschelt eine kleine Spitzmaus.
+3 | ck und tz | Die Forscher entwickeln eine nützliche Erfindung.
+
+# ==========================================
+# KATEGORIE: AUSLAUTVERHÄRTUNG D/T, B/P, G/K (30 Sätze)
+# ==========================================
+1 | Auslaut | Der Hund läuft durch den tiefen Wald.
+1 | Auslaut | Ein gelber Korb steht auf dem Tisch.
+1 | Auslaut | Der bunte Schal hält den Hals warm.
+1 | Auslaut | Wir bauen eine Burg aus gelbem Sand.
+1 | Auslaut | Das rote Kleid gefällt der Prinzessin gut.
+1 | Auslaut | Ein Pferd steht friedlich auf der Weide.
+1 | Auslaut | Der Berg ist mit weißem Schnee bedeckt.
+1 | Auslaut | Das kleine Kind singt ein fröhliches Lied.
+1 | Auslaut | Im Teich schwimmt ein goldener Fisch.
+1 | Auslaut | Das Buch liegt auf dem Schreibtisch.
+2 | Auslaut | Der schlaue Dieb flieht durch die Gasse.
+2 | Auslaut | Am Waldrand finden wir einen alten Krug.
+2 | Auslaut | Das Segelboot treibt weit auf das Meer hinaus.
+2 | Auslaut | Ein Frosch quakt am Ufer des Sees.
+2 | Auslaut | Der König trägt ein glänzendes Kleid aus Seide.
+2 | Auslaut | Wir wandern auf den Gipfel von dem Berg.
+2 | Auslaut | Im tiefen Wald riecht es nach feuchtem Laub.
+2 | Auslaut | Der Koch schneidet das Brot mit dem Messer.
+2 | Auslaut | Ein kalter Wind weht durch das offene Tor.
+2 | Auslaut | Der kleine Zwerg bewacht den geheimen Schatz.
+3 | Auslaut | Der schwere Pflug gräbt tiefe Furchen in das Feld.
+3 | Auslaut | Mit einem kräftigen Ruck löst sich das Seil.
+3 | Auslaut | Der Kapitän steuert das Schiff sicher in den Hafen.
+3 | Auslaut | Aus dem Flugzeug blicken wir auf das weite Land.
+3 | Auslaut | Der Falke stürzt im schnellen Flug herab.
+3 | Auslaut | Ein dichter Nebel liegt über dem Moor und dem Wald.
+3 | Auslaut | Der mutige Krieger schützt seine Heimat vor Feinden.
+3 | Auslaut | Das antike Schwert glänzt im Licht der Fackeln.
+3 | Auslaut | Wir überqueren den breiten Fluss auf einer Fähre.
+3 | Auslaut | Der Geizkragen versteckt sein Gold in einer Kiste.
+
+# ==========================================
+# GESCHICHTEN (STORIES)
+# ==========================================
+
+# 1. Klasse: Die kleine Katze
+1 | Story: Die kleine Katze | Minka ist eine kleine Katze.
+1 | Story: Die kleine Katze | Sie spielt mit einem roten Ball.
+1 | Story: Die kleine Katze | Im Garten jagt sie eine Maus.
+1 | Story: Die kleine Katze | Nach dem Spiel trinkt sie Milch.
+1 | Story: Die kleine Katze | Nun schläft Minka müde im Korb.
+
+# 2. Klasse: Ein Tag im Wald
+2 | Story: Ein Tag im Wald | Heute wandern wir durch den grünen Wald.
+2 | Story: Ein Tag im Wald | Die Vögel singen fröhliche Lieder in den Bäumen.
+2 | Story: Ein Tag im Wald | Ein kleines Eichhörnchen springt von Ast zu Ast.
+2 | Story: Ein Tag im Wald | Wir finden viele bunte Blätter auf dem Boden.
+2 | Story: Ein Tag im Wald | Am Bach machen wir eine kurze Pause.
+
+# 3. Klasse: Der Igel
+3 | Story: Der Igel | Es ist schon wieder September und der Herbst steht bevor.
+3 | Story: Der Igel | In dieser Zeit muss der Igel bereits viel Nahrung zu sich nehmen, um für den kalten Winter gut vorbereitet zu sein.
+3 | Story: Der Igel | Seinen Winterschlaf verbringt dieser stachelige Geselle in einem Nest aus Reisig und Laub.
+3 | Story: Der Igel | Die Blätter werden von ihm ganz fest zusammengedrückt.
+3 | Story: Der Igel | So bleibt der Unterschlupf auch im tiefen Winter schön trocken und warm.
+
+# 4. Klasse: Die Reise zum Mars
+4 | Story: Die Reise zum Mars | Die Astronauten steigen in das große Raumschiff.
+4 | Story: Die Reise zum Mars | Mit einem lauten Knall startet die Rakete ins All.
+4 | Story: Die Reise zum Mars | In der Schwerelosigkeit schweben alle Gegenstände umher.
+4 | Story: Die Reise zum Mars | Durch das kleine Fenster sehen sie die Erde leuchten.
+4 | Story: Die Reise zum Mars | Bald landen sie auf dem roten Planeten.
+
+# 3. Klasse: Strenge Lehrer
+3 | Story: Strenge Lehrer | Gestern musste Tom zur Strafe aus der Klasse gehen und auf dem Flur warten, weil er sich ständig mit Lars gestritten hat, erzählt Klaus seinem Stiefvater.
+3 | Story: Strenge Lehrer | Da hat er ja noch Glück gehabt, antwortet dieser.
+3 | Story: Strenge Lehrer | Stell dir vor, mein Lehrer hat uns damals immer gleich nachsitzen lassen und uns Strafarbeiten gegeben.
+3 | Story: Strenge Lehrer | Klaus ist froh, dass seine Lehrer heute nicht mehr ganz so streng sind.
+
+# 3. Klasse: Lieblingsfächer
+3 | Story: Lieblingsfächer | Klaus mag in der Schule am liebsten den Sport.
+3 | Story: Lieblingsfächer | Im Sportunterricht spielen sie immer tolle Spiele, die viel Spaß machen.
+3 | Story: Lieblingsfächer | Lisa mag am liebsten den Deutschunterricht.
+3 | Story: Lieblingsfächer | Dort lernt sie viel über die deutsche Sprache.
+3 | Story: Lieblingsfächer | Sie freut sich schon jetzt auf die Fremdsprachen, die sie noch lernen wird.
+3 | Story: Lieblingsfächer | Dann kann sie später viel verreisen und auch die Menschen in anderen Ländern verstehen und mit ihnen sprechen.
+
+# 2. Klasse: Die Fahrt zum Bauernhof
+2 | Story: Die Fahrt zum Bauernhof | Sabine und Emma sind Geschwister.
+2 | Story: Die Fahrt zum Bauernhof | Sie besuchen oft ihre Oma, die in einer anderen Stadt wohnt.
+2 | Story: Die Fahrt zum Bauernhof | Letztes Jahr sind wir mehrmals mit der Bahn zum Bauernhof gefahren.
+2 | Story: Die Fahrt zum Bauernhof | Dort waren vier Pferde, zehn Kühe und so viele Hühner, dass wir sie gar nicht zählen konnten!
+2 | Story: Die Fahrt zum Bauernhof | Den Kühen durften Emma und ich sogar Nahrung geben, erzählt Sabine ihrer Lehrerin in der Schule.
+2 | Story: Die Fahrt zum Bauernhof | Und in der Nähe des Bauernhofs haben wir mehrere Rehe im Wald gesehen, ergänzte Emma.
+
+# 3. Klasse: Fleiß und Kuchen
+3 | Story: Fleiß und Kuchen | Lisa ist sehr fleißig und erledigt ihre Hausaufgaben immer direkt nach der Schule.
+3 | Story: Fleiß und Kuchen | Dadurch ist sie immer sehr schnell mit allem fertig und kann früher nach draußen gehen, sodass sie mit den anderen Kindern spielen kann.
+3 | Story: Fleiß und Kuchen | Wenn ihre Freunde noch Hausaufgaben machen müssen, geht Lisa so lange immer zu ihrem Opa und lässt sich Geschichten erzählen.
+3 | Story: Fleiß und Kuchen | Außerdem bekommt sie von ihrer Oma dann oft eine Tasse Milch und ein Stück süßen Nusskuchen.
+
+# 2. Klasse: In Omas Garten
+2 | Story: In Omas Garten | Meine Oma hat eine Menge Apfelbäume in ihrem Garten.
+2 | Story: In Omas Garten | Häufig fallen Äpfel von den Ästen.
+2 | Story: In Omas Garten | Auf der Wiese sind die Früchte ein leckeres Futter für die Tiere.
+2 | Story: In Omas Garten | Die Vögel picken gerne an dem reifen Obst.
+
+# 3. Klasse: Neu hier
+3 | Story: Neu hier | Seit gestern wohnt eine neue Familie in unserem Haus.
+3 | Story: Neu hier | Sie haben einen Sohn, der in mein Alter passt.
+3 | Story: Neu hier | Er erzählte mir, dass er aus Berlin kommt und gerne Fußball spielt.
+3 | Story: Neu hier | Ich habe ihn eingeladen, heute Nachmittag mit auf den Sportplatz zu kommen.
+
+# 4. Klasse: Der Gewinn
+4 | Story: Der Gewinn | Auf einer Tombola hat meine Mama ein Los gezogen.
+4 | Story: Der Gewinn | Bestimmt werde ich wieder nichts gewinnen, meinte sie noch beim Kauf.
+4 | Story: Der Gewinn | Doch das Los hatte die Nummer einhundert.
+4 | Story: Der Gewinn | Das war der Hauptgewinn.
+4 | Story: Der Gewinn | Nun besitzen wir ein neues, rotes Fahrrad.
+
+# 4. Klasse: Am Strand
+4 | Story: Am Strand | Im Sommer machten wir an einem Strand im schönen Italien Urlaub.
+4 | Story: Am Strand | Das Land ist bekannt für seine tausend verschiedenen Pizzen.
+4 | Story: Am Strand | Jeden Tag schwammen wir weit hinaus in das warme Meer.
+4 | Story: Am Strand | Abends liefen wir barfuß durch den weichen Sand.
