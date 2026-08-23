@@ -76,11 +76,22 @@
                     </div>
                 </div>
 
-                <div style="margin-top: 24px; display: flex; gap: 12px;">
-                    <button id="btn-create-profile" class="btn btn-primary" style="flex: 1;">Profil anlegen</button>
-                    <button id="btn-select-profile" class="btn btn-success" style="flex: 1; display: none;">Profil
-                        auswählen</button>
-                    <button id="btn-delete-profile" class="btn btn-danger" style="display: none;">🗑️</button>
+                <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+                    <button id="btn-create-profile" class="btn btn-primary" style="flex: 1; min-width: 120px;">Profil anlegen</button>
+                    <button id="btn-select-profile" class="btn btn-success" style="flex: 1; min-width: 120px; display: none;">Profil auswählen</button>
+                    <button id="btn-delete-profile" class="btn btn-danger" style="display: none; min-height: 44px; min-width: 44px; padding: 0;">🗑️</button>
+                    
+                    <!-- Edit Grade inline if a profile is selected -->
+                    <div id="edit-grade-container" style="display: none; align-items: center; justify-content: center; gap: 8px; width: 100%; margin-top: 12px; border-top: 1px solid var(--system-gray-light); padding-top: 12px;">
+                        <label for="edit-profile-grade" style="font-size: 14px; font-weight: 600;">Klasse ändern:</label>
+                        <select id="edit-profile-grade" style="min-height: 36px; padding: 4px 8px; font-size: 14px; border-radius: 8px; border: 1px solid var(--system-gray-light); background: var(--system-background); font-family: var(--font-rounded);">
+                            <option value="1">1. Klasse</option>
+                            <option value="2">2. Klasse</option>
+                            <option value="3">3. Klasse</option>
+                            <option value="4">4. Klasse</option>
+                        </select>
+                        <button id="btn-save-grade" class="btn btn-primary" style="min-height: 36px; padding: 0 12px; font-size: 14px; border-radius: 8px;">Speichern</button>
+                    </div>
                 </div>
             </div>
         </section>

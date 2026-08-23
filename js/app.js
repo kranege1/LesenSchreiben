@@ -111,6 +111,7 @@ class Application {
         document.getElementById('btn-create-profile').addEventListener('click', () => this.handleCreateProfile());
         document.getElementById('btn-select-profile').addEventListener('click', () => this.handleSelectProfile());
         document.getElementById('btn-delete-profile').addEventListener('click', () => this.handleDeleteProfile());
+        document.getElementById('btn-save-grade').addEventListener('click', () => this.handleSaveGrade());
         document.getElementById('btn-change-profile').addEventListener('click', () => this.switchView('profile-view'));
         
         // Avatar selection triggers
@@ -219,6 +220,8 @@ class Application {
             
             document.getElementById('btn-select-profile').style.display = 'none';
             document.getElementById('btn-delete-profile').style.display = 'none';
+            const editContainer = document.getElementById('edit-grade-container');
+            if (editContainer) editContainer.style.display = 'none';
             return;
         }
 
@@ -244,6 +247,30 @@ class Application {
         this.selectedProfileCandidate = profile;
         document.getElementById('btn-select-profile').style.display = 'block';
         document.getElementById('btn-delete-profile').style.display = 'block';
+
+        // Show edit grade container and select current grade
+        const editContainer = document.getElementById('edit-grade-container');
+        const editSelect = document.getElementById('edit-profile-grade');
+        if (editContainer && editSelect) {
+            editSelect.value = profile.grade.toString();
+            editContainer.style.display = 'flex';
+        }
+    }
+
+    async handleSaveGrade() {
+        if (!this.selectedProfileCandidate) return;
+        const editSelect = document.getElementById('edit-profile-grade');
+        if (!editSelect) return;
+        
+        const newGrade = parseInt(editSelect.value);
+        this.selectedProfileCandidate.grade = newGrade;
+        
+        // Save back to IndexedDB
+        await this.db.saveProfile(this.selectedProfileCandidate);
+        this.showStatusToast("Schulstufe erfolgreich aktualisiert!");
+        
+        // Reload profiles list
+        await this.loadProfiles();
     }
 
     async handleCreateProfile() {
@@ -305,9 +332,13 @@ class Application {
         if (!this.currentProfile) return;
         const currentGrade = this.currentProfile.grade;
         
-        // Extract unique themes/spelling categories matching the child's grade
-        const gradeSentences = this.sentences.filter(s => s.grade === currentGrade);
-        const themes = [...new Set(gradeSentences.map(s => s.theme).filter(Boolean))];
+        // Extract unique spelling categories from all sentences, prioritizing current grade categories
+        const allGradeSentences = this.sentences.filter(s => !s.story);
+        const currentGradeThemes = [...new Set(allGradeSentences.filter(s => s.grade === currentGrade).map(s => s.theme).filter(Boolean))];
+        const otherThemes = [...new Set(allGradeSentences.filter(s => s.grade !== currentGrade).map(s => s.theme).filter(Boolean))];
+        
+        const uniqueOtherThemes = otherThemes.filter(t => !currentGradeThemes.includes(t));
+        const themes = [...currentGradeThemes, ...uniqueOtherThemes];
         
         const container = document.getElementById('category-pills-list');
         if (!container) return;
@@ -371,22 +402,35 @@ class Application {
         const now = Date.now();
         const currentGrade = this.currentProfile.grade;
         
-        // Filter sentences by child's grade first, excluding stories
-        let pool = this.sentences.filter(s => s.grade === currentGrade && !s.story);
+        // Include sentences from all grades (excluding stories)
+        let pool = this.sentences.filter(s => !s.story);
         
         // Filter by selected spelling category if set
         if (this.currentCategory && this.currentCategory !== "Alle") {
             pool = pool.filter(s => s.theme === this.currentCategory);
         }
         
-        // 1. Prioritize NEW sentences matching the filtered pool first
         const learnedIds = progressList.map(p => p.sentenceId);
-        const availableInGrade = pool.filter(s => !learnedIds.includes(s.id));
+
+        // 1. Prioritize NEW sentences from the CURRENT grade
+        const availableInGrade = pool.filter(s => s.grade === currentGrade && !learnedIds.includes(s.id));
         if (availableInGrade.length > 0) {
             return availableInGrade[0];
         }
         
-        // 2. If all matching sentences have been introduced, check for due repetitions
+        // 2. Prioritize NEW sentences from OTHER grades (sorted by proximity/ascending)
+        const availableOthers = pool.filter(s => s.grade !== currentGrade && !learnedIds.includes(s.id));
+        if (availableOthers.length > 0) {
+            availableOthers.sort((a, b) => {
+                const diffA = Math.abs(a.grade - currentGrade);
+                const diffB = Math.abs(b.grade - currentGrade);
+                if (diffA !== diffB) return diffA - diffB;
+                return a.grade - b.grade;
+            });
+            return availableOthers[0];
+        }
+        
+        // 3. If all matching sentences are introduced, check for due repetitions
         const dueSentences = progressList.filter(p => p.nextReview <= now && p.box < 5);
         if (dueSentences.length > 0) {
             // Filter due repetitions to only include sentences from our pool
@@ -394,8 +438,18 @@ class Application {
             const dueFiltered = dueSentences.filter(d => poolIds.includes(d.sentenceId));
             
             if (dueFiltered.length > 0) {
-                // Sort by Box level ascending (lowest box first)
-                dueFiltered.sort((a, b) => a.box - b.box);
+                // Sort: current grade due sentences first, then sort by box level (lowest box first)
+                dueFiltered.sort((a, b) => {
+                    const sentA = this.sentences.find(s => s.id === a.sentenceId);
+                    const sentB = this.sentences.find(s => s.id === b.sentenceId);
+                    const isCurrA = sentA && sentA.grade === currentGrade;
+                    const isCurrB = sentB && sentB.grade === currentGrade;
+                    
+                    if (isCurrA && !isCurrB) return -1;
+                    if (!isCurrA && isCurrB) return 1;
+                    
+                    return a.box - b.box;
+                });
                 const targetId = dueFiltered[0].sentenceId;
                 const match = this.sentences.find(s => s.id === targetId);
                 if (match) {
@@ -405,13 +459,15 @@ class Application {
             }
         }
         
-        // 3. Fallback: take any sentence in the filtered pool
+        // 4. Fallback: take any sentence in the filtered pool (preferring current grade)
         if (pool.length > 0) {
-            const randIdx = Math.floor(Math.random() * pool.length);
-            return pool[randIdx];
+            const gradePool = pool.filter(s => s.grade === currentGrade);
+            const activePool = gradePool.length > 0 ? gradePool : pool;
+            const randIdx = Math.floor(Math.random() * activePool.length);
+            return activePool[randIdx];
         }
         
-        // 4. Ultimate fallback: take any random sentence from the entire pool
+        // 5. Ultimate fallback: take any random sentence from the entire pool
         const randIdx = Math.floor(Math.random() * this.sentences.length);
         return this.sentences[randIdx];
     }
@@ -994,11 +1050,11 @@ class Application {
         if (!container) return;
         container.innerHTML = "";
         
-        // Find unique stories and group their sentences
-        const gradeSentences = this.sentences.filter(s => s.grade === currentGrade && s.story);
+        // Group all stories from all grades
+        const storySentences = this.sentences.filter(s => s.story);
         const storiesMap = {};
         
-        gradeSentences.forEach(s => {
+        storySentences.forEach(s => {
             if (!storiesMap[s.story]) {
                 storiesMap[s.story] = [];
             }
@@ -1007,10 +1063,25 @@ class Application {
         
         const storyNames = Object.keys(storiesMap);
         if (storyNames.length === 0) {
-            container.innerHTML = `<p style="color: var(--text-secondary); text-align: center; margin-top: 24px;">Keine Geschichten für die ${currentGrade}. Klasse vorhanden.</p>`;
+            container.innerHTML = `<p style="color: var(--text-secondary); text-align: center; margin-top: 24px;">Keine Geschichten vorhanden.</p>`;
             this.switchView('stories-view');
             return;
         }
+
+        // Sort stories: current grade stories first, then other stories sorted by grade and title
+        storyNames.sort((a, b) => {
+            const gradeA = storiesMap[a][0].grade;
+            const gradeB = storiesMap[b][0].grade;
+            
+            const isCurrA = (gradeA === currentGrade);
+            const isCurrB = (gradeB === currentGrade);
+            
+            if (isCurrA && !isCurrB) return -1;
+            if (!isCurrA && isCurrB) return 1;
+            
+            if (gradeA !== gradeB) return gradeA - gradeB;
+            return a.localeCompare(b);
+        });
         
         storyNames.forEach(storyName => {
             const sList = storiesMap[storyName];
