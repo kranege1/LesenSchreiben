@@ -147,7 +147,7 @@ export class AppDB {
      * Box 1: Repetition immediately / first tier
      * Box 5: Mastered
      */
-    async recordResult(profileId, sentenceId, mode, isSuccess) {
+    async recordResult(profileId, sentenceId, mode, isSuccess, stats = {}) {
         await this.init();
         const recordId = `${profileId}_${sentenceId}`;
         let record = await this.getProgress(profileId, sentenceId);
@@ -162,7 +162,11 @@ export class AppDB {
                 errorsWriting: 0,
                 errorsReading: 0,
                 successCount: 0,
-                attempts: 0
+                attempts: 0,
+                points: undefined,
+                previousPoints: null,
+                lastErrorsList: [],
+                repeatedErrors: []
             };
         }
 
@@ -190,6 +194,21 @@ export class AppDB {
             } else {
                 record.errorsReading += 1;
             }
+        }
+
+        // Handle points and error list tracking
+        if (stats.points !== undefined) {
+            record.previousPoints = record.points !== undefined ? record.points : null;
+            record.points = stats.points;
+        }
+
+        if (stats.mistakes) {
+            const previousMistakes = record.lastErrorsList || [];
+            record.repeatedErrors = stats.mistakes.filter(w => previousMistakes.includes(w));
+            record.lastErrorsList = stats.mistakes;
+        } else {
+            record.repeatedErrors = [];
+            record.lastErrorsList = [];
         }
 
         await this.saveProgress(record);

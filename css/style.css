@@ -725,3 +725,50 @@ canvas {
     box-shadow: var(--shadow-active);
 }
 
+.word-bubble.skipped {
+    background-color: rgba(255, 149, 0, 0.15);
+    color: #FF9500;
+    border-color: rgba(255, 149, 0, 0.4);
+}
+
+/* Summary Modal styling */
+.summary-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.summary-modal.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.summary-modal-content {
+    background: var(--card-background);
+    padding: 32px;
+    border-radius: var(--radius-ios);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 500px;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.summary-modal.active .summary-modal-content {
+    transform: translateY(0);
+}
+

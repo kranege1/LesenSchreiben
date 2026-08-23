@@ -154,11 +154,14 @@ class Application {
                 this.audio.playSentence(this.currentSentence.id, this.currentSentence.sentence);
             }
         });
+        document.getElementById('btn-write-skip').addEventListener('click', () => this.handleSkipWord());
 
         // Speech controls
         document.getElementById('btn-read-mic').addEventListener('click', () => this.toggleSpeechListening());
         document.getElementById('btn-read-speak-help').addEventListener('click', () => this.playCurrentReadingWordHelp());
+        document.getElementById('btn-read-word-skip').addEventListener('click', () => this.handleReadWordSkip());
         document.getElementById('btn-read-skip').addEventListener('click', () => this.nextSentence());
+        document.getElementById('btn-summary-close').addEventListener('click', () => this.closeSummaryModal());
     }
 
     switchView(viewId) {
@@ -555,6 +558,8 @@ class Application {
         this.currentSentence = sentence;
         this.currentWordIndex = 0;
         this.sentenceHasError = false;
+        this.skippedWords = [];
+        this.mistakenWords = [];
         
         // Update Story Progress Bar if in story mode
         this.updateStoryProgressBar();
@@ -612,7 +617,11 @@ class Application {
             if (idx < this.currentWordIndex) {
                 // Solved
                 bubble.innerText = wData.clean;
-                bubble.classList.add('correct');
+                if (this.skippedWords.includes(idx)) {
+                    bubble.classList.add('skipped');
+                } else {
+                    bubble.classList.add('correct');
+                }
             } else if (idx === this.currentWordIndex) {
                 // Active
                 bubble.classList.add('active', 'masked');
@@ -833,42 +842,7 @@ class Application {
             if (this.currentWordIndex >= this.currentSentence.words.length) {
                 // Full sentence solved!
                 this.showStatusToast("Satz komplett gelöst! 🎉");
-                
-                // Record Leitner success
-                await this.db.recordResult(
-                    this.currentProfile.id,
-                    this.currentSentence.id,
-                    'write',
-                    !this.sentenceHasError
-                );
-
-                // Show progress bar container
-                const pbContainer = document.getElementById('write-progress-bar-container');
-                const pb = document.getElementById('write-progress-bar');
-                if (pbContainer && pb) {
-                    pb.style.transition = 'none';
-                    pb.style.width = '0%';
-                    pbContainer.style.display = 'block';
-                }
-
-                // Register dynamic progress listener
-                this.audio.onPlayProgress = (percent) => {
-                    if (pb) {
-                        pb.style.transition = 'none';
-                        pb.style.width = (percent * 100) + '%';
-                    }
-                };
-
-                // Play the whole sentence and wait until finished
-                await this.audio.playSentence(this.currentSentence.id, this.currentSentence.sentence);
-                
-                // Unregister progress listener
-                this.audio.onPlayProgress = null;
-                
-                setTimeout(() => {
-                    if (pbContainer) pbContainer.style.display = 'none';
-                    this.nextSentence();
-                }, 500);
+                await this.finishCurrentSentence();
             } else {
                 this.setupWritingWord();
             }
@@ -876,6 +850,9 @@ class Application {
             // Incorrect attempt
             this.sentenceHasError = true;
             this.wordMistakes++;
+            if (!this.mistakenWords.includes(activeWord.clean)) {
+                this.mistakenWords.push(activeWord.clean);
+            }
             
             // Visual Shake feedback on wrapper & input field
             if (wordWrapper) wordWrapper.classList.add('shake');
@@ -955,9 +932,13 @@ class Application {
         const words = container.querySelectorAll('.reading-word');
         
         words.forEach((wSpan, idx) => {
-            wSpan.classList.remove('active', 'correct');
+            wSpan.classList.remove('active', 'correct', 'skipped');
             if (idx < this.currentWordIndex) {
-                wSpan.classList.add('correct');
+                if (this.skippedWords.includes(idx)) {
+                    wSpan.classList.add('skipped');
+                } else {
+                    wSpan.classList.add('correct');
+                }
             } else if (idx === this.currentWordIndex) {
                 wSpan.classList.add('active');
             }
@@ -1023,18 +1004,243 @@ class Application {
             // Play sentence confirmation audio
             await this.audio.playSentence(this.currentSentence.id, this.currentSentence.sentence);
             
-            // Record progress success (box promote)
-            await this.db.recordResult(
-                this.currentProfile.id,
-                this.currentSentence.id,
-                'read',
-                !this.sentenceHasError
-            );
-
-            setTimeout(() => {
-                this.nextSentence();
-            }, 2000);
+            // Record progress & display summary
+            await this.finishCurrentReadingSentence();
         }
+    }
+
+    // --- WORD SKIPPING & PRACTICE SUMMARIES ---
+    handleSkipWord() {
+        if (!this.currentSentence) return;
+        const activeWord = this.currentSentence.words[this.currentWordIndex];
+        
+        this.skippedWords.push(this.currentWordIndex);
+        
+        const wordWrapper = document.getElementById('write-sentence-container').children[this.currentWordIndex];
+        const wordBubble = wordWrapper ? wordWrapper.querySelector('.word-bubble') : null;
+        if (wordBubble) {
+            wordBubble.innerText = activeWord.clean;
+            wordBubble.classList.remove('active', 'masked');
+            wordBubble.classList.add('skipped');
+        }
+        
+        this.sentenceHasError = true;
+        this.showStatusToast(`Wort übersprungen: ${activeWord.clean}`, "warning");
+        
+        this.currentWordIndex++;
+        if (this.currentWordIndex >= this.currentSentence.words.length) {
+            this.finishCurrentSentence();
+        } else {
+            this.setupWritingWord();
+        }
+    }
+
+    handleReadWordSkip() {
+        if (!this.currentSentence) return;
+        
+        this.skippedWords.push(this.currentWordIndex);
+        
+        const container = document.getElementById('read-sentence-container');
+        const words = container.querySelectorAll('.reading-word');
+        const activeWordSpan = words[this.currentWordIndex];
+        if (activeWordSpan) {
+            activeWordSpan.classList.remove('active');
+            activeWordSpan.classList.add('skipped');
+        }
+        
+        this.sentenceHasError = true;
+        this.showStatusToast(`Wort übersprungen: ${this.currentSentence.words[this.currentWordIndex].clean}`, "warning");
+        
+        // Feed matching simulator next step to speech engine if listening
+        if (this.speech.isListening) {
+            this.speech.currentWordIdx = this.currentWordIndex + 1;
+        }
+
+        this.currentWordIndex++;
+        if (this.currentWordIndex >= this.currentSentence.words.length) {
+            this.finishCurrentReadingSentence();
+        } else {
+            this.highlightActiveReadingWord();
+            this.updateStoryProgressBar();
+        }
+    }
+
+    async finishCurrentSentence() {
+        let earnedPoints = 0;
+        const totalMistakes = this.mistakenWords.length;
+        const totalSkips = this.skippedWords.length;
+
+        if (totalSkips > 0) {
+            earnedPoints = 0;
+        } else if (totalMistakes === 0) {
+            earnedPoints = 10;
+        } else if (totalMistakes <= 2) {
+            earnedPoints = 5;
+        } else {
+            earnedPoints = 2;
+        }
+
+        const isSuccess = !this.sentenceHasError;
+        const stats = {
+            points: earnedPoints,
+            mistakes: this.mistakenWords,
+            skipped: this.skippedWords
+        };
+        
+        const progressRecord = await this.db.recordResult(
+            this.currentProfile.id,
+            this.currentSentence.id,
+            this.currentMode,
+            isSuccess,
+            stats
+        );
+
+        const pbContainer = document.getElementById('write-progress-bar-container');
+        const pb = document.getElementById('write-progress-bar');
+        if (pbContainer && pb) {
+            pb.style.transition = 'none';
+            pb.style.width = '0%';
+            pbContainer.style.display = 'block';
+        }
+
+        this.audio.onPlayProgress = (percent) => {
+            if (pb) {
+                pb.style.transition = 'none';
+                pb.style.width = (percent * 100) + '%';
+            }
+        };
+
+        await this.audio.playSentence(this.currentSentence.id, this.currentSentence.sentence);
+        
+        this.audio.onPlayProgress = null;
+        if (pbContainer) pbContainer.style.display = 'none';
+
+        this.showSummaryModal(earnedPoints, progressRecord);
+    }
+
+    async finishCurrentReadingSentence() {
+        let earnedPoints = 0;
+        const totalMistakes = this.mistakenWords.length;
+        const totalSkips = this.skippedWords.length;
+
+        if (totalSkips > 0) {
+            earnedPoints = 0;
+        } else if (totalMistakes === 0) {
+            earnedPoints = 10;
+        } else if (totalMistakes <= 2) {
+            earnedPoints = 5;
+        } else {
+            earnedPoints = 2;
+        }
+
+        const isSuccess = !this.sentenceHasError;
+        const stats = {
+            points: earnedPoints,
+            mistakes: this.mistakenWords,
+            skipped: this.skippedWords
+        };
+
+        const progressRecord = await this.db.recordResult(
+            this.currentProfile.id,
+            this.currentSentence.id,
+            this.currentMode,
+            isSuccess,
+            stats
+        );
+
+        if (this.speech.isListening) {
+            this.toggleSpeechListening();
+        }
+
+        this.showSummaryModal(earnedPoints, progressRecord);
+    }
+
+    showSummaryModal(points, progressRecord) {
+        const modal = document.getElementById('summary-modal');
+        if (!modal) return;
+
+        document.getElementById('summary-repeated-error-alert').style.display = 'none';
+        document.getElementById('summary-mistakes-container').style.display = 'none';
+        document.getElementById('summary-skipped-container').style.display = 'none';
+
+        const scoreBadge = document.getElementById('summary-score-badge');
+        scoreBadge.innerText = `+${points} Punkte!`;
+        if (points === 10) {
+            scoreBadge.style.color = 'var(--success-green)';
+        } else if (points >= 5) {
+            scoreBadge.style.color = 'var(--accent-blue)';
+        } else if (points > 0) {
+            scoreBadge.style.color = '#FF9500';
+        } else {
+            scoreBadge.style.color = 'var(--text-secondary)';
+        }
+
+        const scoreCompare = document.getElementById('summary-score-compare');
+        if (progressRecord.previousPoints !== null && progressRecord.previousPoints !== undefined) {
+            const diff = points - progressRecord.previousPoints;
+            let diffText = "";
+            if (diff > 0) {
+                diffText = ` (Vorher: ${progressRecord.previousPoints} Punkte - Verbesserung! 📈)`;
+            } else if (diff < 0) {
+                diffText = ` (Vorher: ${progressRecord.previousPoints} Punkte - Nächstes Mal schaffst du wieder mehr! 💪)`;
+            } else {
+                diffText = ` (Vorher: ${progressRecord.previousPoints} Punkte - Konstant gut! 🎯)`;
+            }
+            scoreCompare.innerText = diffText;
+        } else {
+            scoreCompare.innerText = "(Erster Versuch bei diesem Satz)";
+        }
+
+        if (progressRecord.repeatedErrors && progressRecord.repeatedErrors.length > 0) {
+            const list = document.getElementById('summary-repeated-error-list');
+            list.innerHTML = "";
+            progressRecord.repeatedErrors.forEach(w => {
+                const li = document.createElement('li');
+                li.innerText = w;
+                list.appendChild(li);
+            });
+            document.getElementById('summary-repeated-error-alert').style.display = 'block';
+        }
+
+        const solvedList = document.getElementById('summary-solved-list');
+        solvedList.innerHTML = "";
+        const mistakesList = document.getElementById('summary-mistakes-list');
+        mistakesList.innerHTML = "";
+        const skippedList = document.getElementById('summary-skipped-list');
+        skippedList.innerHTML = "";
+
+        this.currentSentence.words.forEach((wData, idx) => {
+            const span = document.createElement('span');
+            span.style.padding = '4px 8px';
+            span.style.borderRadius = '6px';
+            span.style.fontSize = '14px';
+            span.style.fontWeight = '600';
+            span.innerText = wData.clean;
+
+            if (this.skippedWords.includes(idx)) {
+                span.style.background = 'rgba(255, 149, 0, 0.15)';
+                span.style.color = '#FF9500';
+                skippedList.appendChild(span);
+                document.getElementById('summary-skipped-container').style.display = 'block';
+            } else if (this.mistakenWords.includes(wData.clean)) {
+                span.style.background = 'rgba(255, 59, 48, 0.15)';
+                span.style.color = 'var(--error-red)';
+                mistakesList.appendChild(span);
+                document.getElementById('summary-mistakes-container').style.display = 'block';
+            } else {
+                span.style.background = 'rgba(52, 199, 89, 0.15)';
+                span.style.color = 'var(--success-green)';
+                solvedList.appendChild(span);
+            }
+        });
+
+        modal.classList.add('active');
+    }
+
+    closeSummaryModal() {
+        const modal = document.getElementById('summary-modal');
+        if (modal) modal.classList.remove('active');
+        this.nextSentence();
     }
 
     // Stuck Tracking timer (> 4 seconds trigger helper)

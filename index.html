@@ -31,7 +31,7 @@
             style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center;">
             <h1 id="app-title-logo" style="margin: 0; font-size: 20px; justify-content: center;">✍️ Lesen & Schreiben
             </h1>
-            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-23 09:19:03]</span>
+            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-23 09:27:10]</span>
         </div>
 
         <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end;">
@@ -222,6 +222,7 @@
                     <button id="btn-write-pencil-toggle" class="btn btn-secondary">✏️ Stift einblenden</button>
                     <button id="btn-write-speak" class="btn btn-secondary">🔊 Wort hören</button>
                     <button id="btn-write-speak-sentence" class="btn btn-secondary">🔊 Satz hören</button>
+                    <button id="btn-write-skip" class="btn btn-secondary" style="background-color: var(--system-gray-light); color: var(--text-primary);">⏭️ Überspringen</button>
                     <button id="btn-write-check" class="btn btn-success">✓ Überprüfen</button>
                 </div>
             </div>
@@ -279,6 +280,7 @@
                 <button id="btn-read-back" class="btn btn-secondary">🚪 Beenden</button>
                 <div style="display: flex; gap: 12px;">
                     <button id="btn-read-speak-help" class="btn btn-secondary">🔊 Wort vorlesen</button>
+                    <button id="btn-read-word-skip" class="btn btn-secondary" style="background-color: var(--system-gray-light); color: var(--text-primary);">⏭️ Wort überspringen</button>
                     <button id="btn-read-skip" class="btn btn-secondary">Nächster Satz ➡️</button>
                 </div>
             </div>
@@ -336,6 +338,44 @@
 
     <!-- App Engine script loader (type="module") -->
     <script type="module" src="js/app.js"></script>
+
+    <!-- Zusammenfassungs-Modal (Practice Summary Modal) -->
+    <div id="summary-modal" class="summary-modal">
+        <div class="summary-modal-content">
+            <h2 id="summary-title" style="margin-top: 0; text-align: center; color: var(--accent-blue);">Geschafft! 📝</h2>
+            
+            <div style="text-align: center; margin: 20px 0;">
+                <div id="summary-score-badge" style="font-size: 36px; font-weight: 800; color: var(--success-green);">+10 Punkte!</div>
+                <div id="summary-score-compare" style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;"></div>
+            </div>
+
+            <div id="summary-repeated-error-alert" style="display: none; background: rgba(255, 59, 48, 0.1); border: 1px solid var(--error-red); border-radius: 8px; padding: 12px; margin-bottom: 20px; color: var(--error-red); font-size: 14px; font-weight: 500;">
+                ⚠️ <b>Wiederholte Fehler entdeckt:</b> Diese Wörter hast du schon beim letzten Mal falsch gemacht. Übe sie besonders fleißig!
+                <ul id="summary-repeated-error-list" style="margin-top: 6px; margin-left: 20px; font-family: monospace; font-size: 15px; text-align: left;"></ul>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 24px;">
+                <div>
+                    <h4 style="margin: 0 0 6px 0; font-size: 14px; font-weight: 700; color: var(--success-green);">Richtig gelöst:</h4>
+                    <div id="summary-solved-list" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+                </div>
+                
+                <div id="summary-mistakes-container" style="display: none;">
+                    <h4 style="margin: 0 0 6px 0; font-size: 14px; font-weight: 700; color: var(--error-red);">Mit Fehlern geschrieben:</h4>
+                    <div id="summary-mistakes-list" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+                </div>
+
+                <div id="summary-skipped-container" style="display: none;">
+                    <h4 style="margin: 0 0 6px 0; font-size: 14px; font-weight: 700; color: #FF9500;">Übersprungene Wörter:</h4>
+                    <div id="summary-skipped-list" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <button id="btn-summary-close" class="btn btn-primary" style="width: 100%;">Weiter</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Register service worker -->
     <script>
