@@ -7,11 +7,13 @@ export class PencilCanvas {
     /**
      * @param {HTMLCanvasElement} canvasElement - The drawing canvas
      * @param {HTMLDivElement} ghostOverlay - Div for ghosting text container
+     * @param {Function} onStrokeEnd - Callback when a stroke is completed
      */
-    constructor(canvasElement, ghostOverlay) {
+    constructor(canvasElement, ghostOverlay, onStrokeEnd = null) {
         this.canvas = canvasElement;
         this.ctx = canvasElement.getContext('2d');
         this.ghostOverlay = ghostOverlay;
+        this.onStrokeEnd = onStrokeEnd;
         
         this.strokes = []; // undo history
         this.currentStroke = [];
@@ -186,6 +188,9 @@ export class PencilCanvas {
     stopDrawing(e) {
         this.isDrawing = false;
         this.redraw();
+        if (this.onStrokeEnd) {
+            this.onStrokeEnd();
+        }
     }
 
     /**
@@ -201,5 +206,58 @@ export class PencilCanvas {
             this.ghostOverlay.style.opacity = '0';
             this.ghostOverlay.innerText = '';
         }
+    }
+
+    /**
+     * Sends drawing stroke coordinate streams to Google IME Handwriting service for OCR transcription.
+     * @returns {Promise<Array|null>} recognized text string candidates list
+     */
+    async recognizeHandwriting() {
+        if (this.strokes.length === 0) return null;
+        
+        const rect = this.canvas.getBoundingClientRect();
+        const ink = this.strokes.map(stroke => {
+            const x = stroke.map(pt => Math.round(pt.x));
+            const y = stroke.map(pt => Math.round(pt.y));
+            const t = stroke.map((pt, idx) => idx * 20); // dummy delta timestamps
+            return [x, y, t];
+        });
+        
+        const payload = {
+            app_version: 0.4,
+            api_level: "537.36",
+            device: navigator.userAgent,
+            input_type: 0,
+            languages: ["de"],
+            options: "enable_pre_space",
+            requests: [
+                {
+                    writing_guide: {
+                        writing_area_width: Math.round(rect.width),
+                        writing_area_height: Math.round(rect.height)
+                    },
+                    pre_context: "",
+                    max_num_results: 3,
+                    max_completions: 0,
+                    language: "de",
+                    ink: ink
+                }
+            ]
+        };
+        
+        try {
+            const res = await fetch('https://inputtools.google.com/request?itc=de-t-i0-handwrit&app=translate', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            const data = await res.json();
+            if (data && data[0] === 'SUCCESS') {
+                return data[1][0][1];
+            }
+        } catch (e) {
+            console.error("Handwriting recognition failed:", e);
+        }
+        return null;
     }
 }

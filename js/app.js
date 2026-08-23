@@ -58,7 +58,7 @@ class Application {
         // Initialize canvas
         const canvasEl = document.getElementById('pencil-canvas');
         const ghostEl = document.getElementById('ghost-text-overlay');
-        this.canvas = new PencilCanvas(canvasEl, ghostEl);
+        this.canvas = new PencilCanvas(canvasEl, ghostEl, () => this.handleCanvasStrokeEnd());
         
         // Initialize virtual keyboard
         const kbContainer = document.getElementById('smart-keyboard-container');
@@ -136,8 +136,16 @@ class Application {
         document.getElementById('btn-stories-back').addEventListener('click', () => this.switchView('menu-view'));
 
         // Canvas Controls
-        document.getElementById('btn-canvas-clear').addEventListener('click', () => this.canvas.clear());
-        document.getElementById('btn-canvas-undo').addEventListener('click', () => this.canvas.undo());
+        document.getElementById('btn-canvas-clear').addEventListener('click', () => {
+            this.canvas.clear();
+            this.inputBuffer = "";
+            this.updateWriteInputIndicator();
+            this.clearLetterStuckTimer();
+        });
+        document.getElementById('btn-canvas-undo').addEventListener('click', () => {
+            this.canvas.undo();
+            this.handleCanvasStrokeEnd();
+        });
         document.getElementById('btn-write-pencil-toggle').addEventListener('click', () => this.togglePencilPanel());
         document.getElementById('btn-write-keyboard-toggle').addEventListener('click', () => this.toggleKeyboardPanel());
         
@@ -1815,6 +1823,31 @@ class Application {
         });
         
         this.switchView('stories-view');
+    }
+
+    handleCanvasStrokeEnd() {
+        if (this.canvasRecognitionTimeout) {
+            clearTimeout(this.canvasRecognitionTimeout);
+        }
+        this.canvasRecognitionTimeout = setTimeout(() => {
+            this.runCanvasRecognition();
+        }, 1100);
+    }
+
+    async runCanvasRecognition() {
+        if (!this.currentSentence || this.currentMode !== 'write') return;
+        if (this.canvas.strokes.length === 0) return;
+
+        this.showStatusToast("Erkenne Schrift... ✏️");
+        const candidates = await this.canvas.recognizeHandwriting();
+        if (candidates && candidates.length > 0) {
+            const bestMatch = candidates[0].trim();
+            // Populate buffer with handwriting result
+            this.inputBuffer = bestMatch;
+            this.updateWriteInputIndicator();
+            this.showStatusToast(`Erkannt: "${bestMatch}"`);
+            this.resetLetterStuckTimer();
+        }
     }
 }
 
