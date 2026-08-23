@@ -1347,6 +1347,9 @@ class Application {
     resetStuckTimer() {
         this.clearStuckTimer();
         
+        // Only run stuck tracker if speech recognition is actively listening!
+        if (!this.speech || !this.speech.isListening) return;
+        
         this.stuckTimer = setTimeout(async () => {
             if (this.currentMode === 'read' && this.currentSentence) {
                 // Visual wiggle or prompt to tap active word
