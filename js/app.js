@@ -1009,6 +1009,11 @@ class Application {
         this.highlightActiveReadingWord();
         this.updateStoryProgressBar();
         this.resetStuckTimer();
+
+        // Automatically activate microphone on start
+        if (!this.speech.isListening) {
+            this.toggleSpeechListening();
+        }
     }
 
     highlightActiveReadingWord() {
