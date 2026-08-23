@@ -120,22 +120,47 @@ export class AppSpeech {
         if (this.currentWordIndex >= this.targetWords.length) return;
 
         // Clean punctuation from speech words
-        const spokenTokens = transcript
+        const cleanTranscript = transcript
             .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?]/g, "")
-            .split(/\s+/);
+            .toLowerCase();
 
-        let advanced = false;
-        
-        // Scan spoken words to see if we match the next expected word(s)
-        for (const token of spokenTokens) {
-            if (this.currentWordIndex >= this.targetWords.length) break;
+        // Strip all spaces for compound word checking (e.g. "so dass" vs "sodass")
+        const spaceStrippedTranscript = cleanTranscript.replace(/\s+/g, "");
 
+        let advanced = true;
+        while (advanced && this.currentWordIndex < this.targetWords.length) {
+            advanced = false;
             const target = this.targetWords[this.currentWordIndex];
-            
-            // Loose comparison: check matching or substring (to handle slight recognition variations)
-            if (token === target || 
-                this._isFuzzyMatch(token, target)) {
-                
+            const targetNorm = this._normalizeGerman(target);
+
+            // 1. Direct search in transcript tokens
+            const spokenTokens = cleanTranscript.split(/\s+/);
+            let matched = false;
+            for (const token of spokenTokens) {
+                const tokenNorm = this._normalizeGerman(token);
+                if (tokenNorm === targetNorm || this._isFuzzyMatch(tokenNorm, targetNorm)) {
+                    matched = true;
+                    break;
+                }
+            }
+
+            // 2. Compound word matching (target is "sodass", transcript has "so dass")
+            if (!matched) {
+                const targetNoSpace = targetNorm.replace(/\s+/g, "");
+                if (spaceStrippedTranscript.includes(targetNoSpace)) {
+                    matched = true;
+                }
+            }
+
+            // 3. Reverse compound matching (target is "so dass", transcript has "sodass")
+            if (!matched && targetNorm.includes(" ")) {
+                const targetNoSpace = targetNorm.replace(/\s+/g, "");
+                if (spaceStrippedTranscript.includes(targetNoSpace)) {
+                    matched = true;
+                }
+            }
+
+            if (matched) {
                 this.onWordMatched(this.currentWordIndex);
                 this.currentWordIndex++;
                 advanced = true;
@@ -149,25 +174,39 @@ export class AppSpeech {
     }
 
     /**
-     * Allow minor speech variations (e.g. spelling of umlauts or endings)
+     * Normalize common German speech recognition replacements, numbers, and compounds
      */
-    _isFuzzyMatch(spoken, target) {
-        if (spoken.length < 2 || target.length < 2) return false;
-        
-        // Normalize common German speech recognition replacements
-        const norm = (s) => s
+    _normalizeGerman(text) {
+        if (!text) return "";
+        return text.toLowerCase()
             .replace(/ae/g, 'ä')
             .replace(/oe/g, 'ö')
             .replace(/ue/g, 'ü')
-            .replace(/ß/g, 'ss');
+            .replace(/ß/g, 'ss')
+            .replace(/\b1000\b/g, 'tausend')
+            .replace(/\b100\b/g, 'hundert')
+            .replace(/\b10\b/g, 'zehn')
+            .replace(/\b9\b/g, 'neun')
+            .replace(/\b8\b/g, 'acht')
+            .replace(/\b7\b/g, 'sieben')
+            .replace(/\b6\b/g, 'sechs')
+            .replace(/\b5\b/g, 'fünf')
+            .replace(/\b4\b/g, 'vier')
+            .replace(/\b3\b/g, 'drei')
+            .replace(/\b2\b/g, 'zwei')
+            .replace(/\b1\b/g, 'eins');
+    }
 
-        const sNorm = norm(spoken);
-        const tNorm = norm(target);
-
+    /**
+     * Allow minor speech variations (e.g. spelling of umlauts or endings)
+     */
+    _isFuzzyMatch(sNorm, tNorm) {
+        if (sNorm.length < 2 || tNorm.length < 2) return false;
+        
         if (sNorm === tNorm) return true;
 
         // Levenshtein / simple edit distance fallback for longer words
-        if (target.length > 5) {
+        if (tNorm.length > 5) {
             const distance = this._editDistance(sNorm, tNorm);
             return distance <= 1; // allow 1 character difference
         }
