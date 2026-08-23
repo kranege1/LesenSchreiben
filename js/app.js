@@ -3,7 +3,7 @@
  */
 
 import { AppDB } from './db.js';
-import { AppAudio } from './audio.js';
+import { AppAudio, SOUNDS_REGISTRY } from './audio.js';
 import { PencilCanvas } from './canvas.js';
 import { SmartKeyboard } from './keyboard.js';
 import { AppSpeech } from './speech.js';
@@ -222,6 +222,47 @@ class Application {
         
         document.getElementById('btn-check-audio').addEventListener('click', () => this.checkAudioStatus());
         document.getElementById('btn-generate-audio').addEventListener('click', () => this.generateMissingAudio());
+
+        // Sound selectors listeners
+        const successSelect = document.getElementById('select-sound-success');
+        const errorSelect = document.getElementById('select-sound-error');
+
+        if (successSelect && errorSelect) {
+            // Populate success dropdown
+            SOUNDS_REGISTRY.filter(s => s.type === 'success').forEach(s => {
+                const opt = document.createElement('option');
+                opt.value = s.id;
+                opt.innerText = s.name;
+                successSelect.appendChild(opt);
+            });
+            // Populate error dropdown
+            SOUNDS_REGISTRY.filter(s => s.type === 'error').forEach(s => {
+                const opt = document.createElement('option');
+                opt.value = s.id;
+                opt.innerText = s.name;
+                errorSelect.appendChild(opt);
+            });
+
+            // Set current values
+            successSelect.value = localStorage.getItem('soundSuccess') || 'success_fanfare';
+            errorSelect.value = localStorage.getItem('soundError') || 'error_buzz';
+
+            // Change listeners
+            successSelect.addEventListener('change', (e) => {
+                localStorage.setItem('soundSuccess', e.target.value);
+            });
+            errorSelect.addEventListener('change', (e) => {
+                localStorage.setItem('soundError', e.target.value);
+            });
+
+            // Preview listeners
+            document.getElementById('btn-play-success-preview').addEventListener('click', () => {
+                this.audio.playRegistrySound(successSelect.value);
+            });
+            document.getElementById('btn-play-error-preview').addEventListener('click', () => {
+                this.audio.playRegistrySound(errorSelect.value);
+            });
+        }
     }
 
     switchView(viewId) {
