@@ -1211,6 +1211,11 @@ class Application {
             this.audio.playErrorSound();
         }
 
+        const hasSignificantErrors = this.skippedWords.length > 0 || this.mistakenWords.length > 1;
+        if (!hasSignificantErrors) {
+            this.showCenterPointsSplash(earnedPoints);
+        }
+
         const pbContainer = document.getElementById('write-progress-bar-container');
         const pb = document.getElementById('write-progress-bar');
         if (pbContainer && pb) {
@@ -1231,11 +1236,9 @@ class Application {
         this.audio.onPlayProgress = null;
         if (pbContainer) pbContainer.style.display = 'none';
 
-        const hasSignificantErrors = this.skippedWords.length > 0 || this.mistakenWords.length > 1;
         if (hasSignificantErrors) {
             this.showSummaryModal(earnedPoints, progressRecord);
         } else {
-            this.showCenterPointsSplash(earnedPoints);
             this.nextSentence();
         }
     }
