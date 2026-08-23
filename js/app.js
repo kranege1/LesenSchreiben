@@ -1936,6 +1936,14 @@ class Application {
             this.updateWriteInputIndicator();
             this.showStatusToast(`Erkannt: "${bestMatch}"`);
             this.resetLetterStuckTimer();
+
+            // Automatically advance if it matches target word exactly
+            const activeWord = this.currentSentence.words[this.currentWordIndex];
+            if (activeWord && bestMatch.toLowerCase() === activeWord.clean.toLowerCase()) {
+                setTimeout(() => {
+                    this.checkWrittenWord();
+                }, 400); // 400ms delay so they can see the word populated
+            }
         }
     }
 
