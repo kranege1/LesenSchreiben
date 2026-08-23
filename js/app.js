@@ -322,6 +322,7 @@ class Application {
         
         document.getElementById('active-profile-name').innerText = this.currentProfile.name;
         badge.style.display = 'flex';
+        await this.updateProfileScoreUI(this.currentProfile.id, 0);
         
         // Set Menu welcome text
         document.getElementById('menu-welcome-text').innerText = `Hallo, ${this.currentProfile.name}! 👋`;
@@ -874,6 +875,7 @@ class Application {
             }, 600);
 
             // Play mistake buzzer/sound or repeat word
+            this.audio.playErrorSound();
             await this.audio.playWord(activeWord.clean);
 
             // Scaffolding Logic:
@@ -1035,6 +1037,7 @@ class Application {
         }
         
         this.sentenceHasError = true;
+        this.audio.playErrorSound();
         this.showStatusToast(`Wort übersprungen: ${activeWord.clean}`, "warning");
         
         this.currentWordIndex++;
@@ -1059,6 +1062,7 @@ class Application {
         }
         
         this.sentenceHasError = true;
+        this.audio.playErrorSound();
         this.showStatusToast(`Wort übersprungen: ${this.currentSentence.words[this.currentWordIndex].clean}`, "warning");
         
         // Feed matching simulator next step to speech engine if listening
@@ -1110,6 +1114,15 @@ class Application {
             isSuccess,
             stats
         );
+
+        await this.updateProfileScoreUI(this.currentProfile.id, earnedPoints);
+
+        const maxPossiblePoints = this.currentSentence.words.length * 10;
+        if (earnedPoints === maxPossiblePoints) {
+            this.audio.playSuccessFanfare();
+        } else if (earnedPoints === 0) {
+            this.audio.playErrorSound();
+        }
 
         const pbContainer = document.getElementById('write-progress-bar-container');
         const pb = document.getElementById('write-progress-bar');
@@ -1169,6 +1182,15 @@ class Application {
             isSuccess,
             stats
         );
+
+        await this.updateProfileScoreUI(this.currentProfile.id, earnedPoints);
+
+        const maxPossiblePoints = this.currentSentence.words.length * 10;
+        if (earnedPoints === maxPossiblePoints) {
+            this.audio.playSuccessFanfare();
+        } else if (earnedPoints === 0) {
+            this.audio.playErrorSound();
+        }
 
         if (this.speech.isListening) {
             this.toggleSpeechListening();
@@ -1423,6 +1445,38 @@ class Application {
         if (container) container.style.display = 'none';
     }
 
+    async updateProfileScoreUI(profileId, pointsToAdd = 0) {
+        if (!this.currentProfile || this.currentProfile.id !== profileId) return;
+
+        const progressRecords = await this.db.getProfileProgress(profileId);
+        let totalScore = 0;
+        progressRecords.forEach(r => {
+            if (r.points !== undefined && r.points !== null) {
+                totalScore += r.points;
+            }
+        });
+
+        const scoreEl = document.getElementById('active-profile-score');
+        if (scoreEl) {
+            scoreEl.innerText = `⭐ ${totalScore} Punkte`;
+        }
+
+        // Play floating points animation
+        if (pointsToAdd > 0) {
+            const badge = document.getElementById('active-profile-badge');
+            if (badge) {
+                const animSpan = document.createElement('span');
+                animSpan.className = 'score-floating-anim';
+                animSpan.innerText = `+${pointsToAdd}`;
+                badge.appendChild(animSpan);
+
+                setTimeout(() => {
+                    animSpan.remove();
+                }, 1400);
+            }
+        }
+    }
+
     // Stuck Tracking timer (> 4 seconds trigger helper)
     resetStuckTimer() {
         this.clearStuckTimer();
@@ -1437,6 +1491,7 @@ class Application {
                 
                 // Track reading error in progress store since child stalled
                 this.sentenceHasError = true;
+                this.audio.playErrorSound();
                 
                 if (!this.wordMistakeCounts[this.currentWordIndex]) {
                     this.wordMistakeCounts[this.currentWordIndex] = 0;

@@ -161,4 +161,65 @@ export class AppAudio {
             this.synth.cancel();
         }
     }
+
+    /**
+     * Synthesize a cheerful success fanfare chime when a perfect score is achieved.
+     */
+    playSuccessFanfare() {
+        try {
+            const AudioContext = window.AudioContext || window.webkitAudioContext;
+            const ctx = new AudioContext();
+            
+            const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+            const startTime = ctx.currentTime;
+            
+            notes.forEach((freq, idx) => {
+                const osc = ctx.createOscillator();
+                const gain = ctx.createGain();
+                
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(freq, startTime + idx * 0.10);
+                
+                gain.gain.setValueAtTime(0, startTime + idx * 0.10);
+                gain.gain.linearRampToValueAtTime(0.15, startTime + idx * 0.10 + 0.03);
+                gain.gain.exponentialRampToValueAtTime(0.001, startTime + idx * 0.10 + 0.35);
+                
+                osc.connect(gain);
+                gain.connect(ctx.destination);
+                
+                osc.start(startTime + idx * 0.10);
+                osc.stop(startTime + idx * 0.10 + 0.35);
+            });
+        } catch (e) {
+            console.warn("Could not play success fanfare:", e);
+        }
+    }
+
+    /**
+     * Synthesize a soft buzzer sound when a word is skipped or unrecognized.
+     */
+    playErrorSound() {
+        try {
+            const AudioContext = window.AudioContext || window.webkitAudioContext;
+            const ctx = new AudioContext();
+            
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(150, ctx.currentTime);
+            osc.frequency.linearRampToValueAtTime(90, ctx.currentTime + 0.3);
+            
+            gain.gain.setValueAtTime(0.12, ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
+            
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            
+            osc.start();
+            osc.stop(ctx.currentTime + 0.3);
+        } catch (e) {
+            console.warn("Could not play error sound:", e);
+        }
+    }
 }

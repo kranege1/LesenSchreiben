@@ -772,3 +772,40 @@ canvas {
     transform: translateY(0);
 }
 
+/* Score Floating Animation and score badge styles */
+@keyframes score-float-up {
+    0% {
+        opacity: 0;
+        transform: translateY(10px) scale(0.8);
+    }
+    20% {
+        opacity: 1;
+        transform: translateY(-5px) scale(1.2);
+    }
+    85% {
+        opacity: 1;
+        transform: translateY(-20px) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-40px) scale(0.8);
+    }
+}
+
+.score-floating-anim {
+    position: absolute;
+    top: -15px;
+    right: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #4CD964; /* positive green */
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    animation: score-float-up 1.4s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards;
+    pointer-events: none;
+    z-index: 1001;
+}
+
+.score-floating-anim.negative {
+    color: #FF3B30; /* error red if they lose points or skip (though skipping is 0) */
+}
+
