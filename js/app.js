@@ -574,6 +574,11 @@ class Application {
             const bubble = document.createElement('div');
             bubble.className = 'word-bubble';
             
+            // Speak the word when the bubble is clicked
+            bubble.addEventListener('click', () => {
+                this.audio.playWord(wData.word);
+            });
+            
             const raw = wData.word;
             const clean = wData.clean;
             const cleanIdx = raw.indexOf(clean);
