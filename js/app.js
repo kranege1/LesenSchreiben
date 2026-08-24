@@ -8,6 +8,38 @@ import { PencilCanvas } from './canvas.js';
 import { SmartKeyboard } from './keyboard.js';
 import { AppSpeech } from './speech.js';
 
+const MP3_SOUNDS = [
+    { file: "none", name: "Kein Sound 🔇" },
+    { file: "ivan_luzan-beautiful-piano-logo-143488.mp3", name: "Schönes Klavier-Logo 🎹" },
+    { file: "shidenbeatsmusic-funny-sound-effect-for-quotjack-in-the-boxquot-sound-ver1-110923.mp3", name: "Lustige Musikbox (Fehler) 📦" },
+    { file: "cartoon_music-arcade-game-achievement-bling-489759.mp3", name: "Arcade Bling 🌟" },
+    { file: "cartoon_music-cartoon-game-upgrade-494470.mp3", name: "Cartoon Upgrade 🚀" },
+    { file: "cartoon_music-correct-game-show-alert-499485.mp3", name: "Game-Show Richtig ✔️" },
+    { file: "cartoon_music-puzzle-game-correct-answer-508718.mp3", name: "Puzzle Richtig 🧩" },
+    { file: "cyberwave-orchestra-fantasy-game-sword-cut-sound-effect-get-more-on-my-patreon-339824.mp3", name: "Schwerthieb ⚔️" },
+    { file: "denielcz-achievement-unlocked-463070.mp3", name: "Erfolg freigeschaltet 🔓" },
+    { file: "dheerajakam4jor-swoosh-sound-effect-for-fight-scenes-or-transitions-2-149890.mp3", name: "Swoosh Übergang 💨" },
+    { file: "floraphonic-90s-game-ui-10-185103.mp3", name: "90s Spiel-UI 1 👾" },
+    { file: "floraphonic-90s-game-ui-6-185099.mp3", name: "90s Spiel-UI 2 🎮" },
+    { file: "floraphonic-woman-cute-silly-ya-3-185320.mp3", name: "Süßes Silly-Ja 👧" },
+    { file: "freesound_community-080047_lose_funny_retro_video-game-80925.mp3", name: "Retro Verloren 👾" },
+    { file: "freesound_community-cough-104521.mp3", name: "Husten 😷" },
+    { file: "freesound_community-rimshot-joke-funny-80325.mp3", name: "Tusch (Rimshot) 🥁" },
+    { file: "freesound_gamestudio-button-394464.mp3", name: "Knopf-Klick 🖱️" },
+    { file: "freesound_gamestudio-clear-combo-1-394489.mp3", name: "Combo-Löschung 1 ⚡" },
+    { file: "freesound_gamestudio-clear-combo-4-394493.mp3", name: "Combo-Löschung 2 ✨" },
+    { file: "freesound_gamestudio-clear-combo-5-394488.mp3", name: "Combo-Löschung 3 🌟" },
+    { file: "freesound_gamestudio-clear-combo-7-394494.mp3", name: "Combo-Löschung 4 💫" },
+    { file: "freesound_gamestudio-material-buy-success-394517.mp3", name: "Kauf-Erfolg 💰" },
+    { file: "freesound_gamestudio-material-gold-394476.mp3", name: "Gold-Effekt 🪙" },
+    { file: "magiaz-camera-shutter-474252.mp3", name: "Kamera-Auslöser 📸" },
+    { file: "muzaproduction-glad-piano-logo-13394.mp3", name: "Fröhliches Klavier-Logo 🎵" },
+    { file: "oxidvideos-video-game-sword-swing-sfx-409364.mp3", name: "Schwert-Schwingen 🗡️" },
+    { file: "puyopuyomegafan1234-winner-game-sound-404167.mp3", name: "Gewinner-Sound 🏆" },
+    { file: "universfield-funny-fail-02-277575.mp3", name: "Lustiger Fehler 🤪" },
+    { file: "universfield-soft-cinematic-piano-outro-151764.mp3", name: "Sanftes Klavier-Outro 🎹" }
+];
+
 class Application {
     constructor() {
         this.db = new AppDB();
@@ -78,6 +110,8 @@ class Application {
 
         // Load and display profiles
         await this.loadProfiles();
+
+        this.playEventSound('start');
         
         // Resize canvas on layout changes
         window.addEventListener('resize', () => {
@@ -262,6 +296,61 @@ class Application {
             document.getElementById('btn-play-error-preview').addEventListener('click', () => {
                 this.audio.playRegistrySound(errorSelect.value);
             });
+
+            // Populate 8 event-based selectors
+            const eventsList = [
+                'start', 'user-select', 'word-correct', 'sentence-complete',
+                'menu-switch', 'exercise-select', 'letter-written', 'word-incorrect'
+            ];
+
+            eventsList.forEach(evt => {
+                const sel = document.getElementById(`select-event-${evt}`);
+                if (sel) {
+                    MP3_SOUNDS.forEach(s => {
+                        const opt = document.createElement('option');
+                        opt.value = s.file;
+                        opt.innerText = s.name;
+                        sel.appendChild(opt);
+                    });
+
+                    // Set default / saved value
+                    const key = evt.replace(/-/g, '_');
+                    sel.value = localStorage.getItem(`soundEvent_${key}`) || this.getDefaultEventSound(key);
+
+                    // Add change listener
+                    sel.addEventListener('change', (e) => {
+                        localStorage.setItem(`soundEvent_${key}`, e.target.value);
+                    });
+
+                    // Add preview listener
+                    const btnPreview = document.getElementById(`btn-play-event-${evt}-preview`);
+                    if (btnPreview) {
+                        btnPreview.addEventListener('click', () => {
+                            if (sel.value && sel.value !== 'none') {
+                                this.audio.playEffect(sel.value);
+                            }
+                        });
+                    }
+                }
+            });
+        }
+    }
+
+    getDefaultEventSound(eventKey) {
+        switch(eventKey) {
+            case 'start':
+                return 'ivan_luzan-beautiful-piano-logo-143488.mp3';
+            case 'word_incorrect':
+                return 'shidenbeatsmusic-funny-sound-effect-for-quotjack-in-the-boxquot-sound-ver1-110923.mp3';
+            default:
+                return 'none';
+        }
+    }
+
+    playEventSound(eventKey) {
+        const soundFile = localStorage.getItem(`soundEvent_${eventKey}`) || this.getDefaultEventSound(eventKey);
+        if (soundFile && soundFile !== 'none') {
+            this.audio.playEffect(soundFile);
         }
     }
 
@@ -271,6 +360,8 @@ class Application {
         if (this.audio) this.audio.stop();
         this.stopAudioVisualizer();
         this.clearStuckTimer();
+
+        this.playEventSound('menu_switch');
 
         // Switch active CSS class
         const views = document.querySelectorAll('.view');
@@ -404,6 +495,7 @@ class Application {
         if (!this.selectedProfileCandidate) return;
         this.audio.unlock();
         this.currentProfile = this.selectedProfileCandidate;
+        this.playEventSound('user_select');
         
         // Show Profile badge in header
         const badge = document.getElementById('active-profile-badge');
@@ -484,6 +576,7 @@ class Application {
                 pill.classList.add('active');
                 this.currentCategory = theme;
                 this.showStatusToast(`Übungsschwerpunkt: ${theme}`);
+                this.playEventSound('exercise_select');
             });
             container.appendChild(pill);
         });
@@ -582,6 +675,7 @@ class Application {
     async startMode(mode) {
         this.audio.unlock();
         this.currentMode = mode;
+        this.playEventSound('exercise_select');
         await this.nextSentence();
     }
 
@@ -934,6 +1028,7 @@ class Application {
             this.inputBuffer += char;
             this.updateWriteInputIndicator();
             this.resetLetterStuckTimer();
+            this.playEventSound('letter_written');
  
             // Automatically check ONLY if it is the last word of the sentence and the buffer matches the word length
             const isLastWord = this.currentWordIndex === this.currentSentence.words.length - 1;
@@ -967,6 +1062,7 @@ class Application {
         if (attempt === target) {
             // Word correct!
             this.showStatusToast("Super gemacht! 👍");
+            this.playEventSound('word_correct');
             
             // Turn active bubble green immediately
             if (wordBubble) {
@@ -1014,6 +1110,7 @@ class Application {
             }, 600);
 
             // Play mistake buzzer/sound or repeat word
+            this.playEventSound('word_incorrect');
             this.audio.playErrorSound();
             await this.audio.playWord(activeWord.clean);
             this.resetLetterStuckTimer();
@@ -1225,6 +1322,7 @@ class Application {
     }
 
     async finishCurrentSentence() {
+        this.playEventSound('sentence_complete');
         let earnedPoints = 0;
         const words = this.currentSentence.words;
         
@@ -1302,6 +1400,7 @@ class Application {
     }
 
     async finishCurrentReadingSentence() {
+        this.playEventSound('sentence_complete');
         let earnedPoints = 0;
         const words = this.currentSentence.words;
         

@@ -32,7 +32,7 @@
             <h1 id="app-title-logo" style="margin: 0; font-size: 20px; justify-content: center;">✍️ Lesen & Schreiben
             </h1>
             <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-24
-                09:09:09]</span>
+                12:00:00]</span>
         </div>
 
         <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end; gap: 12px;">
@@ -437,6 +437,118 @@
                                 style="flex: 1; height: 40px; border-radius: 8px; border: 1px solid var(--system-gray-light); padding: 0 10px; font-weight: 600; font-size: 14px; background: white;"></select>
                             <button id="btn-play-error-preview" class="btn btn-secondary"
                                 style="min-height: 40px; font-size: 14px; padding: 0 16px;">▶️ Anhören</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 1.6: Event Sound Effects (MP3) -->
+                <div style="margin-bottom: 28px; border-top: 1px solid var(--system-gray-light); padding-top: 20px;">
+                    <h3 style="font-size: 16px; margin: 0 0 8px 0; color: var(--text-primary);">Ereignis-Sounds
+                        verknüpfen (MP3)</h3>
+                    <p style="color: var(--text-secondary); font-size: 13.5px; margin: 0 0 16px 0;">Wähle Soundeffekte
+                        für bestimmte Aktionen der App aus:</p>
+
+                    <!-- 1. Start/Restart -->
+                    <div style="margin-bottom: 14px;">
+                        <label
+                            style="display: block; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px;">Start
+                            / Neustart der App:</label>
+                        <div style="display: flex; gap: 8px;">
+                            <select id="select-event-start" class="form-input"
+                                style="flex: 1; height: 38px; border-radius: 8px; border: 1px solid var(--system-gray-light); padding: 0 10px; font-size: 13.5px; background: white;"></select>
+                            <button id="btn-play-event-start-preview" class="btn btn-secondary"
+                                style="min-height: 38px; font-size: 13px; padding: 0 12px;">▶️ Anhören</button>
+                        </div>
+                    </div>
+
+                    <!-- 2. User select -->
+                    <div style="margin-bottom: 14px;">
+                        <label
+                            style="display: block; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px;">Wenn
+                            neuer Benutzer gewählt wird:</label>
+                        <div style="display: flex; gap: 8px;">
+                            <select id="select-event-user-select" class="form-input"
+                                style="flex: 1; height: 38px; border-radius: 8px; border: 1px solid var(--system-gray-light); padding: 0 10px; font-size: 13.5px; background: white;"></select>
+                            <button id="btn-play-event-user-select-preview" class="btn btn-secondary"
+                                style="min-height: 38px; font-size: 13px; padding: 0 12px;">▶️ Anhören</button>
+                        </div>
+                    </div>
+
+                    <!-- 3. Word correct -->
+                    <div style="margin-bottom: 14px;">
+                        <label
+                            style="display: block; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px;">Wenn
+                            ein Wort richtig geschrieben wird:</label>
+                        <div style="display: flex; gap: 8px;">
+                            <select id="select-event-word-correct" class="form-input"
+                                style="flex: 1; height: 38px; border-radius: 8px; border: 1px solid var(--system-gray-light); padding: 0 10px; font-size: 13.5px; background: white;"></select>
+                            <button id="btn-play-event-word-correct-preview" class="btn btn-secondary"
+                                style="min-height: 38px; font-size: 13px; padding: 0 12px;">▶️ Anhören</button>
+                        </div>
+                    </div>
+
+                    <!-- 4. Sentence complete -->
+                    <div style="margin-bottom: 14px;">
+                        <label
+                            style="display: block; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px;">Wenn
+                            ein Satz fertig gelöst ist:</label>
+                        <div style="display: flex; gap: 8px;">
+                            <select id="select-event-sentence-complete" class="form-input"
+                                style="flex: 1; height: 38px; border-radius: 8px; border: 1px solid var(--system-gray-light); padding: 0 10px; font-size: 13.5px; background: white;"></select>
+                            <button id="btn-play-event-sentence-complete-preview" class="btn btn-secondary"
+                                style="min-height: 38px; font-size: 13px; padding: 0 12px;">▶️ Anhören</button>
+                        </div>
+                    </div>
+
+                    <!-- 5. Menu switch -->
+                    <div style="margin-bottom: 14px;">
+                        <label
+                            style="display: block; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px;">Beim
+                            Wechseln im Menü:</label>
+                        <div style="display: flex; gap: 8px;">
+                            <select id="select-event-menu-switch" class="form-input"
+                                style="flex: 1; height: 38px; border-radius: 8px; border: 1px solid var(--system-gray-light); padding: 0 10px; font-size: 13.5px; background: white;"></select>
+                            <button id="btn-play-event-menu-switch-preview" class="btn btn-secondary"
+                                style="min-height: 38px; font-size: 13px; padding: 0 12px;">▶️ Anhören</button>
+                        </div>
+                    </div>
+
+                    <!-- 6. Exercise select -->
+                    <div style="margin-bottom: 14px;">
+                        <label
+                            style="display: block; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px;">Wenn
+                            eine neue Übung gestartet wird:</label>
+                        <div style="display: flex; gap: 8px;">
+                            <select id="select-event-exercise-select" class="form-input"
+                                style="flex: 1; height: 38px; border-radius: 8px; border: 1px solid var(--system-gray-light); padding: 0 10px; font-size: 13.5px; background: white;"></select>
+                            <button id="btn-play-event-exercise-select-preview" class="btn btn-secondary"
+                                style="min-height: 38px; font-size: 13px; padding: 0 12px;">▶️ Anhören</button>
+                        </div>
+                    </div>
+
+                    <!-- 7. Letter written -->
+                    <div style="margin-bottom: 14px;">
+                        <label
+                            style="display: block; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px;">Wenn
+                            ein Buchstabe geschrieben wird:</label>
+                        <div style="display: flex; gap: 8px;">
+                            <select id="select-event-letter-written" class="form-input"
+                                style="flex: 1; height: 38px; border-radius: 8px; border: 1px solid var(--system-gray-light); padding: 0 10px; font-size: 13.5px; background: white;"></select>
+                            <button id="btn-play-event-letter-written-preview" class="btn btn-secondary"
+                                style="min-height: 38px; font-size: 13px; padding: 0 12px;">▶️ Anhören</button>
+                        </div>
+                    </div>
+
+                    <!-- 8. Word incorrect -->
+                    <div style="margin-bottom: 14px;">
+                        <label
+                            style="display: block; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin-bottom: 4px;">Wenn
+                            ein Wort falsch geschrieben wird:</label>
+                        <div style="display: flex; gap: 8px;">
+                            <select id="select-event-word-incorrect" class="form-input"
+                                style="flex: 1; height: 38px; border-radius: 8px; border: 1px solid var(--system-gray-light); padding: 0 10px; font-size: 13.5px; background: white;"></select>
+                            <button id="btn-play-event-word-incorrect-preview" class="btn btn-secondary"
+                                style="min-height: 38px; font-size: 13px; padding: 0 12px;">▶️ Anhören</button>
                         </div>
                     </div>
                 </div>

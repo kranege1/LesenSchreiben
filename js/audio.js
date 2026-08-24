@@ -487,6 +487,26 @@ export class AppAudio {
             console.warn("Could not play registry sound:", e);
         }
     }
+
+    /**
+     * Play a sound effect from the audio/sounds folder.
+     * @param {string} fileName - Name of the mp3 file under audio/sounds.
+     */
+    playEffect(fileName) {
+        if (!fileName || fileName === 'none') return;
+        try {
+            const audio = new Audio(`./audio/sounds/${fileName}`);
+            audio.volume = 0.5;
+            audio.play().catch(err => {
+                // Ignore AbortError when audio is stopped/restarted
+                if (err.name !== 'AbortError') {
+                    console.warn(`Could not play effect ${fileName}:`, err);
+                }
+            });
+        } catch (e) {
+            console.warn(`Error playing effect ${fileName}:`, e);
+        }
+    }
 }
 
 export const SOUNDS_REGISTRY = [
