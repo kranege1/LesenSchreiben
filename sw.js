@@ -45,6 +45,11 @@ self.addEventListener('activate', (e) => {
 
 // Fetch Event - Cache-first with network fallback, and dynamically cache audio assets
 self.addEventListener('fetch', (e) => {
+    // Bypass service worker for audio files to prevent Range request issues
+    if (e.request.url.endsWith('.mp3') || e.request.url.includes('/audio/')) {
+        return;
+    }
+
     e.respondWith(
         caches.match(e.request).then((cachedResponse) => {
             if (cachedResponse) {

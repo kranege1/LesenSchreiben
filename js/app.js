@@ -40,6 +40,56 @@ const MP3_SOUNDS = [
     { file: "universfield-soft-cinematic-piano-outro-151764.mp3", name: "Sanftes Klavier-Outro 🎹" }
 ];
 
+const ARTICLES = new Set(["der", "die", "das", "des", "dem", "den", "ein", "eine", "eines", "einem", "einen", "einer"]);
+const PREPOSITIONS = new Set(["in", "im", "auf", "unter", "über", "vor", "hinter", "neben", "an", "am", "mit", "für", "von", "vom", "zu", "zum", "zur", "nach", "bei", "beim", "durch", "aus", "gegen", "ohne", "um", "wegen", "seit", "während"]);
+const PRONOUNS = new Set(["ich", "du", "er", "sie", "es", "wir", "ihr", "sie", "mich", "dich", "ihn", "uns", "euch", "ihnen", "mein", "meine", "meinen", "meinem", "meiner", "meines", "dein", "deine", "deinen", "deinem", "deiner", "deines", "sein", "seine", "seinen", "seinem", "seines", "ihr", "ihre", "ihren", "ihrem", "ihrer", "ihres", "unser", "unsere", "unseren", "unserem", "unserer", "unseres", "euer", "euere", "eueren", "euerem", "euerer", "eueres", "wer", "was", "wem", "wen", "dieser", "diese", "dieses", "diesen", "diesem", "dieser", "jener", "jene", "jenes", "man", "jemand", "niemand", "etwas", "nichts", "selbst", "einander"]);
+const CONJUNCTIONS = new Set(["und", "oder", "aber", "denn", "sondern", "weil", "dass", "wenn", "als", "obwohl", "da", "damit", "sodass", "solange", "bis", "ehe", "seitdem", "sowie", "während", "wie", "ob"]);
+const ADVERBS = new Set(["hier", "dort", "da", "heute", "morgen", "gestern", "jetzt", "sofort", "dann", "oft", "immer", "nie", "selten", "manchmal", "sehr", "gern", "gerne", "vielleicht", "wohl", "schon", "erst", "nur", "auch", "noch", "fast", "schwer", "leicht", "leise", "laut", "schnell", "langsam"]);
+const COMMON_VERBS = new Set([
+    "bellt", "trinkt", "liegt", "steht", "rennt", "singt", "lacht", "malt", "lernt", "liest", "spielt", "schwimmt",
+    "tanzt", "schläft", "bauen", "suchen", "finden", "entdecken", "fahren", "wohnen", "fliegt", "kriecht", "leuchtet",
+    "gehen", "laufen", "schreiben", "essen", "kommen", "haben", "ist", "sind", "war", "waren", "backen", "putzen",
+    "bringen", "ziehen", "lassen", "müssen", "können", "wollen", "sollen", "dürfen", "zeigt", "öffnet", "knarrt",
+    "brennt", "leuchten", "schleichen", "liegt", "hält", "leckt", "tickt", "sitzt", "schützt", "zuckt", "kocht",
+    "backt", "rollt", "frisst", "schlüpft", "wollt", "spielt", "saugt", "fallen", "rodeln", "werfen", "tragen",
+    "wachsen", "blühen", "reifen", "regnet", "weht", "plätschert", "fließt", "riecht", "lachen", "spitzen", "packen",
+    "schneiden", "sitzen", "sprechen", "springen", "stehen", "jagt", "putzt", "landen", "fangen", "beobachten",
+    "brauen", "schlagen", "basteln", "graben", "erforschen", "wandern", "spritzen", "schnüffelt", "füttert",
+    "krabbeln", "erschreckt", "knacken", "klettern", "sammeln", "stellen", "rinnt", "schimmert", "glänzt",
+    "zeichnen", "erklärt", "leitet", "gießt", "feiern", "raschelt", "kehren", "wärmt", "wiegen", "schmiegt",
+    "biegt", "stiehlt"
+]);
+const COMMON_ADJECTIVES = new Set([
+    "laut", "leise", "frisch", "frische", "frischem", "frischen", "frischer", "frisches", "reif", "reife", "reife",
+    "reife", "reifer", "reifes", "bunt", "bunte", "buntem", "bunten", "bunter", "buntes", "rot", "rote", "rotem",
+    "roten", "roter", "rotes", "gelb", "gelbe", "gelbem", "gelben", "gelber", "gelbes", "grün", "grüne", "grünem",
+    "grünen", "grüner", "grünes", "blau", "blaue", "blauem", "blauen", "blauer", "blaues", "weiß", "weiße", "weißem",
+    "weißen", "weißer", "weißes", "schwarz", "schwarze", "schwarzem", "schwarzen", "schwarzer", "schwarzes",
+    "groß", "große", "großem", "großen", "großer", "großes", "klein", "kleine", "kleinem", "kleinen", "kleiner",
+    "kleines", "dick", "dicke", "dickem", "dicken", "dicker", "dickes", "dünn", "dünne", "dünnem", "dünnen",
+    "dünner", "dünnes", "alt", "alte", "altem", "alten", "alter", "altes", "neu", "neue", "neuem", "neuen",
+    "neuer", "neues", "jung", "junge", "jungem", "jungen", "junger", "junges", "schnell", "schnelle", "schnellem",
+    "schnellen", "schneller", "schnelles", "langsam", "langsame", "langsamem", "langsamen", "langsamer", "langsames",
+    "müde", "lustig", "lustige", "lustigem", "lustigen", "lustiger", "lustiges", "traurig", "traurige", "traurigem",
+    "traurigen", "trauriger", "trauriges", "fröhlich", "fröhliche", "fröhlichem", "fröhlichen", "fröhlicher",
+    "fröhliches", "mutig", "mutige", "mutigem", "mutigen", "mutiger", "mutiges", "wild", "wilde", "wildem",
+    "wilden", "wilder", "wildes", "braun", "braune", "braunem", "braunen", "brauner", "braunes", "kalt", "kalte",
+    "kaltem", "kalten", "kalter", "kaltes", "warm", "warme", "warmem", "warmen", "warmer", "warmes", "süß", "süße",
+    "süßem", "süßen", "süßer", "süßes", "stark", "starke", "starkem", "starken", "starker", "starkes", "schwer",
+    "schwere", "schwerem", "schweren", "schwerer", "schweres", "leicht", "leichte", "leichtem", "leichten",
+    "leichter", "leichtes", "sauber", "saubere", "sauberem", "sauberen", "sauberer", "sauberes", "schmutzig",
+    "schmutzige", "schmutzigem", "schmutzigen", "schmutziger", "schmutziges", "lieb", "liebe", "liebem", "lieben",
+    "lieber", "liebes", "schüchtern", "schüchterne", "schüchternem", "schüchternen", "schüchterner", "schüchternes",
+    "schlau", "schlaue", "schlauem", "schlauen", "schlauer", "schlaues", "nett", "nette", "nettem", "netten",
+    "netter", "nettes", "sportlich", "sportliche", "sportlichem", "sportlichen", "sportlicher", "sportliches",
+    "geheimnisvoll", "geheimnisvolle", "geheimnisvollem", "geheimnisvollen", "geheimnisvoller", "geheimnisvolles",
+    "verborgen", "verborgene", "verborgenem", "verborgenen", "verborgener", "verborgenes", "dicht", "dichte",
+    "dichtem", "dichten", "dichter", "dichtes", "klar", "klare", "klarem", "klaren", "klarer", "klares",
+    "brav", "brave", "bravem", "braven", "braver", "braves", "trocken", "trockene", "trockenem", "trockenen",
+    "trockener", "trockenes", "scharf", "scharfe", "scharfem", "scharfen", "scharfer", "scharfes", "fest",
+    "feste", "festem", "festen", "fester", "festes"
+]);
+
 class Application {
     constructor() {
         this.db = new AppDB();
@@ -175,6 +225,7 @@ class Application {
             this.inputBuffer = "";
             this.updateWriteInputIndicator();
             this.clearLetterStuckTimer();
+            this.resetWordTypeHintTimer();
         });
         document.getElementById('btn-canvas-undo').addEventListener('click', () => {
             this.canvas.undo();
@@ -354,12 +405,87 @@ class Application {
         }
     }
 
+    guessWordType(cleanWord, index, sentenceWords) {
+        const word = cleanWord.trim();
+        if (!word) return "";
+        
+        const lowerWord = word.toLowerCase();
+        
+        // Check closed classes
+        if (ARTICLES.has(lowerWord)) return "Artikel";
+        if (PREPOSITIONS.has(lowerWord)) return "Präposition";
+        if (PRONOUNS.has(lowerWord)) return "Pronomen";
+        if (CONJUNCTIONS.has(lowerWord)) return "Konjunktion";
+        
+        // Capitalized check
+        const isCapitalized = /^[A-ZÄÖÜ]/.test(word);
+        if (isCapitalized) {
+            if (index > 0) {
+                return "Substantiv";
+            } else {
+                if (COMMON_VERBS.has(lowerWord)) return "Verb";
+                if (COMMON_ADJECTIVES.has(lowerWord)) return "Adjektiv";
+                if (ADVERBS.has(lowerWord)) return "Adverb";
+                return "Substantiv";
+            }
+        }
+        
+        // Lowercase check
+        if (COMMON_VERBS.has(lowerWord)) return "Verb";
+        if (COMMON_ADJECTIVES.has(lowerWord)) return "Adjektiv";
+        if (ADVERBS.has(lowerWord)) return "Adverb";
+        
+        // Suffix verbs
+        if (lowerWord.endsWith("st") || lowerWord.endsWith("te") || lowerWord.endsWith("ten") || (lowerWord.endsWith("en") && lowerWord.length > 4)) {
+            return "Verb";
+        }
+        if (lowerWord.endsWith("t") && lowerWord.length > 3) {
+            return "Verb";
+        }
+        
+        // Suffix adjectives
+        if (lowerWord.endsWith("ste") || lowerWord.endsWith("sten") || lowerWord.endsWith("ig") || lowerWord.endsWith("ige") || lowerWord.endsWith("igen") || lowerWord.endsWith("lich") || lowerWord.endsWith("liche") || lowerWord.endsWith("lichen")) {
+            return "Adjektiv";
+        }
+        
+        return "Sonstiges";
+    }
+
+    resetWordTypeHintTimer() {
+        this.clearWordTypeHintTimer();
+        if (this.currentMode !== 'write' || !this.currentSentence) return;
+        
+        this.wordTypeHintTimer = setTimeout(() => {
+            this.revealActiveWordType();
+        }, 3000); // 3 seconds of inactivity
+    }
+
+    clearWordTypeHintTimer() {
+        if (this.wordTypeHintTimer) {
+            clearTimeout(this.wordTypeHintTimer);
+            this.wordTypeHintTimer = null;
+        }
+    }
+
+    revealActiveWordType() {
+        const container = document.getElementById('write-sentence-container');
+        if (!container) return;
+        const wordWrapper = container.children[this.currentWordIndex];
+        if (wordWrapper) {
+            const label = wordWrapper.querySelector('.word-type-label');
+            if (label) {
+                label.style.opacity = '1';
+            }
+        }
+    }
+
     switchView(viewId) {
         // Stop any running speech & audio
         if (this.speech) this.speech.stop();
         if (this.audio) this.audio.stop();
         this.stopAudioVisualizer();
         this.clearStuckTimer();
+        this.clearWordTypeHintTimer();
 
         this.playEventSound('menu_switch');
 
@@ -815,6 +941,23 @@ class Application {
             bubble.addEventListener('click', () => {
                 this.audio.playWord(wData.clean);
             });
+
+            // Container for word type label and bubble
+            const bubbleContainer = document.createElement('div');
+            bubbleContainer.style.display = 'flex';
+            bubbleContainer.style.flexDirection = 'column';
+            bubbleContainer.style.alignItems = 'center';
+            bubbleContainer.style.gap = '2px';
+
+            const wordTypeLabel = document.createElement('span');
+            wordTypeLabel.className = 'word-type-label';
+            wordTypeLabel.style.fontSize = '11px';
+            wordTypeLabel.style.fontWeight = 'bold';
+            wordTypeLabel.style.color = 'var(--accent-blue)';
+            wordTypeLabel.style.minHeight = '14px';
+            wordTypeLabel.style.opacity = '0';
+            wordTypeLabel.style.transition = 'opacity 0.3s ease';
+            wordTypeLabel.innerText = this.guessWordType(wData.clean, idx, words);
             
             if (idx < this.currentWordIndex) {
                 // Solved
@@ -824,6 +967,7 @@ class Application {
                 } else {
                     bubble.classList.add('correct');
                 }
+                wordTypeLabel.style.opacity = '1';
             } else if (idx === this.currentWordIndex) {
                 // Active
                 bubble.classList.add('active', 'masked');
@@ -835,7 +979,9 @@ class Application {
                 bubble.innerText = wData.clean.split('').map(() => '_').join(' ');
             }
 
-            wrapper.appendChild(bubble);
+            bubbleContainer.appendChild(wordTypeLabel);
+            bubbleContainer.appendChild(bubble);
+            wrapper.appendChild(bubbleContainer);
 
             if (trailingPunct) {
                 const tpSpan = document.createElement('span');
@@ -893,6 +1039,7 @@ class Application {
 
         // Initialize stuck timer for first letter
         this.resetLetterStuckTimer();
+        this.resetWordTypeHintTimer();
     }
 
     updateWriteInputIndicator() {
@@ -1028,6 +1175,7 @@ class Application {
             this.inputBuffer += char;
             this.updateWriteInputIndicator();
             this.resetLetterStuckTimer();
+            this.resetWordTypeHintTimer();
             this.playEventSound('letter_written');
  
             // Automatically check ONLY if it is the last word of the sentence and the buffer matches the word length
@@ -1045,6 +1193,7 @@ class Application {
             this.inputBuffer = this.inputBuffer.slice(0, -1);
             this.updateWriteInputIndicator();
             this.resetLetterStuckTimer();
+            this.resetWordTypeHintTimer();
         }
     }
 
@@ -1058,11 +1207,16 @@ class Application {
         const wordWrapper = document.getElementById('write-sentence-container').children[this.currentWordIndex];
         const wordBubble = wordWrapper ? wordWrapper.querySelector('.word-bubble') : null;
         const indicator = document.getElementById('write-input-indicator');
-
         if (attempt === target) {
             // Word correct!
             this.showStatusToast("Super gemacht! 👍");
             this.playEventSound('word_correct');
+            
+            // Show word type label
+            if (wordWrapper) {
+                const label = wordWrapper.querySelector('.word-type-label');
+                if (label) label.style.opacity = '1';
+            }
             
             // Turn active bubble green immediately
             if (wordBubble) {
@@ -1083,6 +1237,7 @@ class Application {
             }
         } else {
             // Incorrect attempt
+            this.revealActiveWordType();
             this.sentenceHasError = true;
             this.wordMistakes++;
             
