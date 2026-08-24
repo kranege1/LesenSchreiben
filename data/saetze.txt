@@ -538,3 +538,149 @@
 4 | Story: Am Strand | Das Land ist bekannt für seine tausend verschiedenen Pizzen.
 4 | Story: Am Strand | Jeden Tag schwammen wir weit hinaus in das warme Meer.
 4 | Story: Am Strand | Abends liefen wir barfuß durch den weichen Sand.
+
+# 2. Klasse: Der kleine Igel
+2 | Story: Der kleine Igel | Im Garten raschelt es unter dem Laubhaufen.
+2 | Story: Der kleine Igel | Ein kleiner Igel sucht nach Futter für die Nacht.
+2 | Story: Der kleine Igel | Er schnüffelt an dicken Ästen und findet ein paar saftige Würmer.
+2 | Story: Der kleine Igel | Bald wird es draußen empfindlich kalt.
+2 | Story: Der kleine Igel | Dann rollt er sich kugelrund ein und schläft bis zum nächsten Frühling.
+
+# 3. Klasse: Ein regnerischer Schultag
+3 | Story: Ein regnerischer Schultag | Dicke Tropfen klatschen an das Fenster der Klasse.
+3 | Story: Ein regnerischer Schultag | Draußen ist der Himmel grau und dunkel.
+3 | Story: Ein regnerischer Schultag | Die Kinder sitzen still an ihren Tischen und malen bunte Bilder.
+3 | Story: Ein regnerischer Schultag | Paul spitzt seinen Bleistift an.
+3 | Story: Ein regnerischer Schultag | Er zeichnet ein großes Schiff auf hoher See.
+3 | Story: Ein regnerischer Schultag | In der Pause bleiben heute alle gemütlich im warmen Zimmer.
+
+# 2. Klasse: Das Fußballspiel
+2 | Story: Das Fußballspiel | Auf dem Sportplatz herrscht große Aufregung.
+2 | Story: Das Fußballspiel | Die Mannschaften laufen schnell auf das grüne Feld.
+2 | Story: Das Fußballspiel | Ben passt den Ball geschickt zu Leo.
+2 | Story: Das Fußballspiel | Leo schießt direkt in die rechte Ecke.
+2 | Story: Das Fußballspiel | Der Torwart springt, aber der Ball zappelt schon im Netz.
+2 | Story: Das Fußballspiel | Die Zuschauer klatschen laut und jubeln vor Freude.
+
+# 2. Klasse: Backen mit Oma
+2 | Story: Backen mit Oma | Am Wochenende backen Lena und Oma einen leckeren Kuchen.
+2 | Story: Backen mit Oma | Zuerst wiegen sie Mehl, Zucker and Butter genau ab.
+2 | Story: Backen mit Oma | Dann rührt Lena alles in einer großen Schüssel zusammen.
+2 | Story: Backen mit Oma | Die süßen Äpfel schneiden sie in kleine Stücke.
+2 | Story: Backen mit Oma | Bald duftet das ganze Haus herrlich nach frischem Zimt und warmem Teig.
+
+# 2. Klasse: Besuch auf dem Bauernhof
+2 | Story: Besuch auf dem Bauernhof | Auf dem Bauernhof gibt es viel zu entdecken.
+2 | Story: Besuch auf dem Bauernhof | Die Hühner gackern aufgeregt im Stall und suchen nach Körnern.
+2 | Story: Besuch auf dem Bauernhof | Im weichen Stroh schlafen fünf kleine Ferkel dicht beieinander.
+2 | Story: Besuch auf dem Bauernhof | Der Bauer bringt frisches Heu zu den Kühen.
+2 | Story: Besuch auf dem Bauernhof | Max darf den großen Traktor bestaunen und eine Ziege mit Gras füttern.
+
+# 2. Klasse: Der Schneemann
+2 | Story: Der Schneemann | Über Nacht ist eine dicke Schneedecke gefallen.
+2 | Story: Der Schneemann | Emma und Jonas ziehen warme Stiefel und dicke Handschuhe an.
+2 | Story: Der Schneemann | Im Garten rollen sie drei riesige Kugeln aus kaltem Schnee.
+2 | Story: Der Schneemann | Als Nase dient eine rote Karotte.
+2 | Story: Der Schneemann | Jonas setzt dem Mann einen alten Topf auf den Kopf.
+2 | Story: Der Schneemann | Alle lachen fröhlich.
+
+# 3. Klasse: Der verlorene Schlüssel
+3 | Story: Der verlorene Schlüssel | Felix sucht aufgeregt in seiner Schultasche.
+3 | Story: Der verlorene Schlüssel | Sein Hausschlüssel ist spurlos verschwunden.
+3 | Story: Der verlorene Schlüssel | Er kriecht unter die Schulbank und blickt in alle dunklen Ecken.
+3 | Story: Der verlorene Schlüssel | Da bemerkt er ein glänzendes Band unter seiner Jacke am Haken.
+3 | Story: Der verlorene Schlüssel | Erleichtert greift er danach.
+3 | Story: Der verlorene Schlüssel | Der Schlüssel war die ganze Zeit in der tiefen Manteltasche.
+
+# 3. Klasse: Ein Tag am See
+3 | Story: Ein Tag am See | Die Sonne brennt heiß vom blauen Himmel.
+3 | Story: Ein Tag am See | Am Seeufer breiten die Kinder bunte Handtücher aus.
+3 | Story: Ein Tag am See | Das Wasser ist herrlich erfrischend und glasklar.
+3 | Story: Ein Tag am See | Timo taucht nach glatten Steinen am sandigen Grund.
+3 | Story: Ein Tag am See | Seine Schwester baut eine mächtige Burg aus feuchtem Schlamm.
+3 | Story: Ein Tag am See | Am späten Nachmittag essen beide ein kaltes Eis.
+
+# 3. Klasse: In der Bücherei
+3 | Story: In der Bücherei | In den langen Regalen der Bücherei stehen unzählige Bücher.
+3 | Story: In der Bücherei | Sara schleicht leise durch die Gänge.
+3 | Story: In der Bücherei | Sie interessiert sich besonders für spannende Geschichten über wilde Piraten und fremde Sterne.
+3 | Story: In der Bücherei | Auf einem gemütlichen Sessel schlägt sie ein dickes Buch auf.
+3 | Story: In der Bücherei | Ganz versunken liest sie die ersten Seiten bis zum Gong.
+
+# 3. Klasse: Der fleißige Specht
+3 | Story: Der fleißige Specht | Tief im Wald klopft es laut an einem alten Baumstamm.
+3 | Story: Der fleißige Specht | Ein bunter Specht hämmert unermüdlich mit seinem spitzen Schnabel in die morsche Rinde.
+3 | Story: Der fleißige Specht | Er sucht nach kleinen Käfern und fetten Larven.
+3 | Story: Der fleißige Specht | Mit seinen kräftigen Krallen hält er sich fest am Stamm.
+3 | Story: Der fleißige Specht | Sein roter Kopf leuchtet weit durch das Dickicht.
+
+# 3. Klasse: Das Baumhaus
+3 | Story: Das Baumhaus | Im Garten zimmern die Geschwister eine Hütte in der alten Eiche.
+3 | Story: Das Baumhaus | Papa hilft ihnen und sägt schwere Holzbretter zurecht.
+3 | Story: Das Baumhaus | Mit dem Hammer schlägt Finn dicke Nägel fest in das Holz.
+3 | Story: Das Baumhaus | Am Ast befestigen sie eine feste Strickleiter aus dicken Seilen.
+3 | Story: Das Baumhaus | Jetzt haben sie ein geheimes Versteck für den Sommer.
+
+# 2. Klasse: Der kleine Hund
+2 | Story: Der kleine Hund | Ein kleiner Welpe tollt über die nasse Wiese.
+2 | Story: Der kleine Hund | Seine langen Ohren wackeln lustig bei jedem wilden Sprung.
+2 | Story: Der kleine Hund | Er jagt einem bunten Schmetterling hinterher, der leise im Wind flattert.
+2 | Story: Der kleine Hund | Als er müde wird, trottet er brav zu seinem Korb.
+2 | Story: Der kleine Hund | Dort rollt er sich auf seiner weichen Decke zusammen.
+
+# 3. Klasse: Das Gewitter
+3 | Story: Das Gewitter | Am Nachmittag ziehen plötzlich pechschwarze Wolken auf.
+3 | Story: Das Gewitter | Der Wind bläst heftig durch die Wipfel der Bäume.
+3 | Story: Das Gewitter | Ein greller Blitz zuckt über den düsteren Himmel.
+3 | Story: Das Gewitter | Kurz darauf kracht ein gewaltiger Donner.
+3 | Story: Das Gewitter | Schwere Regentropfen trommeln gegen die Fensterscheiben.
+3 | Story: Das Gewitter | Die Menschen flüchten schnell in ihre Häuser, um trocken zu bleiben.
+
+# 3. Klasse: Die Geburtstagsparty
+3 | Story: Die Geburtstagsparty | Heute feiert Marie ihren achten Geburtstag.
+3 | Story: Die Geburtstagsparty | Das Wohnzimmer ist mit bunten Luftballons und langen Girlanden geschmückt.
+3 | Story: Die Geburtstagsparty | Ihre Schulfreunde bringen hübsch verpackte Geschenke mit.
+3 | Story: Die Geburtstagsparty | Zuerst pustet Marie alle acht Kerzen auf dem Schokoladenkuchen auf einmal aus.
+3 | Story: Die Geburtstagsparty | Danach spielen alle vergnügt Topfschlagen und Verstecken im Garten.
+
+# 2. Klasse: Im Zoo
+2 | Story: Im Zoo | Vor dem großen Gehege drängen sich viele Besucher.
+2 | Story: Im Zoo | Zwei junge Affen klettern flink an dicken Seilen empor.
+2 | Story: Im Zoo | Sie necken sich und fressen gelbe Bananen.
+2 | Story: Im Zoo | Nebenan badet ein schwerer Elefant in einem tiefen Schlammloch.
+2 | Story: Im Zoo | Er spritzt das kühle Wasser mit seinem langen Rüssel hoch in die Luft.
+
+# 3. Klasse: Der Herbstwind
+3 | Story: Der Herbstwind | Ein kühler Wind fegt über die weiten Felder.
+3 | Story: Der Herbstwind | Die Kinder lassen ihre bunten Drachen hoch in die Lüfte steigen.
+3 | Story: Der Herbstwind | Die Drachen tanzen wild zwischen den weißen Wolken.
+3 | Story: Der Herbstwind | Unten im Garten harken die Eltern trockenes Laub zusammen.
+3 | Story: Der Herbstwind | Die Äpfel an den Zweigen leuchten rot und sind reif zur Ernte.
+
+# 3. Klasse: Die Katze auf der Mauer
+3 | Story: Die Katze auf der Mauer | Eine schwarze Katze schleicht lautlos über die steinerne Mauer.
+3 | Story: Die Katze auf der Mauer | Ihre gelben Augen funkeln aufmerksam im Schatten.
+3 | Story: Die Katze auf der Mauer | Plötzlich bleibt sie wie angewurzelt stehen.
+3 | Story: Die Katze auf der Mauer | Am Boden huscht eine kleine graue Maus durch das hohe Gras.
+3 | Story: Die Katze auf der Mauer | Die Katze duckt sich ganz tief und spannt jeden Muskel für einen weiten Sprung an.
+
+# 3. Klasse: Vor dem Schlafen
+3 | Story: Vor dem Schlafen | Am Abend putzt Jonas gründlich seine Zähne mit der Zahnbürste.
+3 | Story: Vor dem Schlafen | Danach zieht er seinen gestreiften Schlafanzug an.
+3 | Story: Vor dem Schlafen | Mama setzt sich an den Rand seines Bettes und liest ein spannendes Märchen vor.
+3 | Story: Vor dem Schlafen | Jonas schließt langsam die Augen und kuschelt sich tief unter das warme Federbett.
+3 | Story: Vor dem Schlafen | Bald schläft er friedlich ein.
+
+# 3. Klasse: Im Schwimmbad
+3 | Story: Im Schwimmbad | Im warmen Hallenbad ist heute viel Betrieb.
+3 | Story: Im Schwimmbad | Lisa springt mutig vom hohen Startblock in das blaue Becken.
+3 | Story: Im Schwimmbad | Das Wasser spritzt meterweit zur Seite.
+3 | Story: Im Schwimmbad | Sie taucht durch das kühle Nass und schwimmt zügig einige Bahnen.
+3 | Story: Im Schwimmbad | Danach wärmt sie sich eingekuschelt in ihr dickes Badetuch auf der Liege aus.
+
+# 3. Klasse: Die Fahrradtour
+3 | Story: Die Fahrradtour | Am sonnigen Sonntag machen wir einen Ausflug mit dem Fahrrad.
+3 | Story: Die Fahrradtour | Vor der Abfahrt pumpt Papa die Reifen fest auf und prüft die Bremsen.
+3 | Story: Die Fahrradtour | Wir setzen alle einen sicheren Helm auf den Kopf.
+3 | Story: Die Fahrradtour | Entlang des breiten Flusses führt ein schöner, flacher Radweg.
+3 | Story: Die Fahrradtour | Nach einer langen Fahrt machen wir ein Picknick.

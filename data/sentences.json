@@ -31336,5 +31336,8173 @@
       }
     ],
     "story": "Am Strand"
+  },
+  {
+    "id": "g2_story__der_kleine_igel_im_garten_raschelt_es_unter_de",
+    "grade": 2,
+    "theme": "Story: Der kleine Igel",
+    "sentence": "Im Garten raschelt es unter dem Laubhaufen.",
+    "words": [
+      {
+        "word": "Im",
+        "clean": "Im",
+        "syllables": [
+          "Im"
+        ]
+      },
+      {
+        "word": "Garten",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      },
+      {
+        "word": "raschelt",
+        "clean": "raschelt",
+        "syllables": [
+          "ra",
+          "schelt"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "unter",
+        "clean": "unter",
+        "syllables": [
+          "un",
+          "ter"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Laubhaufen.",
+        "clean": "Laubhaufen",
+        "syllables": [
+          "Laub",
+          "hau",
+          "fen"
+        ]
+      }
+    ],
+    "story": "Der kleine Igel"
+  },
+  {
+    "id": "g2_story__der_kleine_igel_ein_kleiner_igel_sucht_nach_fu",
+    "grade": 2,
+    "theme": "Story: Der kleine Igel",
+    "sentence": "Ein kleiner Igel sucht nach Futter für die Nacht.",
+    "words": [
+      {
+        "word": "Ein",
+        "clean": "Ein",
+        "syllables": [
+          "Ein"
+        ]
+      },
+      {
+        "word": "kleiner",
+        "clean": "kleiner",
+        "syllables": [
+          "klei",
+          "ner"
+        ]
+      },
+      {
+        "word": "Igel",
+        "clean": "Igel",
+        "syllables": [
+          "I",
+          "gel"
+        ]
+      },
+      {
+        "word": "sucht",
+        "clean": "sucht",
+        "syllables": [
+          "sucht"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "Futter",
+        "clean": "Futter",
+        "syllables": [
+          "Fut",
+          "ter"
+        ]
+      },
+      {
+        "word": "für",
+        "clean": "für",
+        "syllables": [
+          "für"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Nacht.",
+        "clean": "Nacht",
+        "syllables": [
+          "Nacht"
+        ]
+      }
+    ],
+    "story": "Der kleine Igel"
+  },
+  {
+    "id": "g2_story__der_kleine_igel_er_schn_ffelt_an_dicken__sten",
+    "grade": 2,
+    "theme": "Story: Der kleine Igel",
+    "sentence": "Er schnüffelt an dicken Ästen und findet ein paar saftige Würmer.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "schnüffelt",
+        "clean": "schnüffelt",
+        "syllables": [
+          "schnüf",
+          "felt"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "dicken",
+        "clean": "dicken",
+        "syllables": [
+          "dic",
+          "ken"
+        ]
+      },
+      {
+        "word": "Ästen",
+        "clean": "Ästen",
+        "syllables": [
+          "Ä",
+          "sten"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "findet",
+        "clean": "findet",
+        "syllables": [
+          "fin",
+          "det"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "paar",
+        "clean": "paar",
+        "syllables": [
+          "pa",
+          "ar"
+        ]
+      },
+      {
+        "word": "saftige",
+        "clean": "saftige",
+        "syllables": [
+          "saf",
+          "ti",
+          "ge"
+        ]
+      },
+      {
+        "word": "Würmer.",
+        "clean": "Würmer",
+        "syllables": [
+          "Wür",
+          "mer"
+        ]
+      }
+    ],
+    "story": "Der kleine Igel"
+  },
+  {
+    "id": "g2_story__der_kleine_igel_bald_wird_es_drau_en_empfindli",
+    "grade": 2,
+    "theme": "Story: Der kleine Igel",
+    "sentence": "Bald wird es draußen empfindlich kalt.",
+    "words": [
+      {
+        "word": "Bald",
+        "clean": "Bald",
+        "syllables": [
+          "Bald"
+        ]
+      },
+      {
+        "word": "wird",
+        "clean": "wird",
+        "syllables": [
+          "wird"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "draußen",
+        "clean": "draußen",
+        "syllables": [
+          "drau",
+          "ßen"
+        ]
+      },
+      {
+        "word": "empfindlich",
+        "clean": "empfindlich",
+        "syllables": [
+          "em",
+          "pfind",
+          "lich"
+        ]
+      },
+      {
+        "word": "kalt.",
+        "clean": "kalt",
+        "syllables": [
+          "kalt"
+        ]
+      }
+    ],
+    "story": "Der kleine Igel"
+  },
+  {
+    "id": "g2_story__der_kleine_igel_dann_rollt_er_sich_kugelrund_e",
+    "grade": 2,
+    "theme": "Story: Der kleine Igel",
+    "sentence": "Dann rollt er sich kugelrund ein und schläft bis zum nächsten Frühling.",
+    "words": [
+      {
+        "word": "Dann",
+        "clean": "Dann",
+        "syllables": [
+          "Dann"
+        ]
+      },
+      {
+        "word": "rollt",
+        "clean": "rollt",
+        "syllables": [
+          "rollt"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "kugelrund",
+        "clean": "kugelrund",
+        "syllables": [
+          "ku",
+          "gel",
+          "rund"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "schläft",
+        "clean": "schläft",
+        "syllables": [
+          "schläft"
+        ]
+      },
+      {
+        "word": "bis",
+        "clean": "bis",
+        "syllables": [
+          "bis"
+        ]
+      },
+      {
+        "word": "zum",
+        "clean": "zum",
+        "syllables": [
+          "zum"
+        ]
+      },
+      {
+        "word": "nächsten",
+        "clean": "nächsten",
+        "syllables": [
+          "näch",
+          "sten"
+        ]
+      },
+      {
+        "word": "Frühling.",
+        "clean": "Frühling",
+        "syllables": [
+          "Früh",
+          "ling"
+        ]
+      }
+    ],
+    "story": "Der kleine Igel"
+  },
+  {
+    "id": "g3_story__ein_regnerischer_schultag_dicke_tropfen_klatschen_an_das",
+    "grade": 3,
+    "theme": "Story: Ein regnerischer Schultag",
+    "sentence": "Dicke Tropfen klatschen an das Fenster der Klasse.",
+    "words": [
+      {
+        "word": "Dicke",
+        "clean": "Dicke",
+        "syllables": [
+          "Dic",
+          "ke"
+        ]
+      },
+      {
+        "word": "Tropfen",
+        "clean": "Tropfen",
+        "syllables": [
+          "Tro",
+          "pfen"
+        ]
+      },
+      {
+        "word": "klatschen",
+        "clean": "klatschen",
+        "syllables": [
+          "klat",
+          "schen"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "Fenster",
+        "clean": "Fenster",
+        "syllables": [
+          "Fen",
+          "ster"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Klasse.",
+        "clean": "Klasse",
+        "syllables": [
+          "Klas",
+          "se"
+        ]
+      }
+    ],
+    "story": "Ein regnerischer Schultag"
+  },
+  {
+    "id": "g3_story__ein_regnerischer_schultag_drau_en_ist_der_himmel_grau_un",
+    "grade": 3,
+    "theme": "Story: Ein regnerischer Schultag",
+    "sentence": "Draußen ist der Himmel grau und dunkel.",
+    "words": [
+      {
+        "word": "Draußen",
+        "clean": "Draußen",
+        "syllables": [
+          "Drau",
+          "ßen"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Himmel",
+        "clean": "Himmel",
+        "syllables": [
+          "Him",
+          "mel"
+        ]
+      },
+      {
+        "word": "grau",
+        "clean": "grau",
+        "syllables": [
+          "grau"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "dunkel.",
+        "clean": "dunkel",
+        "syllables": [
+          "dun",
+          "kel"
+        ]
+      }
+    ],
+    "story": "Ein regnerischer Schultag"
+  },
+  {
+    "id": "g3_story__ein_regnerischer_schultag_die_kinder_sitzen_still_an_ihr",
+    "grade": 3,
+    "theme": "Story: Ein regnerischer Schultag",
+    "sentence": "Die Kinder sitzen still an ihren Tischen und malen bunte Bilder.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "sitzen",
+        "clean": "sitzen",
+        "syllables": [
+          "sit",
+          "zen"
+        ]
+      },
+      {
+        "word": "still",
+        "clean": "still",
+        "syllables": [
+          "still"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "ihren",
+        "clean": "ihren",
+        "syllables": [
+          "ih",
+          "ren"
+        ]
+      },
+      {
+        "word": "Tischen",
+        "clean": "Tischen",
+        "syllables": [
+          "Ti",
+          "schen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "malen",
+        "clean": "malen",
+        "syllables": [
+          "ma",
+          "len"
+        ]
+      },
+      {
+        "word": "bunte",
+        "clean": "bunte",
+        "syllables": [
+          "bun",
+          "te"
+        ]
+      },
+      {
+        "word": "Bilder.",
+        "clean": "Bilder",
+        "syllables": [
+          "Bil",
+          "der"
+        ]
+      }
+    ],
+    "story": "Ein regnerischer Schultag"
+  },
+  {
+    "id": "g3_story__ein_regnerischer_schultag_paul_spitzt_seinen_bleistift_a",
+    "grade": 3,
+    "theme": "Story: Ein regnerischer Schultag",
+    "sentence": "Paul spitzt seinen Bleistift an.",
+    "words": [
+      {
+        "word": "Paul",
+        "clean": "Paul",
+        "syllables": [
+          "Paul"
+        ]
+      },
+      {
+        "word": "spitzt",
+        "clean": "spitzt",
+        "syllables": [
+          "spitzt"
+        ]
+      },
+      {
+        "word": "seinen",
+        "clean": "seinen",
+        "syllables": [
+          "sei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Bleistift",
+        "clean": "Bleistift",
+        "syllables": [
+          "Blei",
+          "stift"
+        ]
+      },
+      {
+        "word": "an.",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      }
+    ],
+    "story": "Ein regnerischer Schultag"
+  },
+  {
+    "id": "g3_story__ein_regnerischer_schultag_er_zeichnet_ein_gro_es_schiff",
+    "grade": 3,
+    "theme": "Story: Ein regnerischer Schultag",
+    "sentence": "Er zeichnet ein großes Schiff auf hoher See.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "zeichnet",
+        "clean": "zeichnet",
+        "syllables": [
+          "zeich",
+          "net"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "großes",
+        "clean": "großes",
+        "syllables": [
+          "gro",
+          "ßes"
+        ]
+      },
+      {
+        "word": "Schiff",
+        "clean": "Schiff",
+        "syllables": [
+          "Schiff"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "hoher",
+        "clean": "hoher",
+        "syllables": [
+          "ho",
+          "her"
+        ]
+      },
+      {
+        "word": "See.",
+        "clean": "See",
+        "syllables": [
+          "See"
+        ]
+      }
+    ],
+    "story": "Ein regnerischer Schultag"
+  },
+  {
+    "id": "g3_story__ein_regnerischer_schultag_in_der_pause_bleiben_heute_all",
+    "grade": 3,
+    "theme": "Story: Ein regnerischer Schultag",
+    "sentence": "In der Pause bleiben heute alle gemütlich im warmen Zimmer.",
+    "words": [
+      {
+        "word": "In",
+        "clean": "In",
+        "syllables": [
+          "In"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Pause",
+        "clean": "Pause",
+        "syllables": [
+          "Pau",
+          "se"
+        ]
+      },
+      {
+        "word": "bleiben",
+        "clean": "bleiben",
+        "syllables": [
+          "blei",
+          "ben"
+        ]
+      },
+      {
+        "word": "heute",
+        "clean": "heute",
+        "syllables": [
+          "heu",
+          "te"
+        ]
+      },
+      {
+        "word": "alle",
+        "clean": "alle",
+        "syllables": [
+          "al",
+          "le"
+        ]
+      },
+      {
+        "word": "gemütlich",
+        "clean": "gemütlich",
+        "syllables": [
+          "ge",
+          "müt",
+          "lich"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "warmen",
+        "clean": "warmen",
+        "syllables": [
+          "war",
+          "men"
+        ]
+      },
+      {
+        "word": "Zimmer.",
+        "clean": "Zimmer",
+        "syllables": [
+          "Zim",
+          "mer"
+        ]
+      }
+    ],
+    "story": "Ein regnerischer Schultag"
+  },
+  {
+    "id": "g2_story__das_fu_ballspiel_auf_dem_sportplatz_herrscht_gr",
+    "grade": 2,
+    "theme": "Story: Das Fußballspiel",
+    "sentence": "Auf dem Sportplatz herrscht große Aufregung.",
+    "words": [
+      {
+        "word": "Auf",
+        "clean": "Auf",
+        "syllables": [
+          "Auf"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Sportplatz",
+        "clean": "Sportplatz",
+        "syllables": [
+          "Sportp",
+          "latz"
+        ]
+      },
+      {
+        "word": "herrscht",
+        "clean": "herrscht",
+        "syllables": [
+          "herrscht"
+        ]
+      },
+      {
+        "word": "große",
+        "clean": "große",
+        "syllables": [
+          "gro",
+          "ße"
+        ]
+      },
+      {
+        "word": "Aufregung.",
+        "clean": "Aufregung",
+        "syllables": [
+          "Auf",
+          "re",
+          "gung"
+        ]
+      }
+    ],
+    "story": "Das Fußballspiel"
+  },
+  {
+    "id": "g2_story__das_fu_ballspiel_die_mannschaften_laufen_schnel",
+    "grade": 2,
+    "theme": "Story: Das Fußballspiel",
+    "sentence": "Die Mannschaften laufen schnell auf das grüne Feld.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Mannschaften",
+        "clean": "Mannschaften",
+        "syllables": [
+          "Mann",
+          "schaf",
+          "ten"
+        ]
+      },
+      {
+        "word": "laufen",
+        "clean": "laufen",
+        "syllables": [
+          "lau",
+          "fen"
+        ]
+      },
+      {
+        "word": "schnell",
+        "clean": "schnell",
+        "syllables": [
+          "schnell"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "grüne",
+        "clean": "grüne",
+        "syllables": [
+          "grü",
+          "ne"
+        ]
+      },
+      {
+        "word": "Feld.",
+        "clean": "Feld",
+        "syllables": [
+          "Feld"
+        ]
+      }
+    ],
+    "story": "Das Fußballspiel"
+  },
+  {
+    "id": "g2_story__das_fu_ballspiel_ben_passt_den_ball_geschickt_z",
+    "grade": 2,
+    "theme": "Story: Das Fußballspiel",
+    "sentence": "Ben passt den Ball geschickt zu Leo.",
+    "words": [
+      {
+        "word": "Ben",
+        "clean": "Ben",
+        "syllables": [
+          "Ben"
+        ]
+      },
+      {
+        "word": "passt",
+        "clean": "passt",
+        "syllables": [
+          "passt"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Ball",
+        "clean": "Ball",
+        "syllables": [
+          "Ball"
+        ]
+      },
+      {
+        "word": "geschickt",
+        "clean": "geschickt",
+        "syllables": [
+          "ge",
+          "schickt"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "Leo.",
+        "clean": "Leo",
+        "syllables": [
+          "Leo"
+        ]
+      }
+    ],
+    "story": "Das Fußballspiel"
+  },
+  {
+    "id": "g2_story__das_fu_ballspiel_leo_schie_t_direkt_in_die_rech",
+    "grade": 2,
+    "theme": "Story: Das Fußballspiel",
+    "sentence": "Leo schießt direkt in die rechte Ecke.",
+    "words": [
+      {
+        "word": "Leo",
+        "clean": "Leo",
+        "syllables": [
+          "Leo"
+        ]
+      },
+      {
+        "word": "schießt",
+        "clean": "schießt",
+        "syllables": [
+          "schießt"
+        ]
+      },
+      {
+        "word": "direkt",
+        "clean": "direkt",
+        "syllables": [
+          "di",
+          "rekt"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "rechte",
+        "clean": "rechte",
+        "syllables": [
+          "rech",
+          "te"
+        ]
+      },
+      {
+        "word": "Ecke.",
+        "clean": "Ecke",
+        "syllables": [
+          "Ec",
+          "ke"
+        ]
+      }
+    ],
+    "story": "Das Fußballspiel"
+  },
+  {
+    "id": "g2_story__das_fu_ballspiel_der_torwart_springt__aber_der",
+    "grade": 2,
+    "theme": "Story: Das Fußballspiel",
+    "sentence": "Der Torwart springt, aber der Ball zappelt schon im Netz.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Torwart",
+        "clean": "Torwart",
+        "syllables": [
+          "Tor",
+          "wart"
+        ]
+      },
+      {
+        "word": "springt,",
+        "clean": "springt",
+        "syllables": [
+          "springt"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Ball",
+        "clean": "Ball",
+        "syllables": [
+          "Ball"
+        ]
+      },
+      {
+        "word": "zappelt",
+        "clean": "zappelt",
+        "syllables": [
+          "zap",
+          "pelt"
+        ]
+      },
+      {
+        "word": "schon",
+        "clean": "schon",
+        "syllables": [
+          "schon"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Netz.",
+        "clean": "Netz",
+        "syllables": [
+          "Netz"
+        ]
+      }
+    ],
+    "story": "Das Fußballspiel"
+  },
+  {
+    "id": "g2_story__das_fu_ballspiel_die_zuschauer_klatschen_laut_u",
+    "grade": 2,
+    "theme": "Story: Das Fußballspiel",
+    "sentence": "Die Zuschauer klatschen laut und jubeln vor Freude.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Zuschauer",
+        "clean": "Zuschauer",
+        "syllables": [
+          "Zu",
+          "schau",
+          "er"
+        ]
+      },
+      {
+        "word": "klatschen",
+        "clean": "klatschen",
+        "syllables": [
+          "klat",
+          "schen"
+        ]
+      },
+      {
+        "word": "laut",
+        "clean": "laut",
+        "syllables": [
+          "laut"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "jubeln",
+        "clean": "jubeln",
+        "syllables": [
+          "ju",
+          "beln"
+        ]
+      },
+      {
+        "word": "vor",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      },
+      {
+        "word": "Freude.",
+        "clean": "Freude",
+        "syllables": [
+          "Freu",
+          "de"
+        ]
+      }
+    ],
+    "story": "Das Fußballspiel"
+  },
+  {
+    "id": "g2_story__backen_mit_oma_am_wochenende_backen_lena_und",
+    "grade": 2,
+    "theme": "Story: Backen mit Oma",
+    "sentence": "Am Wochenende backen Lena und Oma einen leckeren Kuchen.",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "Wochenende",
+        "clean": "Wochenende",
+        "syllables": [
+          "Wo",
+          "che",
+          "nen",
+          "de"
+        ]
+      },
+      {
+        "word": "backen",
+        "clean": "backen",
+        "syllables": [
+          "bac",
+          "ken"
+        ]
+      },
+      {
+        "word": "Lena",
+        "clean": "Lena",
+        "syllables": [
+          "Le",
+          "na"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Oma",
+        "clean": "Oma",
+        "syllables": [
+          "Oma"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "leckeren",
+        "clean": "leckeren",
+        "syllables": [
+          "lec",
+          "ke",
+          "ren"
+        ]
+      },
+      {
+        "word": "Kuchen.",
+        "clean": "Kuchen",
+        "syllables": [
+          "Ku",
+          "chen"
+        ]
+      }
+    ],
+    "story": "Backen mit Oma"
+  },
+  {
+    "id": "g2_story__backen_mit_oma_zuerst_wiegen_sie_mehl__zucker",
+    "grade": 2,
+    "theme": "Story: Backen mit Oma",
+    "sentence": "Zuerst wiegen sie Mehl, Zucker and Butter genau ab.",
+    "words": [
+      {
+        "word": "Zuerst",
+        "clean": "Zuerst",
+        "syllables": [
+          "Zu",
+          "erst"
+        ]
+      },
+      {
+        "word": "wiegen",
+        "clean": "wiegen",
+        "syllables": [
+          "wie",
+          "gen"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "Mehl,",
+        "clean": "Mehl",
+        "syllables": [
+          "Mehl"
+        ]
+      },
+      {
+        "word": "Zucker",
+        "clean": "Zucker",
+        "syllables": [
+          "Zuc",
+          "ker"
+        ]
+      },
+      {
+        "word": "and",
+        "clean": "and",
+        "syllables": [
+          "and"
+        ]
+      },
+      {
+        "word": "Butter",
+        "clean": "Butter",
+        "syllables": [
+          "But",
+          "ter"
+        ]
+      },
+      {
+        "word": "genau",
+        "clean": "genau",
+        "syllables": [
+          "ge",
+          "nau"
+        ]
+      },
+      {
+        "word": "ab.",
+        "clean": "ab",
+        "syllables": [
+          "ab"
+        ]
+      }
+    ],
+    "story": "Backen mit Oma"
+  },
+  {
+    "id": "g2_story__backen_mit_oma_dann_r_hrt_lena_alles_in_einer",
+    "grade": 2,
+    "theme": "Story: Backen mit Oma",
+    "sentence": "Dann rührt Lena alles in einer großen Schüssel zusammen.",
+    "words": [
+      {
+        "word": "Dann",
+        "clean": "Dann",
+        "syllables": [
+          "Dann"
+        ]
+      },
+      {
+        "word": "rührt",
+        "clean": "rührt",
+        "syllables": [
+          "rührt"
+        ]
+      },
+      {
+        "word": "Lena",
+        "clean": "Lena",
+        "syllables": [
+          "Le",
+          "na"
+        ]
+      },
+      {
+        "word": "alles",
+        "clean": "alles",
+        "syllables": [
+          "al",
+          "les"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "einer",
+        "clean": "einer",
+        "syllables": [
+          "ei",
+          "ner"
+        ]
+      },
+      {
+        "word": "großen",
+        "clean": "großen",
+        "syllables": [
+          "gro",
+          "ßen"
+        ]
+      },
+      {
+        "word": "Schüssel",
+        "clean": "Schüssel",
+        "syllables": [
+          "Schüs",
+          "sel"
+        ]
+      },
+      {
+        "word": "zusammen.",
+        "clean": "zusammen",
+        "syllables": [
+          "zu",
+          "sam",
+          "men"
+        ]
+      }
+    ],
+    "story": "Backen mit Oma"
+  },
+  {
+    "id": "g2_story__backen_mit_oma_die_s__en__pfel_schneiden_sie",
+    "grade": 2,
+    "theme": "Story: Backen mit Oma",
+    "sentence": "Die süßen Äpfel schneiden sie in kleine Stücke.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "süßen",
+        "clean": "süßen",
+        "syllables": [
+          "sü",
+          "ßen"
+        ]
+      },
+      {
+        "word": "Äpfel",
+        "clean": "Äpfel",
+        "syllables": [
+          "Ä",
+          "pfel"
+        ]
+      },
+      {
+        "word": "schneiden",
+        "clean": "schneiden",
+        "syllables": [
+          "schnei",
+          "den"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "kleine",
+        "clean": "kleine",
+        "syllables": [
+          "klei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Stücke.",
+        "clean": "Stücke",
+        "syllables": [
+          "Stüc",
+          "ke"
+        ]
+      }
+    ],
+    "story": "Backen mit Oma"
+  },
+  {
+    "id": "g2_story__backen_mit_oma_bald_duftet_das_ganze_haus_her",
+    "grade": 2,
+    "theme": "Story: Backen mit Oma",
+    "sentence": "Bald duftet das ganze Haus herrlich nach frischem Zimt und warmem Teig.",
+    "words": [
+      {
+        "word": "Bald",
+        "clean": "Bald",
+        "syllables": [
+          "Bald"
+        ]
+      },
+      {
+        "word": "duftet",
+        "clean": "duftet",
+        "syllables": [
+          "duf",
+          "tet"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "ganze",
+        "clean": "ganze",
+        "syllables": [
+          "gan",
+          "ze"
+        ]
+      },
+      {
+        "word": "Haus",
+        "clean": "Haus",
+        "syllables": [
+          "Haus"
+        ]
+      },
+      {
+        "word": "herrlich",
+        "clean": "herrlich",
+        "syllables": [
+          "herr",
+          "lich"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "frischem",
+        "clean": "frischem",
+        "syllables": [
+          "fri",
+          "schem"
+        ]
+      },
+      {
+        "word": "Zimt",
+        "clean": "Zimt",
+        "syllables": [
+          "Zimt"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "warmem",
+        "clean": "warmem",
+        "syllables": [
+          "war",
+          "mem"
+        ]
+      },
+      {
+        "word": "Teig.",
+        "clean": "Teig",
+        "syllables": [
+          "Teig"
+        ]
+      }
+    ],
+    "story": "Backen mit Oma"
+  },
+  {
+    "id": "g2_story__besuch_auf_dem_bauernhof_auf_dem_bauernhof_gibt_es_viel",
+    "grade": 2,
+    "theme": "Story: Besuch auf dem Bauernhof",
+    "sentence": "Auf dem Bauernhof gibt es viel zu entdecken.",
+    "words": [
+      {
+        "word": "Auf",
+        "clean": "Auf",
+        "syllables": [
+          "Auf"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Bauernhof",
+        "clean": "Bauernhof",
+        "syllables": [
+          "Bau",
+          "ern",
+          "hof"
+        ]
+      },
+      {
+        "word": "gibt",
+        "clean": "gibt",
+        "syllables": [
+          "gibt"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "viel",
+        "clean": "viel",
+        "syllables": [
+          "viel"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "entdecken.",
+        "clean": "entdecken",
+        "syllables": [
+          "ent",
+          "dec",
+          "ken"
+        ]
+      }
+    ],
+    "story": "Besuch auf dem Bauernhof"
+  },
+  {
+    "id": "g2_story__besuch_auf_dem_bauernhof_die_h_hner_gackern_aufgeregt_i",
+    "grade": 2,
+    "theme": "Story: Besuch auf dem Bauernhof",
+    "sentence": "Die Hühner gackern aufgeregt im Stall und suchen nach Körnern.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Hühner",
+        "clean": "Hühner",
+        "syllables": [
+          "Hüh",
+          "ner"
+        ]
+      },
+      {
+        "word": "gackern",
+        "clean": "gackern",
+        "syllables": [
+          "gac",
+          "kern"
+        ]
+      },
+      {
+        "word": "aufgeregt",
+        "clean": "aufgeregt",
+        "syllables": [
+          "auf",
+          "ge",
+          "regt"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Stall",
+        "clean": "Stall",
+        "syllables": [
+          "Stall"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "suchen",
+        "clean": "suchen",
+        "syllables": [
+          "su",
+          "chen"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "Körnern.",
+        "clean": "Körnern",
+        "syllables": [
+          "Kör",
+          "nern"
+        ]
+      }
+    ],
+    "story": "Besuch auf dem Bauernhof"
+  },
+  {
+    "id": "g2_story__besuch_auf_dem_bauernhof_im_weichen_stroh_schlafen_f_nf",
+    "grade": 2,
+    "theme": "Story: Besuch auf dem Bauernhof",
+    "sentence": "Im weichen Stroh schlafen fünf kleine Ferkel dicht beieinander.",
+    "words": [
+      {
+        "word": "Im",
+        "clean": "Im",
+        "syllables": [
+          "Im"
+        ]
+      },
+      {
+        "word": "weichen",
+        "clean": "weichen",
+        "syllables": [
+          "wei",
+          "chen"
+        ]
+      },
+      {
+        "word": "Stroh",
+        "clean": "Stroh",
+        "syllables": [
+          "Stroh"
+        ]
+      },
+      {
+        "word": "schlafen",
+        "clean": "schlafen",
+        "syllables": [
+          "schla",
+          "fen"
+        ]
+      },
+      {
+        "word": "fünf",
+        "clean": "fünf",
+        "syllables": [
+          "fünf"
+        ]
+      },
+      {
+        "word": "kleine",
+        "clean": "kleine",
+        "syllables": [
+          "klei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Ferkel",
+        "clean": "Ferkel",
+        "syllables": [
+          "Fer",
+          "kel"
+        ]
+      },
+      {
+        "word": "dicht",
+        "clean": "dicht",
+        "syllables": [
+          "dicht"
+        ]
+      },
+      {
+        "word": "beieinander.",
+        "clean": "beieinander",
+        "syllables": [
+          "bei",
+          "ei",
+          "nan",
+          "der"
+        ]
+      }
+    ],
+    "story": "Besuch auf dem Bauernhof"
+  },
+  {
+    "id": "g2_story__besuch_auf_dem_bauernhof_der_bauer_bringt_frisches_heu",
+    "grade": 2,
+    "theme": "Story: Besuch auf dem Bauernhof",
+    "sentence": "Der Bauer bringt frisches Heu zu den Kühen.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Bauer",
+        "clean": "Bauer",
+        "syllables": [
+          "Bau",
+          "er"
+        ]
+      },
+      {
+        "word": "bringt",
+        "clean": "bringt",
+        "syllables": [
+          "bringt"
+        ]
+      },
+      {
+        "word": "frisches",
+        "clean": "frisches",
+        "syllables": [
+          "fri",
+          "sches"
+        ]
+      },
+      {
+        "word": "Heu",
+        "clean": "Heu",
+        "syllables": [
+          "Heu"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Kühen.",
+        "clean": "Kühen",
+        "syllables": [
+          "Kü",
+          "hen"
+        ]
+      }
+    ],
+    "story": "Besuch auf dem Bauernhof"
+  },
+  {
+    "id": "g2_story__besuch_auf_dem_bauernhof_max_darf_den_gro_en_traktor_be",
+    "grade": 2,
+    "theme": "Story: Besuch auf dem Bauernhof",
+    "sentence": "Max darf den großen Traktor bestaunen und eine Ziege mit Gras füttern.",
+    "words": [
+      {
+        "word": "Max",
+        "clean": "Max",
+        "syllables": [
+          "Max"
+        ]
+      },
+      {
+        "word": "darf",
+        "clean": "darf",
+        "syllables": [
+          "darf"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "großen",
+        "clean": "großen",
+        "syllables": [
+          "gro",
+          "ßen"
+        ]
+      },
+      {
+        "word": "Traktor",
+        "clean": "Traktor",
+        "syllables": [
+          "Trak",
+          "tor"
+        ]
+      },
+      {
+        "word": "bestaunen",
+        "clean": "bestaunen",
+        "syllables": [
+          "be",
+          "stau",
+          "nen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Ziege",
+        "clean": "Ziege",
+        "syllables": [
+          "Zie",
+          "ge"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "Gras",
+        "clean": "Gras",
+        "syllables": [
+          "Gras"
+        ]
+      },
+      {
+        "word": "füttern.",
+        "clean": "füttern",
+        "syllables": [
+          "füt",
+          "tern"
+        ]
+      }
+    ],
+    "story": "Besuch auf dem Bauernhof"
+  },
+  {
+    "id": "g2_story__der_schneemann_ber_nacht_ist_eine_dicke_schn",
+    "grade": 2,
+    "theme": "Story: Der Schneemann",
+    "sentence": "Über Nacht ist eine dicke Schneedecke gefallen.",
+    "words": [
+      {
+        "word": "Über",
+        "clean": "Über",
+        "syllables": [
+          "Ü",
+          "ber"
+        ]
+      },
+      {
+        "word": "Nacht",
+        "clean": "Nacht",
+        "syllables": [
+          "Nacht"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "dicke",
+        "clean": "dicke",
+        "syllables": [
+          "dic",
+          "ke"
+        ]
+      },
+      {
+        "word": "Schneedecke",
+        "clean": "Schneedecke",
+        "syllables": [
+          "Schne",
+          "e",
+          "dec",
+          "ke"
+        ]
+      },
+      {
+        "word": "gefallen.",
+        "clean": "gefallen",
+        "syllables": [
+          "ge",
+          "fal",
+          "len"
+        ]
+      }
+    ],
+    "story": "Der Schneemann"
+  },
+  {
+    "id": "g2_story__der_schneemann_emma_und_jonas_ziehen_warme_st",
+    "grade": 2,
+    "theme": "Story: Der Schneemann",
+    "sentence": "Emma und Jonas ziehen warme Stiefel und dicke Handschuhe an.",
+    "words": [
+      {
+        "word": "Emma",
+        "clean": "Emma",
+        "syllables": [
+          "Em",
+          "ma"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Jonas",
+        "clean": "Jonas",
+        "syllables": [
+          "Jo",
+          "nas"
+        ]
+      },
+      {
+        "word": "ziehen",
+        "clean": "ziehen",
+        "syllables": [
+          "zie",
+          "hen"
+        ]
+      },
+      {
+        "word": "warme",
+        "clean": "warme",
+        "syllables": [
+          "war",
+          "me"
+        ]
+      },
+      {
+        "word": "Stiefel",
+        "clean": "Stiefel",
+        "syllables": [
+          "Stie",
+          "fel"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "dicke",
+        "clean": "dicke",
+        "syllables": [
+          "dic",
+          "ke"
+        ]
+      },
+      {
+        "word": "Handschuhe",
+        "clean": "Handschuhe",
+        "syllables": [
+          "Hand",
+          "schu",
+          "he"
+        ]
+      },
+      {
+        "word": "an.",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      }
+    ],
+    "story": "Der Schneemann"
+  },
+  {
+    "id": "g2_story__der_schneemann_im_garten_rollen_sie_drei_ries",
+    "grade": 2,
+    "theme": "Story: Der Schneemann",
+    "sentence": "Im Garten rollen sie drei riesige Kugeln aus kaltem Schnee.",
+    "words": [
+      {
+        "word": "Im",
+        "clean": "Im",
+        "syllables": [
+          "Im"
+        ]
+      },
+      {
+        "word": "Garten",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      },
+      {
+        "word": "rollen",
+        "clean": "rollen",
+        "syllables": [
+          "rol",
+          "len"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "drei",
+        "clean": "drei",
+        "syllables": [
+          "drei"
+        ]
+      },
+      {
+        "word": "riesige",
+        "clean": "riesige",
+        "syllables": [
+          "rie",
+          "si",
+          "ge"
+        ]
+      },
+      {
+        "word": "Kugeln",
+        "clean": "Kugeln",
+        "syllables": [
+          "Ku",
+          "geln"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "kaltem",
+        "clean": "kaltem",
+        "syllables": [
+          "kal",
+          "tem"
+        ]
+      },
+      {
+        "word": "Schnee.",
+        "clean": "Schnee",
+        "syllables": [
+          "Schne",
+          "e"
+        ]
+      }
+    ],
+    "story": "Der Schneemann"
+  },
+  {
+    "id": "g2_story__der_schneemann_als_nase_dient_eine_rote_karot",
+    "grade": 2,
+    "theme": "Story: Der Schneemann",
+    "sentence": "Als Nase dient eine rote Karotte.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "Nase",
+        "clean": "Nase",
+        "syllables": [
+          "Na",
+          "se"
+        ]
+      },
+      {
+        "word": "dient",
+        "clean": "dient",
+        "syllables": [
+          "dient"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "rote",
+        "clean": "rote",
+        "syllables": [
+          "ro",
+          "te"
+        ]
+      },
+      {
+        "word": "Karotte.",
+        "clean": "Karotte",
+        "syllables": [
+          "Ka",
+          "rot",
+          "te"
+        ]
+      }
+    ],
+    "story": "Der Schneemann"
+  },
+  {
+    "id": "g2_story__der_schneemann_jonas_setzt_dem_mann_einen_alt",
+    "grade": 2,
+    "theme": "Story: Der Schneemann",
+    "sentence": "Jonas setzt dem Mann einen alten Topf auf den Kopf.",
+    "words": [
+      {
+        "word": "Jonas",
+        "clean": "Jonas",
+        "syllables": [
+          "Jo",
+          "nas"
+        ]
+      },
+      {
+        "word": "setzt",
+        "clean": "setzt",
+        "syllables": [
+          "setzt"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Mann",
+        "clean": "Mann",
+        "syllables": [
+          "Mann"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "alten",
+        "clean": "alten",
+        "syllables": [
+          "al",
+          "ten"
+        ]
+      },
+      {
+        "word": "Topf",
+        "clean": "Topf",
+        "syllables": [
+          "Topf"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Kopf.",
+        "clean": "Kopf",
+        "syllables": [
+          "Kopf"
+        ]
+      }
+    ],
+    "story": "Der Schneemann"
+  },
+  {
+    "id": "g2_story__der_schneemann_alle_lachen_fr_hlich",
+    "grade": 2,
+    "theme": "Story: Der Schneemann",
+    "sentence": "Alle lachen fröhlich.",
+    "words": [
+      {
+        "word": "Alle",
+        "clean": "Alle",
+        "syllables": [
+          "Al",
+          "le"
+        ]
+      },
+      {
+        "word": "lachen",
+        "clean": "lachen",
+        "syllables": [
+          "la",
+          "chen"
+        ]
+      },
+      {
+        "word": "fröhlich.",
+        "clean": "fröhlich",
+        "syllables": [
+          "fröh",
+          "lich"
+        ]
+      }
+    ],
+    "story": "Der Schneemann"
+  },
+  {
+    "id": "g3_story__der_verlorene_schl_ssel_felix_sucht_aufgeregt_in_seine",
+    "grade": 3,
+    "theme": "Story: Der verlorene Schlüssel",
+    "sentence": "Felix sucht aufgeregt in seiner Schultasche.",
+    "words": [
+      {
+        "word": "Felix",
+        "clean": "Felix",
+        "syllables": [
+          "Fe",
+          "lix"
+        ]
+      },
+      {
+        "word": "sucht",
+        "clean": "sucht",
+        "syllables": [
+          "sucht"
+        ]
+      },
+      {
+        "word": "aufgeregt",
+        "clean": "aufgeregt",
+        "syllables": [
+          "auf",
+          "ge",
+          "regt"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "seiner",
+        "clean": "seiner",
+        "syllables": [
+          "sei",
+          "ner"
+        ]
+      },
+      {
+        "word": "Schultasche.",
+        "clean": "Schultasche",
+        "syllables": [
+          "Schul",
+          "ta",
+          "sche"
+        ]
+      }
+    ],
+    "story": "Der verlorene Schlüssel"
+  },
+  {
+    "id": "g3_story__der_verlorene_schl_ssel_sein_hausschl_ssel_ist_spurlos",
+    "grade": 3,
+    "theme": "Story: Der verlorene Schlüssel",
+    "sentence": "Sein Hausschlüssel ist spurlos verschwunden.",
+    "words": [
+      {
+        "word": "Sein",
+        "clean": "Sein",
+        "syllables": [
+          "Sein"
+        ]
+      },
+      {
+        "word": "Hausschlüssel",
+        "clean": "Hausschlüssel",
+        "syllables": [
+          "Haussch",
+          "lüs",
+          "sel"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "spurlos",
+        "clean": "spurlos",
+        "syllables": [
+          "spur",
+          "los"
+        ]
+      },
+      {
+        "word": "verschwunden.",
+        "clean": "verschwunden",
+        "syllables": [
+          "versch",
+          "wun",
+          "den"
+        ]
+      }
+    ],
+    "story": "Der verlorene Schlüssel"
+  },
+  {
+    "id": "g3_story__der_verlorene_schl_ssel_er_kriecht_unter_die_schulbank",
+    "grade": 3,
+    "theme": "Story: Der verlorene Schlüssel",
+    "sentence": "Er kriecht unter die Schulbank und blickt in alle dunklen Ecken.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "kriecht",
+        "clean": "kriecht",
+        "syllables": [
+          "kriecht"
+        ]
+      },
+      {
+        "word": "unter",
+        "clean": "unter",
+        "syllables": [
+          "un",
+          "ter"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Schulbank",
+        "clean": "Schulbank",
+        "syllables": [
+          "Schul",
+          "bank"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "blickt",
+        "clean": "blickt",
+        "syllables": [
+          "blickt"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "alle",
+        "clean": "alle",
+        "syllables": [
+          "al",
+          "le"
+        ]
+      },
+      {
+        "word": "dunklen",
+        "clean": "dunklen",
+        "syllables": [
+          "dunk",
+          "len"
+        ]
+      },
+      {
+        "word": "Ecken.",
+        "clean": "Ecken",
+        "syllables": [
+          "Ec",
+          "ken"
+        ]
+      }
+    ],
+    "story": "Der verlorene Schlüssel"
+  },
+  {
+    "id": "g3_story__der_verlorene_schl_ssel_da_bemerkt_er_ein_gl_nzendes_b",
+    "grade": 3,
+    "theme": "Story: Der verlorene Schlüssel",
+    "sentence": "Da bemerkt er ein glänzendes Band unter seiner Jacke am Haken.",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "bemerkt",
+        "clean": "bemerkt",
+        "syllables": [
+          "be",
+          "merkt"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "glänzendes",
+        "clean": "glänzendes",
+        "syllables": [
+          "glän",
+          "zen",
+          "des"
+        ]
+      },
+      {
+        "word": "Band",
+        "clean": "Band",
+        "syllables": [
+          "Band"
+        ]
+      },
+      {
+        "word": "unter",
+        "clean": "unter",
+        "syllables": [
+          "un",
+          "ter"
+        ]
+      },
+      {
+        "word": "seiner",
+        "clean": "seiner",
+        "syllables": [
+          "sei",
+          "ner"
+        ]
+      },
+      {
+        "word": "Jacke",
+        "clean": "Jacke",
+        "syllables": [
+          "Jac",
+          "ke"
+        ]
+      },
+      {
+        "word": "am",
+        "clean": "am",
+        "syllables": [
+          "am"
+        ]
+      },
+      {
+        "word": "Haken.",
+        "clean": "Haken",
+        "syllables": [
+          "Ha",
+          "ken"
+        ]
+      }
+    ],
+    "story": "Der verlorene Schlüssel"
+  },
+  {
+    "id": "g3_story__der_verlorene_schl_ssel_erleichtert_greift_er_danach",
+    "grade": 3,
+    "theme": "Story: Der verlorene Schlüssel",
+    "sentence": "Erleichtert greift er danach.",
+    "words": [
+      {
+        "word": "Erleichtert",
+        "clean": "Erleichtert",
+        "syllables": [
+          "Er",
+          "leich",
+          "tert"
+        ]
+      },
+      {
+        "word": "greift",
+        "clean": "greift",
+        "syllables": [
+          "greift"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "danach.",
+        "clean": "danach",
+        "syllables": [
+          "da",
+          "nach"
+        ]
+      }
+    ],
+    "story": "Der verlorene Schlüssel"
+  },
+  {
+    "id": "g3_story__der_verlorene_schl_ssel_der_schl_ssel_war_die_ganze_ze",
+    "grade": 3,
+    "theme": "Story: Der verlorene Schlüssel",
+    "sentence": "Der Schlüssel war die ganze Zeit in der tiefen Manteltasche.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Schlüssel",
+        "clean": "Schlüssel",
+        "syllables": [
+          "Schlüs",
+          "sel"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "ganze",
+        "clean": "ganze",
+        "syllables": [
+          "gan",
+          "ze"
+        ]
+      },
+      {
+        "word": "Zeit",
+        "clean": "Zeit",
+        "syllables": [
+          "Zeit"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "tiefen",
+        "clean": "tiefen",
+        "syllables": [
+          "tie",
+          "fen"
+        ]
+      },
+      {
+        "word": "Manteltasche.",
+        "clean": "Manteltasche",
+        "syllables": [
+          "Man",
+          "tel",
+          "ta",
+          "sche"
+        ]
+      }
+    ],
+    "story": "Der verlorene Schlüssel"
+  },
+  {
+    "id": "g3_story__ein_tag_am_see_die_sonne_brennt_hei__vom_blau",
+    "grade": 3,
+    "theme": "Story: Ein Tag am See",
+    "sentence": "Die Sonne brennt heiß vom blauen Himmel.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Sonne",
+        "clean": "Sonne",
+        "syllables": [
+          "Son",
+          "ne"
+        ]
+      },
+      {
+        "word": "brennt",
+        "clean": "brennt",
+        "syllables": [
+          "brennt"
+        ]
+      },
+      {
+        "word": "heiß",
+        "clean": "heiß",
+        "syllables": [
+          "heiß"
+        ]
+      },
+      {
+        "word": "vom",
+        "clean": "vom",
+        "syllables": [
+          "vom"
+        ]
+      },
+      {
+        "word": "blauen",
+        "clean": "blauen",
+        "syllables": [
+          "blau",
+          "en"
+        ]
+      },
+      {
+        "word": "Himmel.",
+        "clean": "Himmel",
+        "syllables": [
+          "Him",
+          "mel"
+        ]
+      }
+    ],
+    "story": "Ein Tag am See"
+  },
+  {
+    "id": "g3_story__ein_tag_am_see_am_seeufer_breiten_die_kinder",
+    "grade": 3,
+    "theme": "Story: Ein Tag am See",
+    "sentence": "Am Seeufer breiten die Kinder bunte Handtücher aus.",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "Seeufer",
+        "clean": "Seeufer",
+        "syllables": [
+          "Se",
+          "eu",
+          "fer"
+        ]
+      },
+      {
+        "word": "breiten",
+        "clean": "breiten",
+        "syllables": [
+          "brei",
+          "ten"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "bunte",
+        "clean": "bunte",
+        "syllables": [
+          "bun",
+          "te"
+        ]
+      },
+      {
+        "word": "Handtücher",
+        "clean": "Handtücher",
+        "syllables": [
+          "Hand",
+          "tü",
+          "cher"
+        ]
+      },
+      {
+        "word": "aus.",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      }
+    ],
+    "story": "Ein Tag am See"
+  },
+  {
+    "id": "g3_story__ein_tag_am_see_das_wasser_ist_herrlich_erfris",
+    "grade": 3,
+    "theme": "Story: Ein Tag am See",
+    "sentence": "Das Wasser ist herrlich erfrischend und glasklar.",
+    "words": [
+      {
+        "word": "Das",
+        "clean": "Das",
+        "syllables": [
+          "Das"
+        ]
+      },
+      {
+        "word": "Wasser",
+        "clean": "Wasser",
+        "syllables": [
+          "Was",
+          "ser"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "herrlich",
+        "clean": "herrlich",
+        "syllables": [
+          "herr",
+          "lich"
+        ]
+      },
+      {
+        "word": "erfrischend",
+        "clean": "erfrischend",
+        "syllables": [
+          "erf",
+          "ri",
+          "schend"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "glasklar.",
+        "clean": "glasklar",
+        "syllables": [
+          "glask",
+          "lar"
+        ]
+      }
+    ],
+    "story": "Ein Tag am See"
+  },
+  {
+    "id": "g3_story__ein_tag_am_see_timo_taucht_nach_glatten_stein",
+    "grade": 3,
+    "theme": "Story: Ein Tag am See",
+    "sentence": "Timo taucht nach glatten Steinen am sandigen Grund.",
+    "words": [
+      {
+        "word": "Timo",
+        "clean": "Timo",
+        "syllables": [
+          "Ti",
+          "mo"
+        ]
+      },
+      {
+        "word": "taucht",
+        "clean": "taucht",
+        "syllables": [
+          "taucht"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "glatten",
+        "clean": "glatten",
+        "syllables": [
+          "glat",
+          "ten"
+        ]
+      },
+      {
+        "word": "Steinen",
+        "clean": "Steinen",
+        "syllables": [
+          "Stei",
+          "nen"
+        ]
+      },
+      {
+        "word": "am",
+        "clean": "am",
+        "syllables": [
+          "am"
+        ]
+      },
+      {
+        "word": "sandigen",
+        "clean": "sandigen",
+        "syllables": [
+          "san",
+          "di",
+          "gen"
+        ]
+      },
+      {
+        "word": "Grund.",
+        "clean": "Grund",
+        "syllables": [
+          "Grund"
+        ]
+      }
+    ],
+    "story": "Ein Tag am See"
+  },
+  {
+    "id": "g3_story__ein_tag_am_see_seine_schwester_baut_eine_m_ch",
+    "grade": 3,
+    "theme": "Story: Ein Tag am See",
+    "sentence": "Seine Schwester baut eine mächtige Burg aus feuchtem Schlamm.",
+    "words": [
+      {
+        "word": "Seine",
+        "clean": "Seine",
+        "syllables": [
+          "Sei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Schwester",
+        "clean": "Schwester",
+        "syllables": [
+          "Schwe",
+          "ster"
+        ]
+      },
+      {
+        "word": "baut",
+        "clean": "baut",
+        "syllables": [
+          "baut"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "mächtige",
+        "clean": "mächtige",
+        "syllables": [
+          "mäch",
+          "ti",
+          "ge"
+        ]
+      },
+      {
+        "word": "Burg",
+        "clean": "Burg",
+        "syllables": [
+          "Burg"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "feuchtem",
+        "clean": "feuchtem",
+        "syllables": [
+          "feuch",
+          "tem"
+        ]
+      },
+      {
+        "word": "Schlamm.",
+        "clean": "Schlamm",
+        "syllables": [
+          "Schlamm"
+        ]
+      }
+    ],
+    "story": "Ein Tag am See"
+  },
+  {
+    "id": "g3_story__ein_tag_am_see_am_sp_ten_nachmittag_essen_bei",
+    "grade": 3,
+    "theme": "Story: Ein Tag am See",
+    "sentence": "Am späten Nachmittag essen beide ein kaltes Eis.",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "späten",
+        "clean": "späten",
+        "syllables": [
+          "spä",
+          "ten"
+        ]
+      },
+      {
+        "word": "Nachmittag",
+        "clean": "Nachmittag",
+        "syllables": [
+          "Nach",
+          "mit",
+          "tag"
+        ]
+      },
+      {
+        "word": "essen",
+        "clean": "essen",
+        "syllables": [
+          "es",
+          "sen"
+        ]
+      },
+      {
+        "word": "beide",
+        "clean": "beide",
+        "syllables": [
+          "bei",
+          "de"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "kaltes",
+        "clean": "kaltes",
+        "syllables": [
+          "kal",
+          "tes"
+        ]
+      },
+      {
+        "word": "Eis.",
+        "clean": "Eis",
+        "syllables": [
+          "Eis"
+        ]
+      }
+    ],
+    "story": "Ein Tag am See"
+  },
+  {
+    "id": "g3_story__in_der_b_cherei_in_den_langen_regalen_der_b_ch",
+    "grade": 3,
+    "theme": "Story: In der Bücherei",
+    "sentence": "In den langen Regalen der Bücherei stehen unzählige Bücher.",
+    "words": [
+      {
+        "word": "In",
+        "clean": "In",
+        "syllables": [
+          "In"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "langen",
+        "clean": "langen",
+        "syllables": [
+          "lan",
+          "gen"
+        ]
+      },
+      {
+        "word": "Regalen",
+        "clean": "Regalen",
+        "syllables": [
+          "Re",
+          "ga",
+          "len"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Bücherei",
+        "clean": "Bücherei",
+        "syllables": [
+          "Bü",
+          "che",
+          "rei"
+        ]
+      },
+      {
+        "word": "stehen",
+        "clean": "stehen",
+        "syllables": [
+          "ste",
+          "hen"
+        ]
+      },
+      {
+        "word": "unzählige",
+        "clean": "unzählige",
+        "syllables": [
+          "un",
+          "zäh",
+          "li",
+          "ge"
+        ]
+      },
+      {
+        "word": "Bücher.",
+        "clean": "Bücher",
+        "syllables": [
+          "Bü",
+          "cher"
+        ]
+      }
+    ],
+    "story": "In der Bücherei"
+  },
+  {
+    "id": "g3_story__in_der_b_cherei_sara_schleicht_leise_durch_die",
+    "grade": 3,
+    "theme": "Story: In der Bücherei",
+    "sentence": "Sara schleicht leise durch die Gänge.",
+    "words": [
+      {
+        "word": "Sara",
+        "clean": "Sara",
+        "syllables": [
+          "Sa",
+          "ra"
+        ]
+      },
+      {
+        "word": "schleicht",
+        "clean": "schleicht",
+        "syllables": [
+          "schleicht"
+        ]
+      },
+      {
+        "word": "leise",
+        "clean": "leise",
+        "syllables": [
+          "lei",
+          "se"
+        ]
+      },
+      {
+        "word": "durch",
+        "clean": "durch",
+        "syllables": [
+          "durch"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Gänge.",
+        "clean": "Gänge",
+        "syllables": [
+          "Gän",
+          "ge"
+        ]
+      }
+    ],
+    "story": "In der Bücherei"
+  },
+  {
+    "id": "g3_story__in_der_b_cherei_sie_interessiert_sich_besonder",
+    "grade": 3,
+    "theme": "Story: In der Bücherei",
+    "sentence": "Sie interessiert sich besonders für spannende Geschichten über wilde Piraten und fremde Sterne.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "interessiert",
+        "clean": "interessiert",
+        "syllables": [
+          "in",
+          "te",
+          "res",
+          "siert"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "besonders",
+        "clean": "besonders",
+        "syllables": [
+          "be",
+          "son",
+          "ders"
+        ]
+      },
+      {
+        "word": "für",
+        "clean": "für",
+        "syllables": [
+          "für"
+        ]
+      },
+      {
+        "word": "spannende",
+        "clean": "spannende",
+        "syllables": [
+          "span",
+          "nen",
+          "de"
+        ]
+      },
+      {
+        "word": "Geschichten",
+        "clean": "Geschichten",
+        "syllables": [
+          "Ge",
+          "schich",
+          "ten"
+        ]
+      },
+      {
+        "word": "über",
+        "clean": "über",
+        "syllables": [
+          "ü",
+          "ber"
+        ]
+      },
+      {
+        "word": "wilde",
+        "clean": "wilde",
+        "syllables": [
+          "wil",
+          "de"
+        ]
+      },
+      {
+        "word": "Piraten",
+        "clean": "Piraten",
+        "syllables": [
+          "Pi",
+          "ra",
+          "ten"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "fremde",
+        "clean": "fremde",
+        "syllables": [
+          "frem",
+          "de"
+        ]
+      },
+      {
+        "word": "Sterne.",
+        "clean": "Sterne",
+        "syllables": [
+          "Ster",
+          "ne"
+        ]
+      }
+    ],
+    "story": "In der Bücherei"
+  },
+  {
+    "id": "g3_story__in_der_b_cherei_auf_einem_gem_tlichen_sessel_s",
+    "grade": 3,
+    "theme": "Story: In der Bücherei",
+    "sentence": "Auf einem gemütlichen Sessel schlägt sie ein dickes Buch auf.",
+    "words": [
+      {
+        "word": "Auf",
+        "clean": "Auf",
+        "syllables": [
+          "Auf"
+        ]
+      },
+      {
+        "word": "einem",
+        "clean": "einem",
+        "syllables": [
+          "ei",
+          "nem"
+        ]
+      },
+      {
+        "word": "gemütlichen",
+        "clean": "gemütlichen",
+        "syllables": [
+          "ge",
+          "müt",
+          "li",
+          "chen"
+        ]
+      },
+      {
+        "word": "Sessel",
+        "clean": "Sessel",
+        "syllables": [
+          "Ses",
+          "sel"
+        ]
+      },
+      {
+        "word": "schlägt",
+        "clean": "schlägt",
+        "syllables": [
+          "schlägt"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "dickes",
+        "clean": "dickes",
+        "syllables": [
+          "dic",
+          "kes"
+        ]
+      },
+      {
+        "word": "Buch",
+        "clean": "Buch",
+        "syllables": [
+          "Buch"
+        ]
+      },
+      {
+        "word": "auf.",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      }
+    ],
+    "story": "In der Bücherei"
+  },
+  {
+    "id": "g3_story__in_der_b_cherei_ganz_versunken_liest_sie_die_e",
+    "grade": 3,
+    "theme": "Story: In der Bücherei",
+    "sentence": "Ganz versunken liest sie die ersten Seiten bis zum Gong.",
+    "words": [
+      {
+        "word": "Ganz",
+        "clean": "Ganz",
+        "syllables": [
+          "Ganz"
+        ]
+      },
+      {
+        "word": "versunken",
+        "clean": "versunken",
+        "syllables": [
+          "ver",
+          "sun",
+          "ken"
+        ]
+      },
+      {
+        "word": "liest",
+        "clean": "liest",
+        "syllables": [
+          "liest"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "ersten",
+        "clean": "ersten",
+        "syllables": [
+          "er",
+          "sten"
+        ]
+      },
+      {
+        "word": "Seiten",
+        "clean": "Seiten",
+        "syllables": [
+          "Sei",
+          "ten"
+        ]
+      },
+      {
+        "word": "bis",
+        "clean": "bis",
+        "syllables": [
+          "bis"
+        ]
+      },
+      {
+        "word": "zum",
+        "clean": "zum",
+        "syllables": [
+          "zum"
+        ]
+      },
+      {
+        "word": "Gong.",
+        "clean": "Gong",
+        "syllables": [
+          "Gong"
+        ]
+      }
+    ],
+    "story": "In der Bücherei"
+  },
+  {
+    "id": "g3_story__der_flei_ige_specht_tief_im_wald_klopft_es_laut_an",
+    "grade": 3,
+    "theme": "Story: Der fleißige Specht",
+    "sentence": "Tief im Wald klopft es laut an einem alten Baumstamm.",
+    "words": [
+      {
+        "word": "Tief",
+        "clean": "Tief",
+        "syllables": [
+          "Tief"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Wald",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      },
+      {
+        "word": "klopft",
+        "clean": "klopft",
+        "syllables": [
+          "klopft"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "laut",
+        "clean": "laut",
+        "syllables": [
+          "laut"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "einem",
+        "clean": "einem",
+        "syllables": [
+          "ei",
+          "nem"
+        ]
+      },
+      {
+        "word": "alten",
+        "clean": "alten",
+        "syllables": [
+          "al",
+          "ten"
+        ]
+      },
+      {
+        "word": "Baumstamm.",
+        "clean": "Baumstamm",
+        "syllables": [
+          "Baum",
+          "stamm"
+        ]
+      }
+    ],
+    "story": "Der fleißige Specht"
+  },
+  {
+    "id": "g3_story__der_flei_ige_specht_ein_bunter_specht_h_mmert_uner",
+    "grade": 3,
+    "theme": "Story: Der fleißige Specht",
+    "sentence": "Ein bunter Specht hämmert unermüdlich mit seinem spitzen Schnabel in die morsche Rinde.",
+    "words": [
+      {
+        "word": "Ein",
+        "clean": "Ein",
+        "syllables": [
+          "Ein"
+        ]
+      },
+      {
+        "word": "bunter",
+        "clean": "bunter",
+        "syllables": [
+          "bun",
+          "ter"
+        ]
+      },
+      {
+        "word": "Specht",
+        "clean": "Specht",
+        "syllables": [
+          "Specht"
+        ]
+      },
+      {
+        "word": "hämmert",
+        "clean": "hämmert",
+        "syllables": [
+          "häm",
+          "mert"
+        ]
+      },
+      {
+        "word": "unermüdlich",
+        "clean": "unermüdlich",
+        "syllables": [
+          "u",
+          "ner",
+          "müd",
+          "lich"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "seinem",
+        "clean": "seinem",
+        "syllables": [
+          "sei",
+          "nem"
+        ]
+      },
+      {
+        "word": "spitzen",
+        "clean": "spitzen",
+        "syllables": [
+          "spit",
+          "zen"
+        ]
+      },
+      {
+        "word": "Schnabel",
+        "clean": "Schnabel",
+        "syllables": [
+          "Schna",
+          "bel"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "morsche",
+        "clean": "morsche",
+        "syllables": [
+          "mor",
+          "sche"
+        ]
+      },
+      {
+        "word": "Rinde.",
+        "clean": "Rinde",
+        "syllables": [
+          "Rin",
+          "de"
+        ]
+      }
+    ],
+    "story": "Der fleißige Specht"
+  },
+  {
+    "id": "g3_story__der_flei_ige_specht_er_sucht_nach_kleinen_k_fern_u",
+    "grade": 3,
+    "theme": "Story: Der fleißige Specht",
+    "sentence": "Er sucht nach kleinen Käfern und fetten Larven.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "sucht",
+        "clean": "sucht",
+        "syllables": [
+          "sucht"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "kleinen",
+        "clean": "kleinen",
+        "syllables": [
+          "klei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Käfern",
+        "clean": "Käfern",
+        "syllables": [
+          "Kä",
+          "fern"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "fetten",
+        "clean": "fetten",
+        "syllables": [
+          "fet",
+          "ten"
+        ]
+      },
+      {
+        "word": "Larven.",
+        "clean": "Larven",
+        "syllables": [
+          "Lar",
+          "ven"
+        ]
+      }
+    ],
+    "story": "Der fleißige Specht"
+  },
+  {
+    "id": "g3_story__der_flei_ige_specht_mit_seinen_kr_ftigen_krallen_h",
+    "grade": 3,
+    "theme": "Story: Der fleißige Specht",
+    "sentence": "Mit seinen kräftigen Krallen hält er sich fest am Stamm.",
+    "words": [
+      {
+        "word": "Mit",
+        "clean": "Mit",
+        "syllables": [
+          "Mit"
+        ]
+      },
+      {
+        "word": "seinen",
+        "clean": "seinen",
+        "syllables": [
+          "sei",
+          "nen"
+        ]
+      },
+      {
+        "word": "kräftigen",
+        "clean": "kräftigen",
+        "syllables": [
+          "kräf",
+          "ti",
+          "gen"
+        ]
+      },
+      {
+        "word": "Krallen",
+        "clean": "Krallen",
+        "syllables": [
+          "Kral",
+          "len"
+        ]
+      },
+      {
+        "word": "hält",
+        "clean": "hält",
+        "syllables": [
+          "hält"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "fest",
+        "clean": "fest",
+        "syllables": [
+          "fest"
+        ]
+      },
+      {
+        "word": "am",
+        "clean": "am",
+        "syllables": [
+          "am"
+        ]
+      },
+      {
+        "word": "Stamm.",
+        "clean": "Stamm",
+        "syllables": [
+          "Stamm"
+        ]
+      }
+    ],
+    "story": "Der fleißige Specht"
+  },
+  {
+    "id": "g3_story__der_flei_ige_specht_sein_roter_kopf_leuchtet_weit",
+    "grade": 3,
+    "theme": "Story: Der fleißige Specht",
+    "sentence": "Sein roter Kopf leuchtet weit durch das Dickicht.",
+    "words": [
+      {
+        "word": "Sein",
+        "clean": "Sein",
+        "syllables": [
+          "Sein"
+        ]
+      },
+      {
+        "word": "roter",
+        "clean": "roter",
+        "syllables": [
+          "ro",
+          "ter"
+        ]
+      },
+      {
+        "word": "Kopf",
+        "clean": "Kopf",
+        "syllables": [
+          "Kopf"
+        ]
+      },
+      {
+        "word": "leuchtet",
+        "clean": "leuchtet",
+        "syllables": [
+          "leuch",
+          "tet"
+        ]
+      },
+      {
+        "word": "weit",
+        "clean": "weit",
+        "syllables": [
+          "weit"
+        ]
+      },
+      {
+        "word": "durch",
+        "clean": "durch",
+        "syllables": [
+          "durch"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "Dickicht.",
+        "clean": "Dickicht",
+        "syllables": [
+          "Dic",
+          "kicht"
+        ]
+      }
+    ],
+    "story": "Der fleißige Specht"
+  },
+  {
+    "id": "g3_story__das_baumhaus_im_garten_zimmern_die_geschwis",
+    "grade": 3,
+    "theme": "Story: Das Baumhaus",
+    "sentence": "Im Garten zimmern die Geschwister eine Hütte in der alten Eiche.",
+    "words": [
+      {
+        "word": "Im",
+        "clean": "Im",
+        "syllables": [
+          "Im"
+        ]
+      },
+      {
+        "word": "Garten",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      },
+      {
+        "word": "zimmern",
+        "clean": "zimmern",
+        "syllables": [
+          "zim",
+          "mern"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Geschwister",
+        "clean": "Geschwister",
+        "syllables": [
+          "Gesch",
+          "wi",
+          "ster"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Hütte",
+        "clean": "Hütte",
+        "syllables": [
+          "Hüt",
+          "te"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "alten",
+        "clean": "alten",
+        "syllables": [
+          "al",
+          "ten"
+        ]
+      },
+      {
+        "word": "Eiche.",
+        "clean": "Eiche",
+        "syllables": [
+          "Ei",
+          "che"
+        ]
+      }
+    ],
+    "story": "Das Baumhaus"
+  },
+  {
+    "id": "g3_story__das_baumhaus_papa_hilft_ihnen_und_s_gt_schw",
+    "grade": 3,
+    "theme": "Story: Das Baumhaus",
+    "sentence": "Papa hilft ihnen und sägt schwere Holzbretter zurecht.",
+    "words": [
+      {
+        "word": "Papa",
+        "clean": "Papa",
+        "syllables": [
+          "Pa",
+          "pa"
+        ]
+      },
+      {
+        "word": "hilft",
+        "clean": "hilft",
+        "syllables": [
+          "hilft"
+        ]
+      },
+      {
+        "word": "ihnen",
+        "clean": "ihnen",
+        "syllables": [
+          "ih",
+          "nen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sägt",
+        "clean": "sägt",
+        "syllables": [
+          "sägt"
+        ]
+      },
+      {
+        "word": "schwere",
+        "clean": "schwere",
+        "syllables": [
+          "schwe",
+          "re"
+        ]
+      },
+      {
+        "word": "Holzbretter",
+        "clean": "Holzbretter",
+        "syllables": [
+          "Holzb",
+          "ret",
+          "ter"
+        ]
+      },
+      {
+        "word": "zurecht.",
+        "clean": "zurecht",
+        "syllables": [
+          "zu",
+          "recht"
+        ]
+      }
+    ],
+    "story": "Das Baumhaus"
+  },
+  {
+    "id": "g3_story__das_baumhaus_mit_dem_hammer_schl_gt_finn_di",
+    "grade": 3,
+    "theme": "Story: Das Baumhaus",
+    "sentence": "Mit dem Hammer schlägt Finn dicke Nägel fest in das Holz.",
+    "words": [
+      {
+        "word": "Mit",
+        "clean": "Mit",
+        "syllables": [
+          "Mit"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Hammer",
+        "clean": "Hammer",
+        "syllables": [
+          "Ham",
+          "mer"
+        ]
+      },
+      {
+        "word": "schlägt",
+        "clean": "schlägt",
+        "syllables": [
+          "schlägt"
+        ]
+      },
+      {
+        "word": "Finn",
+        "clean": "Finn",
+        "syllables": [
+          "Finn"
+        ]
+      },
+      {
+        "word": "dicke",
+        "clean": "dicke",
+        "syllables": [
+          "dic",
+          "ke"
+        ]
+      },
+      {
+        "word": "Nägel",
+        "clean": "Nägel",
+        "syllables": [
+          "Nä",
+          "gel"
+        ]
+      },
+      {
+        "word": "fest",
+        "clean": "fest",
+        "syllables": [
+          "fest"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "Holz.",
+        "clean": "Holz",
+        "syllables": [
+          "Holz"
+        ]
+      }
+    ],
+    "story": "Das Baumhaus"
+  },
+  {
+    "id": "g3_story__das_baumhaus_am_ast_befestigen_sie_eine_fes",
+    "grade": 3,
+    "theme": "Story: Das Baumhaus",
+    "sentence": "Am Ast befestigen sie eine feste Strickleiter aus dicken Seilen.",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "Ast",
+        "clean": "Ast",
+        "syllables": [
+          "Ast"
+        ]
+      },
+      {
+        "word": "befestigen",
+        "clean": "befestigen",
+        "syllables": [
+          "be",
+          "fe",
+          "sti",
+          "gen"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "feste",
+        "clean": "feste",
+        "syllables": [
+          "fe",
+          "ste"
+        ]
+      },
+      {
+        "word": "Strickleiter",
+        "clean": "Strickleiter",
+        "syllables": [
+          "Strick",
+          "lei",
+          "ter"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "dicken",
+        "clean": "dicken",
+        "syllables": [
+          "dic",
+          "ken"
+        ]
+      },
+      {
+        "word": "Seilen.",
+        "clean": "Seilen",
+        "syllables": [
+          "Sei",
+          "len"
+        ]
+      }
+    ],
+    "story": "Das Baumhaus"
+  },
+  {
+    "id": "g3_story__das_baumhaus_jetzt_haben_sie_ein_geheimes_v",
+    "grade": 3,
+    "theme": "Story: Das Baumhaus",
+    "sentence": "Jetzt haben sie ein geheimes Versteck für den Sommer.",
+    "words": [
+      {
+        "word": "Jetzt",
+        "clean": "Jetzt",
+        "syllables": [
+          "Jetzt"
+        ]
+      },
+      {
+        "word": "haben",
+        "clean": "haben",
+        "syllables": [
+          "ha",
+          "ben"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "geheimes",
+        "clean": "geheimes",
+        "syllables": [
+          "ge",
+          "hei",
+          "mes"
+        ]
+      },
+      {
+        "word": "Versteck",
+        "clean": "Versteck",
+        "syllables": [
+          "Ver",
+          "steck"
+        ]
+      },
+      {
+        "word": "für",
+        "clean": "für",
+        "syllables": [
+          "für"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Sommer.",
+        "clean": "Sommer",
+        "syllables": [
+          "Som",
+          "mer"
+        ]
+      }
+    ],
+    "story": "Das Baumhaus"
+  },
+  {
+    "id": "g2_story__der_kleine_hund_ein_kleiner_welpe_tollt__ber_d",
+    "grade": 2,
+    "theme": "Story: Der kleine Hund",
+    "sentence": "Ein kleiner Welpe tollt über die nasse Wiese.",
+    "words": [
+      {
+        "word": "Ein",
+        "clean": "Ein",
+        "syllables": [
+          "Ein"
+        ]
+      },
+      {
+        "word": "kleiner",
+        "clean": "kleiner",
+        "syllables": [
+          "klei",
+          "ner"
+        ]
+      },
+      {
+        "word": "Welpe",
+        "clean": "Welpe",
+        "syllables": [
+          "Wel",
+          "pe"
+        ]
+      },
+      {
+        "word": "tollt",
+        "clean": "tollt",
+        "syllables": [
+          "tollt"
+        ]
+      },
+      {
+        "word": "über",
+        "clean": "über",
+        "syllables": [
+          "ü",
+          "ber"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "nasse",
+        "clean": "nasse",
+        "syllables": [
+          "nas",
+          "se"
+        ]
+      },
+      {
+        "word": "Wiese.",
+        "clean": "Wiese",
+        "syllables": [
+          "Wie",
+          "se"
+        ]
+      }
+    ],
+    "story": "Der kleine Hund"
+  },
+  {
+    "id": "g2_story__der_kleine_hund_seine_langen_ohren_wackeln_lus",
+    "grade": 2,
+    "theme": "Story: Der kleine Hund",
+    "sentence": "Seine langen Ohren wackeln lustig bei jedem wilden Sprung.",
+    "words": [
+      {
+        "word": "Seine",
+        "clean": "Seine",
+        "syllables": [
+          "Sei",
+          "ne"
+        ]
+      },
+      {
+        "word": "langen",
+        "clean": "langen",
+        "syllables": [
+          "lan",
+          "gen"
+        ]
+      },
+      {
+        "word": "Ohren",
+        "clean": "Ohren",
+        "syllables": [
+          "Oh",
+          "ren"
+        ]
+      },
+      {
+        "word": "wackeln",
+        "clean": "wackeln",
+        "syllables": [
+          "wac",
+          "keln"
+        ]
+      },
+      {
+        "word": "lustig",
+        "clean": "lustig",
+        "syllables": [
+          "lu",
+          "stig"
+        ]
+      },
+      {
+        "word": "bei",
+        "clean": "bei",
+        "syllables": [
+          "bei"
+        ]
+      },
+      {
+        "word": "jedem",
+        "clean": "jedem",
+        "syllables": [
+          "je",
+          "dem"
+        ]
+      },
+      {
+        "word": "wilden",
+        "clean": "wilden",
+        "syllables": [
+          "wil",
+          "den"
+        ]
+      },
+      {
+        "word": "Sprung.",
+        "clean": "Sprung",
+        "syllables": [
+          "Sprung"
+        ]
+      }
+    ],
+    "story": "Der kleine Hund"
+  },
+  {
+    "id": "g2_story__der_kleine_hund_er_jagt_einem_bunten_schmetter",
+    "grade": 2,
+    "theme": "Story: Der kleine Hund",
+    "sentence": "Er jagt einem bunten Schmetterling hinterher, der leise im Wind flattert.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "jagt",
+        "clean": "jagt",
+        "syllables": [
+          "jagt"
+        ]
+      },
+      {
+        "word": "einem",
+        "clean": "einem",
+        "syllables": [
+          "ei",
+          "nem"
+        ]
+      },
+      {
+        "word": "bunten",
+        "clean": "bunten",
+        "syllables": [
+          "bun",
+          "ten"
+        ]
+      },
+      {
+        "word": "Schmetterling",
+        "clean": "Schmetterling",
+        "syllables": [
+          "Schmet",
+          "ter",
+          "ling"
+        ]
+      },
+      {
+        "word": "hinterher,",
+        "clean": "hinterher",
+        "syllables": [
+          "hin",
+          "ter",
+          "her"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "leise",
+        "clean": "leise",
+        "syllables": [
+          "lei",
+          "se"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Wind",
+        "clean": "Wind",
+        "syllables": [
+          "Wind"
+        ]
+      },
+      {
+        "word": "flattert.",
+        "clean": "flattert",
+        "syllables": [
+          "flat",
+          "tert"
+        ]
+      }
+    ],
+    "story": "Der kleine Hund"
+  },
+  {
+    "id": "g2_story__der_kleine_hund_als_er_m_de_wird__trottet_er_b",
+    "grade": 2,
+    "theme": "Story: Der kleine Hund",
+    "sentence": "Als er müde wird, trottet er brav zu seinem Korb.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "müde",
+        "clean": "müde",
+        "syllables": [
+          "mü",
+          "de"
+        ]
+      },
+      {
+        "word": "wird,",
+        "clean": "wird",
+        "syllables": [
+          "wird"
+        ]
+      },
+      {
+        "word": "trottet",
+        "clean": "trottet",
+        "syllables": [
+          "trot",
+          "tet"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "brav",
+        "clean": "brav",
+        "syllables": [
+          "brav"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "seinem",
+        "clean": "seinem",
+        "syllables": [
+          "sei",
+          "nem"
+        ]
+      },
+      {
+        "word": "Korb.",
+        "clean": "Korb",
+        "syllables": [
+          "Korb"
+        ]
+      }
+    ],
+    "story": "Der kleine Hund"
+  },
+  {
+    "id": "g2_story__der_kleine_hund_dort_rollt_er_sich_auf_seiner",
+    "grade": 2,
+    "theme": "Story: Der kleine Hund",
+    "sentence": "Dort rollt er sich auf seiner weichen Decke zusammen.",
+    "words": [
+      {
+        "word": "Dort",
+        "clean": "Dort",
+        "syllables": [
+          "Dort"
+        ]
+      },
+      {
+        "word": "rollt",
+        "clean": "rollt",
+        "syllables": [
+          "rollt"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "seiner",
+        "clean": "seiner",
+        "syllables": [
+          "sei",
+          "ner"
+        ]
+      },
+      {
+        "word": "weichen",
+        "clean": "weichen",
+        "syllables": [
+          "wei",
+          "chen"
+        ]
+      },
+      {
+        "word": "Decke",
+        "clean": "Decke",
+        "syllables": [
+          "Dec",
+          "ke"
+        ]
+      },
+      {
+        "word": "zusammen.",
+        "clean": "zusammen",
+        "syllables": [
+          "zu",
+          "sam",
+          "men"
+        ]
+      }
+    ],
+    "story": "Der kleine Hund"
+  },
+  {
+    "id": "g3_story__das_gewitter_am_nachmittag_ziehen_pl_tzlich",
+    "grade": 3,
+    "theme": "Story: Das Gewitter",
+    "sentence": "Am Nachmittag ziehen plötzlich pechschwarze Wolken auf.",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "Nachmittag",
+        "clean": "Nachmittag",
+        "syllables": [
+          "Nach",
+          "mit",
+          "tag"
+        ]
+      },
+      {
+        "word": "ziehen",
+        "clean": "ziehen",
+        "syllables": [
+          "zie",
+          "hen"
+        ]
+      },
+      {
+        "word": "plötzlich",
+        "clean": "plötzlich",
+        "syllables": [
+          "plötz",
+          "lich"
+        ]
+      },
+      {
+        "word": "pechschwarze",
+        "clean": "pechschwarze",
+        "syllables": [
+          "pechsch",
+          "war",
+          "ze"
+        ]
+      },
+      {
+        "word": "Wolken",
+        "clean": "Wolken",
+        "syllables": [
+          "Wol",
+          "ken"
+        ]
+      },
+      {
+        "word": "auf.",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      }
+    ],
+    "story": "Das Gewitter"
+  },
+  {
+    "id": "g3_story__das_gewitter_der_wind_bl_st_heftig_durch_di",
+    "grade": 3,
+    "theme": "Story: Das Gewitter",
+    "sentence": "Der Wind bläst heftig durch die Wipfel der Bäume.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Wind",
+        "clean": "Wind",
+        "syllables": [
+          "Wind"
+        ]
+      },
+      {
+        "word": "bläst",
+        "clean": "bläst",
+        "syllables": [
+          "bläst"
+        ]
+      },
+      {
+        "word": "heftig",
+        "clean": "heftig",
+        "syllables": [
+          "hef",
+          "tig"
+        ]
+      },
+      {
+        "word": "durch",
+        "clean": "durch",
+        "syllables": [
+          "durch"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Wipfel",
+        "clean": "Wipfel",
+        "syllables": [
+          "Wi",
+          "pfel"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Bäume.",
+        "clean": "Bäume",
+        "syllables": [
+          "Bäu",
+          "me"
+        ]
+      }
+    ],
+    "story": "Das Gewitter"
+  },
+  {
+    "id": "g3_story__das_gewitter_ein_greller_blitz_zuckt__ber_d",
+    "grade": 3,
+    "theme": "Story: Das Gewitter",
+    "sentence": "Ein greller Blitz zuckt über den düsteren Himmel.",
+    "words": [
+      {
+        "word": "Ein",
+        "clean": "Ein",
+        "syllables": [
+          "Ein"
+        ]
+      },
+      {
+        "word": "greller",
+        "clean": "greller",
+        "syllables": [
+          "grel",
+          "ler"
+        ]
+      },
+      {
+        "word": "Blitz",
+        "clean": "Blitz",
+        "syllables": [
+          "Blitz"
+        ]
+      },
+      {
+        "word": "zuckt",
+        "clean": "zuckt",
+        "syllables": [
+          "zuckt"
+        ]
+      },
+      {
+        "word": "über",
+        "clean": "über",
+        "syllables": [
+          "ü",
+          "ber"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "düsteren",
+        "clean": "düsteren",
+        "syllables": [
+          "dü",
+          "ste",
+          "ren"
+        ]
+      },
+      {
+        "word": "Himmel.",
+        "clean": "Himmel",
+        "syllables": [
+          "Him",
+          "mel"
+        ]
+      }
+    ],
+    "story": "Das Gewitter"
+  },
+  {
+    "id": "g3_story__das_gewitter_kurz_darauf_kracht_ein_gewalti",
+    "grade": 3,
+    "theme": "Story: Das Gewitter",
+    "sentence": "Kurz darauf kracht ein gewaltiger Donner.",
+    "words": [
+      {
+        "word": "Kurz",
+        "clean": "Kurz",
+        "syllables": [
+          "Kurz"
+        ]
+      },
+      {
+        "word": "darauf",
+        "clean": "darauf",
+        "syllables": [
+          "da",
+          "rauf"
+        ]
+      },
+      {
+        "word": "kracht",
+        "clean": "kracht",
+        "syllables": [
+          "kracht"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "gewaltiger",
+        "clean": "gewaltiger",
+        "syllables": [
+          "ge",
+          "wal",
+          "ti",
+          "ger"
+        ]
+      },
+      {
+        "word": "Donner.",
+        "clean": "Donner",
+        "syllables": [
+          "Don",
+          "ner"
+        ]
+      }
+    ],
+    "story": "Das Gewitter"
+  },
+  {
+    "id": "g3_story__das_gewitter_schwere_regentropfen_trommeln",
+    "grade": 3,
+    "theme": "Story: Das Gewitter",
+    "sentence": "Schwere Regentropfen trommeln gegen die Fensterscheiben.",
+    "words": [
+      {
+        "word": "Schwere",
+        "clean": "Schwere",
+        "syllables": [
+          "Schwe",
+          "re"
+        ]
+      },
+      {
+        "word": "Regentropfen",
+        "clean": "Regentropfen",
+        "syllables": [
+          "Re",
+          "gent",
+          "ro",
+          "pfen"
+        ]
+      },
+      {
+        "word": "trommeln",
+        "clean": "trommeln",
+        "syllables": [
+          "trom",
+          "meln"
+        ]
+      },
+      {
+        "word": "gegen",
+        "clean": "gegen",
+        "syllables": [
+          "ge",
+          "gen"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Fensterscheiben.",
+        "clean": "Fensterscheiben",
+        "syllables": [
+          "Fen",
+          "ster",
+          "schei",
+          "ben"
+        ]
+      }
+    ],
+    "story": "Das Gewitter"
+  },
+  {
+    "id": "g3_story__das_gewitter_die_menschen_fl_chten_schnell",
+    "grade": 3,
+    "theme": "Story: Das Gewitter",
+    "sentence": "Die Menschen flüchten schnell in ihre Häuser, um trocken zu bleiben.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Menschen",
+        "clean": "Menschen",
+        "syllables": [
+          "Men",
+          "schen"
+        ]
+      },
+      {
+        "word": "flüchten",
+        "clean": "flüchten",
+        "syllables": [
+          "flüch",
+          "ten"
+        ]
+      },
+      {
+        "word": "schnell",
+        "clean": "schnell",
+        "syllables": [
+          "schnell"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "ihre",
+        "clean": "ihre",
+        "syllables": [
+          "ih",
+          "re"
+        ]
+      },
+      {
+        "word": "Häuser,",
+        "clean": "Häuser",
+        "syllables": [
+          "Häu",
+          "ser"
+        ]
+      },
+      {
+        "word": "um",
+        "clean": "um",
+        "syllables": [
+          "um"
+        ]
+      },
+      {
+        "word": "trocken",
+        "clean": "trocken",
+        "syllables": [
+          "troc",
+          "ken"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "bleiben.",
+        "clean": "bleiben",
+        "syllables": [
+          "blei",
+          "ben"
+        ]
+      }
+    ],
+    "story": "Das Gewitter"
+  },
+  {
+    "id": "g3_story__die_geburtstagsparty_heute_feiert_marie_ihren_achte",
+    "grade": 3,
+    "theme": "Story: Die Geburtstagsparty",
+    "sentence": "Heute feiert Marie ihren achten Geburtstag.",
+    "words": [
+      {
+        "word": "Heute",
+        "clean": "Heute",
+        "syllables": [
+          "Heu",
+          "te"
+        ]
+      },
+      {
+        "word": "feiert",
+        "clean": "feiert",
+        "syllables": [
+          "fei",
+          "ert"
+        ]
+      },
+      {
+        "word": "Marie",
+        "clean": "Marie",
+        "syllables": [
+          "Ma",
+          "rie"
+        ]
+      },
+      {
+        "word": "ihren",
+        "clean": "ihren",
+        "syllables": [
+          "ih",
+          "ren"
+        ]
+      },
+      {
+        "word": "achten",
+        "clean": "achten",
+        "syllables": [
+          "ach",
+          "ten"
+        ]
+      },
+      {
+        "word": "Geburtstag.",
+        "clean": "Geburtstag",
+        "syllables": [
+          "Ge",
+          "burt",
+          "stag"
+        ]
+      }
+    ],
+    "story": "Die Geburtstagsparty"
+  },
+  {
+    "id": "g3_story__die_geburtstagsparty_das_wohnzimmer_ist_mit_bunten",
+    "grade": 3,
+    "theme": "Story: Die Geburtstagsparty",
+    "sentence": "Das Wohnzimmer ist mit bunten Luftballons und langen Girlanden geschmückt.",
+    "words": [
+      {
+        "word": "Das",
+        "clean": "Das",
+        "syllables": [
+          "Das"
+        ]
+      },
+      {
+        "word": "Wohnzimmer",
+        "clean": "Wohnzimmer",
+        "syllables": [
+          "Wohn",
+          "zim",
+          "mer"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "bunten",
+        "clean": "bunten",
+        "syllables": [
+          "bun",
+          "ten"
+        ]
+      },
+      {
+        "word": "Luftballons",
+        "clean": "Luftballons",
+        "syllables": [
+          "Luft",
+          "bal",
+          "lons"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "langen",
+        "clean": "langen",
+        "syllables": [
+          "lan",
+          "gen"
+        ]
+      },
+      {
+        "word": "Girlanden",
+        "clean": "Girlanden",
+        "syllables": [
+          "Gir",
+          "lan",
+          "den"
+        ]
+      },
+      {
+        "word": "geschmückt.",
+        "clean": "geschmückt",
+        "syllables": [
+          "gesch",
+          "mückt"
+        ]
+      }
+    ],
+    "story": "Die Geburtstagsparty"
+  },
+  {
+    "id": "g3_story__die_geburtstagsparty_ihre_schulfreunde_bringen_h_bs",
+    "grade": 3,
+    "theme": "Story: Die Geburtstagsparty",
+    "sentence": "Ihre Schulfreunde bringen hübsch verpackte Geschenke mit.",
+    "words": [
+      {
+        "word": "Ihre",
+        "clean": "Ihre",
+        "syllables": [
+          "Ih",
+          "re"
+        ]
+      },
+      {
+        "word": "Schulfreunde",
+        "clean": "Schulfreunde",
+        "syllables": [
+          "Schulf",
+          "reun",
+          "de"
+        ]
+      },
+      {
+        "word": "bringen",
+        "clean": "bringen",
+        "syllables": [
+          "brin",
+          "gen"
+        ]
+      },
+      {
+        "word": "hübsch",
+        "clean": "hübsch",
+        "syllables": [
+          "hübsch"
+        ]
+      },
+      {
+        "word": "verpackte",
+        "clean": "verpackte",
+        "syllables": [
+          "ver",
+          "pack",
+          "te"
+        ]
+      },
+      {
+        "word": "Geschenke",
+        "clean": "Geschenke",
+        "syllables": [
+          "Ge",
+          "schen",
+          "ke"
+        ]
+      },
+      {
+        "word": "mit.",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      }
+    ],
+    "story": "Die Geburtstagsparty"
+  },
+  {
+    "id": "g3_story__die_geburtstagsparty_zuerst_pustet_marie_alle_acht",
+    "grade": 3,
+    "theme": "Story: Die Geburtstagsparty",
+    "sentence": "Zuerst pustet Marie alle acht Kerzen auf dem Schokoladenkuchen auf einmal aus.",
+    "words": [
+      {
+        "word": "Zuerst",
+        "clean": "Zuerst",
+        "syllables": [
+          "Zu",
+          "erst"
+        ]
+      },
+      {
+        "word": "pustet",
+        "clean": "pustet",
+        "syllables": [
+          "pu",
+          "stet"
+        ]
+      },
+      {
+        "word": "Marie",
+        "clean": "Marie",
+        "syllables": [
+          "Ma",
+          "rie"
+        ]
+      },
+      {
+        "word": "alle",
+        "clean": "alle",
+        "syllables": [
+          "al",
+          "le"
+        ]
+      },
+      {
+        "word": "acht",
+        "clean": "acht",
+        "syllables": [
+          "acht"
+        ]
+      },
+      {
+        "word": "Kerzen",
+        "clean": "Kerzen",
+        "syllables": [
+          "Ker",
+          "zen"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Schokoladenkuchen",
+        "clean": "Schokoladenkuchen",
+        "syllables": [
+          "Scho",
+          "ko",
+          "la",
+          "den",
+          "ku",
+          "chen"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "einmal",
+        "clean": "einmal",
+        "syllables": [
+          "ein",
+          "mal"
+        ]
+      },
+      {
+        "word": "aus.",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      }
+    ],
+    "story": "Die Geburtstagsparty"
+  },
+  {
+    "id": "g3_story__die_geburtstagsparty_danach_spielen_alle_vergn_gt_t",
+    "grade": 3,
+    "theme": "Story: Die Geburtstagsparty",
+    "sentence": "Danach spielen alle vergnügt Topfschlagen und Verstecken im Garten.",
+    "words": [
+      {
+        "word": "Danach",
+        "clean": "Danach",
+        "syllables": [
+          "Da",
+          "nach"
+        ]
+      },
+      {
+        "word": "spielen",
+        "clean": "spielen",
+        "syllables": [
+          "spie",
+          "len"
+        ]
+      },
+      {
+        "word": "alle",
+        "clean": "alle",
+        "syllables": [
+          "al",
+          "le"
+        ]
+      },
+      {
+        "word": "vergnügt",
+        "clean": "vergnügt",
+        "syllables": [
+          "verg",
+          "nügt"
+        ]
+      },
+      {
+        "word": "Topfschlagen",
+        "clean": "Topfschlagen",
+        "syllables": [
+          "Topfsch",
+          "la",
+          "gen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Verstecken",
+        "clean": "Verstecken",
+        "syllables": [
+          "Ver",
+          "stec",
+          "ken"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Garten.",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      }
+    ],
+    "story": "Die Geburtstagsparty"
+  },
+  {
+    "id": "g2_story__im_zoo_vor_dem_gro_en_gehege_dr_ngen",
+    "grade": 2,
+    "theme": "Story: Im Zoo",
+    "sentence": "Vor dem großen Gehege drängen sich viele Besucher.",
+    "words": [
+      {
+        "word": "Vor",
+        "clean": "Vor",
+        "syllables": [
+          "Vor"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "großen",
+        "clean": "großen",
+        "syllables": [
+          "gro",
+          "ßen"
+        ]
+      },
+      {
+        "word": "Gehege",
+        "clean": "Gehege",
+        "syllables": [
+          "Ge",
+          "he",
+          "ge"
+        ]
+      },
+      {
+        "word": "drängen",
+        "clean": "drängen",
+        "syllables": [
+          "drän",
+          "gen"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "viele",
+        "clean": "viele",
+        "syllables": [
+          "vie",
+          "le"
+        ]
+      },
+      {
+        "word": "Besucher.",
+        "clean": "Besucher",
+        "syllables": [
+          "Be",
+          "su",
+          "cher"
+        ]
+      }
+    ],
+    "story": "Im Zoo"
+  },
+  {
+    "id": "g2_story__im_zoo_zwei_junge_affen_klettern_flin",
+    "grade": 2,
+    "theme": "Story: Im Zoo",
+    "sentence": "Zwei junge Affen klettern flink an dicken Seilen empor.",
+    "words": [
+      {
+        "word": "Zwei",
+        "clean": "Zwei",
+        "syllables": [
+          "Zwei"
+        ]
+      },
+      {
+        "word": "junge",
+        "clean": "junge",
+        "syllables": [
+          "jun",
+          "ge"
+        ]
+      },
+      {
+        "word": "Affen",
+        "clean": "Affen",
+        "syllables": [
+          "Af",
+          "fen"
+        ]
+      },
+      {
+        "word": "klettern",
+        "clean": "klettern",
+        "syllables": [
+          "klet",
+          "tern"
+        ]
+      },
+      {
+        "word": "flink",
+        "clean": "flink",
+        "syllables": [
+          "flink"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "dicken",
+        "clean": "dicken",
+        "syllables": [
+          "dic",
+          "ken"
+        ]
+      },
+      {
+        "word": "Seilen",
+        "clean": "Seilen",
+        "syllables": [
+          "Sei",
+          "len"
+        ]
+      },
+      {
+        "word": "empor.",
+        "clean": "empor",
+        "syllables": [
+          "em",
+          "por"
+        ]
+      }
+    ],
+    "story": "Im Zoo"
+  },
+  {
+    "id": "g2_story__im_zoo_sie_necken_sich_und_fressen_ge",
+    "grade": 2,
+    "theme": "Story: Im Zoo",
+    "sentence": "Sie necken sich und fressen gelbe Bananen.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "necken",
+        "clean": "necken",
+        "syllables": [
+          "nec",
+          "ken"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "fressen",
+        "clean": "fressen",
+        "syllables": [
+          "fres",
+          "sen"
+        ]
+      },
+      {
+        "word": "gelbe",
+        "clean": "gelbe",
+        "syllables": [
+          "gel",
+          "be"
+        ]
+      },
+      {
+        "word": "Bananen.",
+        "clean": "Bananen",
+        "syllables": [
+          "Ba",
+          "na",
+          "nen"
+        ]
+      }
+    ],
+    "story": "Im Zoo"
+  },
+  {
+    "id": "g2_story__im_zoo_nebenan_badet_ein_schwerer_ele",
+    "grade": 2,
+    "theme": "Story: Im Zoo",
+    "sentence": "Nebenan badet ein schwerer Elefant in einem tiefen Schlammloch.",
+    "words": [
+      {
+        "word": "Nebenan",
+        "clean": "Nebenan",
+        "syllables": [
+          "Ne",
+          "be",
+          "nan"
+        ]
+      },
+      {
+        "word": "badet",
+        "clean": "badet",
+        "syllables": [
+          "ba",
+          "det"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "schwerer",
+        "clean": "schwerer",
+        "syllables": [
+          "schwe",
+          "rer"
+        ]
+      },
+      {
+        "word": "Elefant",
+        "clean": "Elefant",
+        "syllables": [
+          "E",
+          "le",
+          "fant"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "einem",
+        "clean": "einem",
+        "syllables": [
+          "ei",
+          "nem"
+        ]
+      },
+      {
+        "word": "tiefen",
+        "clean": "tiefen",
+        "syllables": [
+          "tie",
+          "fen"
+        ]
+      },
+      {
+        "word": "Schlammloch.",
+        "clean": "Schlammloch",
+        "syllables": [
+          "Schlamm",
+          "loch"
+        ]
+      }
+    ],
+    "story": "Im Zoo"
+  },
+  {
+    "id": "g2_story__im_zoo_er_spritzt_das_k_hle_wasser_mi",
+    "grade": 2,
+    "theme": "Story: Im Zoo",
+    "sentence": "Er spritzt das kühle Wasser mit seinem langen Rüssel hoch in die Luft.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "spritzt",
+        "clean": "spritzt",
+        "syllables": [
+          "spritzt"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "kühle",
+        "clean": "kühle",
+        "syllables": [
+          "küh",
+          "le"
+        ]
+      },
+      {
+        "word": "Wasser",
+        "clean": "Wasser",
+        "syllables": [
+          "Was",
+          "ser"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "seinem",
+        "clean": "seinem",
+        "syllables": [
+          "sei",
+          "nem"
+        ]
+      },
+      {
+        "word": "langen",
+        "clean": "langen",
+        "syllables": [
+          "lan",
+          "gen"
+        ]
+      },
+      {
+        "word": "Rüssel",
+        "clean": "Rüssel",
+        "syllables": [
+          "Rüs",
+          "sel"
+        ]
+      },
+      {
+        "word": "hoch",
+        "clean": "hoch",
+        "syllables": [
+          "hoch"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Luft.",
+        "clean": "Luft",
+        "syllables": [
+          "Luft"
+        ]
+      }
+    ],
+    "story": "Im Zoo"
+  },
+  {
+    "id": "g3_story__der_herbstwind_ein_k_hler_wind_fegt__ber_die",
+    "grade": 3,
+    "theme": "Story: Der Herbstwind",
+    "sentence": "Ein kühler Wind fegt über die weiten Felder.",
+    "words": [
+      {
+        "word": "Ein",
+        "clean": "Ein",
+        "syllables": [
+          "Ein"
+        ]
+      },
+      {
+        "word": "kühler",
+        "clean": "kühler",
+        "syllables": [
+          "küh",
+          "ler"
+        ]
+      },
+      {
+        "word": "Wind",
+        "clean": "Wind",
+        "syllables": [
+          "Wind"
+        ]
+      },
+      {
+        "word": "fegt",
+        "clean": "fegt",
+        "syllables": [
+          "fegt"
+        ]
+      },
+      {
+        "word": "über",
+        "clean": "über",
+        "syllables": [
+          "ü",
+          "ber"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "weiten",
+        "clean": "weiten",
+        "syllables": [
+          "wei",
+          "ten"
+        ]
+      },
+      {
+        "word": "Felder.",
+        "clean": "Felder",
+        "syllables": [
+          "Fel",
+          "der"
+        ]
+      }
+    ],
+    "story": "Der Herbstwind"
+  },
+  {
+    "id": "g3_story__der_herbstwind_die_kinder_lassen_ihre_bunten",
+    "grade": 3,
+    "theme": "Story: Der Herbstwind",
+    "sentence": "Die Kinder lassen ihre bunten Drachen hoch in die Lüfte steigen.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "lassen",
+        "clean": "lassen",
+        "syllables": [
+          "las",
+          "sen"
+        ]
+      },
+      {
+        "word": "ihre",
+        "clean": "ihre",
+        "syllables": [
+          "ih",
+          "re"
+        ]
+      },
+      {
+        "word": "bunten",
+        "clean": "bunten",
+        "syllables": [
+          "bun",
+          "ten"
+        ]
+      },
+      {
+        "word": "Drachen",
+        "clean": "Drachen",
+        "syllables": [
+          "Dra",
+          "chen"
+        ]
+      },
+      {
+        "word": "hoch",
+        "clean": "hoch",
+        "syllables": [
+          "hoch"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Lüfte",
+        "clean": "Lüfte",
+        "syllables": [
+          "Lüf",
+          "te"
+        ]
+      },
+      {
+        "word": "steigen.",
+        "clean": "steigen",
+        "syllables": [
+          "stei",
+          "gen"
+        ]
+      }
+    ],
+    "story": "Der Herbstwind"
+  },
+  {
+    "id": "g3_story__der_herbstwind_die_drachen_tanzen_wild_zwisch",
+    "grade": 3,
+    "theme": "Story: Der Herbstwind",
+    "sentence": "Die Drachen tanzen wild zwischen den weißen Wolken.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Drachen",
+        "clean": "Drachen",
+        "syllables": [
+          "Dra",
+          "chen"
+        ]
+      },
+      {
+        "word": "tanzen",
+        "clean": "tanzen",
+        "syllables": [
+          "tan",
+          "zen"
+        ]
+      },
+      {
+        "word": "wild",
+        "clean": "wild",
+        "syllables": [
+          "wild"
+        ]
+      },
+      {
+        "word": "zwischen",
+        "clean": "zwischen",
+        "syllables": [
+          "zwi",
+          "schen"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "weißen",
+        "clean": "weißen",
+        "syllables": [
+          "wei",
+          "ßen"
+        ]
+      },
+      {
+        "word": "Wolken.",
+        "clean": "Wolken",
+        "syllables": [
+          "Wol",
+          "ken"
+        ]
+      }
+    ],
+    "story": "Der Herbstwind"
+  },
+  {
+    "id": "g3_story__der_herbstwind_unten_im_garten_harken_die_elt",
+    "grade": 3,
+    "theme": "Story: Der Herbstwind",
+    "sentence": "Unten im Garten harken die Eltern trockenes Laub zusammen.",
+    "words": [
+      {
+        "word": "Unten",
+        "clean": "Unten",
+        "syllables": [
+          "Un",
+          "ten"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Garten",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      },
+      {
+        "word": "harken",
+        "clean": "harken",
+        "syllables": [
+          "har",
+          "ken"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Eltern",
+        "clean": "Eltern",
+        "syllables": [
+          "El",
+          "tern"
+        ]
+      },
+      {
+        "word": "trockenes",
+        "clean": "trockenes",
+        "syllables": [
+          "troc",
+          "ke",
+          "nes"
+        ]
+      },
+      {
+        "word": "Laub",
+        "clean": "Laub",
+        "syllables": [
+          "Laub"
+        ]
+      },
+      {
+        "word": "zusammen.",
+        "clean": "zusammen",
+        "syllables": [
+          "zu",
+          "sam",
+          "men"
+        ]
+      }
+    ],
+    "story": "Der Herbstwind"
+  },
+  {
+    "id": "g3_story__der_herbstwind_die__pfel_an_den_zweigen_leuch",
+    "grade": 3,
+    "theme": "Story: Der Herbstwind",
+    "sentence": "Die Äpfel an den Zweigen leuchten rot und sind reif zur Ernte.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Äpfel",
+        "clean": "Äpfel",
+        "syllables": [
+          "Ä",
+          "pfel"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Zweigen",
+        "clean": "Zweigen",
+        "syllables": [
+          "Zwei",
+          "gen"
+        ]
+      },
+      {
+        "word": "leuchten",
+        "clean": "leuchten",
+        "syllables": [
+          "leuch",
+          "ten"
+        ]
+      },
+      {
+        "word": "rot",
+        "clean": "rot",
+        "syllables": [
+          "rot"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sind",
+        "clean": "sind",
+        "syllables": [
+          "sind"
+        ]
+      },
+      {
+        "word": "reif",
+        "clean": "reif",
+        "syllables": [
+          "reif"
+        ]
+      },
+      {
+        "word": "zur",
+        "clean": "zur",
+        "syllables": [
+          "zur"
+        ]
+      },
+      {
+        "word": "Ernte.",
+        "clean": "Ernte",
+        "syllables": [
+          "Ern",
+          "te"
+        ]
+      }
+    ],
+    "story": "Der Herbstwind"
+  },
+  {
+    "id": "g3_story__die_katze_auf_der_mauer_eine_schwarze_katze_schleicht",
+    "grade": 3,
+    "theme": "Story: Die Katze auf der Mauer",
+    "sentence": "Eine schwarze Katze schleicht lautlos über die steinerne Mauer.",
+    "words": [
+      {
+        "word": "Eine",
+        "clean": "Eine",
+        "syllables": [
+          "Ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "schwarze",
+        "clean": "schwarze",
+        "syllables": [
+          "schwar",
+          "ze"
+        ]
+      },
+      {
+        "word": "Katze",
+        "clean": "Katze",
+        "syllables": [
+          "Kat",
+          "ze"
+        ]
+      },
+      {
+        "word": "schleicht",
+        "clean": "schleicht",
+        "syllables": [
+          "schleicht"
+        ]
+      },
+      {
+        "word": "lautlos",
+        "clean": "lautlos",
+        "syllables": [
+          "laut",
+          "los"
+        ]
+      },
+      {
+        "word": "über",
+        "clean": "über",
+        "syllables": [
+          "ü",
+          "ber"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "steinerne",
+        "clean": "steinerne",
+        "syllables": [
+          "stei",
+          "ner",
+          "ne"
+        ]
+      },
+      {
+        "word": "Mauer.",
+        "clean": "Mauer",
+        "syllables": [
+          "Mau",
+          "er"
+        ]
+      }
+    ],
+    "story": "Die Katze auf der Mauer"
+  },
+  {
+    "id": "g3_story__die_katze_auf_der_mauer_ihre_gelben_augen_funkeln_aufm",
+    "grade": 3,
+    "theme": "Story: Die Katze auf der Mauer",
+    "sentence": "Ihre gelben Augen funkeln aufmerksam im Schatten.",
+    "words": [
+      {
+        "word": "Ihre",
+        "clean": "Ihre",
+        "syllables": [
+          "Ih",
+          "re"
+        ]
+      },
+      {
+        "word": "gelben",
+        "clean": "gelben",
+        "syllables": [
+          "gel",
+          "ben"
+        ]
+      },
+      {
+        "word": "Augen",
+        "clean": "Augen",
+        "syllables": [
+          "Au",
+          "gen"
+        ]
+      },
+      {
+        "word": "funkeln",
+        "clean": "funkeln",
+        "syllables": [
+          "fun",
+          "keln"
+        ]
+      },
+      {
+        "word": "aufmerksam",
+        "clean": "aufmerksam",
+        "syllables": [
+          "auf",
+          "merk",
+          "sam"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Schatten.",
+        "clean": "Schatten",
+        "syllables": [
+          "Schat",
+          "ten"
+        ]
+      }
+    ],
+    "story": "Die Katze auf der Mauer"
+  },
+  {
+    "id": "g3_story__die_katze_auf_der_mauer_pl_tzlich_bleibt_sie_wie_angew",
+    "grade": 3,
+    "theme": "Story: Die Katze auf der Mauer",
+    "sentence": "Plötzlich bleibt sie wie angewurzelt stehen.",
+    "words": [
+      {
+        "word": "Plötzlich",
+        "clean": "Plötzlich",
+        "syllables": [
+          "Plötz",
+          "lich"
+        ]
+      },
+      {
+        "word": "bleibt",
+        "clean": "bleibt",
+        "syllables": [
+          "bleibt"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "wie",
+        "clean": "wie",
+        "syllables": [
+          "wie"
+        ]
+      },
+      {
+        "word": "angewurzelt",
+        "clean": "angewurzelt",
+        "syllables": [
+          "an",
+          "ge",
+          "wur",
+          "zelt"
+        ]
+      },
+      {
+        "word": "stehen.",
+        "clean": "stehen",
+        "syllables": [
+          "ste",
+          "hen"
+        ]
+      }
+    ],
+    "story": "Die Katze auf der Mauer"
+  },
+  {
+    "id": "g3_story__die_katze_auf_der_mauer_am_boden_huscht_eine_kleine_gr",
+    "grade": 3,
+    "theme": "Story: Die Katze auf der Mauer",
+    "sentence": "Am Boden huscht eine kleine graue Maus durch das hohe Gras.",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "Boden",
+        "clean": "Boden",
+        "syllables": [
+          "Bo",
+          "den"
+        ]
+      },
+      {
+        "word": "huscht",
+        "clean": "huscht",
+        "syllables": [
+          "huscht"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "kleine",
+        "clean": "kleine",
+        "syllables": [
+          "klei",
+          "ne"
+        ]
+      },
+      {
+        "word": "graue",
+        "clean": "graue",
+        "syllables": [
+          "grau",
+          "e"
+        ]
+      },
+      {
+        "word": "Maus",
+        "clean": "Maus",
+        "syllables": [
+          "Maus"
+        ]
+      },
+      {
+        "word": "durch",
+        "clean": "durch",
+        "syllables": [
+          "durch"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "hohe",
+        "clean": "hohe",
+        "syllables": [
+          "ho",
+          "he"
+        ]
+      },
+      {
+        "word": "Gras.",
+        "clean": "Gras",
+        "syllables": [
+          "Gras"
+        ]
+      }
+    ],
+    "story": "Die Katze auf der Mauer"
+  },
+  {
+    "id": "g3_story__die_katze_auf_der_mauer_die_katze_duckt_sich_ganz_tief",
+    "grade": 3,
+    "theme": "Story: Die Katze auf der Mauer",
+    "sentence": "Die Katze duckt sich ganz tief und spannt jeden Muskel für einen weiten Sprung an.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Katze",
+        "clean": "Katze",
+        "syllables": [
+          "Kat",
+          "ze"
+        ]
+      },
+      {
+        "word": "duckt",
+        "clean": "duckt",
+        "syllables": [
+          "duckt"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "ganz",
+        "clean": "ganz",
+        "syllables": [
+          "ganz"
+        ]
+      },
+      {
+        "word": "tief",
+        "clean": "tief",
+        "syllables": [
+          "tief"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "spannt",
+        "clean": "spannt",
+        "syllables": [
+          "spannt"
+        ]
+      },
+      {
+        "word": "jeden",
+        "clean": "jeden",
+        "syllables": [
+          "je",
+          "den"
+        ]
+      },
+      {
+        "word": "Muskel",
+        "clean": "Muskel",
+        "syllables": [
+          "Mus",
+          "kel"
+        ]
+      },
+      {
+        "word": "für",
+        "clean": "für",
+        "syllables": [
+          "für"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "weiten",
+        "clean": "weiten",
+        "syllables": [
+          "wei",
+          "ten"
+        ]
+      },
+      {
+        "word": "Sprung",
+        "clean": "Sprung",
+        "syllables": [
+          "Sprung"
+        ]
+      },
+      {
+        "word": "an.",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      }
+    ],
+    "story": "Die Katze auf der Mauer"
+  },
+  {
+    "id": "g3_story__vor_dem_schlafen_am_abend_putzt_jonas_gr_ndlich",
+    "grade": 3,
+    "theme": "Story: Vor dem Schlafen",
+    "sentence": "Am Abend putzt Jonas gründlich seine Zähne mit der Zahnbürste.",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "Abend",
+        "clean": "Abend",
+        "syllables": [
+          "A",
+          "bend"
+        ]
+      },
+      {
+        "word": "putzt",
+        "clean": "putzt",
+        "syllables": [
+          "putzt"
+        ]
+      },
+      {
+        "word": "Jonas",
+        "clean": "Jonas",
+        "syllables": [
+          "Jo",
+          "nas"
+        ]
+      },
+      {
+        "word": "gründlich",
+        "clean": "gründlich",
+        "syllables": [
+          "gründ",
+          "lich"
+        ]
+      },
+      {
+        "word": "seine",
+        "clean": "seine",
+        "syllables": [
+          "sei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Zähne",
+        "clean": "Zähne",
+        "syllables": [
+          "Zäh",
+          "ne"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Zahnbürste.",
+        "clean": "Zahnbürste",
+        "syllables": [
+          "Zahn",
+          "bür",
+          "ste"
+        ]
+      }
+    ],
+    "story": "Vor dem Schlafen"
+  },
+  {
+    "id": "g3_story__vor_dem_schlafen_danach_zieht_er_seinen_gestrei",
+    "grade": 3,
+    "theme": "Story: Vor dem Schlafen",
+    "sentence": "Danach zieht er seinen gestreiften Schlafanzug an.",
+    "words": [
+      {
+        "word": "Danach",
+        "clean": "Danach",
+        "syllables": [
+          "Da",
+          "nach"
+        ]
+      },
+      {
+        "word": "zieht",
+        "clean": "zieht",
+        "syllables": [
+          "zieht"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "seinen",
+        "clean": "seinen",
+        "syllables": [
+          "sei",
+          "nen"
+        ]
+      },
+      {
+        "word": "gestreiften",
+        "clean": "gestreiften",
+        "syllables": [
+          "gest",
+          "reif",
+          "ten"
+        ]
+      },
+      {
+        "word": "Schlafanzug",
+        "clean": "Schlafanzug",
+        "syllables": [
+          "Schla",
+          "fan",
+          "zug"
+        ]
+      },
+      {
+        "word": "an.",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      }
+    ],
+    "story": "Vor dem Schlafen"
+  },
+  {
+    "id": "g3_story__vor_dem_schlafen_mama_setzt_sich_an_den_rand_se",
+    "grade": 3,
+    "theme": "Story: Vor dem Schlafen",
+    "sentence": "Mama setzt sich an den Rand seines Bettes und liest ein spannendes Märchen vor.",
+    "words": [
+      {
+        "word": "Mama",
+        "clean": "Mama",
+        "syllables": [
+          "Ma",
+          "ma"
+        ]
+      },
+      {
+        "word": "setzt",
+        "clean": "setzt",
+        "syllables": [
+          "setzt"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Rand",
+        "clean": "Rand",
+        "syllables": [
+          "Rand"
+        ]
+      },
+      {
+        "word": "seines",
+        "clean": "seines",
+        "syllables": [
+          "sei",
+          "nes"
+        ]
+      },
+      {
+        "word": "Bettes",
+        "clean": "Bettes",
+        "syllables": [
+          "Bet",
+          "tes"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "liest",
+        "clean": "liest",
+        "syllables": [
+          "liest"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "spannendes",
+        "clean": "spannendes",
+        "syllables": [
+          "span",
+          "nen",
+          "des"
+        ]
+      },
+      {
+        "word": "Märchen",
+        "clean": "Märchen",
+        "syllables": [
+          "Mär",
+          "chen"
+        ]
+      },
+      {
+        "word": "vor.",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      }
+    ],
+    "story": "Vor dem Schlafen"
+  },
+  {
+    "id": "g3_story__vor_dem_schlafen_jonas_schlie_t_langsam_die_aug",
+    "grade": 3,
+    "theme": "Story: Vor dem Schlafen",
+    "sentence": "Jonas schließt langsam die Augen und kuschelt sich tief unter das warme Federbett.",
+    "words": [
+      {
+        "word": "Jonas",
+        "clean": "Jonas",
+        "syllables": [
+          "Jo",
+          "nas"
+        ]
+      },
+      {
+        "word": "schließt",
+        "clean": "schließt",
+        "syllables": [
+          "schließt"
+        ]
+      },
+      {
+        "word": "langsam",
+        "clean": "langsam",
+        "syllables": [
+          "lang",
+          "sam"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Augen",
+        "clean": "Augen",
+        "syllables": [
+          "Au",
+          "gen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "kuschelt",
+        "clean": "kuschelt",
+        "syllables": [
+          "ku",
+          "schelt"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "tief",
+        "clean": "tief",
+        "syllables": [
+          "tief"
+        ]
+      },
+      {
+        "word": "unter",
+        "clean": "unter",
+        "syllables": [
+          "un",
+          "ter"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "warme",
+        "clean": "warme",
+        "syllables": [
+          "war",
+          "me"
+        ]
+      },
+      {
+        "word": "Federbett.",
+        "clean": "Federbett",
+        "syllables": [
+          "Fe",
+          "der",
+          "bett"
+        ]
+      }
+    ],
+    "story": "Vor dem Schlafen"
+  },
+  {
+    "id": "g3_story__vor_dem_schlafen_bald_schl_ft_er_friedlich_ein",
+    "grade": 3,
+    "theme": "Story: Vor dem Schlafen",
+    "sentence": "Bald schläft er friedlich ein.",
+    "words": [
+      {
+        "word": "Bald",
+        "clean": "Bald",
+        "syllables": [
+          "Bald"
+        ]
+      },
+      {
+        "word": "schläft",
+        "clean": "schläft",
+        "syllables": [
+          "schläft"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "friedlich",
+        "clean": "friedlich",
+        "syllables": [
+          "fried",
+          "lich"
+        ]
+      },
+      {
+        "word": "ein.",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      }
+    ],
+    "story": "Vor dem Schlafen"
+  },
+  {
+    "id": "g3_story__im_schwimmbad_im_warmen_hallenbad_ist_heute",
+    "grade": 3,
+    "theme": "Story: Im Schwimmbad",
+    "sentence": "Im warmen Hallenbad ist heute viel Betrieb.",
+    "words": [
+      {
+        "word": "Im",
+        "clean": "Im",
+        "syllables": [
+          "Im"
+        ]
+      },
+      {
+        "word": "warmen",
+        "clean": "warmen",
+        "syllables": [
+          "war",
+          "men"
+        ]
+      },
+      {
+        "word": "Hallenbad",
+        "clean": "Hallenbad",
+        "syllables": [
+          "Hal",
+          "len",
+          "bad"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "heute",
+        "clean": "heute",
+        "syllables": [
+          "heu",
+          "te"
+        ]
+      },
+      {
+        "word": "viel",
+        "clean": "viel",
+        "syllables": [
+          "viel"
+        ]
+      },
+      {
+        "word": "Betrieb.",
+        "clean": "Betrieb",
+        "syllables": [
+          "Bet",
+          "rieb"
+        ]
+      }
+    ],
+    "story": "Im Schwimmbad"
+  },
+  {
+    "id": "g3_story__im_schwimmbad_lisa_springt_mutig_vom_hohen_s",
+    "grade": 3,
+    "theme": "Story: Im Schwimmbad",
+    "sentence": "Lisa springt mutig vom hohen Startblock in das blaue Becken.",
+    "words": [
+      {
+        "word": "Lisa",
+        "clean": "Lisa",
+        "syllables": [
+          "Li",
+          "sa"
+        ]
+      },
+      {
+        "word": "springt",
+        "clean": "springt",
+        "syllables": [
+          "springt"
+        ]
+      },
+      {
+        "word": "mutig",
+        "clean": "mutig",
+        "syllables": [
+          "mu",
+          "tig"
+        ]
+      },
+      {
+        "word": "vom",
+        "clean": "vom",
+        "syllables": [
+          "vom"
+        ]
+      },
+      {
+        "word": "hohen",
+        "clean": "hohen",
+        "syllables": [
+          "ho",
+          "hen"
+        ]
+      },
+      {
+        "word": "Startblock",
+        "clean": "Startblock",
+        "syllables": [
+          "Startb",
+          "lock"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "blaue",
+        "clean": "blaue",
+        "syllables": [
+          "blau",
+          "e"
+        ]
+      },
+      {
+        "word": "Becken.",
+        "clean": "Becken",
+        "syllables": [
+          "Bec",
+          "ken"
+        ]
+      }
+    ],
+    "story": "Im Schwimmbad"
+  },
+  {
+    "id": "g3_story__im_schwimmbad_das_wasser_spritzt_meterweit_z",
+    "grade": 3,
+    "theme": "Story: Im Schwimmbad",
+    "sentence": "Das Wasser spritzt meterweit zur Seite.",
+    "words": [
+      {
+        "word": "Das",
+        "clean": "Das",
+        "syllables": [
+          "Das"
+        ]
+      },
+      {
+        "word": "Wasser",
+        "clean": "Wasser",
+        "syllables": [
+          "Was",
+          "ser"
+        ]
+      },
+      {
+        "word": "spritzt",
+        "clean": "spritzt",
+        "syllables": [
+          "spritzt"
+        ]
+      },
+      {
+        "word": "meterweit",
+        "clean": "meterweit",
+        "syllables": [
+          "me",
+          "ter",
+          "weit"
+        ]
+      },
+      {
+        "word": "zur",
+        "clean": "zur",
+        "syllables": [
+          "zur"
+        ]
+      },
+      {
+        "word": "Seite.",
+        "clean": "Seite",
+        "syllables": [
+          "Sei",
+          "te"
+        ]
+      }
+    ],
+    "story": "Im Schwimmbad"
+  },
+  {
+    "id": "g3_story__im_schwimmbad_sie_taucht_durch_das_k_hle_nas",
+    "grade": 3,
+    "theme": "Story: Im Schwimmbad",
+    "sentence": "Sie taucht durch das kühle Nass und schwimmt zügig einige Bahnen.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "taucht",
+        "clean": "taucht",
+        "syllables": [
+          "taucht"
+        ]
+      },
+      {
+        "word": "durch",
+        "clean": "durch",
+        "syllables": [
+          "durch"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "kühle",
+        "clean": "kühle",
+        "syllables": [
+          "küh",
+          "le"
+        ]
+      },
+      {
+        "word": "Nass",
+        "clean": "Nass",
+        "syllables": [
+          "Nass"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "schwimmt",
+        "clean": "schwimmt",
+        "syllables": [
+          "schwimmt"
+        ]
+      },
+      {
+        "word": "zügig",
+        "clean": "zügig",
+        "syllables": [
+          "zü",
+          "gig"
+        ]
+      },
+      {
+        "word": "einige",
+        "clean": "einige",
+        "syllables": [
+          "ei",
+          "ni",
+          "ge"
+        ]
+      },
+      {
+        "word": "Bahnen.",
+        "clean": "Bahnen",
+        "syllables": [
+          "Bah",
+          "nen"
+        ]
+      }
+    ],
+    "story": "Im Schwimmbad"
+  },
+  {
+    "id": "g3_story__im_schwimmbad_danach_w_rmt_sie_sich_eingekus",
+    "grade": 3,
+    "theme": "Story: Im Schwimmbad",
+    "sentence": "Danach wärmt sie sich eingekuschelt in ihr dickes Badetuch auf der Liege aus.",
+    "words": [
+      {
+        "word": "Danach",
+        "clean": "Danach",
+        "syllables": [
+          "Da",
+          "nach"
+        ]
+      },
+      {
+        "word": "wärmt",
+        "clean": "wärmt",
+        "syllables": [
+          "wärmt"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "eingekuschelt",
+        "clean": "eingekuschelt",
+        "syllables": [
+          "ein",
+          "ge",
+          "ku",
+          "schelt"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "dickes",
+        "clean": "dickes",
+        "syllables": [
+          "dic",
+          "kes"
+        ]
+      },
+      {
+        "word": "Badetuch",
+        "clean": "Badetuch",
+        "syllables": [
+          "Ba",
+          "de",
+          "tuch"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Liege",
+        "clean": "Liege",
+        "syllables": [
+          "Lie",
+          "ge"
+        ]
+      },
+      {
+        "word": "aus.",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      }
+    ],
+    "story": "Im Schwimmbad"
+  },
+  {
+    "id": "g3_story__die_fahrradtour_am_sonnigen_sonntag_machen_wir",
+    "grade": 3,
+    "theme": "Story: Die Fahrradtour",
+    "sentence": "Am sonnigen Sonntag machen wir einen Ausflug mit dem Fahrrad.",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "sonnigen",
+        "clean": "sonnigen",
+        "syllables": [
+          "son",
+          "ni",
+          "gen"
+        ]
+      },
+      {
+        "word": "Sonntag",
+        "clean": "Sonntag",
+        "syllables": [
+          "Sonn",
+          "tag"
+        ]
+      },
+      {
+        "word": "machen",
+        "clean": "machen",
+        "syllables": [
+          "ma",
+          "chen"
+        ]
+      },
+      {
+        "word": "wir",
+        "clean": "wir",
+        "syllables": [
+          "wir"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Ausflug",
+        "clean": "Ausflug",
+        "syllables": [
+          "Ausf",
+          "lug"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Fahrrad.",
+        "clean": "Fahrrad",
+        "syllables": [
+          "Fahr",
+          "rad"
+        ]
+      }
+    ],
+    "story": "Die Fahrradtour"
+  },
+  {
+    "id": "g3_story__die_fahrradtour_vor_der_abfahrt_pumpt_papa_die",
+    "grade": 3,
+    "theme": "Story: Die Fahrradtour",
+    "sentence": "Vor der Abfahrt pumpt Papa die Reifen fest auf und prüft die Bremsen.",
+    "words": [
+      {
+        "word": "Vor",
+        "clean": "Vor",
+        "syllables": [
+          "Vor"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Abfahrt",
+        "clean": "Abfahrt",
+        "syllables": [
+          "Ab",
+          "fahrt"
+        ]
+      },
+      {
+        "word": "pumpt",
+        "clean": "pumpt",
+        "syllables": [
+          "pumpt"
+        ]
+      },
+      {
+        "word": "Papa",
+        "clean": "Papa",
+        "syllables": [
+          "Pa",
+          "pa"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Reifen",
+        "clean": "Reifen",
+        "syllables": [
+          "Rei",
+          "fen"
+        ]
+      },
+      {
+        "word": "fest",
+        "clean": "fest",
+        "syllables": [
+          "fest"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "prüft",
+        "clean": "prüft",
+        "syllables": [
+          "prüft"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Bremsen.",
+        "clean": "Bremsen",
+        "syllables": [
+          "Brem",
+          "sen"
+        ]
+      }
+    ],
+    "story": "Die Fahrradtour"
+  },
+  {
+    "id": "g3_story__die_fahrradtour_wir_setzen_alle_einen_sicheren",
+    "grade": 3,
+    "theme": "Story: Die Fahrradtour",
+    "sentence": "Wir setzen alle einen sicheren Helm auf den Kopf.",
+    "words": [
+      {
+        "word": "Wir",
+        "clean": "Wir",
+        "syllables": [
+          "Wir"
+        ]
+      },
+      {
+        "word": "setzen",
+        "clean": "setzen",
+        "syllables": [
+          "set",
+          "zen"
+        ]
+      },
+      {
+        "word": "alle",
+        "clean": "alle",
+        "syllables": [
+          "al",
+          "le"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "sicheren",
+        "clean": "sicheren",
+        "syllables": [
+          "si",
+          "che",
+          "ren"
+        ]
+      },
+      {
+        "word": "Helm",
+        "clean": "Helm",
+        "syllables": [
+          "Helm"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Kopf.",
+        "clean": "Kopf",
+        "syllables": [
+          "Kopf"
+        ]
+      }
+    ],
+    "story": "Die Fahrradtour"
+  },
+  {
+    "id": "g3_story__die_fahrradtour_entlang_des_breiten_flusses_f",
+    "grade": 3,
+    "theme": "Story: Die Fahrradtour",
+    "sentence": "Entlang des breiten Flusses führt ein schöner, flacher Radweg.",
+    "words": [
+      {
+        "word": "Entlang",
+        "clean": "Entlang",
+        "syllables": [
+          "Ent",
+          "lang"
+        ]
+      },
+      {
+        "word": "des",
+        "clean": "des",
+        "syllables": [
+          "des"
+        ]
+      },
+      {
+        "word": "breiten",
+        "clean": "breiten",
+        "syllables": [
+          "brei",
+          "ten"
+        ]
+      },
+      {
+        "word": "Flusses",
+        "clean": "Flusses",
+        "syllables": [
+          "Flus",
+          "ses"
+        ]
+      },
+      {
+        "word": "führt",
+        "clean": "führt",
+        "syllables": [
+          "führt"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "schöner,",
+        "clean": "schöner",
+        "syllables": [
+          "schö",
+          "ner"
+        ]
+      },
+      {
+        "word": "flacher",
+        "clean": "flacher",
+        "syllables": [
+          "fla",
+          "cher"
+        ]
+      },
+      {
+        "word": "Radweg.",
+        "clean": "Radweg",
+        "syllables": [
+          "Rad",
+          "weg"
+        ]
+      }
+    ],
+    "story": "Die Fahrradtour"
+  },
+  {
+    "id": "g3_story__die_fahrradtour_nach_einer_langen_fahrt_machen",
+    "grade": 3,
+    "theme": "Story: Die Fahrradtour",
+    "sentence": "Nach einer langen Fahrt machen wir ein Picknick.",
+    "words": [
+      {
+        "word": "Nach",
+        "clean": "Nach",
+        "syllables": [
+          "Nach"
+        ]
+      },
+      {
+        "word": "einer",
+        "clean": "einer",
+        "syllables": [
+          "ei",
+          "ner"
+        ]
+      },
+      {
+        "word": "langen",
+        "clean": "langen",
+        "syllables": [
+          "lan",
+          "gen"
+        ]
+      },
+      {
+        "word": "Fahrt",
+        "clean": "Fahrt",
+        "syllables": [
+          "Fahrt"
+        ]
+      },
+      {
+        "word": "machen",
+        "clean": "machen",
+        "syllables": [
+          "ma",
+          "chen"
+        ]
+      },
+      {
+        "word": "wir",
+        "clean": "wir",
+        "syllables": [
+          "wir"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "Picknick.",
+        "clean": "Picknick",
+        "syllables": [
+          "Pick",
+          "nick"
+        ]
+      }
+    ],
+    "story": "Die Fahrradtour"
   }
 ]
