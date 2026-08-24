@@ -391,6 +391,18 @@ class Application {
         switch(eventKey) {
             case 'start':
                 return 'ivan_luzan-beautiful-piano-logo-143488.mp3';
+            case 'user_select':
+                return 'cartoon_music-cartoon-game-upgrade-494470.mp3';
+            case 'word_correct':
+                return 'dheerajakam4jor-swoosh-sound-effect-for-fight-scenes-or-transitions-2-149890.mp3';
+            case 'sentence_complete':
+                return 'cartoon_music-correct-game-show-alert-499485.mp3';
+            case 'menu_switch':
+                return 'cartoon_music-arcade-game-achievement-bling-489759.mp3';
+            case 'exercise_select':
+                return 'universfield-soft-cinematic-piano-outro-151764.mp3';
+            case 'letter_written':
+                return 'freesound_gamestudio-button-394464.mp3';
             case 'word_incorrect':
                 return 'shidenbeatsmusic-funny-sound-effect-for-quotjack-in-the-boxquot-sound-ver1-110923.mp3';
             default:
