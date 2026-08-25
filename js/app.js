@@ -310,6 +310,10 @@ class Application {
         document.getElementById('btn-tolerance-medium').addEventListener('click', () => this.selectTolerance('medium'));
         document.getElementById('btn-tolerance-lax').addEventListener('click', () => this.selectTolerance('lax'));
         
+        document.getElementById('btn-rules-always').addEventListener('click', () => this.selectRuleMode('always'));
+        document.getElementById('btn-rules-errors').addEventListener('click', () => this.selectRuleMode('errors'));
+        document.getElementById('btn-rules-never').addEventListener('click', () => this.selectRuleMode('never'));
+        
         document.getElementById('btn-check-audio').addEventListener('click', () => this.checkAudioStatus());
         document.getElementById('btn-generate-audio').addEventListener('click', () => this.generateMissingAudio());
 
@@ -1600,7 +1604,17 @@ class Application {
         this.audio.onPlayProgress = null;
         if (pbContainer) pbContainer.style.display = 'none';
 
-        this.showSummaryModal(earnedPoints, progressRecord);
+        const ruleMode = localStorage.getItem('ruleMode') || 'always';
+        const showModal = (ruleMode === 'always') || (ruleMode === 'errors' && this.sentenceHasError);
+
+        if (showModal) {
+            this.showSummaryModal(earnedPoints, progressRecord);
+        } else {
+            this.showCenterPointsSplash(earnedPoints);
+            setTimeout(() => {
+                this.nextSentence();
+            }, 1000);
+        }
     }
 
     async finishCurrentReadingSentence() {
@@ -1654,7 +1668,17 @@ class Application {
             this.toggleSpeechListening();
         }
 
-        this.showSummaryModal(earnedPoints, progressRecord);
+        const ruleMode = localStorage.getItem('ruleMode') || 'always';
+        const showModal = (ruleMode === 'always') || (ruleMode === 'errors' && this.sentenceHasError);
+
+        if (showModal) {
+            this.showSummaryModal(earnedPoints, progressRecord);
+        } else {
+            this.showCenterPointsSplash(earnedPoints);
+            setTimeout(() => {
+                this.nextSentence();
+            }, 1000);
+        }
     }
 
     showSummaryModal(points, progressRecord) {
@@ -2323,7 +2347,11 @@ class Application {
     showSettingsView() {
         // Highlight active tolerance level
         const activeLevel = localStorage.getItem('speechTolerance') || 'lax';
-        this.selectTolerance(activeLevel, false); // select without showing toast
+        this.selectTolerance(activeLevel, false);
+        
+        // Highlight active rule mode preference
+        const activeRuleMode = localStorage.getItem('ruleMode') || 'always';
+        this.selectRuleMode(activeRuleMode, false);
         
         // Reset results display
         const resultsBox = document.getElementById('audio-check-results');
@@ -2358,6 +2386,29 @@ class Application {
         if (showToast) {
             const labels = { 'strict': 'Streng', 'medium': 'Mittel', 'lax': 'Tolerant' };
             this.showStatusToast(`Toleranz geändert auf: ${labels[level]}`);
+        }
+    }
+
+    selectRuleMode(mode, showToast = true) {
+        localStorage.setItem('ruleMode', mode);
+        
+        const modes = ['always', 'errors', 'never'];
+        modes.forEach(m => {
+            const btn = document.getElementById(`btn-rules-${m}`);
+            if (btn) {
+                if (m === mode) {
+                    btn.className = 'btn btn-primary';
+                    btn.style.flex = '1';
+                } else {
+                    btn.className = 'btn btn-secondary';
+                    btn.style.flex = '1';
+                }
+            }
+        });
+
+        if (showToast) {
+            const labels = { 'always': 'Immer', 'errors': 'Nur bei Fehlern', 'never': 'Nie' };
+            this.showStatusToast(`Regel-Anzeige geändert auf: ${labels[mode]}`);
         }
     }
 
