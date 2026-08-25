@@ -681,19 +681,31 @@ class Application {
         const uniqueOtherThemes = otherThemes.filter(t => !currentGradeThemes.includes(t));
         const themes = [...currentGradeThemes, ...uniqueOtherThemes];
         
-        const container = document.getElementById('category-pills-list');
-        if (!container) return;
-        container.innerHTML = "";
+        const topicsContainer = document.getElementById('category-topics-list');
+        const focusContainer = document.getElementById('category-focus-list');
+        if (!topicsContainer || !focusContainer) return;
         
-        // Always include "Alle"
-        const allThemes = ["Alle", ...themes];
+        topicsContainer.innerHTML = "";
+        focusContainer.innerHTML = "";
+        
+        // Define focus areas set
+        const focusAreasSet = new Set([
+            "ck und tz", "Langes ie", "Auslaut", "Doppelkonsonant", "Stummes h",
+            "Großschreibung", "ie-Laut", "stummes h", "z und tz", "Doppelkonsonanten",
+            "sp und st", "d oder t", "Nominalisierung", "Fremdwörter"
+        ]);
+        
+        // Always include "Alle" in topics
+        const topics = ["Alle", ...themes.filter(t => !focusAreasSet.has(t))];
+        const focusAreas = themes.filter(t => focusAreasSet.has(t));
         
         // Ensure selected category is valid for this grade
-        if (!allThemes.includes(this.currentCategory)) {
+        const allAvailable = [...topics, ...focusAreas];
+        if (!allAvailable.includes(this.currentCategory)) {
             this.currentCategory = "Alle";
         }
         
-        allThemes.forEach(theme => {
+        const createPill = (theme, targetContainer) => {
             const pill = document.createElement('button');
             pill.className = 'category-pill';
             if (theme === this.currentCategory) {
@@ -703,26 +715,34 @@ class Application {
             // Map theme to premium user-facing emojis
             let emoji = "📝";
             if (theme === "Alle") emoji = "🌟";
-            else if (theme === "Großschreibung") emoji = "🔠";
-            else if (theme === "ie-Laut") emoji = "🐝";
-            else if (theme === "stummes h") emoji = "⏰";
-            else if (theme === "z und tz") emoji = "⚡";
-            else if (theme === "Doppelkonsonanten") emoji = "🪵";
-            else if (theme === "sp und st") emoji = "🎯";
-            else if (theme === "d oder t") emoji = "🦆";
+            else if (theme === "Tiere") emoji = "🐾";
+            else if (theme === "Schule") emoji = "🏫";
+            else if (theme === "Jahreszeiten") emoji = "🍂";
+            else if (theme === "Natur") emoji = "🌿";
+            else if (theme === "Abenteuer") emoji = "🚀";
+            else if (theme === "Langes ie" || theme === "ie-Laut") emoji = "🐝";
+            else if (theme === "Stummes h" || theme === "stummes h") emoji = "⏰";
+            else if (theme === "ck und tz" || theme === "z und tz") emoji = "⚡";
+            else if (theme === "Doppelkonsonant" || theme === "Doppelkonsonanten") emoji = "🪵";
+            else if (theme === "Auslaut" || theme === "d oder t") emoji = "🦆";
             else if (theme === "Nominalisierung") emoji = "🏷️";
             else if (theme === "Fremdwörter") emoji = "🌍";
             
             pill.innerText = `${emoji} ${theme}`;
             pill.addEventListener('click', () => {
-                container.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
+                // Remove active class from all pills in BOTH containers
+                document.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
+                
                 pill.classList.add('active');
                 this.currentCategory = theme;
                 this.showStatusToast(`Übungsschwerpunkt: ${theme}`);
                 this.playEventSound('exercise_select');
             });
-            container.appendChild(pill);
-        });
+            targetContainer.appendChild(pill);
+        };
+        
+        topics.forEach(t => createPill(t, topicsContainer));
+        focusAreas.forEach(f => createPill(f, focusContainer));
     }
 
     async handleDeleteProfile() {

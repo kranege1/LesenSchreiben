@@ -32,7 +32,7 @@
             <h1 id="app-title-logo" style="margin: 0; font-size: 20px; justify-content: center;">✍️ Lesen & Schreiben
             </h1>
             <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-25
-                14:52:00]</span>
+                15:00:00]</span>
         </div>
 
         <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end; gap: 12px;">
@@ -128,31 +128,59 @@
                 <div id="daily-motivation-banner" style="margin-top: 14px; padding: 10px 14px; border-radius: 12px; font-size: 13.5px; font-weight: 700; background: rgba(0, 122, 255, 0.08); border: 1px solid rgba(0, 122, 255, 0.15); display: inline-block; max-width: 600px; line-height: 1.45;"></div>
             </div>
 
-            <!-- Spelling Categories Selector -->
-            <div class="category-selector-container">
-                <p style="font-weight: 600; margin-bottom: 8px; font-size: 16px; color: var(--text-primary);">🎯
-                    Übungsschwerpunkt wählen:</p>
-                <div id="category-pills-list" class="category-pills-list">
-                    <!-- Filled dynamically in app.js -->
+            <!-- Split Layout Dashboard Container -->
+            <div class="menu-dashboard-layout" style="display: flex; gap: 24px; margin-top: 24px; box-sizing: border-box; align-items: flex-start; justify-content: space-between; width: 100%;">
+                
+                <!-- Left Column: Selection Boxes -->
+                <div class="menu-left-column" style="flex: 1.2; display: flex; flex-direction: column; gap: 16px;">
+                    
+                    <!-- Box 1: Themen -->
+                    <div class="category-box" style="background: #FFFFFF; border-radius: 16px; border: 1px solid var(--system-gray-light); padding: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); text-align: left;">
+                        <p style="font-weight: 700; margin: 0 0 12px 0; font-size: 15px; color: var(--text-primary); display: flex; align-items: center; gap: 6px;">
+                            <span>📂</span> Themen wählen:
+                        </p>
+                        <div id="category-topics-list" class="category-pills-list" style="display: flex; flex-wrap: wrap; gap: 8px;">
+                            <!-- Filled dynamically in app.js -->
+                        </div>
+                    </div>
+                    
+                    <!-- Box 2: Übungsschwerpunkte -->
+                    <div class="category-box" style="background: #FFFFFF; border-radius: 16px; border: 1px solid var(--system-gray-light); padding: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); text-align: left;">
+                        <p style="font-weight: 700; margin: 0 0 12px 0; font-size: 15px; color: var(--text-primary); display: flex; align-items: center; gap: 6px;">
+                            <span>🎯</span> Übungsschwerpunkt wählen:
+                        </p>
+                        <div id="category-focus-list" class="category-pills-list" style="display: flex; flex-wrap: wrap; gap: 8px;">
+                            <!-- Filled dynamically in app.js -->
+                        </div>
+                    </div>
+                    
                 </div>
-            </div>
-
-            <div class="menu-grid">
-                <div id="menu-card-write" class="menu-card">
-                    <span class="menu-icon">✍️</span>
-                    <h3>Schreib-Modus</h3>
-                    <p>Sätze auf dem Zeichenfeld nachspuren und schreiben.</p>
+                
+                <!-- Right Column: Mode Cards stacked vertically -->
+                <div class="menu-right-column" style="flex: 0.8; display: flex; flex-direction: column; gap: 16px; min-width: 280px; max-width: 360px; width: 100%;">
+                    <div id="menu-card-write" class="menu-card" style="margin: 0; width: 100%; display: flex; align-items: center; gap: 16px; padding: 16px; box-sizing: border-box;">
+                        <span class="menu-icon" style="font-size: 28px; margin: 0;">✍️</span>
+                        <div style="text-align: left;">
+                            <h3 style="margin: 0 0 4px 0; font-size: 16px;">Schreib-Modus</h3>
+                            <p style="margin: 0; font-size: 12px; line-height: 1.3;">Auf dem Zeichenfeld schreiben.</p>
+                        </div>
+                    </div>
+                    <div id="menu-card-read" class="menu-card" style="margin: 0; width: 100%; display: flex; align-items: center; gap: 16px; padding: 16px; box-sizing: border-box;">
+                        <span class="menu-icon" style="font-size: 28px; margin: 0;">🗣️</span>
+                        <div style="text-align: left;">
+                            <h3 style="margin: 0 0 4px 0; font-size: 16px;">Lese-Modus</h3>
+                            <p style="margin: 0; font-size: 12px; line-height: 1.3;">Laut vorlesen mit Spracherkennung.</p>
+                        </div>
+                    </div>
+                    <div id="menu-card-stories" class="menu-card" style="margin: 0; width: 100%; display: flex; align-items: center; gap: 16px; padding: 16px; box-sizing: border-box;">
+                        <span class="menu-icon" style="font-size: 28px; margin: 0;">📚</span>
+                        <div style="text-align: left;">
+                            <h3 style="margin: 0 0 4px 0; font-size: 16px;">Geschichten</h3>
+                            <p style="margin: 0; font-size: 12px; line-height: 1.3;">Ganze Geschichten als Diktat.</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="menu-card-read" class="menu-card">
-                    <span class="menu-icon">🗣️</span>
-                    <h3>Lese-Modus</h3>
-                    <p>Sätze laut vorlesen mit Spracherkennung & Karaoke.</p>
-                </div>
-                <div id="menu-card-stories" class="menu-card">
-                    <span class="menu-icon">📚</span>
-                    <h3>Geschichten</h3>
-                    <p>Ganze Geschichten als Diktat schreiben oder lesen.</p>
-                </div>
+                
             </div>
 
             <div style="margin-top: 40px; display: flex; justify-content: center; gap: 16px;">

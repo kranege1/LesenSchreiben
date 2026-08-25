@@ -910,3 +910,14 @@ canvas {
     white-space: nowrap;
 }
 
+@media (max-width: 768px) {
+    .menu-dashboard-layout {
+        flex-direction: column !important;
+        gap: 16px !important;
+    }
+    .menu-left-column, .menu-right-column {
+        flex: 1 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
