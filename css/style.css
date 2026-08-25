@@ -856,3 +856,57 @@ canvas {
     }
 }
 
+/* Custom Stats Chart Styles */
+.chart-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    height: 100%;
+    min-height: 160px;
+    position: relative;
+}
+.chart-bar {
+    width: 60%;
+    max-width: 32px;
+    border-radius: 6px 6px 0 0;
+    background: linear-gradient(180deg, var(--accent-blue), #5856d6);
+    transition: height 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    cursor: pointer;
+}
+.chart-bar:hover {
+    background: linear-gradient(180deg, #5856d6, var(--accent-blue));
+}
+.chart-bar-tooltip {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.9);
+    background: var(--text-primary);
+    color: var(--system-background);
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: bold;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.chart-bar:hover .chart-bar-tooltip {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+.chart-label {
+    margin-top: 8px;
+    font-size: 10.5px;
+    font-weight: bold;
+    color: var(--text-secondary);
+    text-align: center;
+    white-space: nowrap;
+}
+

@@ -217,6 +217,7 @@ export class AppDB {
             sentenceId,
             mode,
             isSuccess,
+            points: stats.points !== undefined ? stats.points : 0,
             timestamp: Date.now()
         });
 
@@ -255,5 +256,18 @@ export class AppDB {
             };
             request.onerror = () => reject(request.error);
         });
+    }
+
+    async getDailyScores(profileId) {
+        const history = await this.getHistory(profileId);
+        const daily = {};
+        
+        history.forEach(log => {
+            const dateStr = new Date(log.timestamp).toISOString().split('T')[0];
+            const pts = log.points !== undefined ? log.points : (log.isSuccess ? 10 : 0);
+            daily[dateStr] = (daily[dateStr] || 0) + pts;
+        });
+        
+        return daily;
     }
 }

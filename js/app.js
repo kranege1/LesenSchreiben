@@ -219,6 +219,10 @@ class Application {
         document.getElementById('btn-stats-back').addEventListener('click', () => this.switchView('menu-view'));
         document.getElementById('btn-stories-back').addEventListener('click', () => this.switchView('menu-view'));
 
+        // Stats Chart Toggle Buttons
+        document.getElementById('btn-chart-week').addEventListener('click', () => this.renderDailyScoresChart('week'));
+        document.getElementById('btn-chart-month').addEventListener('click', () => this.renderDailyScoresChart('month'));
+
         // Canvas Controls
         document.getElementById('btn-canvas-clear').addEventListener('click', () => {
             this.canvas.clear();
@@ -661,6 +665,7 @@ class Application {
         // Render dynamic category pills for selected grade
         this.renderCategorySelector();
         
+        await this.updateDailyMotivation();
         this.switchView('menu-view');
     }
 
@@ -1526,6 +1531,7 @@ class Application {
         );
 
         await this.updateProfileScoreUI(this.currentProfile.id, earnedPoints);
+        await this.updateDailyMotivation();
 
         const maxPossiblePoints = this.currentSentence.words.length * 10;
         if (earnedPoints === maxPossiblePoints) {
@@ -1604,6 +1610,7 @@ class Application {
         );
 
         await this.updateProfileScoreUI(this.currentProfile.id, earnedPoints);
+        await this.updateDailyMotivation();
 
         const maxPossiblePoints = this.currentSentence.words.length * 10;
         if (earnedPoints === maxPossiblePoints) {
@@ -2043,6 +2050,7 @@ class Application {
         document.getElementById('stat-errors-read').innerText = readErrors;
 
         this.switchView('stats-view');
+        this.renderDailyScoresChart('week');
     }
 
     showStoriesView() {
@@ -2327,6 +2335,162 @@ class Application {
             resultsBox.innerHTML = `<span style="color: var(--error-red); font-weight: 700;">Fehler:</span> Verbindung zum Server unterbrochen.`;
         } finally {
             if (btnGen) btnGen.style.disabled = false;
+        }
+    }
+
+    async updateDailyMotivation() {
+        if (!this.currentProfile) return;
+        const daily = await this.db.getDailyScores(this.currentProfile.id);
+        
+        const getLocalDateString = (date) => {
+            const offset = date.getTimezoneOffset();
+            const localDate = new Date(date.getTime() - (offset * 60 * 1000));
+            return localDate.toISOString().split('T')[0];
+        };
+
+        const todayStr = getLocalDateString(new Date());
+        
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayStr = getLocalDateString(yesterday);
+        
+        const todayPoints = daily[todayStr] || 0;
+        const yesterdayPoints = daily[yesterdayStr] || 0;
+        
+        // Find all-time daily record (excluding today)
+        let maxPrevDailyPoints = 0;
+        for (const date in daily) {
+            if (date !== todayStr && daily[date] > maxPrevDailyPoints) {
+                maxPrevDailyPoints = daily[date];
+            }
+        }
+        
+        const banner = document.getElementById('daily-motivation-banner');
+        if (!banner) return;
+        
+        banner.style.display = 'inline-block';
+        
+        if (yesterdayPoints > 0 && todayPoints < yesterdayPoints) {
+            const diff = yesterdayPoints - todayPoints;
+            banner.innerHTML = `🏃‍♂️ Du brauchst nun noch <strong>${diff} Punkte</strong>, um deinen Tagesrekord von gestern (${yesterdayPoints} Punkte) zu toppen!`;
+            banner.style.color = 'var(--accent-blue)';
+            banner.style.borderColor = 'rgba(0, 122, 255, 0.15)';
+            banner.style.background = 'rgba(0, 122, 255, 0.08)';
+        } else if (yesterdayPoints > 0 && todayPoints >= yesterdayPoints && todayPoints < yesterdayPoints + 50) {
+            banner.innerHTML = `🎉 Super! Du hast deinen gestrigen Tagesrekord überholt! Aktuell heute: <strong>${todayPoints} Punkte</strong>.`;
+            banner.style.color = 'var(--success-green)';
+            banner.style.borderColor = 'rgba(48, 209, 88, 0.15)';
+            banner.style.background = 'rgba(48, 209, 88, 0.08)';
+        } else if (maxPrevDailyPoints > 0 && todayPoints < maxPrevDailyPoints) {
+            const diff = maxPrevDailyPoints - todayPoints;
+            banner.innerHTML = `🏆 Du brauchst noch <strong>${diff} Punkte</strong>, um deinen Allzeit-Tagesrekord (${maxPrevDailyPoints} Punkte) zu knacken!`;
+            banner.style.color = '#FF9500';
+            banner.style.borderColor = 'rgba(255, 149, 0, 0.15)';
+            banner.style.background = 'rgba(255, 149, 0, 0.08)';
+        } else if (maxPrevDailyPoints > 0 && todayPoints >= maxPrevDailyPoints) {
+            banner.innerHTML = `👑 Unglaublich! Du hast heute einen neuen Allzeit-Tagesrekord aufgestellt! Aktuell: <strong>${todayPoints} Punkte</strong>!`;
+            banner.style.color = 'var(--success-green)';
+            banner.style.borderColor = 'rgba(48, 209, 88, 0.15)';
+            banner.style.background = 'rgba(48, 209, 88, 0.08)';
+        } else {
+            if (todayPoints > 0) {
+                banner.innerHTML = `✨ Heute hast du schon <strong>${todayPoints} Punkte</strong> gesammelt. Weiter so!`;
+            } else {
+                banner.innerHTML = `🎯 Los geht's! Sammle heute deine ersten Punkte und stelle einen Tagesrekord auf!`;
+            }
+            banner.style.color = 'var(--text-secondary)';
+            banner.style.borderColor = 'var(--system-gray-light)';
+            banner.style.background = 'rgba(120, 120, 128, 0.05)';
+        }
+    }
+
+    async renderDailyScoresChart(mode = 'week') {
+        if (!this.currentProfile) return;
+        const daily = await this.db.getDailyScores(this.currentProfile.id);
+        const container = document.getElementById('chart-visualization-container');
+        if (!container) return;
+        
+        container.innerHTML = "";
+        
+        const daysCount = mode === 'week' ? 7 : 30;
+        const days = [];
+        
+        const getLocalDateString = (date) => {
+            const offset = date.getTimezoneOffset();
+            const localDate = new Date(date.getTime() - (offset * 60 * 1000));
+            return localDate.toISOString().split('T')[0];
+        };
+
+        // Generate date list backwards from today
+        for (let i = daysCount - 1; i >= 0; i--) {
+            const d = new Date();
+            d.setDate(d.getDate() - i);
+            days.push({
+                dateStr: getLocalDateString(d),
+                label: mode === 'week' ? d.toLocaleDateString('de-DE', { weekday: 'short' }) : d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit' })
+            });
+        }
+        
+        // Find max points to scale heights
+        let maxPoints = 50;
+        days.forEach(day => {
+            const pts = daily[day.dateStr] || 0;
+            if (pts > maxPoints) maxPoints = pts;
+        });
+        
+        // Render flex wrapper
+        const wrapper = document.createElement('div');
+        wrapper.style.display = 'flex';
+        wrapper.style.alignItems = 'flex-end';
+        wrapper.style.justifyContent = 'space-between';
+        wrapper.style.height = '180px';
+        wrapper.style.width = '100%';
+        wrapper.style.gap = mode === 'week' ? '12px' : '4px';
+        
+        days.forEach(day => {
+            const points = daily[day.dateStr] || 0;
+            const pct = (points / maxPoints) * 100;
+            
+            const col = document.createElement('div');
+            col.className = 'chart-column';
+            
+            const bar = document.createElement('div');
+            bar.className = 'chart-bar';
+            bar.style.height = '0%';
+            
+            const tooltip = document.createElement('div');
+            tooltip.className = 'chart-bar-tooltip';
+            tooltip.innerText = `${points} Pkt (${day.dateStr.substring(8, 10)}.${day.dateStr.substring(5, 7)}.)`;
+            
+            bar.appendChild(tooltip);
+            col.appendChild(bar);
+            
+            const lbl = document.createElement('div');
+            lbl.className = 'chart-label';
+            lbl.innerText = day.label;
+            col.appendChild(lbl);
+            
+            wrapper.appendChild(col);
+            
+            // Trigger animation
+            setTimeout(() => {
+                bar.style.height = `${pct}%`;
+            }, 50);
+        });
+        
+        container.appendChild(wrapper);
+        
+        // Update tab buttons active state
+        const weekBtn = document.getElementById('btn-chart-week');
+        const monthBtn = document.getElementById('btn-chart-month');
+        if (weekBtn && monthBtn) {
+            if (mode === 'week') {
+                weekBtn.className = 'btn btn-primary';
+                monthBtn.className = 'btn btn-secondary';
+            } else {
+                weekBtn.className = 'btn btn-secondary';
+                monthBtn.className = 'btn btn-primary';
+            }
         }
     }
 }
