@@ -211,7 +211,9 @@ class Application {
         document.getElementById('menu-card-write').addEventListener('click', () => this.startMode('write'));
         document.getElementById('menu-card-read').addEventListener('click', () => this.startMode('read'));
         document.getElementById('menu-card-stories').addEventListener('click', () => this.showStoriesView());
-        document.getElementById('btn-view-stats').addEventListener('click', () => this.showStatsView());
+        // Active Profile Badges Navigation
+        document.getElementById('active-profile-badge').addEventListener('click', () => this.switchView('profile-view'));
+        document.getElementById('active-profile-score-badge').addEventListener('click', () => this.showStatsView());
         
         // Back buttons
         document.getElementById('btn-write-back').addEventListener('click', () => this.stopActiveMode());
@@ -503,6 +505,14 @@ class Application {
         this.clearStuckTimer();
         this.clearWordTypeHintTimer();
 
+        if (viewId === 'profile-view') {
+            const pBadge = document.getElementById('active-profile-badge');
+            const sBadge = document.getElementById('active-profile-score-badge');
+            if (pBadge) pBadge.style.display = 'none';
+            if (sBadge) sBadge.style.display = 'none';
+            this.currentProfile = null;
+        }
+
         this.playEventSound('menu_switch');
 
         // Switch active CSS class
@@ -657,6 +667,7 @@ class Application {
         
         document.getElementById('active-profile-name').innerText = this.currentProfile.name;
         badge.style.display = 'flex';
+        document.getElementById('active-profile-score-badge').style.display = 'flex';
         await this.updateProfileScoreUI(this.currentProfile.id, 0);
         
         // Set Menu welcome text
@@ -1960,7 +1971,7 @@ class Application {
 
         // Play floating points animation
         if (pointsToAdd > 0) {
-            const badge = document.getElementById('active-profile-badge');
+            const badge = document.getElementById('active-profile-score-badge');
             if (badge) {
                 const animSpan = document.createElement('span');
                 animSpan.className = 'score-floating-anim';
