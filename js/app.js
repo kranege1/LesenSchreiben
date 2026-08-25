@@ -196,7 +196,6 @@ class Application {
         document.getElementById('btn-select-profile').addEventListener('click', () => this.handleSelectProfile());
         document.getElementById('btn-delete-profile').addEventListener('click', () => this.handleDeleteProfile());
         document.getElementById('btn-save-grade').addEventListener('click', () => this.handleSaveGrade());
-        document.getElementById('btn-change-profile').addEventListener('click', () => this.switchView('profile-view'));
         
         // Avatar selection triggers
         const avatarOpts = document.querySelectorAll('.avatar-option');
