@@ -771,7 +771,6 @@ class Application {
         if (!this.currentProfile) return null;
         
         const progressList = await this.db.getProfileProgress(this.currentProfile.id);
-        const now = Date.now();
         const currentGrade = this.currentProfile.grade;
         
         // Include sentences from all grades (excluding stories)
@@ -781,67 +780,66 @@ class Application {
         if (this.currentCategory && this.currentCategory !== "Alle") {
             pool = pool.filter(s => s.theme === this.currentCategory);
         }
-        
-        const learnedIds = progressList.map(p => p.sentenceId);
 
-        // 1. Prioritize NEW sentences from the CURRENT grade
-        const availableInGrade = pool.filter(s => s.grade === currentGrade && !learnedIds.includes(s.id));
-        if (availableInGrade.length > 0) {
-            return availableInGrade[0];
+        if (pool.length === 0) {
+            // Ultimate fallback: take any random sentence from the entire pool
+            const randIdx = Math.floor(Math.random() * this.sentences.length);
+            return this.sentences[randIdx];
         }
-        
-        // 2. Prioritize NEW sentences from OTHER grades (sorted by proximity/ascending)
-        const availableOthers = pool.filter(s => s.grade !== currentGrade && !learnedIds.includes(s.id));
-        if (availableOthers.length > 0) {
-            availableOthers.sort((a, b) => {
-                const diffA = Math.abs(a.grade - currentGrade);
-                const diffB = Math.abs(b.grade - currentGrade);
-                if (diffA !== diffB) return diffA - diffB;
-                return a.grade - b.grade;
-            });
-            return availableOthers[0];
+
+        // Filter out currently active sentence to avoid immediate repeat if pool is large enough
+        let candidates = pool;
+        if (this.currentSentence && pool.length > 1) {
+            candidates = pool.filter(s => s.id !== this.currentSentence.id);
         }
-        
-        // 3. If all matching sentences are introduced, check for due repetitions
-        const dueSentences = progressList.filter(p => p.nextReview <= now && p.box < 5);
-        if (dueSentences.length > 0) {
-            // Filter due repetitions to only include sentences from our pool
-            const poolIds = pool.map(s => s.id);
-            const dueFiltered = dueSentences.filter(d => poolIds.includes(d.sentenceId));
+
+        // Sort candidates based on attempts, errors, and boxes
+        candidates.sort((a, b) => {
+            const recA = progressList.find(p => p.sentenceId === a.id);
+            const recB = progressList.find(p => p.sentenceId === b.id);
             
-            if (dueFiltered.length > 0) {
-                // Sort: current grade due sentences first, then sort by box level (lowest box first)
-                dueFiltered.sort((a, b) => {
-                    const sentA = this.sentences.find(s => s.id === a.sentenceId);
-                    const sentB = this.sentences.find(s => s.id === b.sentenceId);
-                    const isCurrA = sentA && sentA.grade === currentGrade;
-                    const isCurrB = sentB && sentB.grade === currentGrade;
-                    
-                    if (isCurrA && !isCurrB) return -1;
-                    if (!isCurrA && isCurrB) return 1;
-                    
-                    return a.box - b.box;
-                });
-                const targetId = dueFiltered[0].sentenceId;
-                const match = this.sentences.find(s => s.id === targetId);
-                if (match) {
-                    console.log(`Leitner rep due for: ${match.sentence}`);
-                    return match;
-                }
+            const isNewA = !recA;
+            const isNewB = !recB;
+            
+            // 1. New (unattempted) sentences have priority
+            if (isNewA && !isNewB) return -1;
+            if (!isNewA && isNewB) return 1;
+            
+            if (isNewA && isNewB) {
+                // Both new: prioritize current grade
+                const isCurrA = a.grade === currentGrade;
+                const isCurrB = b.grade === currentGrade;
+                if (isCurrA && !isCurrB) return -1;
+                if (!isCurrA && isCurrB) return 1;
+                return a.id.localeCompare(b.id);
             }
-        }
-        
-        // 4. Fallback: take any sentence in the filtered pool (preferring current grade)
-        if (pool.length > 0) {
-            const gradePool = pool.filter(s => s.grade === currentGrade);
-            const activePool = gradePool.length > 0 ? gradePool : pool;
-            const randIdx = Math.floor(Math.random() * activePool.length);
-            return activePool[randIdx];
-        }
-        
-        // 5. Ultimate fallback: take any random sentence from the entire pool
-        const randIdx = Math.floor(Math.random() * this.sentences.length);
-        return this.sentences[randIdx];
+            
+            // Both attempted: prioritize those with errors in current mode
+            const errA = this.currentMode === 'write' ? (recA.errorsWriting || 0) : (recA.errorsReading || 0);
+            const errB = this.currentMode === 'write' ? (recB.errorsWriting || 0) : (recB.errorsReading || 0);
+            
+            if (errA !== errB) {
+                return errB - errA; // higher error count first
+            }
+            
+            // Sort by Leitner box level (lowest box first)
+            if (recA.box !== recB.box) {
+                return recA.box - recB.box;
+            }
+            
+            // Prioritize current grade
+            const isCurrA = a.grade === currentGrade;
+            const isCurrB = b.grade === currentGrade;
+            if (isCurrA && !isCurrB) return -1;
+            if (!isCurrA && isCurrB) return 1;
+            
+            // Otherwise, sort by oldest review date
+            return recA.nextReview - recB.nextReview;
+        });
+
+        const selected = candidates[0];
+        console.log(`fetchNextSentence selected: ${selected.sentence} (ID: ${selected.id})`);
+        return selected;
     }
 
     // --- WRITING & READING MODES MANAGEMENT ---
