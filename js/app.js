@@ -702,7 +702,8 @@ class Application {
         const focusAreasSet = new Set([
             "ck und tz", "Langes ie", "Auslaut", "Doppelkonsonant", "Stummes h",
             "Großschreibung", "ie-Laut", "stummes h", "z und tz", "Doppelkonsonanten",
-            "sp und st", "d oder t", "Nominalisierung", "Fremdwörter"
+            "sp und st", "d oder t", "Nominalisierung", "Fremdwörter",
+            "Umlautableitung", "s-Laut (ss/ß)", "Vogel-v", "sp / st", "Endung -ig/-lich", "Großschreibung Nomen"
         ]);
         
         // Always include "Alle" in topics
@@ -737,6 +738,12 @@ class Application {
             else if (theme === "Auslaut" || theme === "d oder t") emoji = "🦆";
             else if (theme === "Nominalisierung") emoji = "🏷️";
             else if (theme === "Fremdwörter") emoji = "🌍";
+            else if (theme === "Umlautableitung") emoji = "🍎";
+            else if (theme === "s-Laut (ss/ß)") emoji = "🐍";
+            else if (theme === "Vogel-v") emoji = "🦅";
+            else if (theme === "sp / st") emoji = "🗣️";
+            else if (theme === "Endung -ig/-lich") emoji = "🏷️";
+            else if (theme === "Großschreibung Nomen") emoji = "🔠";
             
             pill.innerText = `${emoji} ${theme}`;
             pill.addEventListener('click', () => {
@@ -1593,11 +1600,7 @@ class Application {
         this.audio.onPlayProgress = null;
         if (pbContainer) pbContainer.style.display = 'none';
 
-        if (hasSignificantErrors) {
-            this.showSummaryModal(earnedPoints, progressRecord);
-        } else {
-            this.nextSentence();
-        }
+        this.showSummaryModal(earnedPoints, progressRecord);
     }
 
     async finishCurrentReadingSentence() {
@@ -1651,15 +1654,7 @@ class Application {
             this.toggleSpeechListening();
         }
 
-        const hasSignificantErrors = this.skippedWords.length > 0 || this.mistakenWords.length > 1;
-        if (hasSignificantErrors) {
-            this.showSummaryModal(earnedPoints, progressRecord);
-        } else {
-            this.showCenterPointsSplash(earnedPoints);
-            setTimeout(() => {
-                this.nextSentence();
-            }, 800);
-        }
+        this.showSummaryModal(earnedPoints, progressRecord);
     }
 
     showSummaryModal(points, progressRecord) {
@@ -1774,6 +1769,82 @@ class Application {
 
             return `Du hast <b>"${attempt}"</b> geschrieben, gesucht war aber <b>"${target}"</b>. Schau dir die Buchstaben noch einmal genau an!`;
         };
+
+        const getSpellingRuleForWord = (word, isSentenceStart) => {
+            const clean = word.replace(/[^a-zA-ZäöüÄÖÜß]/g, '');
+            const lower = clean.toLowerCase();
+            if (!clean) return "";
+
+            let parts = [];
+            const doubleConsonants = ['bb', 'dd', 'ff', 'gg', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt'];
+            
+            if (lower.includes('ieh') || (lower.includes('h') && !lower.startsWith('h') && !lower.includes('ch') && !lower.includes('sch') && !lower.includes('ph') && !lower.includes('th'))) {
+                parts.push("Stummes h");
+            }
+            if (doubleConsonants.some(dc => lower.includes(dc))) {
+                parts.push("Doppelkonsonant");
+            }
+            if (lower.includes('ie')) {
+                parts.push("Langes ie");
+            }
+            if (lower.includes('ck') || lower.includes('tz')) {
+                parts.push("ck und tz");
+            }
+            if (lower.endsWith('d') || lower.endsWith('g') || lower.endsWith('b')) {
+                parts.push("Auslaut");
+            }
+            if (lower.includes('ä') || lower.includes('äu')) {
+                parts.push("Umlautableitung (ä/äu)");
+            }
+            if (lower.includes('ß') || lower.includes('ss')) {
+                parts.push("s-Laut (ss/ß)");
+            }
+            if (lower.startsWith('v')) {
+                parts.push("Vogel-v");
+            }
+            if (lower.startsWith('sp') || lower.startsWith('st')) {
+                parts.push("sp / st");
+            }
+            if (lower.endsWith('ig') || lower.endsWith('lich') || lower.endsWith('isch')) {
+                parts.push("Endung -ig/-lich");
+            }
+
+            const isCapital = clean[0] === clean[0].toUpperCase() && clean[0] !== clean[0].toLowerCase();
+            if (isCapital && !isSentenceStart) {
+                parts.push("Nomen (groß)");
+            }
+
+            return parts.length > 0 ? parts.join(", ") : "Standard";
+        };
+
+        // Populate dynamic rules container
+        const rulesList = document.getElementById('summary-rules-list');
+        if (rulesList) {
+            rulesList.innerHTML = "";
+            this.currentSentence.words.forEach((wData, idx) => {
+                const ruleText = getSpellingRuleForWord(wData.clean, idx === 0);
+                const row = document.createElement('div');
+                row.style.display = 'flex';
+                row.style.justifyContent = 'space-between';
+                row.style.fontSize = '13px';
+                row.style.borderBottom = '1px solid rgba(0,0,0,0.05)';
+                row.style.padding = '4px 0';
+                
+                const wordSpan = document.createElement('span');
+                wordSpan.style.fontWeight = '700';
+                wordSpan.style.color = 'var(--text-primary)';
+                wordSpan.innerText = wData.word;
+                
+                const ruleSpan = document.createElement('span');
+                ruleSpan.style.color = 'var(--accent-blue)';
+                ruleSpan.style.fontWeight = '600';
+                ruleSpan.innerText = ruleText;
+                
+                row.appendChild(wordSpan);
+                row.appendChild(ruleSpan);
+                rulesList.appendChild(row);
+            });
+        }
 
         this.currentSentence.words.forEach((wData, idx) => {
             const span = document.createElement('span');

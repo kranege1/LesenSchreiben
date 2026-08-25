@@ -684,3 +684,258 @@
 3 | Story: Die Fahrradtour | Wir setzen alle einen sicheren Helm auf den Kopf.
 3 | Story: Die Fahrradtour | Entlang des breiten Flusses führt ein schöner, flacher Radweg.
 3 | Story: Die Fahrradtour | Nach einer langen Fahrt machen wir ein Picknick.
+# ==========================================
+# NEUE SCHWERPUNKTE (Umlautableitung, s-Laut, Vogel-v, sp/st, Endungen, Großschreibung)
+# ==========================================
+
+# Thema: Umlautableitung (40 Sätze)
+2 | Umlautableitung | Die Katze hat vier weiche Pfoten und scharfe Krallen.
+2 | Umlautableitung | Im Herbst fallen viele bunte Blätter von den Bäumen.
+2 | Umlautableitung | Wir pflücken süße Äpfel im großen Garten.
+2 | Umlautableitung | Zwei kleine Mäuse knabbern heimlich am Käse.
+2 | Umlautableitung | Die Kinder waschen ihre schmutzigen Hände mit Seife.
+2 | Umlautableitung | Im Winter tragen wir warme Mäntel und Mützen.
+2 | Umlautableitung | Die Vögel bauen ihre Nester in den Ästen.
+2 | Umlautableitung | Mama backt heute leckere Plätzchen für uns alle.
+2 | Umlautableitung | Die Ärzte helfen den kranken Menschen im Krankenhaus.
+2 | Umlautableitung | Wir malen schöne Bilder mit bunten Farben.
+2 | Umlautableitung | Der Bäcker backt jeden Morgen frische Brötchen.
+2 | Umlautableitung | Der Junge zählt die Sterne am dunklen Himmel.
+2 | Umlautableitung | Die Kühe grasen friedlich auf den grünen Wiesen.
+2 | Umlautableitung | Die Ziegen springen über die hohen Zäune.
+2 | Umlautableitung | Wir machen eine lange Wanderung durch die Täler.
+2 | Umlautableitung | Die Mädchen spielen fröhlich auf dem Spielplatz.
+2 | Umlautableitung | Das Baby schläft tief in seiner Wiege.
+2 | Umlautableitung | Wir hören die lauten Töne der Musik.
+2 | Umlautableitung | Der Gärtner gießt die jungen Pflanzen im Gewächshaus.
+2 | Umlautableitung | Die Schüler schreiben fleißig in ihre Hefte.
+2 | Umlautableitung | Der Fluss fließt durch tiefe Täler zum Meer.
+2 | Umlautableitung | Wir hängen die nassen Handtücher an die Leine.
+2 | Umlautableitung | Der Hund bewacht das große Haus am Waldrand.
+2 | Umlautableitung | Im Frühling blühen die ersten zarten Blumen.
+2 | Umlautableitung | Wir sammeln reife Nüsse unter den alten Bäumen.
+2 | Umlautableitung | Die Kinder rennen fröhlich durch die engen Gassen.
+2 | Umlautableitung | Der Wind bläst die Blätter weit über das Feld.
+2 | Umlautableitung | Wir trinken kalten Saft an einem heißen Tag.
+2 | Umlautableitung | Der Koch bereitet ein köstliches Essen für uns vor.
+2 | Umlautableitung | Die Lehrerin zeigt uns eine Weltkarte an der Wand.
+2 | Umlautableitung | Der Bauer erntet das Korn auf dem Feld.
+2 | Umlautableitung | Die Familie macht ein schönes Picknick am See.
+2 | Umlautableitung | Wir werfen den Ball hoch in die Luft.
+2 | Umlautableitung | Die Züge fahren schnell auf den eisernen Schienen.
+2 | Umlautableitung | Das Kätzchen spielt gern mit einem roten Wollknäuel.
+2 | Umlautableitung | Wir bauen ein stabiles Baumhaus im Garten.
+2 | Umlautableitung | Die Sonne geht langsam hinter den Bergen unter.
+2 | Umlautableitung | Der Fischer fängt viele Fische mit seinem Netz.
+2 | Umlautableitung | Die Bienen fliegen fleißig von Blüte zu Blüte.
+2 | Umlautableitung | Wir backen einen süßen Kuchen mit Äpfeln.
+
+# Thema: s-Laut (ss/ß) (40 Sätze)
+2 | s-Laut (ss/ß) | Der breite Fluss fließt schnell durch das grüne Tal.
+2 | s-Laut (ss/ß) | Ein großer Hund läuft aufmerksam an der Straße.
+2 | s-Laut (ss/ß) | Die heiße Sonne scheint heute sehr kräftig.
+2 | s-Laut (ss/ß) | Wir essen leckeres Eis auf der sonnigen Wiese.
+2 | s-Laut (ss/ß) | Der weiße Schnee schmilzt in der warmen Sonne.
+2 | s-Laut (ss/ß) | Ich trinke ein kaltes Glas Wasser am Mittag.
+2 | s-Laut (ss/ß) | Er vergisst manchmal seine Hausaufgaben in der Schule.
+2 | s-Laut (ss/ß) | Die Kinder spielen draußen im weichen Gras.
+2 | s-Laut (ss/ß) | Der Schlüssel passt genau in das alte Schloss.
+2 | s-Laut (ss/ß) | Wir müssen heute fleißig für die Schule lernen.
+2 | s-Laut (ss/ß) | Das kleine Floß treibt langsam auf dem See.
+2 | s-Laut (ss/ß) | Sie grüßt ihre Oma freundlich am Telefon.
+2 | s-Laut (ss/ß) | Der Hund beißt vorsichtig in den großen Knochen.
+2 | s-Laut (ss/ß) | Wir schließen abends die Fenster im Haus.
+2 | s-Laut (ss/ß) | Die Straße führt direkt zum neuen Spielplatz.
+2 | s-Laut (ss/ß) | Es gibt ein spannendes Fußballspiel im Fernsehen.
+2 | s-Laut (ss/ß) | Er misst die Länge des Tisches mit dem Lineal.
+2 | s-Laut (ss/ß) | Die Katzen fressen hungrig ihr Futter auf.
+2 | s-Laut (ss/ß) | Ein süßer Duft steigt aus der Küche auf.
+2 | s-Laut (ss/ß) | Wir genießen den Ausflug in den großen Freizeitpark.
+2 | s-Laut (ss/ß) | Sie liest ein spannendes Buch im bequemen Sessel.
+2 | s-Laut (ss/ß) | Der Wind bläst das trockene Laub über den Weg.
+2 | s-Laut (ss/ß) | Er lässt den bunten Drachen in den Himmel steigen.
+2 | s-Laut (ss/ß) | Die Schüler wissen viele richtige Antworten im Unterricht.
+2 | s-Laut (ss/ß) | Das Schloss hat ein schweres Tor aus Eisen.
+2 | s-Laut (ss/ß) | Der Bach fließt leise murmelnd durch den Wald.
+2 | s-Laut (ss/ß) | Wir lassen uns die leckere Pizza gut schmecken.
+2 | s-Laut (ss/ß) | Er stößt den Ball mit dem Fuß ins Tor.
+2 | s-Laut (ss/ß) | Die Wiese ist nass vom kalten Tau am Morgen.
+2 | s-Laut (ss/ß) | Der Gärtner gießt das Gemüse mit der Gießkanne.
+2 | s-Laut (ss/ß) | Wir essen heute Abend Brot mit frischem Käse.
+2 | s-Laut (ss/ß) | Er weiß den Weg zum Bahnhof ganz genau.
+2 | s-Laut (ss/ß) | Das weiche Kissen liegt auf dem großen Bett.
+2 | s-Laut (ss/ß) | Die Kinder gießen die Pflanzen im Schulgarten.
+2 | s-Laut (ss/ß) | Sie misst das Mehl für den Kuchen genau ab.
+2 | s-Laut (ss/ß) | Der Hund schläft friedlich auf seiner Decke.
+2 | s-Laut (ss/ß) | Wir laufen barfuß über den warmen Sand am Strand.
+2 | s-Laut (ss/ß) | Er schließt die Tür leise hinter sich.
+2 | s-Laut (ss/ß) | Das Wasser im Pool ist heute angenehm warm.
+2 | s-Laut (ss/ß) | Sie isst einen roten Apfel in der Pause.
+
+# Thema: Vogel-v (40 Sätze)
+2 | Vogel-v | Der bunte Vogel fliegt hoch über die Bäume.
+2 | Vogel-v | Mein lieber Vater arbeitet fleißig im Büro.
+2 | Vogel-v | Wir haben heute viel Spaß auf dem Spielplatz.
+2 | Vogel-v | Der Becher ist voll mit leckeren Beeren.
+2 | Vogel-v | Der schnelle Zug fährt um vier Uhr ab.
+2 | Vogel-v | Wir müssen die Aufgaben vorsichtig durchlesen.
+2 | Vogel-v | Vor dem Haus steht ein großer, alter Baum.
+2 | Vogel-v | Der Detektiv sucht nach einem wichtigen Beweis.
+2 | Vogel-v | Wir besuchen unsere Großeltern am Wochenende.
+2 | Vogel-v | Der Junge hat viele bunte Murmeln gesammelt.
+2 | Vogel-v | Er verliert seinen roten Stift in der Schule.
+2 | Vogel-v | Wir verstehen die schwierige Rechenaufgabe gut.
+2 | Vogel-v | Das Zimmer ist voll mit schönen Spielsachen.
+2 | Vogel-v | Der Vater schenkt seinem Sohn ein neues Fahrrad.
+2 | Vogel-v | Die Vögel singen fröhliche Lieder am Morgen.
+2 | Vogel-v | Wir laufen vor dem großen Regen schnell nach Hause.
+2 | Vogel-v | Sie liest ein spannendes Buch voller Abenteuer.
+2 | Vogel-v | Der Hund läuft vorsichtig über die nasse Straße.
+2 | Vogel-v | Wir füttern die Hühner auf dem Bauernhof.
+2 | Vogel-v | Er vergisst seine Mütze auf dem Spielplatz.
+2 | Vogel-v | Der Vulkan spuckt heiße Lava und Rauch aus.
+2 | Vogel-v | Wir betrachten das schöne Gemälde im Museum.
+2 | Vogel-v | Vor vielen Jahren gab es hier einen dichten Wald.
+2 | Vogel-v | Der Junge rennt voll Freude seiner Mutter entgegen.
+2 | Vogel-v | Wir teilen den Kuchen in vier gleiche Teile.
+2 | Vogel-v | Die Schüler schreiben ein wichtiges Diktat auf.
+2 | Vogel-v | Sie versteckt das Geschenk hinter der Tür.
+2 | Vogel-v | Der Wind bläst die Vorhänge am Fenster auf.
+2 | Vogel-v | Wir verbringen einen schönen Tag im Freibad.
+2 | Vogel-v | Er trägt einen schweren Rucksack voll Proviant.
+2 | Vogel-v | Der Vogel baut sein Nest aus kleinen Zweigen.
+2 | Vogel-v | Der Lehrer erklärt uns die Grammatik sehr verständlich.
+2 | Vogel-v | Wir freuen uns über den Besuch der Tante.
+2 | Vogel-v | Der Hund läuft flink hinter dem Ball her.
+2 | Vogel-v | Sie liest ein Buch vor dem Einschlafen.
+2 | Vogel-v | Wir müssen vor dem Essen die Hände waschen.
+2 | Vogel-v | Der Korb ist voll mit reifen Äpfeln.
+2 | Vogel-v | Der kleine Junge läuft voll Stolz zum Ziel.
+2 | Vogel-v | Wir hören die schöne Musik im Radio.
+2 | Vogel-v | Mein Vater repariert die kaputte Lampe.
+
+# Thema: sp / st (40 Sätze)
+2 | sp / st | Die Kinder spielen fröhlich im Garten.
+2 | sp / st | Ein schwerer Stein liegt mitten auf dem Weg.
+2 | sp / st | Der Wecker klingelt heute viel zu spät.
+2 | sp / st | Die Pferde stehen im warmen, sauberen Stall.
+2 | sp / st | Wir sprechen leise, damit das Baby schläft.
+2 | sp / st | Der Schüler spitzt seinen Bleistift mit dem Spitzer.
+2 | sp / st | Am Himmel funkeln viele helle Sterne.
+2 | sp / st | Wir springen über die Pfützen auf der Straße.
+2 | sp / st | Der Tisch steht direkt am großen Fenster.
+2 | sp / st | Wir spazieren gemütlich durch den dichten Wald.
+2 | sp / st | Der Junge stolpert über ein trockenes Stück Holz.
+2 | sp / st | Die Suppe schmeckt heute besonders gut.
+2 | sp / st | Wir sparen Geld für ein neues Spielzeug.
+2 | sp / st | Der starke Wind bläst die Blätter vom Ast.
+2 | sp / st | Das Kätzchen spielt mit einem langen Strick.
+2 | sp / st | Die Schüler schreiben die Wörter an die Tafel.
+2 | sp / st | Wir stellen die Blumen in die bunte Vase.
+2 | sp / st | Der Hund springt mutig über das Hindernis.
+2 | sp / st | Sie spricht sehr gut Englisch und Deutsch.
+2 | sp / st | Der Weg führt steil nach oben auf den Berg.
+2 | sp / st | Wir spannen das Seil fest zwischen zwei Bäumen.
+2 | sp / st | Der Wecker steht auf dem kleinen Nachttisch.
+2 | sp / st | Sie spielen ein lustiges Spiel am Nachmittag.
+2 | sp / st | Der Koch rührt die Suppe mit dem Löffel.
+2 | sp / st | Wir staunen über den schönen, bunten Regenbogen.
+2 | sp / st | Das Kind spitzt die Ohren und hört zu.
+2 | sp / st | Die Freunde stehen eng im Kreis zusammen.
+2 | sp / st | Er spritzt das kühle Wasser aus dem Schlauch.
+2 | sp / st | Die Sonne strahlt warm vom blauen Himmel.
+2 | sp / st | Wir spülen die Teller nach dem Mittagessen.
+2 | sp / st | Der Wanderer rastet an einem alten Baumstamm.
+2 | sp / st | Der Junge spielt Fußball auf dem Sportplatz.
+2 | sp / st | Wir steigen die Treppe hinauf ins Zimmer.
+2 | sp / st | Der Hund bellt, als er den Fremden sieht.
+2 | sp / st | Sie spricht leise mit ihrer besten Freundin.
+2 | sp / st | Wir stellen den Stuhl an den großen Tisch.
+2 | sp / st | Der starke Mann trägt die schwere Kiste.
+2 | sp / st | Das Kind springt vor Freude in die Luft.
+2 | sp / st | Die Vögel fliegen am frühen Morgen los.
+2 | sp / st | Wir spielen ein spannendes Spiel am Abend.
+
+# Thema: Endung -ig/-lich (40 Sätze)
+3 | Endung -ig/-lich | Der kleine Clown ist heute besonders lustig.
+3 | Endung -ig/-lich | Wir machen eine fröhliche Fahrt ins Grüne.
+3 | Endung -ig/-lich | Sei bitte ehrlich und sag die Wahrheit.
+3 | Endung -ig/-lich | Der frische Wind weht kräftig durch die Blätter.
+3 | Endung -ig/-lich | Das Essen schmeckt wirklich sehr lecker.
+3 | Endung -ig/-lich | Sie löst die schwierige Aufgabe ganz allein.
+3 | Endung -ig/-lich | Wir verbringen einen gemütlichen Abend im Zimmer.
+3 | Endung -ig/-lich | Der Hund läuft traurig zu seinem Körbchen.
+3 | Endung -ig/-lich | Die Katze schleicht heimlich in die Küche.
+3 | Endung -ig/-lich | Das Wetter ist heute sonnig und warm.
+3 | Endung -ig/-lich | Er gibt uns einen nützlichen Tipp für das Spiel.
+3 | Endung -ig/-lich | Sie schreibt einen herzlichen Brief an ihre Oma.
+3 | Endung -ig/-lich | Wir machen einen täglichen Spaziergang im Park.
+3 | Endung -ig/-lich | Der kleine Welpe ist unglaublich süß.
+3 | Endung -ig/-lich | Der Lehrer lobt den fleißigen Schüler.
+3 | Endung -ig/-lich | Die Wolken ziehen langsam über den Himmel.
+3 | Endung -ig/-lich | Das Kind malt ein wunderschönes Bild.
+3 | Endung -ig/-lich | Wir have eine herrliche Aussicht vom Turm.
+3 | Endung -ig/-lich | Die Suppe ist heute ein bisschen salzig.
+3 | Endung -ig/-lich | Er erklärt uns die Regeln sehr geduldig.
+3 | Endung -ig/-lich | Sie freut sich über das schöne Geschenk.
+3 | Endung -ig/-lich | Wir gehen wöchentlich zum Schwimmtraining.
+3 | Endung -ig/-lich | Der Hund läuft unruhig hin und her.
+3 | Endung -ig/-lich | Das Buch ist sehr spannend und lehrreich.
+3 | Endung -ig/-lich | Sie singt ein fröhliches Lied unter der Dusche.
+3 | Endung -ig/-lich | Wir machen ein köstliches Picknick auf der Wiese.
+3 | Endung -ig/-lich | Er arbeitet sehr ordentlich in seinem Heft.
+3 | Endung -ig/-lich | Das Kind läuft vorsichtig über die Brücke.
+3 | Endung -ig/-lich | Wir genießen das herrliche Wetter im Garten.
+3 | Endung -ig/-lich | Der Wald sieht heute geheimnisvoll aus.
+3 | Endung -ig/-lich | Er antwortet höflich auf die Frage.
+3 | Endung -ig/-lich | Das weiche Kissen ist sehr gemütlich.
+3 | Endung -ig/-lich | Sie löst das Rätsel erstaunlich schnell.
+3 | Endung -ig/-lich | Der Hund bewacht wachsam den Eingang.
+3 | Endung -ig/-lich | Wir machen eine sportliche Radtour am Fluss.
+3 | Endung -ig/-lich | Der Gärtner schneidet die Äste vorsichtig ab.
+3 | Endung -ig/-lich | Die Kinder lachen über den lustigen Film.
+3 | Endung -ig/-lich | Er gibt sich heute besonders viel Mühe.
+3 | Endung -ig/-lich | Wir verbringen einen herrlichen Tag am Strand.
+3 | Endung -ig/-lich | Das kleine Kätzchen ist sehr neugierig.
+
+# Thema: Großschreibung Nomen (40 Sätze)
+3 | Großschreibung Nomen | Das Kind spielt fröhlich mit dem Hund.
+3 | Großschreibung Nomen | Der Schüler schreibt ein langes Wort.
+3 | Großschreibung Nomen | Wir lesen ein spannendes Buch im Bett.
+3 | Großschreibung Nomen | Das große Haus steht direkt am Waldrand.
+3 | Großschreibung Nomen | Der Bäcker backt jeden Morgen frisches Brot.
+3 | Großschreibung Nomen | Die Lehrerin erklärt die schwierige Aufgabe an der Tafel.
+3 | Großschreibung Nomen | Der Gärtner pflanzt bunte Blumen im Garten.
+3 | Großschreibung Nomen | Wir hören die laute Musik aus dem Radio.
+3 | Großschreibung Nomen | Der Vogel baut sein Nest aus kleinen Ästen.
+3 | Großschreibung Nomen | Die Familie macht eine Wanderung durch die Berge.
+3 | Großschreibung Nomen | Der Koch bereitet eine leckere Suppe in der Küche zu.
+3 | Großschreibung Nomen | Das Kätzchen spielt gern mit einem roten Ball.
+3 | Großschreibung Nomen | Wir sehen viele helle Sterne am dunklen Himmel.
+3 | Großschreibung Nomen | Der Hund bewacht das große Tor am Eingang.
+3 | Großschreibung Nomen | Die Kinder rennen fröhlich über den großen Spielplatz.
+3 | Großschreibung Nomen | Der Wind bläst die Blätter weit über das Feld.
+3 | Großschreibung Nomen | Wir trinken kalten Saft an einem heißen Sommertag.
+3 | Großschreibung Nomen | Die Schule beginnt jeden Morgen um acht Uhr.
+3 | Großschreibung Nomen | Der Fischer fängt viele Fische mit seinem großen Netz.
+3 | Großschreibung Nomen | Die Bienen fliegen fleißig von Blüte zu Blüte.
+3 | Großschreibung Nomen | Wir bauen ein stabiles Baumhaus auf dem Baum.
+3 | Großschreibung Nomen | Der Zug fährt pünktlich am großen Bahnhof ab.
+3 | Großschreibung Nomen | Die Sonne geht langsam hinter den Bergen unter.
+3 | Großschreibung Nomen | Wir sammeln reife Nüsse unter dem alten Baum.
+3 | Großschreibung Nomen | Das Baby schläft friedlich in seinem warmen Bett.
+3 | Großschreibung Nomen | Der Bauer füttert die Kühe im warmen Stall.
+3 | Großschreibung Nomen | Wir hängen die nasse Wäsche an die lange Leine.
+3 | Großschreibung Nomen | Der Junge zeichnet ein schönes Bild auf das Papier.
+3 | Großschreibung Nomen | Die Schwalben fliegen schnell durch die blaue Luft.
+3 | Großschreibung Nomen | Wir machen ein gemütliches Picknick auf der grünen Wiese.
+3 | Großschreibung Nomen | Der Arzt hilft dem kranken Kind im Krankenhaus.
+3 | Großschreibung Nomen | Die Wolken ziehen langsam über das weite Land.
+3 | Großschreibung Nomen | Wir trinken warmen Tee in der gemütlichen Stube.
+3 | Großschreibung Nomen | Der Hund läuft aufgeregt hinter der kleinen Katze her.
+3 | Großschreibung Nomen | Die Freunde spielen ein spannendes Spiel am Tisch.
+3 | Großschreibung Nomen | Wir putzen gründlich unsere Zähne mit der Bürste.
+3 | Großschreibung Nomen | Der Wecker klingelt laut am frühen Morgen.
+3 | Großschreibung Nomen | Das Schiff fährt über das tiefe, weite Meer.
+3 | Großschreibung Nomen | Wir freuen uns über den Besuch der netten Tante.
+3 | Großschreibung Nomen | Der Koch schneidet das frische Gemüse mit dem Messer.
