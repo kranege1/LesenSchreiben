@@ -215,7 +215,9 @@ main {
 #menu-view {
     max-width: 900px;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+    padding-bottom: 40px;
 }
 
 .welcome-section {
