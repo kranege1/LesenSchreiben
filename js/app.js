@@ -2466,6 +2466,9 @@ class Application {
         wrapper.style.height = '180px';
         wrapper.style.width = '100%';
         wrapper.style.gap = mode === 'week' ? '12px' : '4px';
+        if (mode === 'month') {
+            wrapper.style.minWidth = '750px';
+        }
         
         days.forEach(day => {
             const points = daily[day.dateStr] || 0;
