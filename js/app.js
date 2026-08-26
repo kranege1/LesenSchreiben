@@ -171,6 +171,13 @@ class Application {
         // Bind physical hardware keyboard for Writing Mode
         window.addEventListener('keydown', (e) => {
             if (this.currentMode === 'write' && this.currentSentence) {
+                // Automatically switch to physical keyboard layout if a key is typed
+                if (this.keyboard && this.keyboard.keyboardMode !== 'physical') {
+                    if (e.key.length === 1 || e.key === 'Backspace' || e.key === 'Enter') {
+                        this.setKeyboardMode('physical');
+                    }
+                }
+
                 const activeWord = this.currentSentence.words[this.currentWordIndex];
                 if (e.key === 'Backspace') {
                     e.preventDefault();
@@ -394,6 +401,27 @@ class Application {
                 }
             });
         }
+
+        // Keyboard Mode selectors
+        const btnKbSmart = document.getElementById('btn-kb-mode-smart');
+        const btnKbFull = document.getElementById('btn-kb-mode-full');
+        const btnKbPhysical = document.getElementById('btn-kb-mode-physical');
+
+        if (btnKbSmart && btnKbFull && btnKbPhysical) {
+            btnKbSmart.addEventListener('click', () => this.setKeyboardMode('smart'));
+            btnKbFull.addEventListener('click', () => this.setKeyboardMode('full'));
+            btnKbPhysical.addEventListener('click', () => this.setKeyboardMode('physical'));
+        }
+
+        // Global touch click event to maintain hidden input receiver focus
+        document.addEventListener('pointerdown', (e) => {
+            if (this.currentMode === 'write') {
+                const receiver = document.getElementById('keyboard-receiver');
+                if (receiver && e.target.tagName !== 'BUTTON' && e.target.tagName !== 'A' && e.target.tagName !== 'INPUT') {
+                    setTimeout(() => receiver.focus(), 50);
+                }
+            }
+        });
     }
 
     getDefaultEventSound(eventKey) {
@@ -1093,9 +1121,59 @@ class Application {
             this.audio.playWord(activeWord.clean);
         }
 
+        // Apply saved keyboard mode selection and focus receiver
+        const savedMode = localStorage.getItem('keyboardLayoutMode') || 'smart';
+        this.setKeyboardMode(savedMode);
+
         // Initialize stuck timer for first letter
         this.resetLetterStuckTimer();
         this.resetWordTypeHintTimer();
+    }
+
+    setKeyboardMode(mode) {
+        if (!this.keyboard) return;
+        this.keyboard.keyboardMode = mode;
+        this.keyboard.render();
+
+        localStorage.setItem('keyboardLayoutMode', mode);
+
+        const modes = ['smart', 'full', 'physical'];
+        modes.forEach(m => {
+            const btn = document.getElementById(`btn-kb-mode-${m}`);
+            if (btn) {
+                if (m === mode) {
+                    btn.classList.add('active');
+                    btn.style.background = 'white';
+                    btn.style.fontWeight = '700';
+                    btn.style.boxShadow = '0 1px 3px rgba(0,0,0,0.15)';
+                    btn.style.color = 'var(--text-primary)';
+                } else {
+                    btn.classList.remove('active');
+                    btn.style.background = 'transparent';
+                    btn.style.fontWeight = '600';
+                    btn.style.boxShadow = 'none';
+                    btn.style.color = 'var(--text-secondary)';
+                }
+            }
+        });
+
+        const kbSection = document.querySelector('#write-view .keyboard-section');
+        const receiver = document.getElementById('keyboard-receiver');
+        
+        if (kbSection) {
+            if (mode === 'physical') {
+                kbSection.style.padding = '8px';
+            } else {
+                kbSection.style.padding = '20px';
+            }
+        }
+
+        if (receiver) {
+            receiver.setAttribute('inputmode', 'none');
+            setTimeout(() => {
+                receiver.focus();
+            }, 50);
+        }
     }
 
     updateWriteInputIndicator() {

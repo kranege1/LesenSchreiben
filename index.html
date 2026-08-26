@@ -31,8 +31,8 @@
             style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center;">
             <h1 id="app-title-logo" style="margin: 0; font-size: 20px; justify-content: center;">✍️ Lesen & Schreiben
             </h1>
-            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-25
-                18:21:00]</span>
+            <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-26
+                08:15:00]</span>
         </div>
 
         <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
@@ -202,6 +202,9 @@
                 </div>
             </div>
 
+            <!-- Hidden input to capture physical keyboard focus on tablets without showing native virtual keyboard -->
+            <input type="text" id="keyboard-receiver" style="position: absolute; top: -100px; left: -100px; opacity: 0; pointer-events: none;" inputmode="none">
+
             <div class="workspace">
 
                 <!-- Left Panel: Sentence bubbles and visual input state -->
@@ -221,6 +224,12 @@
 
                     <!-- Keyboard display at bottom of left panel -->
                     <div class="keyboard-section">
+                        <!-- Mode Selector -->
+                        <div class="keyboard-mode-selector" style="display: flex; justify-content: center; gap: 4px; padding: 4px; background: rgba(0,0,0,0.06); border-radius: 8px; margin: 0 auto 12px auto; max-width: 420px; box-sizing: border-box;">
+                            <button id="btn-kb-mode-smart" class="kb-mode-btn active" style="flex: 1; border: none; background: white; border-radius: 6px; padding: 6px 8px; font-size: 12px; font-weight: 700; cursor: pointer; transition: all 0.2s ease; box-shadow: 0 1px 3px rgba(0,0,0,0.15);">🧩 Wort</button>
+                            <button id="btn-kb-mode-full" class="kb-mode-btn" style="flex: 1; border: none; background: transparent; border-radius: 6px; padding: 6px 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; color: var(--text-secondary);">⌨️ Voll-Tastatur</button>
+                            <button id="btn-kb-mode-physical" class="kb-mode-btn" style="flex: 1; border: none; background: transparent; border-radius: 6px; padding: 6px 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; color: var(--text-secondary);">💻 Physisch</button>
+                        </div>
                         <div id="smart-keyboard-container">
                             <!-- Shuffled virtual keyboard keys -->
                         </div>
