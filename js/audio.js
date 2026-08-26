@@ -10,6 +10,9 @@ export class AppAudio {
         this.audioElement = new Audio();
         this.onPlayProgress = null;
         this._initVoices();
+        
+        // Cache for preloaded sound effects to eliminate keystroke delay!
+        this.effectCache = {};
     }
 
     /**
@@ -488,15 +491,18 @@ export class AppAudio {
         }
     }
 
-    /**
-     * Play a sound effect from the audio/sounds folder.
-     * @param {string} fileName - Name of the mp3 file under audio/sounds.
-     */
     playEffect(fileName) {
         if (!fileName || fileName === 'none') return;
         try {
-            const audio = new Audio(`./audio/sounds/${fileName}`);
-            audio.volume = 0.5;
+            let audio = this.effectCache[fileName];
+            if (!audio) {
+                audio = new Audio(`./audio/sounds/${fileName}`);
+                audio.volume = 0.5;
+                audio.load();
+                this.effectCache[fileName] = audio;
+            }
+            // Fast reset to beginning for immediate response
+            audio.currentTime = 0;
             audio.play().catch(err => {
                 // Ignore AbortError when audio is stopped/restarted
                 if (err.name !== 'AbortError') {
