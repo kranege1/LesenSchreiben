@@ -32,7 +32,7 @@
             <h1 id="app-title-logo" style="margin: 0; font-size: 20px; justify-content: center;">✍️ Lesen & Schreiben
             </h1>
             <span style="font-size: 10px; font-weight: 500; opacity: 0.5; font-family: monospace;">[Build: 2026-08-26
-                08:15:00]</span>
+                08:24:00]</span>
         </div>
 
         <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end; gap: 8px;">
@@ -223,15 +223,18 @@
                     </div>
 
                     <!-- Keyboard display at bottom of left panel -->
-                    <div class="keyboard-section">
-                        <!-- Mode Selector -->
-                        <div class="keyboard-mode-selector" style="display: flex; justify-content: center; gap: 4px; padding: 4px; background: rgba(0,0,0,0.06); border-radius: 8px; margin: 0 auto 12px auto; max-width: 420px; box-sizing: border-box;">
-                            <button id="btn-kb-mode-smart" class="kb-mode-btn active" style="flex: 1; border: none; background: white; border-radius: 6px; padding: 6px 8px; font-size: 12px; font-weight: 700; cursor: pointer; transition: all 0.2s ease; box-shadow: 0 1px 3px rgba(0,0,0,0.15);">🧩 Wort</button>
-                            <button id="btn-kb-mode-full" class="kb-mode-btn" style="flex: 1; border: none; background: transparent; border-radius: 6px; padding: 6px 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; color: var(--text-secondary);">⌨️ Voll-Tastatur</button>
-                            <button id="btn-kb-mode-physical" class="kb-mode-btn" style="flex: 1; border: none; background: transparent; border-radius: 6px; padding: 6px 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; color: var(--text-secondary);">💻 Physisch</button>
+                    <div class="keyboard-section" style="display: flex; flex-direction: row; gap: 12px; align-items: stretch; background: var(--system-gray-light); border-radius: 0 0 var(--radius-ios) var(--radius-ios); box-sizing: border-box; padding: 12px;">
+                        
+                        <!-- Left: Mode Selector (Vertical stack) -->
+                        <div class="keyboard-mode-selector" style="display: flex; flex-direction: column; gap: 8px; justify-content: center; width: 90px; flex-shrink: 0; padding-right: 8px; border-right: 1px solid rgba(0,0,0,0.08); box-sizing: border-box;">
+                            <button id="btn-kb-mode-smart" class="kb-mode-btn active" style="border: none; background: white; border-radius: 8px; padding: 10px 4px; font-size: 11px; font-weight: 700; cursor: pointer; transition: all 0.2s ease; box-shadow: 0 1px 3px rgba(0,0,0,0.15); display: flex; flex-direction: column; align-items: center; gap: 4px; width: 100%; box-sizing: border-box;"><span>🧩</span><span>Wort</span></button>
+                            <button id="btn-kb-mode-full" class="kb-mode-btn" style="border: none; background: transparent; border-radius: 8px; padding: 10px 4px; font-size: 11px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; color: var(--text-secondary); display: flex; flex-direction: column; align-items: center; gap: 4px; width: 100%; box-sizing: border-box;"><span>⌨️</span><span>Voll-Tast.</span></button>
+                            <button id="btn-kb-mode-physical" class="kb-mode-btn" style="border: none; background: transparent; border-radius: 8px; padding: 10px 4px; font-size: 11px; font-weight: 600; cursor: pointer; transition: all 0.2s ease; color: var(--text-secondary); display: flex; flex-direction: column; align-items: center; gap: 4px; width: 100%; box-sizing: border-box;"><span>💻</span><span>Physisch</span></button>
                         </div>
-                        <div id="smart-keyboard-container">
-                            <!-- Shuffled virtual keyboard keys -->
+                        
+                        <!-- Right/Middle: Keyboard Area -->
+                        <div id="smart-keyboard-container" style="flex: 1; display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: 100%;">
+                            <!-- Filled dynamically -->
                         </div>
                     </div>
                 </div>
