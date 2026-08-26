@@ -30,11 +30,13 @@ export class SmartKeyboard {
      * Shuffle helper
      */
     _shuffle(array) {
-        let currentIndex = array.length, randomIndex;
+        let currentIndex = array.length;
         while (currentIndex !== 0) {
-            randomIndex = Math.floor(Math.random() * randomIndex);
+            let randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex--;
-            [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+            let temp = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temp;
         }
         return array;
     }
