@@ -32,7 +32,7 @@ export class SmartKeyboard {
     _shuffle(array) {
         let currentIndex = array.length, randomIndex;
         while (currentIndex !== 0) {
-            randomIndex = Math.floor(Math.random() * currentIndex);
+            randomIndex = Math.floor(Math.random() * randomIndex);
             currentIndex--;
             [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
         }
@@ -61,6 +61,12 @@ export class SmartKeyboard {
 
         if (!this.currentWord) return;
 
+        // Force container to fill full space of the layout
+        this.container.style.width = '100%';
+        this.container.style.height = '100%';
+        this.container.style.display = 'flex';
+        this.container.style.alignItems = 'stretch';
+
         // Main layout wrapper: Flex row layout containing letters grid on left, and actions (Delete/Space) on right
         const mainWrapper = document.createElement('div');
         mainWrapper.style.display = 'flex';
@@ -77,6 +83,7 @@ export class SmartKeyboard {
         letterArea.style.flexDirection = 'column';
         letterArea.style.gap = '6px';
         letterArea.style.boxSizing = 'border-box';
+        letterArea.style.justifyContent = 'space-between';
 
         // Populate letters based on active mode
         if (this.keyboardMode === 'full') {
@@ -91,13 +98,15 @@ export class SmartKeyboard {
         actionArea.style.display = 'flex';
         actionArea.style.flexDirection = 'column';
         actionArea.style.gap = '6px';
-        actionArea.style.width = '100px';
+        actionArea.style.width = '95px';
         actionArea.style.flexShrink = '0';
         actionArea.style.boxSizing = 'border-box';
 
         // 1. Backspace button
         const backspaceBtn = document.createElement('button');
         backspaceBtn.style.flex = '1';
+        backspaceBtn.style.height = '100%';
+        backspaceBtn.style.maxHeight = '72px';
         backspaceBtn.style.border = 'none';
         backspaceBtn.style.background = '#D1D1D6';
         backspaceBtn.style.color = 'var(--text-primary)';
@@ -133,6 +142,8 @@ export class SmartKeyboard {
         // 2. Space button
         const spaceBtn = document.createElement('button');
         spaceBtn.style.flex = '1';
+        spaceBtn.style.height = '100%';
+        spaceBtn.style.maxHeight = '72px';
         spaceBtn.style.border = 'none';
         spaceBtn.style.background = '#E5E5EA';
         spaceBtn.style.color = 'var(--text-primary)';
@@ -185,13 +196,15 @@ export class SmartKeyboard {
         grid.style.gap = '6px';
         grid.style.justifyContent = 'center';
         grid.style.width = '100%';
+        grid.style.flex = '1';
+        grid.style.alignContent = 'center';
 
         shuffledLetters.forEach(letter => {
             const key = document.createElement('button');
             
-            // Standard button styles matching key height of Apple keyboard (46px - 48px)
-            key.style.height = '48px';
-            key.style.minWidth = '48px';
+            // Large comfort keys (50px width/height)
+            key.style.height = '50px';
+            key.style.minWidth = '50px';
             key.style.borderRadius = '6px';
             key.style.border = 'none';
             key.style.background = '#FFFFFF';
@@ -246,12 +259,15 @@ export class SmartKeyboard {
             rowDiv.style.justifyContent = 'center';
             rowDiv.style.gap = '4px';
             rowDiv.style.width = '100%';
+            rowDiv.style.flex = '1';
+            rowDiv.style.alignItems = 'stretch';
 
             row.forEach(keyChar => {
                 const key = document.createElement('button');
                 
-                // Stylings configured to exactly match standard Apple keyboard height (46px - 48px)
-                key.style.height = '46px';
+                // key height stretches row height but capped at 48px to keep Apple style standard
+                key.style.height = '100%';
+                key.style.maxHeight = '48px';
                 key.style.borderRadius = '6px';
                 key.style.border = 'none';
                 key.style.background = '#FFFFFF';
