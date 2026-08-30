@@ -61888,5 +61888,7974 @@
       }
     ],
     "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__rapunzel_es_war_einmal_ein_mann_und_ein",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Es war einmal ein Mann und eine Frau.",
+    "words": [
+      {
+        "word": "Es",
+        "clean": "Es",
+        "syllables": [
+          "Es"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "einmal",
+        "clean": "einmal",
+        "syllables": [
+          "ein",
+          "mal"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "Mann",
+        "clean": "Mann",
+        "syllables": [
+          "Mann"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Frau.",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_sie_w_nschten_sich_schon_lange",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Sie wünschten sich schon lange ein Kind und endlich war die Frau schwanger.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "wünschten",
+        "clean": "wünschten",
+        "syllables": [
+          "wünsch",
+          "ten"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "schon",
+        "clean": "schon",
+        "syllables": [
+          "schon"
+        ]
+      },
+      {
+        "word": "lange",
+        "clean": "lange",
+        "syllables": [
+          "lan",
+          "ge"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "Kind",
+        "clean": "Kind",
+        "syllables": [
+          "Kind"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "endlich",
+        "clean": "endlich",
+        "syllables": [
+          "end",
+          "lich"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Frau",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      },
+      {
+        "word": "schwanger.",
+        "clean": "schwanger",
+        "syllables": [
+          "schwan",
+          "ger"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_aus_ihrem_fenster_konnte_man_i",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Aus ihrem Fenster konnte man in einen prächtigen Garten schauen.",
+    "words": [
+      {
+        "word": "Aus",
+        "clean": "Aus",
+        "syllables": [
+          "Aus"
+        ]
+      },
+      {
+        "word": "ihrem",
+        "clean": "ihrem",
+        "syllables": [
+          "ih",
+          "rem"
+        ]
+      },
+      {
+        "word": "Fenster",
+        "clean": "Fenster",
+        "syllables": [
+          "Fen",
+          "ster"
+        ]
+      },
+      {
+        "word": "konnte",
+        "clean": "konnte",
+        "syllables": [
+          "konn",
+          "te"
+        ]
+      },
+      {
+        "word": "man",
+        "clean": "man",
+        "syllables": [
+          "man"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "prächtigen",
+        "clean": "prächtigen",
+        "syllables": [
+          "präch",
+          "ti",
+          "gen"
+        ]
+      },
+      {
+        "word": "Garten",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      },
+      {
+        "word": "schauen.",
+        "clean": "schauen",
+        "syllables": [
+          "schau",
+          "en"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_er_war_voll_sch_nster_blumen_u",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Er war voll schönster Blumen und Kräuter, aber auch von einer hohen Mauer umgeben.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "voll",
+        "clean": "voll",
+        "syllables": [
+          "voll"
+        ]
+      },
+      {
+        "word": "schönster",
+        "clean": "schönster",
+        "syllables": [
+          "schön",
+          "ster"
+        ]
+      },
+      {
+        "word": "Blumen",
+        "clean": "Blumen",
+        "syllables": [
+          "Blu",
+          "men"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Kräuter,",
+        "clean": "Kräuter",
+        "syllables": [
+          "Kräu",
+          "ter"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "auch",
+        "clean": "auch",
+        "syllables": [
+          "auch"
+        ]
+      },
+      {
+        "word": "von",
+        "clean": "von",
+        "syllables": [
+          "von"
+        ]
+      },
+      {
+        "word": "einer",
+        "clean": "einer",
+        "syllables": [
+          "ei",
+          "ner"
+        ]
+      },
+      {
+        "word": "hohen",
+        "clean": "hohen",
+        "syllables": [
+          "ho",
+          "hen"
+        ]
+      },
+      {
+        "word": "Mauer",
+        "clean": "Mauer",
+        "syllables": [
+          "Mau",
+          "er"
+        ]
+      },
+      {
+        "word": "umgeben.",
+        "clean": "umgeben",
+        "syllables": [
+          "um",
+          "ge",
+          "ben"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_dort_wagte_sich_niemand_hinein",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Dort wagte sich niemand hinein, weil er einer Zauberin gehörte, die große Macht hatte und von aller Welt gefürchtet wurde.",
+    "words": [
+      {
+        "word": "Dort",
+        "clean": "Dort",
+        "syllables": [
+          "Dort"
+        ]
+      },
+      {
+        "word": "wagte",
+        "clean": "wagte",
+        "syllables": [
+          "wag",
+          "te"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "niemand",
+        "clean": "niemand",
+        "syllables": [
+          "nie",
+          "mand"
+        ]
+      },
+      {
+        "word": "hinein,",
+        "clean": "hinein",
+        "syllables": [
+          "hi",
+          "nein"
+        ]
+      },
+      {
+        "word": "weil",
+        "clean": "weil",
+        "syllables": [
+          "weil"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "einer",
+        "clean": "einer",
+        "syllables": [
+          "ei",
+          "ner"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "gehörte,",
+        "clean": "gehörte",
+        "syllables": [
+          "ge",
+          "hör",
+          "te"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "große",
+        "clean": "große",
+        "syllables": [
+          "gro",
+          "ße"
+        ]
+      },
+      {
+        "word": "Macht",
+        "clean": "Macht",
+        "syllables": [
+          "Macht"
+        ]
+      },
+      {
+        "word": "hatte",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "von",
+        "clean": "von",
+        "syllables": [
+          "von"
+        ]
+      },
+      {
+        "word": "aller",
+        "clean": "aller",
+        "syllables": [
+          "al",
+          "ler"
+        ]
+      },
+      {
+        "word": "Welt",
+        "clean": "Welt",
+        "syllables": [
+          "Welt"
+        ]
+      },
+      {
+        "word": "gefürchtet",
+        "clean": "gefürchtet",
+        "syllables": [
+          "ge",
+          "fürch",
+          "tet"
+        ]
+      },
+      {
+        "word": "wurde.",
+        "clean": "wurde",
+        "syllables": [
+          "wur",
+          "de"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_eines_tages_stand_die_frau_an",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Eines Tages stand die Frau an diesem Fenster und sah in den Garten hinab, da erblickte sie ein Beet, das mit den schönsten Rapunzeln bepflanzt war.",
+    "words": [
+      {
+        "word": "Eines",
+        "clean": "Eines",
+        "syllables": [
+          "Ei",
+          "nes"
+        ]
+      },
+      {
+        "word": "Tages",
+        "clean": "Tages",
+        "syllables": [
+          "Ta",
+          "ges"
+        ]
+      },
+      {
+        "word": "stand",
+        "clean": "stand",
+        "syllables": [
+          "stand"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Frau",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "diesem",
+        "clean": "diesem",
+        "syllables": [
+          "die",
+          "sem"
+        ]
+      },
+      {
+        "word": "Fenster",
+        "clean": "Fenster",
+        "syllables": [
+          "Fen",
+          "ster"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sah",
+        "clean": "sah",
+        "syllables": [
+          "sah"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Garten",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      },
+      {
+        "word": "hinab,",
+        "clean": "hinab",
+        "syllables": [
+          "hi",
+          "nab"
+        ]
+      },
+      {
+        "word": "da",
+        "clean": "da",
+        "syllables": [
+          "da"
+        ]
+      },
+      {
+        "word": "erblickte",
+        "clean": "erblickte",
+        "syllables": [
+          "erb",
+          "lick",
+          "te"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "Beet,",
+        "clean": "Beet",
+        "syllables": [
+          "Be",
+          "et"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "schönsten",
+        "clean": "schönsten",
+        "syllables": [
+          "schön",
+          "sten"
+        ]
+      },
+      {
+        "word": "Rapunzeln",
+        "clean": "Rapunzeln",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zeln"
+        ]
+      },
+      {
+        "word": "bepflanzt",
+        "clean": "bepflanzt",
+        "syllables": [
+          "bepf",
+          "lanzt"
+        ]
+      },
+      {
+        "word": "war.",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_sie_sahen_so_frisch_und_gr_n_a",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Sie sahen so frisch und grün aus, dass sie das größte Verlangen empfand von den Rapunzeln zu essen.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "sahen",
+        "clean": "sahen",
+        "syllables": [
+          "sa",
+          "hen"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "frisch",
+        "clean": "frisch",
+        "syllables": [
+          "frisch"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "grün",
+        "clean": "grün",
+        "syllables": [
+          "grün"
+        ]
+      },
+      {
+        "word": "aus,",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "größte",
+        "clean": "größte",
+        "syllables": [
+          "größ",
+          "te"
+        ]
+      },
+      {
+        "word": "Verlangen",
+        "clean": "Verlangen",
+        "syllables": [
+          "Ver",
+          "lan",
+          "gen"
+        ]
+      },
+      {
+        "word": "empfand",
+        "clean": "empfand",
+        "syllables": [
+          "em",
+          "pfand"
+        ]
+      },
+      {
+        "word": "von",
+        "clean": "von",
+        "syllables": [
+          "von"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Rapunzeln",
+        "clean": "Rapunzeln",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zeln"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "essen.",
+        "clean": "essen",
+        "syllables": [
+          "es",
+          "sen"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_das_verlangen_nahm_jeden_tag_z",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Das Verlangen nahm jeden Tag zu, und da sie wusste, dass sie keine davon bekommen konnte, so magerte sie ab, sah blass und elend aus.",
+    "words": [
+      {
+        "word": "Das",
+        "clean": "Das",
+        "syllables": [
+          "Das"
+        ]
+      },
+      {
+        "word": "Verlangen",
+        "clean": "Verlangen",
+        "syllables": [
+          "Ver",
+          "lan",
+          "gen"
+        ]
+      },
+      {
+        "word": "nahm",
+        "clean": "nahm",
+        "syllables": [
+          "nahm"
+        ]
+      },
+      {
+        "word": "jeden",
+        "clean": "jeden",
+        "syllables": [
+          "je",
+          "den"
+        ]
+      },
+      {
+        "word": "Tag",
+        "clean": "Tag",
+        "syllables": [
+          "Tag"
+        ]
+      },
+      {
+        "word": "zu,",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "da",
+        "clean": "da",
+        "syllables": [
+          "da"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "wusste,",
+        "clean": "wusste",
+        "syllables": [
+          "wus",
+          "ste"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "keine",
+        "clean": "keine",
+        "syllables": [
+          "kei",
+          "ne"
+        ]
+      },
+      {
+        "word": "davon",
+        "clean": "davon",
+        "syllables": [
+          "da",
+          "von"
+        ]
+      },
+      {
+        "word": "bekommen",
+        "clean": "bekommen",
+        "syllables": [
+          "be",
+          "kom",
+          "men"
+        ]
+      },
+      {
+        "word": "konnte,",
+        "clean": "konnte",
+        "syllables": [
+          "konn",
+          "te"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "magerte",
+        "clean": "magerte",
+        "syllables": [
+          "ma",
+          "ger",
+          "te"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "ab,",
+        "clean": "ab",
+        "syllables": [
+          "ab"
+        ]
+      },
+      {
+        "word": "sah",
+        "clean": "sah",
+        "syllables": [
+          "sah"
+        ]
+      },
+      {
+        "word": "blass",
+        "clean": "blass",
+        "syllables": [
+          "blass"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "elend",
+        "clean": "elend",
+        "syllables": [
+          "e",
+          "lend"
+        ]
+      },
+      {
+        "word": "aus.",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_da_erschrak_ihr_mann_und_fragt",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Da erschrak ihr Mann und fragte: „Was fehlt dir, liebe Frau?“",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "erschrak",
+        "clean": "erschrak",
+        "syllables": [
+          "ersch",
+          "rak"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "Mann",
+        "clean": "Mann",
+        "syllables": [
+          "Mann"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "fragte:",
+        "clean": "fragte",
+        "syllables": [
+          "frag",
+          "te"
+        ]
+      },
+      {
+        "word": "„Was",
+        "clean": "Was",
+        "syllables": [
+          "Was"
+        ]
+      },
+      {
+        "word": "fehlt",
+        "clean": "fehlt",
+        "syllables": [
+          "fehlt"
+        ]
+      },
+      {
+        "word": "dir,",
+        "clean": "dir",
+        "syllables": [
+          "dir"
+        ]
+      },
+      {
+        "word": "liebe",
+        "clean": "liebe",
+        "syllables": [
+          "lie",
+          "be"
+        ]
+      },
+      {
+        "word": "Frau?“",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_ach___antwortete_sie___wenn_i",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "„Ach“, antwortete sie, „wenn ich keine Rapunzeln aus dem Garten hinter unserem Hause zu essen bekomme, so sterbe ich.“",
+    "words": [
+      {
+        "word": "„Ach“,",
+        "clean": "Ach",
+        "syllables": [
+          "Ach"
+        ]
+      },
+      {
+        "word": "antwortete",
+        "clean": "antwortete",
+        "syllables": [
+          "ant",
+          "wor",
+          "te",
+          "te"
+        ]
+      },
+      {
+        "word": "sie,",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "„wenn",
+        "clean": "wenn",
+        "syllables": [
+          "wenn"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "keine",
+        "clean": "keine",
+        "syllables": [
+          "kei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Rapunzeln",
+        "clean": "Rapunzeln",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zeln"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Garten",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      },
+      {
+        "word": "hinter",
+        "clean": "hinter",
+        "syllables": [
+          "hin",
+          "ter"
+        ]
+      },
+      {
+        "word": "unserem",
+        "clean": "unserem",
+        "syllables": [
+          "un",
+          "se",
+          "rem"
+        ]
+      },
+      {
+        "word": "Hause",
+        "clean": "Hause",
+        "syllables": [
+          "Hau",
+          "se"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "essen",
+        "clean": "essen",
+        "syllables": [
+          "es",
+          "sen"
+        ]
+      },
+      {
+        "word": "bekomme,",
+        "clean": "bekomme",
+        "syllables": [
+          "be",
+          "kom",
+          "me"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "sterbe",
+        "clean": "sterbe",
+        "syllables": [
+          "ster",
+          "be"
+        ]
+      },
+      {
+        "word": "ich.“",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_der_mann__der_sie_lieb_hatte",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Der Mann, der sie lieb hatte, dachte: „Ehe du deine Frau sterben lässt, holst du ihr von den Rapunzeln, koste es was es wolle.“",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Mann,",
+        "clean": "Mann",
+        "syllables": [
+          "Mann"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "lieb",
+        "clean": "lieb",
+        "syllables": [
+          "lieb"
+        ]
+      },
+      {
+        "word": "hatte,",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "dachte:",
+        "clean": "dachte",
+        "syllables": [
+          "dach",
+          "te"
+        ]
+      },
+      {
+        "word": "„Ehe",
+        "clean": "Ehe",
+        "syllables": [
+          "Ehe"
+        ]
+      },
+      {
+        "word": "du",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "deine",
+        "clean": "deine",
+        "syllables": [
+          "dei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Frau",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      },
+      {
+        "word": "sterben",
+        "clean": "sterben",
+        "syllables": [
+          "ster",
+          "ben"
+        ]
+      },
+      {
+        "word": "lässt,",
+        "clean": "lässt",
+        "syllables": [
+          "lässt"
+        ]
+      },
+      {
+        "word": "holst",
+        "clean": "holst",
+        "syllables": [
+          "holst"
+        ]
+      },
+      {
+        "word": "du",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "von",
+        "clean": "von",
+        "syllables": [
+          "von"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Rapunzeln,",
+        "clean": "Rapunzeln",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zeln"
+        ]
+      },
+      {
+        "word": "koste",
+        "clean": "koste",
+        "syllables": [
+          "ko",
+          "ste"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "was",
+        "clean": "was",
+        "syllables": [
+          "was"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "wolle.“",
+        "clean": "wolle",
+        "syllables": [
+          "wol",
+          "le"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_in_der_abendd_mmerung_stieg_er",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "In der Abenddämmerung stieg er über die Mauer in den Garten.",
+    "words": [
+      {
+        "word": "In",
+        "clean": "In",
+        "syllables": [
+          "In"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Abenddämmerung",
+        "clean": "Abenddämmerung",
+        "syllables": [
+          "A",
+          "bend",
+          "däm",
+          "me",
+          "rung"
+        ]
+      },
+      {
+        "word": "stieg",
+        "clean": "stieg",
+        "syllables": [
+          "stieg"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "über",
+        "clean": "über",
+        "syllables": [
+          "ü",
+          "ber"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Mauer",
+        "clean": "Mauer",
+        "syllables": [
+          "Mau",
+          "er"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Garten.",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_als_er_aber_die_mauer_herabgek",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Als er aber die Mauer herabgeklettert war, erschrak er gewaltig, denn die Zauberin stand plötzlich vor ihm.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Mauer",
+        "clean": "Mauer",
+        "syllables": [
+          "Mau",
+          "er"
+        ]
+      },
+      {
+        "word": "herabgeklettert",
+        "clean": "herabgeklettert",
+        "syllables": [
+          "he",
+          "rab",
+          "gek",
+          "let",
+          "tert"
+        ]
+      },
+      {
+        "word": "war,",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "erschrak",
+        "clean": "erschrak",
+        "syllables": [
+          "ersch",
+          "rak"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "gewaltig,",
+        "clean": "gewaltig",
+        "syllables": [
+          "ge",
+          "wal",
+          "tig"
+        ]
+      },
+      {
+        "word": "denn",
+        "clean": "denn",
+        "syllables": [
+          "denn"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "stand",
+        "clean": "stand",
+        "syllables": [
+          "stand"
+        ]
+      },
+      {
+        "word": "plötzlich",
+        "clean": "plötzlich",
+        "syllables": [
+          "plötz",
+          "lich"
+        ]
+      },
+      {
+        "word": "vor",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      },
+      {
+        "word": "ihm.",
+        "clean": "ihm",
+        "syllables": [
+          "ihm"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_wie_kannst_du_es_wagen___spra",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "„Wie kannst du es wagen“, sprach sie zornig, „in meinen Garten zu steigen und meine Rapunzeln zu stehlen? Das soll dir schlecht bekommen!“",
+    "words": [
+      {
+        "word": "„Wie",
+        "clean": "Wie",
+        "syllables": [
+          "Wie"
+        ]
+      },
+      {
+        "word": "kannst",
+        "clean": "kannst",
+        "syllables": [
+          "kannst"
+        ]
+      },
+      {
+        "word": "du",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "wagen“,",
+        "clean": "wagen",
+        "syllables": [
+          "wa",
+          "gen"
+        ]
+      },
+      {
+        "word": "sprach",
+        "clean": "sprach",
+        "syllables": [
+          "sprach"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "zornig,",
+        "clean": "zornig",
+        "syllables": [
+          "zor",
+          "nig"
+        ]
+      },
+      {
+        "word": "„in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "meinen",
+        "clean": "meinen",
+        "syllables": [
+          "mei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Garten",
+        "clean": "Garten",
+        "syllables": [
+          "Gar",
+          "ten"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "steigen",
+        "clean": "steigen",
+        "syllables": [
+          "stei",
+          "gen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "meine",
+        "clean": "meine",
+        "syllables": [
+          "mei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Rapunzeln",
+        "clean": "Rapunzeln",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zeln"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "stehlen?",
+        "clean": "stehlen",
+        "syllables": [
+          "steh",
+          "len"
+        ]
+      },
+      {
+        "word": "Das",
+        "clean": "Das",
+        "syllables": [
+          "Das"
+        ]
+      },
+      {
+        "word": "soll",
+        "clean": "soll",
+        "syllables": [
+          "soll"
+        ]
+      },
+      {
+        "word": "dir",
+        "clean": "dir",
+        "syllables": [
+          "dir"
+        ]
+      },
+      {
+        "word": "schlecht",
+        "clean": "schlecht",
+        "syllables": [
+          "schlecht"
+        ]
+      },
+      {
+        "word": "bekommen!“",
+        "clean": "bekommen",
+        "syllables": [
+          "be",
+          "kom",
+          "men"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_ach___antwortete_er___lasst_g",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "„Ach“, antwortete er, „lasst Gnade vor Recht ergehen, ich habe mich aus Not dazu entschlossen. Meine schwangere Frau hat eure Rapunzeln aus dem Fenster erblickt, und empfindet ein so großes Gelüsten, dass sie sterben würde, wenn sie nicht davon zu essen bekäme.“",
+    "words": [
+      {
+        "word": "„Ach“,",
+        "clean": "Ach",
+        "syllables": [
+          "Ach"
+        ]
+      },
+      {
+        "word": "antwortete",
+        "clean": "antwortete",
+        "syllables": [
+          "ant",
+          "wor",
+          "te",
+          "te"
+        ]
+      },
+      {
+        "word": "er,",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "„lasst",
+        "clean": "lasst",
+        "syllables": [
+          "lasst"
+        ]
+      },
+      {
+        "word": "Gnade",
+        "clean": "Gnade",
+        "syllables": [
+          "Gna",
+          "de"
+        ]
+      },
+      {
+        "word": "vor",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      },
+      {
+        "word": "Recht",
+        "clean": "Recht",
+        "syllables": [
+          "Recht"
+        ]
+      },
+      {
+        "word": "ergehen,",
+        "clean": "ergehen",
+        "syllables": [
+          "er",
+          "ge",
+          "hen"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "habe",
+        "clean": "habe",
+        "syllables": [
+          "ha",
+          "be"
+        ]
+      },
+      {
+        "word": "mich",
+        "clean": "mich",
+        "syllables": [
+          "mich"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "Not",
+        "clean": "Not",
+        "syllables": [
+          "Not"
+        ]
+      },
+      {
+        "word": "dazu",
+        "clean": "dazu",
+        "syllables": [
+          "da",
+          "zu"
+        ]
+      },
+      {
+        "word": "entschlossen.",
+        "clean": "entschlossen",
+        "syllables": [
+          "entsch",
+          "los",
+          "sen"
+        ]
+      },
+      {
+        "word": "Meine",
+        "clean": "Meine",
+        "syllables": [
+          "Mei",
+          "ne"
+        ]
+      },
+      {
+        "word": "schwangere",
+        "clean": "schwangere",
+        "syllables": [
+          "schwan",
+          "ge",
+          "re"
+        ]
+      },
+      {
+        "word": "Frau",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      },
+      {
+        "word": "hat",
+        "clean": "hat",
+        "syllables": [
+          "hat"
+        ]
+      },
+      {
+        "word": "eure",
+        "clean": "eure",
+        "syllables": [
+          "eu",
+          "re"
+        ]
+      },
+      {
+        "word": "Rapunzeln",
+        "clean": "Rapunzeln",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zeln"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Fenster",
+        "clean": "Fenster",
+        "syllables": [
+          "Fen",
+          "ster"
+        ]
+      },
+      {
+        "word": "erblickt,",
+        "clean": "erblickt",
+        "syllables": [
+          "erb",
+          "lickt"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "empfindet",
+        "clean": "empfindet",
+        "syllables": [
+          "em",
+          "pfin",
+          "det"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "großes",
+        "clean": "großes",
+        "syllables": [
+          "gro",
+          "ßes"
+        ]
+      },
+      {
+        "word": "Gelüsten,",
+        "clean": "Gelüsten",
+        "syllables": [
+          "Ge",
+          "lü",
+          "sten"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "sterben",
+        "clean": "sterben",
+        "syllables": [
+          "ster",
+          "ben"
+        ]
+      },
+      {
+        "word": "würde,",
+        "clean": "würde",
+        "syllables": [
+          "wür",
+          "de"
+        ]
+      },
+      {
+        "word": "wenn",
+        "clean": "wenn",
+        "syllables": [
+          "wenn"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "nicht",
+        "clean": "nicht",
+        "syllables": [
+          "nicht"
+        ]
+      },
+      {
+        "word": "davon",
+        "clean": "davon",
+        "syllables": [
+          "da",
+          "von"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "essen",
+        "clean": "essen",
+        "syllables": [
+          "es",
+          "sen"
+        ]
+      },
+      {
+        "word": "bekäme.“",
+        "clean": "bekäme",
+        "syllables": [
+          "be",
+          "kä",
+          "me"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_da_lie__die_zauberin_in_ihrem",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Da ließ die Zauberin in ihrem Zorne nach und sprach zu ihm: „Nun gut. So will ich dir gestatten Rapunzeln mitzunehmen so viel du willst, unter einer Bedingung: Du musst mir das Kind geben, das deine Frau zur Welt bringen wird. Es soll ihm gut gehen, und ich will für es sorgen wie eine Mutter.“",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "ließ",
+        "clean": "ließ",
+        "syllables": [
+          "ließ"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "ihrem",
+        "clean": "ihrem",
+        "syllables": [
+          "ih",
+          "rem"
+        ]
+      },
+      {
+        "word": "Zorne",
+        "clean": "Zorne",
+        "syllables": [
+          "Zor",
+          "ne"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sprach",
+        "clean": "sprach",
+        "syllables": [
+          "sprach"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "ihm:",
+        "clean": "ihm",
+        "syllables": [
+          "ihm"
+        ]
+      },
+      {
+        "word": "„Nun",
+        "clean": "Nun",
+        "syllables": [
+          "Nun"
+        ]
+      },
+      {
+        "word": "gut.",
+        "clean": "gut",
+        "syllables": [
+          "gut"
+        ]
+      },
+      {
+        "word": "So",
+        "clean": "So",
+        "syllables": [
+          "So"
+        ]
+      },
+      {
+        "word": "will",
+        "clean": "will",
+        "syllables": [
+          "will"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "dir",
+        "clean": "dir",
+        "syllables": [
+          "dir"
+        ]
+      },
+      {
+        "word": "gestatten",
+        "clean": "gestatten",
+        "syllables": [
+          "ge",
+          "stat",
+          "ten"
+        ]
+      },
+      {
+        "word": "Rapunzeln",
+        "clean": "Rapunzeln",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zeln"
+        ]
+      },
+      {
+        "word": "mitzunehmen",
+        "clean": "mitzunehmen",
+        "syllables": [
+          "mit",
+          "zu",
+          "neh",
+          "men"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "viel",
+        "clean": "viel",
+        "syllables": [
+          "viel"
+        ]
+      },
+      {
+        "word": "du",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "willst,",
+        "clean": "willst",
+        "syllables": [
+          "willst"
+        ]
+      },
+      {
+        "word": "unter",
+        "clean": "unter",
+        "syllables": [
+          "un",
+          "ter"
+        ]
+      },
+      {
+        "word": "einer",
+        "clean": "einer",
+        "syllables": [
+          "ei",
+          "ner"
+        ]
+      },
+      {
+        "word": "Bedingung:",
+        "clean": "Bedingung",
+        "syllables": [
+          "Be",
+          "din",
+          "gung"
+        ]
+      },
+      {
+        "word": "Du",
+        "clean": "Du",
+        "syllables": [
+          "Du"
+        ]
+      },
+      {
+        "word": "musst",
+        "clean": "musst",
+        "syllables": [
+          "musst"
+        ]
+      },
+      {
+        "word": "mir",
+        "clean": "mir",
+        "syllables": [
+          "mir"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "Kind",
+        "clean": "Kind",
+        "syllables": [
+          "Kind"
+        ]
+      },
+      {
+        "word": "geben,",
+        "clean": "geben",
+        "syllables": [
+          "ge",
+          "ben"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "deine",
+        "clean": "deine",
+        "syllables": [
+          "dei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Frau",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      },
+      {
+        "word": "zur",
+        "clean": "zur",
+        "syllables": [
+          "zur"
+        ]
+      },
+      {
+        "word": "Welt",
+        "clean": "Welt",
+        "syllables": [
+          "Welt"
+        ]
+      },
+      {
+        "word": "bringen",
+        "clean": "bringen",
+        "syllables": [
+          "brin",
+          "gen"
+        ]
+      },
+      {
+        "word": "wird.",
+        "clean": "wird",
+        "syllables": [
+          "wird"
+        ]
+      },
+      {
+        "word": "Es",
+        "clean": "Es",
+        "syllables": [
+          "Es"
+        ]
+      },
+      {
+        "word": "soll",
+        "clean": "soll",
+        "syllables": [
+          "soll"
+        ]
+      },
+      {
+        "word": "ihm",
+        "clean": "ihm",
+        "syllables": [
+          "ihm"
+        ]
+      },
+      {
+        "word": "gut",
+        "clean": "gut",
+        "syllables": [
+          "gut"
+        ]
+      },
+      {
+        "word": "gehen,",
+        "clean": "gehen",
+        "syllables": [
+          "ge",
+          "hen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "will",
+        "clean": "will",
+        "syllables": [
+          "will"
+        ]
+      },
+      {
+        "word": "für",
+        "clean": "für",
+        "syllables": [
+          "für"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "sorgen",
+        "clean": "sorgen",
+        "syllables": [
+          "sor",
+          "gen"
+        ]
+      },
+      {
+        "word": "wie",
+        "clean": "wie",
+        "syllables": [
+          "wie"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Mutter.“",
+        "clean": "Mutter",
+        "syllables": [
+          "Mut",
+          "ter"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_der_mann_sagte_in_der_angst_al",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Der Mann sagte in der Angst alles zu, und als das Kind auf die Welt kam, so erschien sogleich die Zauberin, gab dem Kinde den Namen Rapunzel und nahm es mit sich fort.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Mann",
+        "clean": "Mann",
+        "syllables": [
+          "Mann"
+        ]
+      },
+      {
+        "word": "sagte",
+        "clean": "sagte",
+        "syllables": [
+          "sag",
+          "te"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Angst",
+        "clean": "Angst",
+        "syllables": [
+          "Angst"
+        ]
+      },
+      {
+        "word": "alles",
+        "clean": "alles",
+        "syllables": [
+          "al",
+          "les"
+        ]
+      },
+      {
+        "word": "zu,",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "als",
+        "clean": "als",
+        "syllables": [
+          "als"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "Kind",
+        "clean": "Kind",
+        "syllables": [
+          "Kind"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Welt",
+        "clean": "Welt",
+        "syllables": [
+          "Welt"
+        ]
+      },
+      {
+        "word": "kam,",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "erschien",
+        "clean": "erschien",
+        "syllables": [
+          "er",
+          "schien"
+        ]
+      },
+      {
+        "word": "sogleich",
+        "clean": "sogleich",
+        "syllables": [
+          "sog",
+          "leich"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin,",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "gab",
+        "clean": "gab",
+        "syllables": [
+          "gab"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Kinde",
+        "clean": "Kinde",
+        "syllables": [
+          "Kin",
+          "de"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Namen",
+        "clean": "Namen",
+        "syllables": [
+          "Na",
+          "men"
+        ]
+      },
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "nahm",
+        "clean": "nahm",
+        "syllables": [
+          "nahm"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "fort.",
+        "clean": "fort",
+        "syllables": [
+          "fort"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_rapunzel_wurde_das_sch_nste_ki",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Rapunzel wurde das schönste Kind unter der Sonne.",
+    "words": [
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "wurde",
+        "clean": "wurde",
+        "syllables": [
+          "wur",
+          "de"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "schönste",
+        "clean": "schönste",
+        "syllables": [
+          "schön",
+          "ste"
+        ]
+      },
+      {
+        "word": "Kind",
+        "clean": "Kind",
+        "syllables": [
+          "Kind"
+        ]
+      },
+      {
+        "word": "unter",
+        "clean": "unter",
+        "syllables": [
+          "un",
+          "ter"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Sonne.",
+        "clean": "Sonne",
+        "syllables": [
+          "Son",
+          "ne"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_als_es_vierzehn_jahre_alt_war",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Als es vierzehn Jahre alt war, schloss es die Zauberin in einen Turm, der in einem Walde lag, und weder Treppe noch Türe hatte, nur ganz oben war ein kleines Fenster.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "vierzehn",
+        "clean": "vierzehn",
+        "syllables": [
+          "vier",
+          "zehn"
+        ]
+      },
+      {
+        "word": "Jahre",
+        "clean": "Jahre",
+        "syllables": [
+          "Jah",
+          "re"
+        ]
+      },
+      {
+        "word": "alt",
+        "clean": "alt",
+        "syllables": [
+          "alt"
+        ]
+      },
+      {
+        "word": "war,",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "schloss",
+        "clean": "schloss",
+        "syllables": [
+          "schloss"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Turm,",
+        "clean": "Turm",
+        "syllables": [
+          "Turm"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "einem",
+        "clean": "einem",
+        "syllables": [
+          "ei",
+          "nem"
+        ]
+      },
+      {
+        "word": "Walde",
+        "clean": "Walde",
+        "syllables": [
+          "Wal",
+          "de"
+        ]
+      },
+      {
+        "word": "lag,",
+        "clean": "lag",
+        "syllables": [
+          "lag"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "weder",
+        "clean": "weder",
+        "syllables": [
+          "we",
+          "der"
+        ]
+      },
+      {
+        "word": "Treppe",
+        "clean": "Treppe",
+        "syllables": [
+          "Trep",
+          "pe"
+        ]
+      },
+      {
+        "word": "noch",
+        "clean": "noch",
+        "syllables": [
+          "noch"
+        ]
+      },
+      {
+        "word": "Türe",
+        "clean": "Türe",
+        "syllables": [
+          "Tü",
+          "re"
+        ]
+      },
+      {
+        "word": "hatte,",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "nur",
+        "clean": "nur",
+        "syllables": [
+          "nur"
+        ]
+      },
+      {
+        "word": "ganz",
+        "clean": "ganz",
+        "syllables": [
+          "ganz"
+        ]
+      },
+      {
+        "word": "oben",
+        "clean": "oben",
+        "syllables": [
+          "o",
+          "ben"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "kleines",
+        "clean": "kleines",
+        "syllables": [
+          "klei",
+          "nes"
+        ]
+      },
+      {
+        "word": "Fenster.",
+        "clean": "Fenster",
+        "syllables": [
+          "Fen",
+          "ster"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_wenn_die_zauberin_hinein_wollt",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Wenn die Zauberin hinein wollte, stellte sie sich unten hin und rief: „Rapunzel! Rapunzel! Lass dein Haar herunter!“",
+    "words": [
+      {
+        "word": "Wenn",
+        "clean": "Wenn",
+        "syllables": [
+          "Wenn"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "hinein",
+        "clean": "hinein",
+        "syllables": [
+          "hi",
+          "nein"
+        ]
+      },
+      {
+        "word": "wollte,",
+        "clean": "wollte",
+        "syllables": [
+          "woll",
+          "te"
+        ]
+      },
+      {
+        "word": "stellte",
+        "clean": "stellte",
+        "syllables": [
+          "stell",
+          "te"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "unten",
+        "clean": "unten",
+        "syllables": [
+          "un",
+          "ten"
+        ]
+      },
+      {
+        "word": "hin",
+        "clean": "hin",
+        "syllables": [
+          "hin"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "rief:",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "„Rapunzel!",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "Rapunzel!",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "Lass",
+        "clean": "Lass",
+        "syllables": [
+          "Lass"
+        ]
+      },
+      {
+        "word": "dein",
+        "clean": "dein",
+        "syllables": [
+          "dein"
+        ]
+      },
+      {
+        "word": "Haar",
+        "clean": "Haar",
+        "syllables": [
+          "Ha",
+          "ar"
+        ]
+      },
+      {
+        "word": "herunter!“",
+        "clean": "herunter",
+        "syllables": [
+          "he",
+          "run",
+          "ter"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_rapunzel_hatte_lange_pr_chtige",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Rapunzel hatte lange prächtige Haare.",
+    "words": [
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "hatte",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "lange",
+        "clean": "lange",
+        "syllables": [
+          "lan",
+          "ge"
+        ]
+      },
+      {
+        "word": "prächtige",
+        "clean": "prächtige",
+        "syllables": [
+          "präch",
+          "ti",
+          "ge"
+        ]
+      },
+      {
+        "word": "Haare.",
+        "clean": "Haare",
+        "syllables": [
+          "Ha",
+          "a",
+          "re"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_wenn_sie_die_stimme_der_zauber",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Wenn sie die Stimme der Zauberin vernahm, so ließ sie ihre Haare herunter, und die Zauberin stieg daran hinauf.",
+    "words": [
+      {
+        "word": "Wenn",
+        "clean": "Wenn",
+        "syllables": [
+          "Wenn"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Stimme",
+        "clean": "Stimme",
+        "syllables": [
+          "Stim",
+          "me"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "vernahm,",
+        "clean": "vernahm",
+        "syllables": [
+          "ver",
+          "nahm"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "ließ",
+        "clean": "ließ",
+        "syllables": [
+          "ließ"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "ihre",
+        "clean": "ihre",
+        "syllables": [
+          "ih",
+          "re"
+        ]
+      },
+      {
+        "word": "Haare",
+        "clean": "Haare",
+        "syllables": [
+          "Ha",
+          "a",
+          "re"
+        ]
+      },
+      {
+        "word": "herunter,",
+        "clean": "herunter",
+        "syllables": [
+          "he",
+          "run",
+          "ter"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "stieg",
+        "clean": "stieg",
+        "syllables": [
+          "stieg"
+        ]
+      },
+      {
+        "word": "daran",
+        "clean": "daran",
+        "syllables": [
+          "da",
+          "ran"
+        ]
+      },
+      {
+        "word": "hinauf.",
+        "clean": "hinauf",
+        "syllables": [
+          "hi",
+          "nauf"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_nach_ein_paar_jahren_trug_es_s",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Nach ein paar Jahren trug es sich zu, dass der Sohn des Königs durch den Wald ritt und an dem Turm vorüber kam.",
+    "words": [
+      {
+        "word": "Nach",
+        "clean": "Nach",
+        "syllables": [
+          "Nach"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "paar",
+        "clean": "paar",
+        "syllables": [
+          "pa",
+          "ar"
+        ]
+      },
+      {
+        "word": "Jahren",
+        "clean": "Jahren",
+        "syllables": [
+          "Jah",
+          "ren"
+        ]
+      },
+      {
+        "word": "trug",
+        "clean": "trug",
+        "syllables": [
+          "trug"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "zu,",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Sohn",
+        "clean": "Sohn",
+        "syllables": [
+          "Sohn"
+        ]
+      },
+      {
+        "word": "des",
+        "clean": "des",
+        "syllables": [
+          "des"
+        ]
+      },
+      {
+        "word": "Königs",
+        "clean": "Königs",
+        "syllables": [
+          "Kö",
+          "nigs"
+        ]
+      },
+      {
+        "word": "durch",
+        "clean": "durch",
+        "syllables": [
+          "durch"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Wald",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      },
+      {
+        "word": "ritt",
+        "clean": "ritt",
+        "syllables": [
+          "ritt"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Turm",
+        "clean": "Turm",
+        "syllables": [
+          "Turm"
+        ]
+      },
+      {
+        "word": "vorüber",
+        "clean": "vorüber",
+        "syllables": [
+          "vo",
+          "rü",
+          "ber"
+        ]
+      },
+      {
+        "word": "kam.",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_da_h_rte_er_einen_gesang__der",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Da hörte er einen Gesang, der war so lieblich, dass er anhielt und horchte.",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "hörte",
+        "clean": "hörte",
+        "syllables": [
+          "hör",
+          "te"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Gesang,",
+        "clean": "Gesang",
+        "syllables": [
+          "Ge",
+          "sang"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "lieblich,",
+        "clean": "lieblich",
+        "syllables": [
+          "lieb",
+          "lich"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "anhielt",
+        "clean": "anhielt",
+        "syllables": [
+          "an",
+          "hielt"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "horchte.",
+        "clean": "horchte",
+        "syllables": [
+          "horch",
+          "te"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_das_war_rapunzel__die_sich_in",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Das war Rapunzel, die sich in ihrer Einsamkeit die Zeit damit vertrieb, zu singen.",
+    "words": [
+      {
+        "word": "Das",
+        "clean": "Das",
+        "syllables": [
+          "Das"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "Rapunzel,",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "ihrer",
+        "clean": "ihrer",
+        "syllables": [
+          "ih",
+          "rer"
+        ]
+      },
+      {
+        "word": "Einsamkeit",
+        "clean": "Einsamkeit",
+        "syllables": [
+          "Ein",
+          "sam",
+          "keit"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zeit",
+        "clean": "Zeit",
+        "syllables": [
+          "Zeit"
+        ]
+      },
+      {
+        "word": "damit",
+        "clean": "damit",
+        "syllables": [
+          "da",
+          "mit"
+        ]
+      },
+      {
+        "word": "vertrieb,",
+        "clean": "vertrieb",
+        "syllables": [
+          "vert",
+          "rieb"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "singen.",
+        "clean": "singen",
+        "syllables": [
+          "sin",
+          "gen"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_der_prinz_wollte_zu_ihr_und_su",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Der Prinz wollte zu ihr und suchte nach einer Türe, aber es war keine zu finden.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Prinz",
+        "clean": "Prinz",
+        "syllables": [
+          "Prinz"
+        ]
+      },
+      {
+        "word": "wollte",
+        "clean": "wollte",
+        "syllables": [
+          "woll",
+          "te"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "suchte",
+        "clean": "suchte",
+        "syllables": [
+          "such",
+          "te"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "einer",
+        "clean": "einer",
+        "syllables": [
+          "ei",
+          "ner"
+        ]
+      },
+      {
+        "word": "Türe,",
+        "clean": "Türe",
+        "syllables": [
+          "Tü",
+          "re"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "keine",
+        "clean": "keine",
+        "syllables": [
+          "kei",
+          "ne"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "finden.",
+        "clean": "finden",
+        "syllables": [
+          "fin",
+          "den"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_er_sah__dass_eine_zauberin_her",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Er sah, dass eine Zauberin heran kam, versteckte sich hinter einem Baum und hörte wie sie hinauf rief: „Rapunzel! Rapunzel! Lass dein Haar herunter!“",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "sah,",
+        "clean": "sah",
+        "syllables": [
+          "sah"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "heran",
+        "clean": "heran",
+        "syllables": [
+          "he",
+          "ran"
+        ]
+      },
+      {
+        "word": "kam,",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      },
+      {
+        "word": "versteckte",
+        "clean": "versteckte",
+        "syllables": [
+          "ver",
+          "steck",
+          "te"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "hinter",
+        "clean": "hinter",
+        "syllables": [
+          "hin",
+          "ter"
+        ]
+      },
+      {
+        "word": "einem",
+        "clean": "einem",
+        "syllables": [
+          "ei",
+          "nem"
+        ]
+      },
+      {
+        "word": "Baum",
+        "clean": "Baum",
+        "syllables": [
+          "Baum"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "hörte",
+        "clean": "hörte",
+        "syllables": [
+          "hör",
+          "te"
+        ]
+      },
+      {
+        "word": "wie",
+        "clean": "wie",
+        "syllables": [
+          "wie"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "hinauf",
+        "clean": "hinauf",
+        "syllables": [
+          "hi",
+          "nauf"
+        ]
+      },
+      {
+        "word": "rief:",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "„Rapunzel!",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "Rapunzel!",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "Lass",
+        "clean": "Lass",
+        "syllables": [
+          "Lass"
+        ]
+      },
+      {
+        "word": "dein",
+        "clean": "dein",
+        "syllables": [
+          "dein"
+        ]
+      },
+      {
+        "word": "Haar",
+        "clean": "Haar",
+        "syllables": [
+          "Ha",
+          "ar"
+        ]
+      },
+      {
+        "word": "herunter!“",
+        "clean": "herunter",
+        "syllables": [
+          "he",
+          "run",
+          "ter"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_da_lie__rapunzel_die_haarflech",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Da ließ Rapunzel die Haarflechten herab, und die Zauberin stieg zu ihr hinauf.",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "ließ",
+        "clean": "ließ",
+        "syllables": [
+          "ließ"
+        ]
+      },
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Haarflechten",
+        "clean": "Haarflechten",
+        "syllables": [
+          "Ha",
+          "arf",
+          "lech",
+          "ten"
+        ]
+      },
+      {
+        "word": "herab,",
+        "clean": "herab",
+        "syllables": [
+          "he",
+          "rab"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "stieg",
+        "clean": "stieg",
+        "syllables": [
+          "stieg"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "hinauf.",
+        "clean": "hinauf",
+        "syllables": [
+          "hi",
+          "nauf"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_der_prinz_wartete__bis_die_zau",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Der Prinz wartete, bis die Zauberin wieder gegangen war, trat an den Turm und rief: „Rapunzel! Rapunzel! Lass dein Haar herunter!“",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Prinz",
+        "clean": "Prinz",
+        "syllables": [
+          "Prinz"
+        ]
+      },
+      {
+        "word": "wartete,",
+        "clean": "wartete",
+        "syllables": [
+          "war",
+          "te",
+          "te"
+        ]
+      },
+      {
+        "word": "bis",
+        "clean": "bis",
+        "syllables": [
+          "bis"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "wieder",
+        "clean": "wieder",
+        "syllables": [
+          "wie",
+          "der"
+        ]
+      },
+      {
+        "word": "gegangen",
+        "clean": "gegangen",
+        "syllables": [
+          "ge",
+          "gan",
+          "gen"
+        ]
+      },
+      {
+        "word": "war,",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "trat",
+        "clean": "trat",
+        "syllables": [
+          "trat"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Turm",
+        "clean": "Turm",
+        "syllables": [
+          "Turm"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "rief:",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "„Rapunzel!",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "Rapunzel!",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "Lass",
+        "clean": "Lass",
+        "syllables": [
+          "Lass"
+        ]
+      },
+      {
+        "word": "dein",
+        "clean": "dein",
+        "syllables": [
+          "dein"
+        ]
+      },
+      {
+        "word": "Haar",
+        "clean": "Haar",
+        "syllables": [
+          "Ha",
+          "ar"
+        ]
+      },
+      {
+        "word": "herunter!“",
+        "clean": "herunter",
+        "syllables": [
+          "he",
+          "run",
+          "ter"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_alsbald_fielen_die_haare_herab",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Alsbald fielen die Haare herab und der Prinz stieg hinauf.",
+    "words": [
+      {
+        "word": "Alsbald",
+        "clean": "Alsbald",
+        "syllables": [
+          "Als",
+          "bald"
+        ]
+      },
+      {
+        "word": "fielen",
+        "clean": "fielen",
+        "syllables": [
+          "fie",
+          "len"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Haare",
+        "clean": "Haare",
+        "syllables": [
+          "Ha",
+          "a",
+          "re"
+        ]
+      },
+      {
+        "word": "herab",
+        "clean": "herab",
+        "syllables": [
+          "he",
+          "rab"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Prinz",
+        "clean": "Prinz",
+        "syllables": [
+          "Prinz"
+        ]
+      },
+      {
+        "word": "stieg",
+        "clean": "stieg",
+        "syllables": [
+          "stieg"
+        ]
+      },
+      {
+        "word": "hinauf.",
+        "clean": "hinauf",
+        "syllables": [
+          "hi",
+          "nauf"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_rapunzel_erschrak_gewaltig_als",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Rapunzel erschrak gewaltig als ein fremder Mann zu ihr herein kam, doch der Prinz sprach ihr freundlich zu und erzählte, dass von ihrem Gesang sein Herz so sehr bewegt worden sei, dass es ihm keine Ruhe gelassen, und er sie selbst habe sehen müssen.",
+    "words": [
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "erschrak",
+        "clean": "erschrak",
+        "syllables": [
+          "ersch",
+          "rak"
+        ]
+      },
+      {
+        "word": "gewaltig",
+        "clean": "gewaltig",
+        "syllables": [
+          "ge",
+          "wal",
+          "tig"
+        ]
+      },
+      {
+        "word": "als",
+        "clean": "als",
+        "syllables": [
+          "als"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "fremder",
+        "clean": "fremder",
+        "syllables": [
+          "frem",
+          "der"
+        ]
+      },
+      {
+        "word": "Mann",
+        "clean": "Mann",
+        "syllables": [
+          "Mann"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "herein",
+        "clean": "herein",
+        "syllables": [
+          "he",
+          "rein"
+        ]
+      },
+      {
+        "word": "kam,",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      },
+      {
+        "word": "doch",
+        "clean": "doch",
+        "syllables": [
+          "doch"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Prinz",
+        "clean": "Prinz",
+        "syllables": [
+          "Prinz"
+        ]
+      },
+      {
+        "word": "sprach",
+        "clean": "sprach",
+        "syllables": [
+          "sprach"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "freundlich",
+        "clean": "freundlich",
+        "syllables": [
+          "freund",
+          "lich"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "erzählte,",
+        "clean": "erzählte",
+        "syllables": [
+          "er",
+          "zähl",
+          "te"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "von",
+        "clean": "von",
+        "syllables": [
+          "von"
+        ]
+      },
+      {
+        "word": "ihrem",
+        "clean": "ihrem",
+        "syllables": [
+          "ih",
+          "rem"
+        ]
+      },
+      {
+        "word": "Gesang",
+        "clean": "Gesang",
+        "syllables": [
+          "Ge",
+          "sang"
+        ]
+      },
+      {
+        "word": "sein",
+        "clean": "sein",
+        "syllables": [
+          "sein"
+        ]
+      },
+      {
+        "word": "Herz",
+        "clean": "Herz",
+        "syllables": [
+          "Herz"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "sehr",
+        "clean": "sehr",
+        "syllables": [
+          "sehr"
+        ]
+      },
+      {
+        "word": "bewegt",
+        "clean": "bewegt",
+        "syllables": [
+          "be",
+          "wegt"
+        ]
+      },
+      {
+        "word": "worden",
+        "clean": "worden",
+        "syllables": [
+          "wor",
+          "den"
+        ]
+      },
+      {
+        "word": "sei,",
+        "clean": "sei",
+        "syllables": [
+          "sei"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "ihm",
+        "clean": "ihm",
+        "syllables": [
+          "ihm"
+        ]
+      },
+      {
+        "word": "keine",
+        "clean": "keine",
+        "syllables": [
+          "kei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Ruhe",
+        "clean": "Ruhe",
+        "syllables": [
+          "Ru",
+          "he"
+        ]
+      },
+      {
+        "word": "gelassen,",
+        "clean": "gelassen",
+        "syllables": [
+          "ge",
+          "las",
+          "sen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "selbst",
+        "clean": "selbst",
+        "syllables": [
+          "selbst"
+        ]
+      },
+      {
+        "word": "habe",
+        "clean": "habe",
+        "syllables": [
+          "ha",
+          "be"
+        ]
+      },
+      {
+        "word": "sehen",
+        "clean": "sehen",
+        "syllables": [
+          "se",
+          "hen"
+        ]
+      },
+      {
+        "word": "müssen.",
+        "clean": "müssen",
+        "syllables": [
+          "müs",
+          "sen"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_da_verlor_rapunzel_ihre_angst",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Da verlor Rapunzel ihre Angst, und als er sie fragte, ob sie ihn zum Manne nehmen wollte, dachte sie: „Er wird mich lieber haben als die alte Frau“, und sagte ja und legte ihre Hand in seine Hand.",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "verlor",
+        "clean": "verlor",
+        "syllables": [
+          "ver",
+          "lor"
+        ]
+      },
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "ihre",
+        "clean": "ihre",
+        "syllables": [
+          "ih",
+          "re"
+        ]
+      },
+      {
+        "word": "Angst,",
+        "clean": "Angst",
+        "syllables": [
+          "Angst"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "als",
+        "clean": "als",
+        "syllables": [
+          "als"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "fragte,",
+        "clean": "fragte",
+        "syllables": [
+          "frag",
+          "te"
+        ]
+      },
+      {
+        "word": "ob",
+        "clean": "ob",
+        "syllables": [
+          "ob"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "ihn",
+        "clean": "ihn",
+        "syllables": [
+          "ihn"
+        ]
+      },
+      {
+        "word": "zum",
+        "clean": "zum",
+        "syllables": [
+          "zum"
+        ]
+      },
+      {
+        "word": "Manne",
+        "clean": "Manne",
+        "syllables": [
+          "Man",
+          "ne"
+        ]
+      },
+      {
+        "word": "nehmen",
+        "clean": "nehmen",
+        "syllables": [
+          "neh",
+          "men"
+        ]
+      },
+      {
+        "word": "wollte,",
+        "clean": "wollte",
+        "syllables": [
+          "woll",
+          "te"
+        ]
+      },
+      {
+        "word": "dachte",
+        "clean": "dachte",
+        "syllables": [
+          "dach",
+          "te"
+        ]
+      },
+      {
+        "word": "sie:",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "„Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "wird",
+        "clean": "wird",
+        "syllables": [
+          "wird"
+        ]
+      },
+      {
+        "word": "mich",
+        "clean": "mich",
+        "syllables": [
+          "mich"
+        ]
+      },
+      {
+        "word": "lieber",
+        "clean": "lieber",
+        "syllables": [
+          "lie",
+          "ber"
+        ]
+      },
+      {
+        "word": "haben",
+        "clean": "haben",
+        "syllables": [
+          "ha",
+          "ben"
+        ]
+      },
+      {
+        "word": "als",
+        "clean": "als",
+        "syllables": [
+          "als"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "alte",
+        "clean": "alte",
+        "syllables": [
+          "al",
+          "te"
+        ]
+      },
+      {
+        "word": "Frau“,",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sagte",
+        "clean": "sagte",
+        "syllables": [
+          "sag",
+          "te"
+        ]
+      },
+      {
+        "word": "ja",
+        "clean": "ja",
+        "syllables": [
+          "ja"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "legte",
+        "clean": "legte",
+        "syllables": [
+          "leg",
+          "te"
+        ]
+      },
+      {
+        "word": "ihre",
+        "clean": "ihre",
+        "syllables": [
+          "ih",
+          "re"
+        ]
+      },
+      {
+        "word": "Hand",
+        "clean": "Hand",
+        "syllables": [
+          "Hand"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "seine",
+        "clean": "seine",
+        "syllables": [
+          "sei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Hand.",
+        "clean": "Hand",
+        "syllables": [
+          "Hand"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_sie_sprach___ich_will_gerne_mi",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Sie sprach: „Ich will gerne mit dir gehen, aber ich weiß nicht wie ich herab kommen kann. Wenn du kommst, so bring jedes Mal einen Strang Seide mit, daraus will ich eine Leiter flechten.“",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "sprach:",
+        "clean": "sprach",
+        "syllables": [
+          "sprach"
+        ]
+      },
+      {
+        "word": "„Ich",
+        "clean": "Ich",
+        "syllables": [
+          "Ich"
+        ]
+      },
+      {
+        "word": "will",
+        "clean": "will",
+        "syllables": [
+          "will"
+        ]
+      },
+      {
+        "word": "gerne",
+        "clean": "gerne",
+        "syllables": [
+          "ger",
+          "ne"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "dir",
+        "clean": "dir",
+        "syllables": [
+          "dir"
+        ]
+      },
+      {
+        "word": "gehen,",
+        "clean": "gehen",
+        "syllables": [
+          "ge",
+          "hen"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "weiß",
+        "clean": "weiß",
+        "syllables": [
+          "weiß"
+        ]
+      },
+      {
+        "word": "nicht",
+        "clean": "nicht",
+        "syllables": [
+          "nicht"
+        ]
+      },
+      {
+        "word": "wie",
+        "clean": "wie",
+        "syllables": [
+          "wie"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "herab",
+        "clean": "herab",
+        "syllables": [
+          "he",
+          "rab"
+        ]
+      },
+      {
+        "word": "kommen",
+        "clean": "kommen",
+        "syllables": [
+          "kom",
+          "men"
+        ]
+      },
+      {
+        "word": "kann.",
+        "clean": "kann",
+        "syllables": [
+          "kann"
+        ]
+      },
+      {
+        "word": "Wenn",
+        "clean": "Wenn",
+        "syllables": [
+          "Wenn"
+        ]
+      },
+      {
+        "word": "du",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "kommst,",
+        "clean": "kommst",
+        "syllables": [
+          "kommst"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "bring",
+        "clean": "bring",
+        "syllables": [
+          "bring"
+        ]
+      },
+      {
+        "word": "jedes",
+        "clean": "jedes",
+        "syllables": [
+          "je",
+          "des"
+        ]
+      },
+      {
+        "word": "Mal",
+        "clean": "Mal",
+        "syllables": [
+          "Mal"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Strang",
+        "clean": "Strang",
+        "syllables": [
+          "Strang"
+        ]
+      },
+      {
+        "word": "Seide",
+        "clean": "Seide",
+        "syllables": [
+          "Sei",
+          "de"
+        ]
+      },
+      {
+        "word": "mit,",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "daraus",
+        "clean": "daraus",
+        "syllables": [
+          "da",
+          "raus"
+        ]
+      },
+      {
+        "word": "will",
+        "clean": "will",
+        "syllables": [
+          "will"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Leiter",
+        "clean": "Leiter",
+        "syllables": [
+          "Lei",
+          "ter"
+        ]
+      },
+      {
+        "word": "flechten.“",
+        "clean": "flechten",
+        "syllables": [
+          "flech",
+          "ten"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_sie_verabredeten_dass_er_jeden",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Sie verabredeten dass er jeden Abend zu ihr kommen sollte, denn bei Tag kam die Alte.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "verabredeten",
+        "clean": "verabredeten",
+        "syllables": [
+          "ve",
+          "rab",
+          "re",
+          "de",
+          "ten"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "jeden",
+        "clean": "jeden",
+        "syllables": [
+          "je",
+          "den"
+        ]
+      },
+      {
+        "word": "Abend",
+        "clean": "Abend",
+        "syllables": [
+          "A",
+          "bend"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "kommen",
+        "clean": "kommen",
+        "syllables": [
+          "kom",
+          "men"
+        ]
+      },
+      {
+        "word": "sollte,",
+        "clean": "sollte",
+        "syllables": [
+          "soll",
+          "te"
+        ]
+      },
+      {
+        "word": "denn",
+        "clean": "denn",
+        "syllables": [
+          "denn"
+        ]
+      },
+      {
+        "word": "bei",
+        "clean": "bei",
+        "syllables": [
+          "bei"
+        ]
+      },
+      {
+        "word": "Tag",
+        "clean": "Tag",
+        "syllables": [
+          "Tag"
+        ]
+      },
+      {
+        "word": "kam",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Alte.",
+        "clean": "Alte",
+        "syllables": [
+          "Al",
+          "te"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_die_zauberin_merkte_nichts_dav",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Die Zauberin merkte nichts davon, bis einmal Rapunzel aus Versehen zu ihr sagte: „Wie kommt es nur, sie ist viel schwerer heraufzuziehen, als der junge Prinz, der ist in einem Augenblicke bei mir.“",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "merkte",
+        "clean": "merkte",
+        "syllables": [
+          "merk",
+          "te"
+        ]
+      },
+      {
+        "word": "nichts",
+        "clean": "nichts",
+        "syllables": [
+          "nichts"
+        ]
+      },
+      {
+        "word": "davon,",
+        "clean": "davon",
+        "syllables": [
+          "da",
+          "von"
+        ]
+      },
+      {
+        "word": "bis",
+        "clean": "bis",
+        "syllables": [
+          "bis"
+        ]
+      },
+      {
+        "word": "einmal",
+        "clean": "einmal",
+        "syllables": [
+          "ein",
+          "mal"
+        ]
+      },
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "Versehen",
+        "clean": "Versehen",
+        "syllables": [
+          "Ver",
+          "se",
+          "hen"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "sagte:",
+        "clean": "sagte",
+        "syllables": [
+          "sag",
+          "te"
+        ]
+      },
+      {
+        "word": "„Wie",
+        "clean": "Wie",
+        "syllables": [
+          "Wie"
+        ]
+      },
+      {
+        "word": "kommt",
+        "clean": "kommt",
+        "syllables": [
+          "kommt"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "nur,",
+        "clean": "nur",
+        "syllables": [
+          "nur"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "viel",
+        "clean": "viel",
+        "syllables": [
+          "viel"
+        ]
+      },
+      {
+        "word": "schwerer",
+        "clean": "schwerer",
+        "syllables": [
+          "schwe",
+          "rer"
+        ]
+      },
+      {
+        "word": "heraufzuziehen,",
+        "clean": "heraufzuziehen",
+        "syllables": [
+          "he",
+          "rauf",
+          "zu",
+          "zie",
+          "hen"
+        ]
+      },
+      {
+        "word": "als",
+        "clean": "als",
+        "syllables": [
+          "als"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "junge",
+        "clean": "junge",
+        "syllables": [
+          "jun",
+          "ge"
+        ]
+      },
+      {
+        "word": "Prinz,",
+        "clean": "Prinz",
+        "syllables": [
+          "Prinz"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "einem",
+        "clean": "einem",
+        "syllables": [
+          "ei",
+          "nem"
+        ]
+      },
+      {
+        "word": "Augenblicke",
+        "clean": "Augenblicke",
+        "syllables": [
+          "Au",
+          "genb",
+          "lic",
+          "ke"
+        ]
+      },
+      {
+        "word": "bei",
+        "clean": "bei",
+        "syllables": [
+          "bei"
+        ]
+      },
+      {
+        "word": "mir.“",
+        "clean": "mir",
+        "syllables": [
+          "mir"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_ach___rief_die_zauberin___was",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "„Ach“, rief die Zauberin, „was muss ich von dir hören, ich dachte ich hätte dich von aller Welt geschieden, und du hast mich doch betrogen!“",
+    "words": [
+      {
+        "word": "„Ach“,",
+        "clean": "Ach",
+        "syllables": [
+          "Ach"
+        ]
+      },
+      {
+        "word": "rief",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin,",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "„was",
+        "clean": "was",
+        "syllables": [
+          "was"
+        ]
+      },
+      {
+        "word": "muss",
+        "clean": "muss",
+        "syllables": [
+          "muss"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "von",
+        "clean": "von",
+        "syllables": [
+          "von"
+        ]
+      },
+      {
+        "word": "dir",
+        "clean": "dir",
+        "syllables": [
+          "dir"
+        ]
+      },
+      {
+        "word": "hören,",
+        "clean": "hören",
+        "syllables": [
+          "hö",
+          "ren"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "dachte",
+        "clean": "dachte",
+        "syllables": [
+          "dach",
+          "te"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "hätte",
+        "clean": "hätte",
+        "syllables": [
+          "hät",
+          "te"
+        ]
+      },
+      {
+        "word": "dich",
+        "clean": "dich",
+        "syllables": [
+          "dich"
+        ]
+      },
+      {
+        "word": "von",
+        "clean": "von",
+        "syllables": [
+          "von"
+        ]
+      },
+      {
+        "word": "aller",
+        "clean": "aller",
+        "syllables": [
+          "al",
+          "ler"
+        ]
+      },
+      {
+        "word": "Welt",
+        "clean": "Welt",
+        "syllables": [
+          "Welt"
+        ]
+      },
+      {
+        "word": "geschieden,",
+        "clean": "geschieden",
+        "syllables": [
+          "ge",
+          "schie",
+          "den"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "du",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "hast",
+        "clean": "hast",
+        "syllables": [
+          "hast"
+        ]
+      },
+      {
+        "word": "mich",
+        "clean": "mich",
+        "syllables": [
+          "mich"
+        ]
+      },
+      {
+        "word": "doch",
+        "clean": "doch",
+        "syllables": [
+          "doch"
+        ]
+      },
+      {
+        "word": "betrogen!“",
+        "clean": "betrogen",
+        "syllables": [
+          "bet",
+          "ro",
+          "gen"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_in_ihrem_zorne_packte_sie_die",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "In ihrem Zorne packte sie die schönen Haare der Rapunzel, griff eine Schere und ritsch, ratsch, waren sie abgeschnitten.",
+    "words": [
+      {
+        "word": "In",
+        "clean": "In",
+        "syllables": [
+          "In"
+        ]
+      },
+      {
+        "word": "ihrem",
+        "clean": "ihrem",
+        "syllables": [
+          "ih",
+          "rem"
+        ]
+      },
+      {
+        "word": "Zorne",
+        "clean": "Zorne",
+        "syllables": [
+          "Zor",
+          "ne"
+        ]
+      },
+      {
+        "word": "packte",
+        "clean": "packte",
+        "syllables": [
+          "pack",
+          "te"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "schönen",
+        "clean": "schönen",
+        "syllables": [
+          "schö",
+          "nen"
+        ]
+      },
+      {
+        "word": "Haare",
+        "clean": "Haare",
+        "syllables": [
+          "Ha",
+          "a",
+          "re"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Rapunzel,",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "griff",
+        "clean": "griff",
+        "syllables": [
+          "griff"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Schere",
+        "clean": "Schere",
+        "syllables": [
+          "Sche",
+          "re"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "ritsch,",
+        "clean": "ritsch",
+        "syllables": [
+          "ritsch"
+        ]
+      },
+      {
+        "word": "ratsch,",
+        "clean": "ratsch",
+        "syllables": [
+          "ratsch"
+        ]
+      },
+      {
+        "word": "waren",
+        "clean": "waren",
+        "syllables": [
+          "wa",
+          "ren"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "abgeschnitten.",
+        "clean": "abgeschnitten",
+        "syllables": [
+          "ab",
+          "gesch",
+          "nit",
+          "ten"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_die_alte_war_so_unbarmherzig",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Die Alte war so unbarmherzig, dass sie die arme Rapunzel in eine Wüste brachte, wo sie in großem Jammer und Elend leben musste.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Alte",
+        "clean": "Alte",
+        "syllables": [
+          "Al",
+          "te"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "unbarmherzig,",
+        "clean": "unbarmherzig",
+        "syllables": [
+          "un",
+          "barm",
+          "her",
+          "zig"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "arme",
+        "clean": "arme",
+        "syllables": [
+          "ar",
+          "me"
+        ]
+      },
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Wüste",
+        "clean": "Wüste",
+        "syllables": [
+          "Wü",
+          "ste"
+        ]
+      },
+      {
+        "word": "brachte,",
+        "clean": "brachte",
+        "syllables": [
+          "brach",
+          "te"
+        ]
+      },
+      {
+        "word": "wo",
+        "clean": "wo",
+        "syllables": [
+          "wo"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "großem",
+        "clean": "großem",
+        "syllables": [
+          "gro",
+          "ßem"
+        ]
+      },
+      {
+        "word": "Jammer",
+        "clean": "Jammer",
+        "syllables": [
+          "Jam",
+          "mer"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Elend",
+        "clean": "Elend",
+        "syllables": [
+          "E",
+          "lend"
+        ]
+      },
+      {
+        "word": "leben",
+        "clean": "leben",
+        "syllables": [
+          "le",
+          "ben"
+        ]
+      },
+      {
+        "word": "musste.",
+        "clean": "musste",
+        "syllables": [
+          "mus",
+          "ste"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_am_selben_tage_noch_setzte_sic",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Am selben Tage noch setzte sich die Zauberin abends in den Turm und als der Prinz kam und rief: „Rapunzel! Rapunzel! Lass dein Haar herunter!“",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "selben",
+        "clean": "selben",
+        "syllables": [
+          "sel",
+          "ben"
+        ]
+      },
+      {
+        "word": "Tage",
+        "clean": "Tage",
+        "syllables": [
+          "Ta",
+          "ge"
+        ]
+      },
+      {
+        "word": "noch",
+        "clean": "noch",
+        "syllables": [
+          "noch"
+        ]
+      },
+      {
+        "word": "setzte",
+        "clean": "setzte",
+        "syllables": [
+          "setz",
+          "te"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      },
+      {
+        "word": "abends",
+        "clean": "abends",
+        "syllables": [
+          "a",
+          "bends"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Turm",
+        "clean": "Turm",
+        "syllables": [
+          "Turm"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "als",
+        "clean": "als",
+        "syllables": [
+          "als"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Prinz",
+        "clean": "Prinz",
+        "syllables": [
+          "Prinz"
+        ]
+      },
+      {
+        "word": "kam",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "rief:",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "„Rapunzel!",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "Rapunzel!",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "Lass",
+        "clean": "Lass",
+        "syllables": [
+          "Lass"
+        ]
+      },
+      {
+        "word": "dein",
+        "clean": "dein",
+        "syllables": [
+          "dein"
+        ]
+      },
+      {
+        "word": "Haar",
+        "clean": "Haar",
+        "syllables": [
+          "Ha",
+          "ar"
+        ]
+      },
+      {
+        "word": "herunter!“",
+        "clean": "herunter",
+        "syllables": [
+          "he",
+          "run",
+          "ter"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_so_lie__sie_die_abgeschnittene",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "So ließ sie die abgeschnittenen Haarflechten hinab.",
+    "words": [
+      {
+        "word": "So",
+        "clean": "So",
+        "syllables": [
+          "So"
+        ]
+      },
+      {
+        "word": "ließ",
+        "clean": "ließ",
+        "syllables": [
+          "ließ"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "abgeschnittenen",
+        "clean": "abgeschnittenen",
+        "syllables": [
+          "ab",
+          "gesch",
+          "nit",
+          "te",
+          "nen"
+        ]
+      },
+      {
+        "word": "Haarflechten",
+        "clean": "Haarflechten",
+        "syllables": [
+          "Ha",
+          "arf",
+          "lech",
+          "ten"
+        ]
+      },
+      {
+        "word": "hinab.",
+        "clean": "hinab",
+        "syllables": [
+          "hi",
+          "nab"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_der_prinz_stieg_daran_hinauf_w",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Der Prinz stieg daran hinauf wie immer, aber er fand oben nicht seine liebste Rapunzel, sondern die Zauberin.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Prinz",
+        "clean": "Prinz",
+        "syllables": [
+          "Prinz"
+        ]
+      },
+      {
+        "word": "stieg",
+        "clean": "stieg",
+        "syllables": [
+          "stieg"
+        ]
+      },
+      {
+        "word": "daran",
+        "clean": "daran",
+        "syllables": [
+          "da",
+          "ran"
+        ]
+      },
+      {
+        "word": "hinauf",
+        "clean": "hinauf",
+        "syllables": [
+          "hi",
+          "nauf"
+        ]
+      },
+      {
+        "word": "wie",
+        "clean": "wie",
+        "syllables": [
+          "wie"
+        ]
+      },
+      {
+        "word": "immer,",
+        "clean": "immer",
+        "syllables": [
+          "im",
+          "mer"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "fand",
+        "clean": "fand",
+        "syllables": [
+          "fand"
+        ]
+      },
+      {
+        "word": "oben",
+        "clean": "oben",
+        "syllables": [
+          "o",
+          "ben"
+        ]
+      },
+      {
+        "word": "nicht",
+        "clean": "nicht",
+        "syllables": [
+          "nicht"
+        ]
+      },
+      {
+        "word": "seine",
+        "clean": "seine",
+        "syllables": [
+          "sei",
+          "ne"
+        ]
+      },
+      {
+        "word": "liebste",
+        "clean": "liebste",
+        "syllables": [
+          "lieb",
+          "ste"
+        ]
+      },
+      {
+        "word": "Rapunzel,",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "sondern",
+        "clean": "sondern",
+        "syllables": [
+          "son",
+          "dern"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Zauberin.",
+        "clean": "Zauberin",
+        "syllables": [
+          "Zau",
+          "be",
+          "rin"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_aha___rief_sie_h_hnisch___du",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "„Aha“, rief sie höhnisch, „du willst Rapunzel holen, aber der schöne Vogel sitzt nicht mehr im Nest. Für dich ist Rapunzel verloren, du wirst sie nie wieder sehen.“",
+    "words": [
+      {
+        "word": "„Aha“,",
+        "clean": "Aha",
+        "syllables": [
+          "Aha"
+        ]
+      },
+      {
+        "word": "rief",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "höhnisch,",
+        "clean": "höhnisch",
+        "syllables": [
+          "höh",
+          "nisch"
+        ]
+      },
+      {
+        "word": "„du",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "willst",
+        "clean": "willst",
+        "syllables": [
+          "willst"
+        ]
+      },
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "holen,",
+        "clean": "holen",
+        "syllables": [
+          "ho",
+          "len"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "schöne",
+        "clean": "schöne",
+        "syllables": [
+          "schö",
+          "ne"
+        ]
+      },
+      {
+        "word": "Vogel",
+        "clean": "Vogel",
+        "syllables": [
+          "Vo",
+          "gel"
+        ]
+      },
+      {
+        "word": "sitzt",
+        "clean": "sitzt",
+        "syllables": [
+          "sitzt"
+        ]
+      },
+      {
+        "word": "nicht",
+        "clean": "nicht",
+        "syllables": [
+          "nicht"
+        ]
+      },
+      {
+        "word": "mehr",
+        "clean": "mehr",
+        "syllables": [
+          "mehr"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Nest.",
+        "clean": "Nest",
+        "syllables": [
+          "Nest"
+        ]
+      },
+      {
+        "word": "Für",
+        "clean": "Für",
+        "syllables": [
+          "Für"
+        ]
+      },
+      {
+        "word": "dich",
+        "clean": "dich",
+        "syllables": [
+          "dich"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "verloren,",
+        "clean": "verloren",
+        "syllables": [
+          "ver",
+          "lo",
+          "ren"
+        ]
+      },
+      {
+        "word": "du",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "wirst",
+        "clean": "wirst",
+        "syllables": [
+          "wirst"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "nie",
+        "clean": "nie",
+        "syllables": [
+          "nie"
+        ]
+      },
+      {
+        "word": "wieder",
+        "clean": "wieder",
+        "syllables": [
+          "wie",
+          "der"
+        ]
+      },
+      {
+        "word": "sehen.“",
+        "clean": "sehen",
+        "syllables": [
+          "se",
+          "hen"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_der_prinz_geriet_so_au_er_sich",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Der Prinz geriet so außer sich vor Schmerz, dass er vor lauter Verzweiflung erblindete.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Prinz",
+        "clean": "Prinz",
+        "syllables": [
+          "Prinz"
+        ]
+      },
+      {
+        "word": "geriet",
+        "clean": "geriet",
+        "syllables": [
+          "ge",
+          "riet"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "außer",
+        "clean": "außer",
+        "syllables": [
+          "au",
+          "ßer"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "vor",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      },
+      {
+        "word": "Schmerz,",
+        "clean": "Schmerz",
+        "syllables": [
+          "Schmerz"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "vor",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      },
+      {
+        "word": "lauter",
+        "clean": "lauter",
+        "syllables": [
+          "lau",
+          "ter"
+        ]
+      },
+      {
+        "word": "Verzweiflung",
+        "clean": "Verzweiflung",
+        "syllables": [
+          "Verz",
+          "weif",
+          "lung"
+        ]
+      },
+      {
+        "word": "erblindete.",
+        "clean": "erblindete",
+        "syllables": [
+          "erb",
+          "lin",
+          "de",
+          "te"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_er_taumelte_im_wald_umher_und",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Er taumelte im Wald umher und weinte viel über den Verlust seiner liebsten Frau.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "taumelte",
+        "clean": "taumelte",
+        "syllables": [
+          "tau",
+          "mel",
+          "te"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Wald",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      },
+      {
+        "word": "umher",
+        "clean": "umher",
+        "syllables": [
+          "um",
+          "her"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "weinte",
+        "clean": "weinte",
+        "syllables": [
+          "wein",
+          "te"
+        ]
+      },
+      {
+        "word": "viel",
+        "clean": "viel",
+        "syllables": [
+          "viel"
+        ]
+      },
+      {
+        "word": "über",
+        "clean": "über",
+        "syllables": [
+          "ü",
+          "ber"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Verlust",
+        "clean": "Verlust",
+        "syllables": [
+          "Ver",
+          "lust"
+        ]
+      },
+      {
+        "word": "seiner",
+        "clean": "seiner",
+        "syllables": [
+          "sei",
+          "ner"
+        ]
+      },
+      {
+        "word": "liebsten",
+        "clean": "liebsten",
+        "syllables": [
+          "lieb",
+          "sten"
+        ]
+      },
+      {
+        "word": "Frau.",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_auf_seiner_suche_geriet_er_nac",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Auf seiner Suche geriet er nach einigen Jahren endlich in die Wüste, wo Rapunzel kümmerlich lebte.",
+    "words": [
+      {
+        "word": "Auf",
+        "clean": "Auf",
+        "syllables": [
+          "Auf"
+        ]
+      },
+      {
+        "word": "seiner",
+        "clean": "seiner",
+        "syllables": [
+          "sei",
+          "ner"
+        ]
+      },
+      {
+        "word": "Suche",
+        "clean": "Suche",
+        "syllables": [
+          "Su",
+          "che"
+        ]
+      },
+      {
+        "word": "geriet",
+        "clean": "geriet",
+        "syllables": [
+          "ge",
+          "riet"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "einigen",
+        "clean": "einigen",
+        "syllables": [
+          "ei",
+          "ni",
+          "gen"
+        ]
+      },
+      {
+        "word": "Jahren",
+        "clean": "Jahren",
+        "syllables": [
+          "Jah",
+          "ren"
+        ]
+      },
+      {
+        "word": "endlich",
+        "clean": "endlich",
+        "syllables": [
+          "end",
+          "lich"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Wüste,",
+        "clean": "Wüste",
+        "syllables": [
+          "Wü",
+          "ste"
+        ]
+      },
+      {
+        "word": "wo",
+        "clean": "wo",
+        "syllables": [
+          "wo"
+        ]
+      },
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "kümmerlich",
+        "clean": "kümmerlich",
+        "syllables": [
+          "küm",
+          "mer",
+          "lich"
+        ]
+      },
+      {
+        "word": "lebte.",
+        "clean": "lebte",
+        "syllables": [
+          "leb",
+          "te"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_er_vernahm_ihre_stimme__ging_d",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Er vernahm ihre Stimme, ging darauf zu und ließ sich erschöpft in ihre Arme fallen.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "vernahm",
+        "clean": "vernahm",
+        "syllables": [
+          "ver",
+          "nahm"
+        ]
+      },
+      {
+        "word": "ihre",
+        "clean": "ihre",
+        "syllables": [
+          "ih",
+          "re"
+        ]
+      },
+      {
+        "word": "Stimme,",
+        "clean": "Stimme",
+        "syllables": [
+          "Stim",
+          "me"
+        ]
+      },
+      {
+        "word": "ging",
+        "clean": "ging",
+        "syllables": [
+          "ging"
+        ]
+      },
+      {
+        "word": "darauf",
+        "clean": "darauf",
+        "syllables": [
+          "da",
+          "rauf"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "ließ",
+        "clean": "ließ",
+        "syllables": [
+          "ließ"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "erschöpft",
+        "clean": "erschöpft",
+        "syllables": [
+          "er",
+          "schöpft"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "ihre",
+        "clean": "ihre",
+        "syllables": [
+          "ih",
+          "re"
+        ]
+      },
+      {
+        "word": "Arme",
+        "clean": "Arme",
+        "syllables": [
+          "Ar",
+          "me"
+        ]
+      },
+      {
+        "word": "fallen.",
+        "clean": "fallen",
+        "syllables": [
+          "fal",
+          "len"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_rapunzel_erkannte_den_prinzen",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Rapunzel erkannte den Prinzen und musste vor Glück weinen.",
+    "words": [
+      {
+        "word": "Rapunzel",
+        "clean": "Rapunzel",
+        "syllables": [
+          "Ra",
+          "pun",
+          "zel"
+        ]
+      },
+      {
+        "word": "erkannte",
+        "clean": "erkannte",
+        "syllables": [
+          "er",
+          "kann",
+          "te"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Prinzen",
+        "clean": "Prinzen",
+        "syllables": [
+          "Prin",
+          "zen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "musste",
+        "clean": "musste",
+        "syllables": [
+          "mus",
+          "ste"
+        ]
+      },
+      {
+        "word": "vor",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      },
+      {
+        "word": "Glück",
+        "clean": "Glück",
+        "syllables": [
+          "Glück"
+        ]
+      },
+      {
+        "word": "weinen.",
+        "clean": "weinen",
+        "syllables": [
+          "wei",
+          "nen"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_ihre_tr_nen_benetzten_seine_au",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Ihre Tränen benetzten seine Augen, da wurden sie wieder klar und er konnte wieder sehen.",
+    "words": [
+      {
+        "word": "Ihre",
+        "clean": "Ihre",
+        "syllables": [
+          "Ih",
+          "re"
+        ]
+      },
+      {
+        "word": "Tränen",
+        "clean": "Tränen",
+        "syllables": [
+          "Trä",
+          "nen"
+        ]
+      },
+      {
+        "word": "benetzten",
+        "clean": "benetzten",
+        "syllables": [
+          "be",
+          "netz",
+          "ten"
+        ]
+      },
+      {
+        "word": "seine",
+        "clean": "seine",
+        "syllables": [
+          "sei",
+          "ne"
+        ]
+      },
+      {
+        "word": "Augen,",
+        "clean": "Augen",
+        "syllables": [
+          "Au",
+          "gen"
+        ]
+      },
+      {
+        "word": "da",
+        "clean": "da",
+        "syllables": [
+          "da"
+        ]
+      },
+      {
+        "word": "wurden",
+        "clean": "wurden",
+        "syllables": [
+          "wur",
+          "den"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "wieder",
+        "clean": "wieder",
+        "syllables": [
+          "wie",
+          "der"
+        ]
+      },
+      {
+        "word": "klar",
+        "clean": "klar",
+        "syllables": [
+          "klar"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "konnte",
+        "clean": "konnte",
+        "syllables": [
+          "konn",
+          "te"
+        ]
+      },
+      {
+        "word": "wieder",
+        "clean": "wieder",
+        "syllables": [
+          "wie",
+          "der"
+        ]
+      },
+      {
+        "word": "sehen.",
+        "clean": "sehen",
+        "syllables": [
+          "se",
+          "hen"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
+  },
+  {
+    "id": "g3_story__rapunzel_sie_gingen_zusammen_in_sein_re",
+    "grade": 3,
+    "theme": "Story: Rapunzel",
+    "sentence": "Sie gingen zusammen in sein Reich, wo sie mit Freude empfangen wurden, und sie lebten noch lange glücklich und vergnügt.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "gingen",
+        "clean": "gingen",
+        "syllables": [
+          "gin",
+          "gen"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "clean": "zusammen",
+        "syllables": [
+          "zu",
+          "sam",
+          "men"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "sein",
+        "clean": "sein",
+        "syllables": [
+          "sein"
+        ]
+      },
+      {
+        "word": "Reich,",
+        "clean": "Reich",
+        "syllables": [
+          "Reich"
+        ]
+      },
+      {
+        "word": "wo",
+        "clean": "wo",
+        "syllables": [
+          "wo"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "Freude",
+        "clean": "Freude",
+        "syllables": [
+          "Freu",
+          "de"
+        ]
+      },
+      {
+        "word": "empfangen",
+        "clean": "empfangen",
+        "syllables": [
+          "em",
+          "pfan",
+          "gen"
+        ]
+      },
+      {
+        "word": "wurden,",
+        "clean": "wurden",
+        "syllables": [
+          "wur",
+          "den"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "lebten",
+        "clean": "lebten",
+        "syllables": [
+          "leb",
+          "ten"
+        ]
+      },
+      {
+        "word": "noch",
+        "clean": "noch",
+        "syllables": [
+          "noch"
+        ]
+      },
+      {
+        "word": "lange",
+        "clean": "lange",
+        "syllables": [
+          "lan",
+          "ge"
+        ]
+      },
+      {
+        "word": "glücklich",
+        "clean": "glücklich",
+        "syllables": [
+          "glück",
+          "lich"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "vergnügt.",
+        "clean": "vergnügt",
+        "syllables": [
+          "verg",
+          "nügt"
+        ]
+      }
+    ],
+    "story": "Rapunzel"
   }
 ]

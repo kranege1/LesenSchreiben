@@ -994,3 +994,55 @@
 3 | Story: Hänsel und Gretel | Der Mann hatte keine frohe Stunde gehabt, seit er die Kinder im Wald gelassen hatte und die Stiefmutter hatte ihn verlassen.
 3 | Story: Hänsel und Gretel | Er war sehr glücklich, dass er seine lieben Kinder wieder hatte und sie lebten in lauter Freude zusammen.
 
+# 3. Klasse: Rapunzel
+3 | Story: Rapunzel | Es war einmal ein Mann und eine Frau.
+3 | Story: Rapunzel | Sie wünschten sich schon lange ein Kind und endlich war die Frau schwanger.
+3 | Story: Rapunzel | Aus ihrem Fenster konnte man in einen prächtigen Garten schauen.
+3 | Story: Rapunzel | Er war voll schönster Blumen und Kräuter, aber auch von einer hohen Mauer umgeben.
+3 | Story: Rapunzel | Dort wagte sich niemand hinein, weil er einer Zauberin gehörte, die große Macht hatte und von aller Welt gefürchtet wurde.
+3 | Story: Rapunzel | Eines Tages stand die Frau an diesem Fenster und sah in den Garten hinab, da erblickte sie ein Beet, das mit den schönsten Rapunzeln bepflanzt war.
+3 | Story: Rapunzel | Sie sahen so frisch und grün aus, dass sie das größte Verlangen empfand von den Rapunzeln zu essen.
+3 | Story: Rapunzel | Das Verlangen nahm jeden Tag zu, und da sie wusste, dass sie keine davon bekommen konnte, so magerte sie ab, sah blass und elend aus.
+3 | Story: Rapunzel | Da erschrak ihr Mann und fragte: „Was fehlt dir, liebe Frau?“
+3 | Story: Rapunzel | „Ach“, antwortete sie, „wenn ich keine Rapunzeln aus dem Garten hinter unserem Hause zu essen bekomme, so sterbe ich.“
+3 | Story: Rapunzel | Der Mann, der sie lieb hatte, dachte: „Ehe du deine Frau sterben lässt, holst du ihr von den Rapunzeln, koste es was es wolle.“
+3 | Story: Rapunzel | In der Abenddämmerung stieg er über die Mauer in den Garten.
+3 | Story: Rapunzel | Als er aber die Mauer herabgeklettert war, erschrak er gewaltig, denn die Zauberin stand plötzlich vor ihm.
+3 | Story: Rapunzel | „Wie kannst du es wagen“, sprach sie zornig, „in meinen Garten zu steigen und meine Rapunzeln zu stehlen? Das soll dir schlecht bekommen!“
+3 | Story: Rapunzel | „Ach“, antwortete er, „lasst Gnade vor Recht ergehen, ich habe mich aus Not dazu entschlossen. Meine schwangere Frau hat eure Rapunzeln aus dem Fenster erblickt, und empfindet ein so großes Gelüsten, dass sie sterben würde, wenn sie nicht davon zu essen bekäme.“
+3 | Story: Rapunzel | Da ließ die Zauberin in ihrem Zorne nach und sprach zu ihm: „Nun gut. So will ich dir gestatten Rapunzeln mitzunehmen so viel du willst, unter einer Bedingung: Du musst mir das Kind geben, das deine Frau zur Welt bringen wird. Es soll ihm gut gehen, und ich will für es sorgen wie eine Mutter.“
+3 | Story: Rapunzel | Der Mann sagte in der Angst alles zu, und als das Kind auf die Welt kam, so erschien sogleich die Zauberin, gab dem Kinde den Namen Rapunzel und nahm es mit sich fort.
+3 | Story: Rapunzel | Rapunzel wurde das schönste Kind unter der Sonne.
+3 | Story: Rapunzel | Als es vierzehn Jahre alt war, schloss es die Zauberin in einen Turm, der in einem Walde lag, und weder Treppe noch Türe hatte, nur ganz oben war ein kleines Fenster.
+3 | Story: Rapunzel | Wenn die Zauberin hinein wollte, stellte sie sich unten hin und rief: „Rapunzel! Rapunzel! Lass dein Haar herunter!“
+3 | Story: Rapunzel | Rapunzel hatte lange prächtige Haare.
+3 | Story: Rapunzel | Wenn sie die Stimme der Zauberin vernahm, so ließ sie ihre Haare herunter, und die Zauberin stieg daran hinauf.
+3 | Story: Rapunzel | Nach ein paar Jahren trug es sich zu, dass der Sohn des Königs durch den Wald ritt und an dem Turm vorüber kam.
+3 | Story: Rapunzel | Da hörte er einen Gesang, der war so lieblich, dass er anhielt und horchte.
+3 | Story: Rapunzel | Das war Rapunzel, die sich in ihrer Einsamkeit die Zeit damit vertrieb, zu singen.
+3 | Story: Rapunzel | Der Prinz wollte zu ihr und suchte nach einer Türe, aber es war keine zu finden.
+3 | Story: Rapunzel | Er sah, dass eine Zauberin heran kam, versteckte sich hinter einem Baum und hörte wie sie hinauf rief: „Rapunzel! Rapunzel! Lass dein Haar herunter!“
+3 | Story: Rapunzel | Da ließ Rapunzel die Haarflechten herab, und die Zauberin stieg zu ihr hinauf.
+3 | Story: Rapunzel | Der Prinz wartete, bis die Zauberin wieder gegangen war, trat an den Turm und rief: „Rapunzel! Rapunzel! Lass dein Haar herunter!“
+3 | Story: Rapunzel | Alsbald fielen die Haare herab und der Prinz stieg hinauf.
+3 | Story: Rapunzel | Rapunzel erschrak gewaltig als ein fremder Mann zu ihr herein kam, doch der Prinz sprach ihr freundlich zu und erzählte, dass von ihrem Gesang sein Herz so sehr bewegt worden sei, dass es ihm keine Ruhe gelassen, und er sie selbst habe sehen müssen.
+3 | Story: Rapunzel | Da verlor Rapunzel ihre Angst, und als er sie fragte, ob sie ihn zum Manne nehmen wollte, dachte sie: „Er wird mich lieber haben als die alte Frau“, und sagte ja und legte ihre Hand in seine Hand.
+3 | Story: Rapunzel | Sie sprach: „Ich will gerne mit dir gehen, aber ich weiß nicht wie ich herab kommen kann. Wenn du kommst, so bring jedes Mal einen Strang Seide mit, daraus will ich eine Leiter flechten.“
+3 | Story: Rapunzel | Sie verabredeten dass er jeden Abend zu ihr kommen sollte, denn bei Tag kam die Alte.
+3 | Story: Rapunzel | Die Zauberin merkte nichts davon, bis einmal Rapunzel aus Versehen zu ihr sagte: „Wie kommt es nur, sie ist viel schwerer heraufzuziehen, als der junge Prinz, der ist in einem Augenblicke bei mir.“
+3 | Story: Rapunzel | „Ach“, rief die Zauberin, „was muss ich von dir hören, ich dachte ich hätte dich von aller Welt geschieden, und du hast mich doch betrogen!“
+3 | Story: Rapunzel | In ihrem Zorne packte sie die schönen Haare der Rapunzel, griff eine Schere und ritsch, ratsch, waren sie abgeschnitten.
+3 | Story: Rapunzel | Die Alte war so unbarmherzig, dass sie die arme Rapunzel in eine Wüste brachte, wo sie in großem Jammer und Elend leben musste.
+3 | Story: Rapunzel | Am selben Tage noch setzte sich die Zauberin abends in den Turm und als der Prinz kam und rief: „Rapunzel! Rapunzel! Lass dein Haar herunter!“
+3 | Story: Rapunzel | So ließ sie die abgeschnittenen Haarflechten hinab.
+3 | Story: Rapunzel | Der Prinz stieg daran hinauf wie immer, aber er fand oben nicht seine liebste Rapunzel, sondern die Zauberin.
+3 | Story: Rapunzel | „Aha“, rief sie höhnisch, „du willst Rapunzel holen, aber der schöne Vogel sitzt nicht mehr im Nest. Für dich ist Rapunzel verloren, du wirst sie nie wieder sehen.“
+3 | Story: Rapunzel | Der Prinz geriet so außer sich vor Schmerz, dass er vor lauter Verzweiflung erblindete.
+3 | Story: Rapunzel | Er taumelte im Wald umher und weinte viel über den Verlust seiner liebsten Frau.
+3 | Story: Rapunzel | Auf seiner Suche geriet er nach einigen Jahren endlich in die Wüste, wo Rapunzel kümmerlich lebte.
+3 | Story: Rapunzel | Er vernahm ihre Stimme, ging darauf zu und ließ sich erschöpft in ihre Arme fallen.
+3 | Story: Rapunzel | Rapunzel erkannte den Prinzen und musste vor Glück weinen.
+3 | Story: Rapunzel | Ihre Tränen benetzten seine Augen, da wurden sie wieder klar und er konnte wieder sehen.
+3 | Story: Rapunzel | Sie gingen zusammen in sein Reich, wo sie mit Freude empfangen wurden, und sie lebten noch lange glücklich und vergnügt.
+
+
