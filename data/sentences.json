@@ -55384,5 +55384,6509 @@
       }
     ],
     "story": null
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_es_war_einmal_ein_armer_holzf",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Es war einmal ein armer Holzfäller, der mit seinen Kindern, Hänsel und Gretel, am Rande eines großen Waldes lebte.",
+    "words": [
+      {
+        "word": "Es",
+        "clean": "Es",
+        "syllables": [
+          "Es"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "einmal",
+        "clean": "einmal",
+        "syllables": [
+          "ein",
+          "mal"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "armer",
+        "clean": "armer",
+        "syllables": [
+          "ar",
+          "mer"
+        ]
+      },
+      {
+        "word": "Holzfäller,",
+        "clean": "Holzfäller",
+        "syllables": [
+          "Holz",
+          "fäl",
+          "ler"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "seinen",
+        "clean": "seinen",
+        "syllables": [
+          "sei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Kindern,",
+        "clean": "Kindern",
+        "syllables": [
+          "Kin",
+          "dern"
+        ]
+      },
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Gretel,",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "am",
+        "clean": "am",
+        "syllables": [
+          "am"
+        ]
+      },
+      {
+        "word": "Rande",
+        "clean": "Rande",
+        "syllables": [
+          "Ran",
+          "de"
+        ]
+      },
+      {
+        "word": "eines",
+        "clean": "eines",
+        "syllables": [
+          "ei",
+          "nes"
+        ]
+      },
+      {
+        "word": "großen",
+        "clean": "großen",
+        "syllables": [
+          "gro",
+          "ßen"
+        ]
+      },
+      {
+        "word": "Waldes",
+        "clean": "Waldes",
+        "syllables": [
+          "Wal",
+          "des"
+        ]
+      },
+      {
+        "word": "lebte.",
+        "clean": "lebte",
+        "syllables": [
+          "leb",
+          "te"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_ihre_mutter_war_gestorben_und",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Ihre Mutter war gestorben und der Vater hatte wieder geheiratet.",
+    "words": [
+      {
+        "word": "Ihre",
+        "clean": "Ihre",
+        "syllables": [
+          "Ih",
+          "re"
+        ]
+      },
+      {
+        "word": "Mutter",
+        "clean": "Mutter",
+        "syllables": [
+          "Mut",
+          "ter"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "gestorben",
+        "clean": "gestorben",
+        "syllables": [
+          "ge",
+          "stor",
+          "ben"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Vater",
+        "clean": "Vater",
+        "syllables": [
+          "Va",
+          "ter"
+        ]
+      },
+      {
+        "word": "hatte",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "wieder",
+        "clean": "wieder",
+        "syllables": [
+          "wie",
+          "der"
+        ]
+      },
+      {
+        "word": "geheiratet.",
+        "clean": "geheiratet",
+        "syllables": [
+          "ge",
+          "hei",
+          "ra",
+          "tet"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_eines_nachts_h_rten_die_kinder",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Eines Nachts hörten die Kinder wie die Stiefmutter heimlich zum Vater sprach: „All unsere Vorräte sind leer, wir haben nur noch einen halben Laib Brot.“",
+    "words": [
+      {
+        "word": "Eines",
+        "clean": "Eines",
+        "syllables": [
+          "Ei",
+          "nes"
+        ]
+      },
+      {
+        "word": "Nachts",
+        "clean": "Nachts",
+        "syllables": [
+          "Nachts"
+        ]
+      },
+      {
+        "word": "hörten",
+        "clean": "hörten",
+        "syllables": [
+          "hör",
+          "ten"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "wie",
+        "clean": "wie",
+        "syllables": [
+          "wie"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Stiefmutter",
+        "clean": "Stiefmutter",
+        "syllables": [
+          "Stief",
+          "mut",
+          "ter"
+        ]
+      },
+      {
+        "word": "heimlich",
+        "clean": "heimlich",
+        "syllables": [
+          "heim",
+          "lich"
+        ]
+      },
+      {
+        "word": "zum",
+        "clean": "zum",
+        "syllables": [
+          "zum"
+        ]
+      },
+      {
+        "word": "Vater",
+        "clean": "Vater",
+        "syllables": [
+          "Va",
+          "ter"
+        ]
+      },
+      {
+        "word": "sprach:",
+        "clean": "sprach",
+        "syllables": [
+          "sprach"
+        ]
+      },
+      {
+        "word": "„All",
+        "clean": "All",
+        "syllables": [
+          "All"
+        ]
+      },
+      {
+        "word": "unsere",
+        "clean": "unsere",
+        "syllables": [
+          "un",
+          "se",
+          "re"
+        ]
+      },
+      {
+        "word": "Vorräte",
+        "clean": "Vorräte",
+        "syllables": [
+          "Vor",
+          "rä",
+          "te"
+        ]
+      },
+      {
+        "word": "sind",
+        "clean": "sind",
+        "syllables": [
+          "sind"
+        ]
+      },
+      {
+        "word": "leer,",
+        "clean": "leer",
+        "syllables": [
+          "le",
+          "er"
+        ]
+      },
+      {
+        "word": "wir",
+        "clean": "wir",
+        "syllables": [
+          "wir"
+        ]
+      },
+      {
+        "word": "haben",
+        "clean": "haben",
+        "syllables": [
+          "ha",
+          "ben"
+        ]
+      },
+      {
+        "word": "nur",
+        "clean": "nur",
+        "syllables": [
+          "nur"
+        ]
+      },
+      {
+        "word": "noch",
+        "clean": "noch",
+        "syllables": [
+          "noch"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "halben",
+        "clean": "halben",
+        "syllables": [
+          "hal",
+          "ben"
+        ]
+      },
+      {
+        "word": "Laib",
+        "clean": "Laib",
+        "syllables": [
+          "La",
+          "ib"
+        ]
+      },
+      {
+        "word": "Brot.“",
+        "clean": "Brot",
+        "syllables": [
+          "Brot"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_die_kinder_m_ssen_fort__wir_s",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "„Die Kinder müssen fort, wir sollten sie tief in den Wald führen, damit sie den Weg nicht wieder heraus finden; sonst müssen wir alle verhungern.“",
+    "words": [
+      {
+        "word": "„Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "müssen",
+        "clean": "müssen",
+        "syllables": [
+          "müs",
+          "sen"
+        ]
+      },
+      {
+        "word": "fort,",
+        "clean": "fort",
+        "syllables": [
+          "fort"
+        ]
+      },
+      {
+        "word": "wir",
+        "clean": "wir",
+        "syllables": [
+          "wir"
+        ]
+      },
+      {
+        "word": "sollten",
+        "clean": "sollten",
+        "syllables": [
+          "soll",
+          "ten"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "tief",
+        "clean": "tief",
+        "syllables": [
+          "tief"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Wald",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      },
+      {
+        "word": "führen,",
+        "clean": "führen",
+        "syllables": [
+          "füh",
+          "ren"
+        ]
+      },
+      {
+        "word": "damit",
+        "clean": "damit",
+        "syllables": [
+          "da",
+          "mit"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Weg",
+        "clean": "Weg",
+        "syllables": [
+          "Weg"
+        ]
+      },
+      {
+        "word": "nicht",
+        "clean": "nicht",
+        "syllables": [
+          "nicht"
+        ]
+      },
+      {
+        "word": "wieder",
+        "clean": "wieder",
+        "syllables": [
+          "wie",
+          "der"
+        ]
+      },
+      {
+        "word": "heraus",
+        "clean": "heraus",
+        "syllables": [
+          "he",
+          "raus"
+        ]
+      },
+      {
+        "word": "finden;",
+        "clean": "finden",
+        "syllables": [
+          "fin",
+          "den"
+        ]
+      },
+      {
+        "word": "sonst",
+        "clean": "sonst",
+        "syllables": [
+          "sonst"
+        ]
+      },
+      {
+        "word": "müssen",
+        "clean": "müssen",
+        "syllables": [
+          "müs",
+          "sen"
+        ]
+      },
+      {
+        "word": "wir",
+        "clean": "wir",
+        "syllables": [
+          "wir"
+        ]
+      },
+      {
+        "word": "alle",
+        "clean": "alle",
+        "syllables": [
+          "al",
+          "le"
+        ]
+      },
+      {
+        "word": "verhungern.“",
+        "clean": "verhungern",
+        "syllables": [
+          "ver",
+          "hun",
+          "gern"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_dem_vater_wurde_es_schwer_ums",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Dem Vater wurde es schwer ums Herz.",
+    "words": [
+      {
+        "word": "Dem",
+        "clean": "Dem",
+        "syllables": [
+          "Dem"
+        ]
+      },
+      {
+        "word": "Vater",
+        "clean": "Vater",
+        "syllables": [
+          "Va",
+          "ter"
+        ]
+      },
+      {
+        "word": "wurde",
+        "clean": "wurde",
+        "syllables": [
+          "wur",
+          "de"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "schwer",
+        "clean": "schwer",
+        "syllables": [
+          "schwer"
+        ]
+      },
+      {
+        "word": "ums",
+        "clean": "ums",
+        "syllables": [
+          "ums"
+        ]
+      },
+      {
+        "word": "Herz.",
+        "clean": "Herz",
+        "syllables": [
+          "Herz"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_doch_er_gab_nach_und_willigte",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Doch er gab nach und willigte ein.",
+    "words": [
+      {
+        "word": "Doch",
+        "clean": "Doch",
+        "syllables": [
+          "Doch"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "gab",
+        "clean": "gab",
+        "syllables": [
+          "gab"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "willigte",
+        "clean": "willigte",
+        "syllables": [
+          "wil",
+          "lig",
+          "te"
+        ]
+      },
+      {
+        "word": "ein.",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_als_die_alten_schliefen__began",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Als die Alten schliefen, begann Gretel zu weinen.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Alten",
+        "clean": "Alten",
+        "syllables": [
+          "Al",
+          "ten"
+        ]
+      },
+      {
+        "word": "schliefen,",
+        "clean": "schliefen",
+        "syllables": [
+          "schlie",
+          "fen"
+        ]
+      },
+      {
+        "word": "begann",
+        "clean": "begann",
+        "syllables": [
+          "be",
+          "gann"
+        ]
+      },
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "weinen.",
+        "clean": "weinen",
+        "syllables": [
+          "wei",
+          "nen"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_h_nsel_tr_stete_sie___weine_ni",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Hänsel tröstete sie: „Weine nicht! Versuch zu schlafen, der liebe Gott wird uns schon helfen.“",
+    "words": [
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "tröstete",
+        "clean": "tröstete",
+        "syllables": [
+          "trö",
+          "ste",
+          "te"
+        ]
+      },
+      {
+        "word": "sie:",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "„Weine",
+        "clean": "Weine",
+        "syllables": [
+          "Wei",
+          "ne"
+        ]
+      },
+      {
+        "word": "nicht!",
+        "clean": "nicht",
+        "syllables": [
+          "nicht"
+        ]
+      },
+      {
+        "word": "Versuch",
+        "clean": "Versuch",
+        "syllables": [
+          "Ver",
+          "such"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "schlafen,",
+        "clean": "schlafen",
+        "syllables": [
+          "schla",
+          "fen"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "liebe",
+        "clean": "liebe",
+        "syllables": [
+          "lie",
+          "be"
+        ]
+      },
+      {
+        "word": "Gott",
+        "clean": "Gott",
+        "syllables": [
+          "Gott"
+        ]
+      },
+      {
+        "word": "wird",
+        "clean": "wird",
+        "syllables": [
+          "wird"
+        ]
+      },
+      {
+        "word": "uns",
+        "clean": "uns",
+        "syllables": [
+          "uns"
+        ]
+      },
+      {
+        "word": "schon",
+        "clean": "schon",
+        "syllables": [
+          "schon"
+        ]
+      },
+      {
+        "word": "helfen.“",
+        "clean": "helfen",
+        "syllables": [
+          "hel",
+          "fen"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_am_fr_hen_morgen_bekam_jedes_d",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Am frühen Morgen bekam jedes der Kinder ein Stückchen Brot.",
+    "words": [
+      {
+        "word": "Am",
+        "clean": "Am",
+        "syllables": [
+          "Am"
+        ]
+      },
+      {
+        "word": "frühen",
+        "clean": "frühen",
+        "syllables": [
+          "frü",
+          "hen"
+        ]
+      },
+      {
+        "word": "Morgen",
+        "clean": "Morgen",
+        "syllables": [
+          "Mor",
+          "gen"
+        ]
+      },
+      {
+        "word": "bekam",
+        "clean": "bekam",
+        "syllables": [
+          "be",
+          "kam"
+        ]
+      },
+      {
+        "word": "jedes",
+        "clean": "jedes",
+        "syllables": [
+          "je",
+          "des"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "Stückchen",
+        "clean": "Stückchen",
+        "syllables": [
+          "Stück",
+          "chen"
+        ]
+      },
+      {
+        "word": "Brot.",
+        "clean": "Brot",
+        "syllables": [
+          "Brot"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_auf_dem_weg_in_den_wald_br_cke",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Auf dem Weg in den Wald bröckelte es Hänsel in der Tasche und warf nach und nach unbemerkt einen Brotkrumen auf die Erde.",
+    "words": [
+      {
+        "word": "Auf",
+        "clean": "Auf",
+        "syllables": [
+          "Auf"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Weg",
+        "clean": "Weg",
+        "syllables": [
+          "Weg"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Wald",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      },
+      {
+        "word": "bröckelte",
+        "clean": "bröckelte",
+        "syllables": [
+          "bröc",
+          "kel",
+          "te"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Tasche",
+        "clean": "Tasche",
+        "syllables": [
+          "Ta",
+          "sche"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "warf",
+        "clean": "warf",
+        "syllables": [
+          "warf"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "unbemerkt",
+        "clean": "unbemerkt",
+        "syllables": [
+          "un",
+          "be",
+          "merkt"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Brotkrumen",
+        "clean": "Brotkrumen",
+        "syllables": [
+          "Brotk",
+          "ru",
+          "men"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Erde.",
+        "clean": "Erde",
+        "syllables": [
+          "Er",
+          "de"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_die_kinder_wurden_tief_in_den",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Die Kinder wurden tief in den Wald geführt und der Vater entzündete ein großes Feuer.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "wurden",
+        "clean": "wurden",
+        "syllables": [
+          "wur",
+          "den"
+        ]
+      },
+      {
+        "word": "tief",
+        "clean": "tief",
+        "syllables": [
+          "tief"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Wald",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      },
+      {
+        "word": "geführt",
+        "clean": "geführt",
+        "syllables": [
+          "ge",
+          "führt"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Vater",
+        "clean": "Vater",
+        "syllables": [
+          "Va",
+          "ter"
+        ]
+      },
+      {
+        "word": "entzündete",
+        "clean": "entzündete",
+        "syllables": [
+          "ent",
+          "zün",
+          "de",
+          "te"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "großes",
+        "clean": "großes",
+        "syllables": [
+          "gro",
+          "ßes"
+        ]
+      },
+      {
+        "word": "Feuer.",
+        "clean": "Feuer",
+        "syllables": [
+          "Feu",
+          "er"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_die_stiefmutter_sprach___bleib",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Die Stiefmutter sprach: „Bleibt hier sitzen, wenn ihr müde seid, könnt ihr schlafen. Wir gehen Holz hacken, und heute Abend holen wir euch wieder ab.“",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Stiefmutter",
+        "clean": "Stiefmutter",
+        "syllables": [
+          "Stief",
+          "mut",
+          "ter"
+        ]
+      },
+      {
+        "word": "sprach:",
+        "clean": "sprach",
+        "syllables": [
+          "sprach"
+        ]
+      },
+      {
+        "word": "„Bleibt",
+        "clean": "Bleibt",
+        "syllables": [
+          "Bleibt"
+        ]
+      },
+      {
+        "word": "hier",
+        "clean": "hier",
+        "syllables": [
+          "hier"
+        ]
+      },
+      {
+        "word": "sitzen,",
+        "clean": "sitzen",
+        "syllables": [
+          "sit",
+          "zen"
+        ]
+      },
+      {
+        "word": "wenn",
+        "clean": "wenn",
+        "syllables": [
+          "wenn"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "müde",
+        "clean": "müde",
+        "syllables": [
+          "mü",
+          "de"
+        ]
+      },
+      {
+        "word": "seid,",
+        "clean": "seid",
+        "syllables": [
+          "seid"
+        ]
+      },
+      {
+        "word": "könnt",
+        "clean": "könnt",
+        "syllables": [
+          "könnt"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "schlafen.",
+        "clean": "schlafen",
+        "syllables": [
+          "schla",
+          "fen"
+        ]
+      },
+      {
+        "word": "Wir",
+        "clean": "Wir",
+        "syllables": [
+          "Wir"
+        ]
+      },
+      {
+        "word": "gehen",
+        "clean": "gehen",
+        "syllables": [
+          "ge",
+          "hen"
+        ]
+      },
+      {
+        "word": "Holz",
+        "clean": "Holz",
+        "syllables": [
+          "Holz"
+        ]
+      },
+      {
+        "word": "hacken,",
+        "clean": "hacken",
+        "syllables": [
+          "hac",
+          "ken"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "heute",
+        "clean": "heute",
+        "syllables": [
+          "heu",
+          "te"
+        ]
+      },
+      {
+        "word": "Abend",
+        "clean": "Abend",
+        "syllables": [
+          "A",
+          "bend"
+        ]
+      },
+      {
+        "word": "holen",
+        "clean": "holen",
+        "syllables": [
+          "ho",
+          "len"
+        ]
+      },
+      {
+        "word": "wir",
+        "clean": "wir",
+        "syllables": [
+          "wir"
+        ]
+      },
+      {
+        "word": "euch",
+        "clean": "euch",
+        "syllables": [
+          "euch"
+        ]
+      },
+      {
+        "word": "wieder",
+        "clean": "wieder",
+        "syllables": [
+          "wie",
+          "der"
+        ]
+      },
+      {
+        "word": "ab.“",
+        "clean": "ab",
+        "syllables": [
+          "ab"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_als_es_mittag_war__schliefen_s",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Als es Mittag war, schliefen sie ein.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "Mittag",
+        "clean": "Mittag",
+        "syllables": [
+          "Mit",
+          "tag"
+        ]
+      },
+      {
+        "word": "war,",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "schliefen",
+        "clean": "schliefen",
+        "syllables": [
+          "schlie",
+          "fen"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "ein.",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_der_abend_verging__aber_nieman",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Der Abend verging, aber niemand kam.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Abend",
+        "clean": "Abend",
+        "syllables": [
+          "A",
+          "bend"
+        ]
+      },
+      {
+        "word": "verging,",
+        "clean": "verging",
+        "syllables": [
+          "ver",
+          "ging"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "niemand",
+        "clean": "niemand",
+        "syllables": [
+          "nie",
+          "mand"
+        ]
+      },
+      {
+        "word": "kam.",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_sie_erwachten_erst_in_der_fins",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Sie erwachten erst in der finsteren Nacht.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "erwachten",
+        "clean": "erwachten",
+        "syllables": [
+          "er",
+          "wach",
+          "ten"
+        ]
+      },
+      {
+        "word": "erst",
+        "clean": "erst",
+        "syllables": [
+          "erst"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "finsteren",
+        "clean": "finsteren",
+        "syllables": [
+          "fin",
+          "ste",
+          "ren"
+        ]
+      },
+      {
+        "word": "Nacht.",
+        "clean": "Nacht",
+        "syllables": [
+          "Nacht"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_h_nsel_sagte___lass_uns_warten",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Hänsel sagte: „Lass uns warten bis der Mond aufgeht, dann werden wir die Brotkrumen sehen, die ich ausgestreut habe, die zeigen uns den Weg nach Haus.“",
+    "words": [
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "sagte:",
+        "clean": "sagte",
+        "syllables": [
+          "sag",
+          "te"
+        ]
+      },
+      {
+        "word": "„Lass",
+        "clean": "Lass",
+        "syllables": [
+          "Lass"
+        ]
+      },
+      {
+        "word": "uns",
+        "clean": "uns",
+        "syllables": [
+          "uns"
+        ]
+      },
+      {
+        "word": "warten",
+        "clean": "warten",
+        "syllables": [
+          "war",
+          "ten"
+        ]
+      },
+      {
+        "word": "bis",
+        "clean": "bis",
+        "syllables": [
+          "bis"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Mond",
+        "clean": "Mond",
+        "syllables": [
+          "Mond"
+        ]
+      },
+      {
+        "word": "aufgeht,",
+        "clean": "aufgeht",
+        "syllables": [
+          "auf",
+          "geht"
+        ]
+      },
+      {
+        "word": "dann",
+        "clean": "dann",
+        "syllables": [
+          "dann"
+        ]
+      },
+      {
+        "word": "werden",
+        "clean": "werden",
+        "syllables": [
+          "wer",
+          "den"
+        ]
+      },
+      {
+        "word": "wir",
+        "clean": "wir",
+        "syllables": [
+          "wir"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Brotkrumen",
+        "clean": "Brotkrumen",
+        "syllables": [
+          "Brotk",
+          "ru",
+          "men"
+        ]
+      },
+      {
+        "word": "sehen,",
+        "clean": "sehen",
+        "syllables": [
+          "se",
+          "hen"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "ausgestreut",
+        "clean": "ausgestreut",
+        "syllables": [
+          "aus",
+          "gest",
+          "reut"
+        ]
+      },
+      {
+        "word": "habe,",
+        "clean": "habe",
+        "syllables": [
+          "ha",
+          "be"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "zeigen",
+        "clean": "zeigen",
+        "syllables": [
+          "zei",
+          "gen"
+        ]
+      },
+      {
+        "word": "uns",
+        "clean": "uns",
+        "syllables": [
+          "uns"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Weg",
+        "clean": "Weg",
+        "syllables": [
+          "Weg"
+        ]
+      },
+      {
+        "word": "nach",
+        "clean": "nach",
+        "syllables": [
+          "nach"
+        ]
+      },
+      {
+        "word": "Haus.“",
+        "clean": "Haus",
+        "syllables": [
+          "Haus"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_als_der_mond_kam__machten_sie",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Als der Mond kam, machten sie sich auf, aber sie fanden keinen Krumen mehr, denn die vielen Vögel, die in Wald und Feld umher flogen, hatten sie weggepickt.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Mond",
+        "clean": "Mond",
+        "syllables": [
+          "Mond"
+        ]
+      },
+      {
+        "word": "kam,",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      },
+      {
+        "word": "machten",
+        "clean": "machten",
+        "syllables": [
+          "mach",
+          "ten"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "auf,",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "fanden",
+        "clean": "fanden",
+        "syllables": [
+          "fan",
+          "den"
+        ]
+      },
+      {
+        "word": "keinen",
+        "clean": "keinen",
+        "syllables": [
+          "kei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Krumen",
+        "clean": "Krumen",
+        "syllables": [
+          "Kru",
+          "men"
+        ]
+      },
+      {
+        "word": "mehr,",
+        "clean": "mehr",
+        "syllables": [
+          "mehr"
+        ]
+      },
+      {
+        "word": "denn",
+        "clean": "denn",
+        "syllables": [
+          "denn"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "vielen",
+        "clean": "vielen",
+        "syllables": [
+          "vie",
+          "len"
+        ]
+      },
+      {
+        "word": "Vögel,",
+        "clean": "Vögel",
+        "syllables": [
+          "Vö",
+          "gel"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "Wald",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Feld",
+        "clean": "Feld",
+        "syllables": [
+          "Feld"
+        ]
+      },
+      {
+        "word": "umher",
+        "clean": "umher",
+        "syllables": [
+          "um",
+          "her"
+        ]
+      },
+      {
+        "word": "flogen,",
+        "clean": "flogen",
+        "syllables": [
+          "flo",
+          "gen"
+        ]
+      },
+      {
+        "word": "hatten",
+        "clean": "hatten",
+        "syllables": [
+          "hat",
+          "ten"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "weggepickt.",
+        "clean": "weggepickt",
+        "syllables": [
+          "weg",
+          "ge",
+          "pickt"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_so_gerieten_sie_immer_tiefer_i",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "So gerieten sie immer tiefer in den Wald.",
+    "words": [
+      {
+        "word": "So",
+        "clean": "So",
+        "syllables": [
+          "So"
+        ]
+      },
+      {
+        "word": "gerieten",
+        "clean": "gerieten",
+        "syllables": [
+          "ge",
+          "rie",
+          "ten"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "immer",
+        "clean": "immer",
+        "syllables": [
+          "im",
+          "mer"
+        ]
+      },
+      {
+        "word": "tiefer",
+        "clean": "tiefer",
+        "syllables": [
+          "tie",
+          "fer"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Wald.",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_als_es_hell_wurde__kamen_sie_a",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Als es hell wurde, kamen sie an ein Häuschen, das aus Brot gebaut war, und mit Kuchen gedeckt.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "hell",
+        "clean": "hell",
+        "syllables": [
+          "hell"
+        ]
+      },
+      {
+        "word": "wurde,",
+        "clean": "wurde",
+        "syllables": [
+          "wur",
+          "de"
+        ]
+      },
+      {
+        "word": "kamen",
+        "clean": "kamen",
+        "syllables": [
+          "ka",
+          "men"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "Häuschen,",
+        "clean": "Häuschen",
+        "syllables": [
+          "Häu",
+          "schen"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "Brot",
+        "clean": "Brot",
+        "syllables": [
+          "Brot"
+        ]
+      },
+      {
+        "word": "gebaut",
+        "clean": "gebaut",
+        "syllables": [
+          "ge",
+          "baut"
+        ]
+      },
+      {
+        "word": "war,",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "Kuchen",
+        "clean": "Kuchen",
+        "syllables": [
+          "Ku",
+          "chen"
+        ]
+      },
+      {
+        "word": "gedeckt.",
+        "clean": "gedeckt",
+        "syllables": [
+          "ge",
+          "deckt"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_die_fenster_waren_aus_hellem_z",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Die Fenster waren aus hellem Zucker.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Fenster",
+        "clean": "Fenster",
+        "syllables": [
+          "Fen",
+          "ster"
+        ]
+      },
+      {
+        "word": "waren",
+        "clean": "waren",
+        "syllables": [
+          "wa",
+          "ren"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "hellem",
+        "clean": "hellem",
+        "syllables": [
+          "hel",
+          "lem"
+        ]
+      },
+      {
+        "word": "Zucker.",
+        "clean": "Zucker",
+        "syllables": [
+          "Zuc",
+          "ker"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_da_wollen_wir_uns_dran_machen",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "„Da wollen wir uns dran machen“, sprach Hänsel, griff in die Höhe und brach etwas vom Dach ab.",
+    "words": [
+      {
+        "word": "„Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "wollen",
+        "clean": "wollen",
+        "syllables": [
+          "wol",
+          "len"
+        ]
+      },
+      {
+        "word": "wir",
+        "clean": "wir",
+        "syllables": [
+          "wir"
+        ]
+      },
+      {
+        "word": "uns",
+        "clean": "uns",
+        "syllables": [
+          "uns"
+        ]
+      },
+      {
+        "word": "dran",
+        "clean": "dran",
+        "syllables": [
+          "dran"
+        ]
+      },
+      {
+        "word": "machen“,",
+        "clean": "machen",
+        "syllables": [
+          "ma",
+          "chen"
+        ]
+      },
+      {
+        "word": "sprach",
+        "clean": "sprach",
+        "syllables": [
+          "sprach"
+        ]
+      },
+      {
+        "word": "Hänsel,",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "griff",
+        "clean": "griff",
+        "syllables": [
+          "griff"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Höhe",
+        "clean": "Höhe",
+        "syllables": [
+          "Hö",
+          "he"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "brach",
+        "clean": "brach",
+        "syllables": [
+          "brach"
+        ]
+      },
+      {
+        "word": "etwas",
+        "clean": "etwas",
+        "syllables": [
+          "et",
+          "was"
+        ]
+      },
+      {
+        "word": "vom",
+        "clean": "vom",
+        "syllables": [
+          "vom"
+        ]
+      },
+      {
+        "word": "Dach",
+        "clean": "Dach",
+        "syllables": [
+          "Dach"
+        ]
+      },
+      {
+        "word": "ab.",
+        "clean": "ab",
+        "syllables": [
+          "ab"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_gretel_stellte_sich_an_die_sch",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Gretel stellte sich an die Scheiben und knusperte daran.",
+    "words": [
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "stellte",
+        "clean": "stellte",
+        "syllables": [
+          "stell",
+          "te"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Scheiben",
+        "clean": "Scheiben",
+        "syllables": [
+          "Schei",
+          "ben"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "knusperte",
+        "clean": "knusperte",
+        "syllables": [
+          "knu",
+          "sper",
+          "te"
+        ]
+      },
+      {
+        "word": "daran.",
+        "clean": "daran",
+        "syllables": [
+          "da",
+          "ran"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_da_rief_eine_d_nne_stimme_aus",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Da rief eine dünne Stimme aus der Stube heraus: „Knusper, knusper, Knäusschen, wer knuspert an meinem Häuschen?“",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "rief",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "dünne",
+        "clean": "dünne",
+        "syllables": [
+          "dün",
+          "ne"
+        ]
+      },
+      {
+        "word": "Stimme",
+        "clean": "Stimme",
+        "syllables": [
+          "Stim",
+          "me"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Stube",
+        "clean": "Stube",
+        "syllables": [
+          "Stu",
+          "be"
+        ]
+      },
+      {
+        "word": "heraus:",
+        "clean": "heraus",
+        "syllables": [
+          "he",
+          "raus"
+        ]
+      },
+      {
+        "word": "„Knusper,",
+        "clean": "Knusper",
+        "syllables": [
+          "Knu",
+          "sper"
+        ]
+      },
+      {
+        "word": "knusper,",
+        "clean": "knusper",
+        "syllables": [
+          "knu",
+          "sper"
+        ]
+      },
+      {
+        "word": "Knäusschen,",
+        "clean": "Knäusschen",
+        "syllables": [
+          "Knäus",
+          "schen"
+        ]
+      },
+      {
+        "word": "wer",
+        "clean": "wer",
+        "syllables": [
+          "wer"
+        ]
+      },
+      {
+        "word": "knuspert",
+        "clean": "knuspert",
+        "syllables": [
+          "knu",
+          "spert"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "meinem",
+        "clean": "meinem",
+        "syllables": [
+          "mei",
+          "nem"
+        ]
+      },
+      {
+        "word": "Häuschen?“",
+        "clean": "Häuschen",
+        "syllables": [
+          "Häu",
+          "schen"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_die_kinder_antworteten___der_w",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Die Kinder antworteten: „Der Wind, der Wind, das himmlische Kind“, und aßen weiter.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "antworteten:",
+        "clean": "antworteten",
+        "syllables": [
+          "ant",
+          "wor",
+          "te",
+          "ten"
+        ]
+      },
+      {
+        "word": "„Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Wind,",
+        "clean": "Wind",
+        "syllables": [
+          "Wind"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Wind,",
+        "clean": "Wind",
+        "syllables": [
+          "Wind"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "himmlische",
+        "clean": "himmlische",
+        "syllables": [
+          "himm",
+          "li",
+          "sche"
+        ]
+      },
+      {
+        "word": "Kind“,",
+        "clean": "Kind",
+        "syllables": [
+          "Kind"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "aßen",
+        "clean": "aßen",
+        "syllables": [
+          "a",
+          "ßen"
+        ]
+      },
+      {
+        "word": "weiter.",
+        "clean": "weiter",
+        "syllables": [
+          "wei",
+          "ter"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_da_ging_auf_einmal_die_t_re_au",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Da ging auf einmal die Türe auf, und eine steinalte Frau, die sich auf einen Stock stützte, kam heraus.",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "ging",
+        "clean": "ging",
+        "syllables": [
+          "ging"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "einmal",
+        "clean": "einmal",
+        "syllables": [
+          "ein",
+          "mal"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Türe",
+        "clean": "Türe",
+        "syllables": [
+          "Tü",
+          "re"
+        ]
+      },
+      {
+        "word": "auf,",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "eine",
+        "clean": "eine",
+        "syllables": [
+          "ei",
+          "ne"
+        ]
+      },
+      {
+        "word": "steinalte",
+        "clean": "steinalte",
+        "syllables": [
+          "stei",
+          "nal",
+          "te"
+        ]
+      },
+      {
+        "word": "Frau,",
+        "clean": "Frau",
+        "syllables": [
+          "Frau"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "auf",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Stock",
+        "clean": "Stock",
+        "syllables": [
+          "Stock"
+        ]
+      },
+      {
+        "word": "stützte,",
+        "clean": "stützte",
+        "syllables": [
+          "stütz",
+          "te"
+        ]
+      },
+      {
+        "word": "kam",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      },
+      {
+        "word": "heraus.",
+        "clean": "heraus",
+        "syllables": [
+          "he",
+          "raus"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_h_nsel_und_gretel_erschraken_s",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Hänsel und Gretel erschraken so sehr, dass sie alles fallen ließen was sie in den Händen hielten.",
+    "words": [
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "erschraken",
+        "clean": "erschraken",
+        "syllables": [
+          "ersch",
+          "ra",
+          "ken"
+        ]
+      },
+      {
+        "word": "so",
+        "clean": "so",
+        "syllables": [
+          "so"
+        ]
+      },
+      {
+        "word": "sehr,",
+        "clean": "sehr",
+        "syllables": [
+          "sehr"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "alles",
+        "clean": "alles",
+        "syllables": [
+          "al",
+          "les"
+        ]
+      },
+      {
+        "word": "fallen",
+        "clean": "fallen",
+        "syllables": [
+          "fal",
+          "len"
+        ]
+      },
+      {
+        "word": "ließen",
+        "clean": "ließen",
+        "syllables": [
+          "lie",
+          "ßen"
+        ]
+      },
+      {
+        "word": "was",
+        "clean": "was",
+        "syllables": [
+          "was"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Händen",
+        "clean": "Händen",
+        "syllables": [
+          "Hän",
+          "den"
+        ]
+      },
+      {
+        "word": "hielten.",
+        "clean": "hielten",
+        "syllables": [
+          "hiel",
+          "ten"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_die_alte_wackelte_mit_dem_kopf",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Die Alte wackelte mit dem Kopf und sprach: „Ei, ihr lieben Kinder, kommt nur herein, es geschieht euch nichts.“",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Alte",
+        "clean": "Alte",
+        "syllables": [
+          "Al",
+          "te"
+        ]
+      },
+      {
+        "word": "wackelte",
+        "clean": "wackelte",
+        "syllables": [
+          "wac",
+          "kel",
+          "te"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "Kopf",
+        "clean": "Kopf",
+        "syllables": [
+          "Kopf"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sprach:",
+        "clean": "sprach",
+        "syllables": [
+          "sprach"
+        ]
+      },
+      {
+        "word": "„Ei,",
+        "clean": "Ei",
+        "syllables": [
+          "Ei"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "lieben",
+        "clean": "lieben",
+        "syllables": [
+          "lie",
+          "ben"
+        ]
+      },
+      {
+        "word": "Kinder,",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "kommt",
+        "clean": "kommt",
+        "syllables": [
+          "kommt"
+        ]
+      },
+      {
+        "word": "nur",
+        "clean": "nur",
+        "syllables": [
+          "nur"
+        ]
+      },
+      {
+        "word": "herein,",
+        "clean": "herein",
+        "syllables": [
+          "he",
+          "rein"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "geschieht",
+        "clean": "geschieht",
+        "syllables": [
+          "ge",
+          "schieht"
+        ]
+      },
+      {
+        "word": "euch",
+        "clean": "euch",
+        "syllables": [
+          "euch"
+        ]
+      },
+      {
+        "word": "nichts.“",
+        "clean": "nichts",
+        "syllables": [
+          "nichts"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_sie_fasste_beide_an_der_hand_u",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Sie fasste beide an der Hand und führte sie in ihr Häuschen.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "fasste",
+        "clean": "fasste",
+        "syllables": [
+          "fas",
+          "ste"
+        ]
+      },
+      {
+        "word": "beide",
+        "clean": "beide",
+        "syllables": [
+          "bei",
+          "de"
+        ]
+      },
+      {
+        "word": "an",
+        "clean": "an",
+        "syllables": [
+          "an"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "Hand",
+        "clean": "Hand",
+        "syllables": [
+          "Hand"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "führte",
+        "clean": "führte",
+        "syllables": [
+          "führ",
+          "te"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "Häuschen.",
+        "clean": "Häuschen",
+        "syllables": [
+          "Häu",
+          "schen"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_dort_gab_es_milch_und_pfannkuc",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Dort gab es Milch und Pfannkuchen mit Apfelbrei.",
+    "words": [
+      {
+        "word": "Dort",
+        "clean": "Dort",
+        "syllables": [
+          "Dort"
+        ]
+      },
+      {
+        "word": "gab",
+        "clean": "gab",
+        "syllables": [
+          "gab"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "Milch",
+        "clean": "Milch",
+        "syllables": [
+          "Milch"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Pfannkuchen",
+        "clean": "Pfannkuchen",
+        "syllables": [
+          "Pfann",
+          "ku",
+          "chen"
+        ]
+      },
+      {
+        "word": "mit",
+        "clean": "mit",
+        "syllables": [
+          "mit"
+        ]
+      },
+      {
+        "word": "Apfelbrei.",
+        "clean": "Apfelbrei",
+        "syllables": [
+          "A",
+          "pfelb",
+          "rei"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_danach_wurden_zwei_sch_ne_bett",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Danach wurden zwei schöne Bettchen gemacht.",
+    "words": [
+      {
+        "word": "Danach",
+        "clean": "Danach",
+        "syllables": [
+          "Da",
+          "nach"
+        ]
+      },
+      {
+        "word": "wurden",
+        "clean": "wurden",
+        "syllables": [
+          "wur",
+          "den"
+        ]
+      },
+      {
+        "word": "zwei",
+        "clean": "zwei",
+        "syllables": [
+          "zwei"
+        ]
+      },
+      {
+        "word": "schöne",
+        "clean": "schöne",
+        "syllables": [
+          "schö",
+          "ne"
+        ]
+      },
+      {
+        "word": "Bettchen",
+        "clean": "Bettchen",
+        "syllables": [
+          "Bett",
+          "chen"
+        ]
+      },
+      {
+        "word": "gemacht.",
+        "clean": "gemacht",
+        "syllables": [
+          "ge",
+          "macht"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_h_nsel_und_gretel_legten_sich",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Hänsel und Gretel legten sich hinein und fühlten sich wie im Himmel.",
+    "words": [
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "legten",
+        "clean": "legten",
+        "syllables": [
+          "leg",
+          "ten"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "hinein",
+        "clean": "hinein",
+        "syllables": [
+          "hi",
+          "nein"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "fühlten",
+        "clean": "fühlten",
+        "syllables": [
+          "fühl",
+          "ten"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "wie",
+        "clean": "wie",
+        "syllables": [
+          "wie"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Himmel.",
+        "clean": "Himmel",
+        "syllables": [
+          "Him",
+          "mel"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_fr_h_morgens__ehe_die_kinder_e",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Früh morgens, ehe die Kinder erwacht waren, packte die Alte Hänsel und sperrte ihn hinter einer Gittertür ein.",
+    "words": [
+      {
+        "word": "Früh",
+        "clean": "Früh",
+        "syllables": [
+          "Früh"
+        ]
+      },
+      {
+        "word": "morgens,",
+        "clean": "morgens",
+        "syllables": [
+          "mor",
+          "gens"
+        ]
+      },
+      {
+        "word": "ehe",
+        "clean": "ehe",
+        "syllables": [
+          "ehe"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "erwacht",
+        "clean": "erwacht",
+        "syllables": [
+          "er",
+          "wacht"
+        ]
+      },
+      {
+        "word": "waren,",
+        "clean": "waren",
+        "syllables": [
+          "wa",
+          "ren"
+        ]
+      },
+      {
+        "word": "packte",
+        "clean": "packte",
+        "syllables": [
+          "pack",
+          "te"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Alte",
+        "clean": "Alte",
+        "syllables": [
+          "Al",
+          "te"
+        ]
+      },
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sperrte",
+        "clean": "sperrte",
+        "syllables": [
+          "sperr",
+          "te"
+        ]
+      },
+      {
+        "word": "ihn",
+        "clean": "ihn",
+        "syllables": [
+          "ihn"
+        ]
+      },
+      {
+        "word": "hinter",
+        "clean": "hinter",
+        "syllables": [
+          "hin",
+          "ter"
+        ]
+      },
+      {
+        "word": "einer",
+        "clean": "einer",
+        "syllables": [
+          "ei",
+          "ner"
+        ]
+      },
+      {
+        "word": "Gittertür",
+        "clean": "Gittertür",
+        "syllables": [
+          "Git",
+          "ter",
+          "tür"
+        ]
+      },
+      {
+        "word": "ein.",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_dann_ging_sie_zu_gretel__r_tte",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Dann ging sie zu Gretel, rüttelte sie wach und rief: „Steh auf, hol Wasser und koch deinem Bruder etwas Gutes, der sitzt draußen im Stall und soll fett werden.“",
+    "words": [
+      {
+        "word": "Dann",
+        "clean": "Dann",
+        "syllables": [
+          "Dann"
+        ]
+      },
+      {
+        "word": "ging",
+        "clean": "ging",
+        "syllables": [
+          "ging"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "Gretel,",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "rüttelte",
+        "clean": "rüttelte",
+        "syllables": [
+          "rüt",
+          "tel",
+          "te"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "wach",
+        "clean": "wach",
+        "syllables": [
+          "wach"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "rief:",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "„Steh",
+        "clean": "Steh",
+        "syllables": [
+          "Steh"
+        ]
+      },
+      {
+        "word": "auf,",
+        "clean": "auf",
+        "syllables": [
+          "auf"
+        ]
+      },
+      {
+        "word": "hol",
+        "clean": "hol",
+        "syllables": [
+          "hol"
+        ]
+      },
+      {
+        "word": "Wasser",
+        "clean": "Wasser",
+        "syllables": [
+          "Was",
+          "ser"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "koch",
+        "clean": "koch",
+        "syllables": [
+          "koch"
+        ]
+      },
+      {
+        "word": "deinem",
+        "clean": "deinem",
+        "syllables": [
+          "dei",
+          "nem"
+        ]
+      },
+      {
+        "word": "Bruder",
+        "clean": "Bruder",
+        "syllables": [
+          "Bru",
+          "der"
+        ]
+      },
+      {
+        "word": "etwas",
+        "clean": "etwas",
+        "syllables": [
+          "et",
+          "was"
+        ]
+      },
+      {
+        "word": "Gutes,",
+        "clean": "Gutes",
+        "syllables": [
+          "Gu",
+          "tes"
+        ]
+      },
+      {
+        "word": "der",
+        "clean": "der",
+        "syllables": [
+          "der"
+        ]
+      },
+      {
+        "word": "sitzt",
+        "clean": "sitzt",
+        "syllables": [
+          "sitzt"
+        ]
+      },
+      {
+        "word": "draußen",
+        "clean": "draußen",
+        "syllables": [
+          "drau",
+          "ßen"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Stall",
+        "clean": "Stall",
+        "syllables": [
+          "Stall"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "soll",
+        "clean": "soll",
+        "syllables": [
+          "soll"
+        ]
+      },
+      {
+        "word": "fett",
+        "clean": "fett",
+        "syllables": [
+          "fett"
+        ]
+      },
+      {
+        "word": "werden.“",
+        "clean": "werden",
+        "syllables": [
+          "wer",
+          "den"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_gretel_begann_bitterlich_zu_we",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Gretel begann bitterlich zu weinen, aber es war alles vergebens, sie musste tun was die böse Hexe verlangte.",
+    "words": [
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "begann",
+        "clean": "begann",
+        "syllables": [
+          "be",
+          "gann"
+        ]
+      },
+      {
+        "word": "bitterlich",
+        "clean": "bitterlich",
+        "syllables": [
+          "bit",
+          "ter",
+          "lich"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "weinen,",
+        "clean": "weinen",
+        "syllables": [
+          "wei",
+          "nen"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "alles",
+        "clean": "alles",
+        "syllables": [
+          "al",
+          "les"
+        ]
+      },
+      {
+        "word": "vergebens,",
+        "clean": "vergebens",
+        "syllables": [
+          "ver",
+          "ge",
+          "bens"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "musste",
+        "clean": "musste",
+        "syllables": [
+          "mus",
+          "ste"
+        ]
+      },
+      {
+        "word": "tun",
+        "clean": "tun",
+        "syllables": [
+          "tun"
+        ]
+      },
+      {
+        "word": "was",
+        "clean": "was",
+        "syllables": [
+          "was"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "böse",
+        "clean": "böse",
+        "syllables": [
+          "bö",
+          "se"
+        ]
+      },
+      {
+        "word": "Hexe",
+        "clean": "Hexe",
+        "syllables": [
+          "He",
+          "xe"
+        ]
+      },
+      {
+        "word": "verlangte.",
+        "clean": "verlangte",
+        "syllables": [
+          "ver",
+          "lang",
+          "te"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_nun_wurde_dem_armen_h_nsel_das",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Nun wurde dem armen Hänsel das beste Essen gekocht.",
+    "words": [
+      {
+        "word": "Nun",
+        "clean": "Nun",
+        "syllables": [
+          "Nun"
+        ]
+      },
+      {
+        "word": "wurde",
+        "clean": "wurde",
+        "syllables": [
+          "wur",
+          "de"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "armen",
+        "clean": "armen",
+        "syllables": [
+          "ar",
+          "men"
+        ]
+      },
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "beste",
+        "clean": "beste",
+        "syllables": [
+          "be",
+          "ste"
+        ]
+      },
+      {
+        "word": "Essen",
+        "clean": "Essen",
+        "syllables": [
+          "Es",
+          "sen"
+        ]
+      },
+      {
+        "word": "gekocht.",
+        "clean": "gekocht",
+        "syllables": [
+          "ge",
+          "kocht"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_jeden_morgen_rief_die_alte___h",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Jeden Morgen rief die Alte: „Hänsel, streck einen Finger heraus, damit ich fühle ob du fett bist.“",
+    "words": [
+      {
+        "word": "Jeden",
+        "clean": "Jeden",
+        "syllables": [
+          "Je",
+          "den"
+        ]
+      },
+      {
+        "word": "Morgen",
+        "clean": "Morgen",
+        "syllables": [
+          "Mor",
+          "gen"
+        ]
+      },
+      {
+        "word": "rief",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Alte:",
+        "clean": "Alte",
+        "syllables": [
+          "Al",
+          "te"
+        ]
+      },
+      {
+        "word": "„Hänsel,",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "streck",
+        "clean": "streck",
+        "syllables": [
+          "streck"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Finger",
+        "clean": "Finger",
+        "syllables": [
+          "Fin",
+          "ger"
+        ]
+      },
+      {
+        "word": "heraus,",
+        "clean": "heraus",
+        "syllables": [
+          "he",
+          "raus"
+        ]
+      },
+      {
+        "word": "damit",
+        "clean": "damit",
+        "syllables": [
+          "da",
+          "mit"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "fühle",
+        "clean": "fühle",
+        "syllables": [
+          "füh",
+          "le"
+        ]
+      },
+      {
+        "word": "ob",
+        "clean": "ob",
+        "syllables": [
+          "ob"
+        ]
+      },
+      {
+        "word": "du",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "fett",
+        "clean": "fett",
+        "syllables": [
+          "fett"
+        ]
+      },
+      {
+        "word": "bist.“",
+        "clean": "bist",
+        "syllables": [
+          "bist"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_h_nsel_streckte_ihr_aber_nur_e",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Hänsel streckte ihr aber nur ein Knöchelchen heraus, und die Alte, die trübe Augen hatte, konnte es nicht sehen, und meinte es sei Hänsels Finger.",
+    "words": [
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "streckte",
+        "clean": "streckte",
+        "syllables": [
+          "streck",
+          "te"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "aber",
+        "clean": "aber",
+        "syllables": [
+          "a",
+          "ber"
+        ]
+      },
+      {
+        "word": "nur",
+        "clean": "nur",
+        "syllables": [
+          "nur"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "Knöchelchen",
+        "clean": "Knöchelchen",
+        "syllables": [
+          "Knö",
+          "chel",
+          "chen"
+        ]
+      },
+      {
+        "word": "heraus,",
+        "clean": "heraus",
+        "syllables": [
+          "he",
+          "raus"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Alte,",
+        "clean": "Alte",
+        "syllables": [
+          "Al",
+          "te"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "trübe",
+        "clean": "trübe",
+        "syllables": [
+          "trü",
+          "be"
+        ]
+      },
+      {
+        "word": "Augen",
+        "clean": "Augen",
+        "syllables": [
+          "Au",
+          "gen"
+        ]
+      },
+      {
+        "word": "hatte,",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "konnte",
+        "clean": "konnte",
+        "syllables": [
+          "konn",
+          "te"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "nicht",
+        "clean": "nicht",
+        "syllables": [
+          "nicht"
+        ]
+      },
+      {
+        "word": "sehen,",
+        "clean": "sehen",
+        "syllables": [
+          "se",
+          "hen"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "meinte",
+        "clean": "meinte",
+        "syllables": [
+          "mein",
+          "te"
+        ]
+      },
+      {
+        "word": "es",
+        "clean": "es",
+        "syllables": [
+          "es"
+        ]
+      },
+      {
+        "word": "sei",
+        "clean": "sei",
+        "syllables": [
+          "sei"
+        ]
+      },
+      {
+        "word": "Hänsels",
+        "clean": "Hänsels",
+        "syllables": [
+          "Hän",
+          "sels"
+        ]
+      },
+      {
+        "word": "Finger.",
+        "clean": "Finger",
+        "syllables": [
+          "Fin",
+          "ger"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_sie_wunderte_sich__dass_er_gar",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Sie wunderte sich, dass er gar nicht fetter wurde.",
+    "words": [
+      {
+        "word": "Sie",
+        "clean": "Sie",
+        "syllables": [
+          "Sie"
+        ]
+      },
+      {
+        "word": "wunderte",
+        "clean": "wunderte",
+        "syllables": [
+          "wun",
+          "der",
+          "te"
+        ]
+      },
+      {
+        "word": "sich,",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "gar",
+        "clean": "gar",
+        "syllables": [
+          "gar"
+        ]
+      },
+      {
+        "word": "nicht",
+        "clean": "nicht",
+        "syllables": [
+          "nicht"
+        ]
+      },
+      {
+        "word": "fetter",
+        "clean": "fetter",
+        "syllables": [
+          "fet",
+          "ter"
+        ]
+      },
+      {
+        "word": "wurde.",
+        "clean": "wurde",
+        "syllables": [
+          "wur",
+          "de"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_als_vier_wochen_um_waren_und_h",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Als vier Wochen um waren und Hänsel weiter mager blieb, überkam sie die Ungeduld.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "vier",
+        "clean": "vier",
+        "syllables": [
+          "vier"
+        ]
+      },
+      {
+        "word": "Wochen",
+        "clean": "Wochen",
+        "syllables": [
+          "Wo",
+          "chen"
+        ]
+      },
+      {
+        "word": "um",
+        "clean": "um",
+        "syllables": [
+          "um"
+        ]
+      },
+      {
+        "word": "waren",
+        "clean": "waren",
+        "syllables": [
+          "wa",
+          "ren"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "weiter",
+        "clean": "weiter",
+        "syllables": [
+          "wei",
+          "ter"
+        ]
+      },
+      {
+        "word": "mager",
+        "clean": "mager",
+        "syllables": [
+          "ma",
+          "ger"
+        ]
+      },
+      {
+        "word": "blieb,",
+        "clean": "blieb",
+        "syllables": [
+          "blieb"
+        ]
+      },
+      {
+        "word": "überkam",
+        "clean": "überkam",
+        "syllables": [
+          "ü",
+          "ber",
+          "kam"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Ungeduld.",
+        "clean": "Ungeduld",
+        "syllables": [
+          "Un",
+          "ge",
+          "duld"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_die_hexe_stie__gretel_hinaus_z",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Die Hexe stieß Gretel hinaus zum Backofen, aus dem die Flammen schon herausschlugen.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Hexe",
+        "clean": "Hexe",
+        "syllables": [
+          "He",
+          "xe"
+        ]
+      },
+      {
+        "word": "stieß",
+        "clean": "stieß",
+        "syllables": [
+          "stieß"
+        ]
+      },
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "hinaus",
+        "clean": "hinaus",
+        "syllables": [
+          "hi",
+          "naus"
+        ]
+      },
+      {
+        "word": "zum",
+        "clean": "zum",
+        "syllables": [
+          "zum"
+        ]
+      },
+      {
+        "word": "Backofen,",
+        "clean": "Backofen",
+        "syllables": [
+          "Bac",
+          "ko",
+          "fen"
+        ]
+      },
+      {
+        "word": "aus",
+        "clean": "aus",
+        "syllables": [
+          "aus"
+        ]
+      },
+      {
+        "word": "dem",
+        "clean": "dem",
+        "syllables": [
+          "dem"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Flammen",
+        "clean": "Flammen",
+        "syllables": [
+          "Flam",
+          "men"
+        ]
+      },
+      {
+        "word": "schon",
+        "clean": "schon",
+        "syllables": [
+          "schon"
+        ]
+      },
+      {
+        "word": "herausschlugen.",
+        "clean": "herausschlugen",
+        "syllables": [
+          "he",
+          "raussch",
+          "lu",
+          "gen"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_kriech_hinein___sagte_die_hex",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "„Kriech hinein“, sagte die Hexe, „und schau ob genug vorgeheizt ist.“",
+    "words": [
+      {
+        "word": "„Kriech",
+        "clean": "Kriech",
+        "syllables": [
+          "Kriech"
+        ]
+      },
+      {
+        "word": "hinein“,",
+        "clean": "hinein",
+        "syllables": [
+          "hi",
+          "nein"
+        ]
+      },
+      {
+        "word": "sagte",
+        "clean": "sagte",
+        "syllables": [
+          "sag",
+          "te"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Hexe,",
+        "clean": "Hexe",
+        "syllables": [
+          "He",
+          "xe"
+        ]
+      },
+      {
+        "word": "„und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "schau",
+        "clean": "schau",
+        "syllables": [
+          "schau"
+        ]
+      },
+      {
+        "word": "ob",
+        "clean": "ob",
+        "syllables": [
+          "ob"
+        ]
+      },
+      {
+        "word": "genug",
+        "clean": "genug",
+        "syllables": [
+          "ge",
+          "nug"
+        ]
+      },
+      {
+        "word": "vorgeheizt",
+        "clean": "vorgeheizt",
+        "syllables": [
+          "vor",
+          "ge",
+          "heizt"
+        ]
+      },
+      {
+        "word": "ist.“",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_wenn_gretel_drin_war__wollte_s",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Wenn Gretel drin war, wollte sie den Ofen zumachen.",
+    "words": [
+      {
+        "word": "Wenn",
+        "clean": "Wenn",
+        "syllables": [
+          "Wenn"
+        ]
+      },
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "drin",
+        "clean": "drin",
+        "syllables": [
+          "drin"
+        ]
+      },
+      {
+        "word": "war,",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "wollte",
+        "clean": "wollte",
+        "syllables": [
+          "woll",
+          "te"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Ofen",
+        "clean": "Ofen",
+        "syllables": [
+          "O",
+          "fen"
+        ]
+      },
+      {
+        "word": "zumachen.",
+        "clean": "zumachen",
+        "syllables": [
+          "zu",
+          "ma",
+          "chen"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_aber_gretel_merkte_was_sie_im",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Aber Gretel merkte was sie im Sinn hatte und sprach: „Ich weiß nicht wie ich’s machen soll; wie komm ich da hinein?“",
+    "words": [
+      {
+        "word": "Aber",
+        "clean": "Aber",
+        "syllables": [
+          "A",
+          "ber"
+        ]
+      },
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "merkte",
+        "clean": "merkte",
+        "syllables": [
+          "merk",
+          "te"
+        ]
+      },
+      {
+        "word": "was",
+        "clean": "was",
+        "syllables": [
+          "was"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Sinn",
+        "clean": "Sinn",
+        "syllables": [
+          "Sinn"
+        ]
+      },
+      {
+        "word": "hatte",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sprach:",
+        "clean": "sprach",
+        "syllables": [
+          "sprach"
+        ]
+      },
+      {
+        "word": "„Ich",
+        "clean": "Ich",
+        "syllables": [
+          "Ich"
+        ]
+      },
+      {
+        "word": "weiß",
+        "clean": "weiß",
+        "syllables": [
+          "weiß"
+        ]
+      },
+      {
+        "word": "nicht",
+        "clean": "nicht",
+        "syllables": [
+          "nicht"
+        ]
+      },
+      {
+        "word": "wie",
+        "clean": "wie",
+        "syllables": [
+          "wie"
+        ]
+      },
+      {
+        "word": "ich’s",
+        "clean": "ichs",
+        "syllables": [
+          "ichs"
+        ]
+      },
+      {
+        "word": "machen",
+        "clean": "machen",
+        "syllables": [
+          "ma",
+          "chen"
+        ]
+      },
+      {
+        "word": "soll;",
+        "clean": "soll",
+        "syllables": [
+          "soll"
+        ]
+      },
+      {
+        "word": "wie",
+        "clean": "wie",
+        "syllables": [
+          "wie"
+        ]
+      },
+      {
+        "word": "komm",
+        "clean": "komm",
+        "syllables": [
+          "komm"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "da",
+        "clean": "da",
+        "syllables": [
+          "da"
+        ]
+      },
+      {
+        "word": "hinein?“",
+        "clean": "hinein",
+        "syllables": [
+          "hi",
+          "nein"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_die_alte_entgegnete___die__ffn",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Die Alte entgegnete: „Die Öffnung ist groß genug, siehst du, ich könnte selbst hinein“, bückte sich und steckte den Kopf in den Backofen.",
+    "words": [
+      {
+        "word": "Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Alte",
+        "clean": "Alte",
+        "syllables": [
+          "Al",
+          "te"
+        ]
+      },
+      {
+        "word": "entgegnete:",
+        "clean": "entgegnete",
+        "syllables": [
+          "ent",
+          "geg",
+          "ne",
+          "te"
+        ]
+      },
+      {
+        "word": "„Die",
+        "clean": "Die",
+        "syllables": [
+          "Die"
+        ]
+      },
+      {
+        "word": "Öffnung",
+        "clean": "Öffnung",
+        "syllables": [
+          "Öff",
+          "nung"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "groß",
+        "clean": "groß",
+        "syllables": [
+          "groß"
+        ]
+      },
+      {
+        "word": "genug,",
+        "clean": "genug",
+        "syllables": [
+          "ge",
+          "nug"
+        ]
+      },
+      {
+        "word": "siehst",
+        "clean": "siehst",
+        "syllables": [
+          "siehst"
+        ]
+      },
+      {
+        "word": "du,",
+        "clean": "du",
+        "syllables": [
+          "du"
+        ]
+      },
+      {
+        "word": "ich",
+        "clean": "ich",
+        "syllables": [
+          "ich"
+        ]
+      },
+      {
+        "word": "könnte",
+        "clean": "könnte",
+        "syllables": [
+          "könn",
+          "te"
+        ]
+      },
+      {
+        "word": "selbst",
+        "clean": "selbst",
+        "syllables": [
+          "selbst"
+        ]
+      },
+      {
+        "word": "hinein“,",
+        "clean": "hinein",
+        "syllables": [
+          "hi",
+          "nein"
+        ]
+      },
+      {
+        "word": "bückte",
+        "clean": "bückte",
+        "syllables": [
+          "bück",
+          "te"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "steckte",
+        "clean": "steckte",
+        "syllables": [
+          "steck",
+          "te"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Kopf",
+        "clean": "Kopf",
+        "syllables": [
+          "Kopf"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Backofen.",
+        "clean": "Backofen",
+        "syllables": [
+          "Bac",
+          "ko",
+          "fen"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_da_gab_ihr_gretel_einen_sto",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Da gab ihr Gretel einen Stoß, dass sie hinein flog, knallte die eiserne Tür zu und schob den Riegel vor.",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "gab",
+        "clean": "gab",
+        "syllables": [
+          "gab"
+        ]
+      },
+      {
+        "word": "ihr",
+        "clean": "ihr",
+        "syllables": [
+          "ihr"
+        ]
+      },
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "einen",
+        "clean": "einen",
+        "syllables": [
+          "ei",
+          "nen"
+        ]
+      },
+      {
+        "word": "Stoß,",
+        "clean": "Stoß",
+        "syllables": [
+          "Stoß"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "hinein",
+        "clean": "hinein",
+        "syllables": [
+          "hi",
+          "nein"
+        ]
+      },
+      {
+        "word": "flog,",
+        "clean": "flog",
+        "syllables": [
+          "flog"
+        ]
+      },
+      {
+        "word": "knallte",
+        "clean": "knallte",
+        "syllables": [
+          "knall",
+          "te"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "eiserne",
+        "clean": "eiserne",
+        "syllables": [
+          "ei",
+          "ser",
+          "ne"
+        ]
+      },
+      {
+        "word": "Tür",
+        "clean": "Tür",
+        "syllables": [
+          "Tür"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "schob",
+        "clean": "schob",
+        "syllables": [
+          "schob"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Riegel",
+        "clean": "Riegel",
+        "syllables": [
+          "Rie",
+          "gel"
+        ]
+      },
+      {
+        "word": "vor.",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_gretel_rannte_schnurstracks_zu",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Gretel rannte schnurstracks zu Hänsel, öffnete den Stall und rief: „Hänsel, wir sind erlöst, die alte Hexe ist tot.“",
+    "words": [
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "rannte",
+        "clean": "rannte",
+        "syllables": [
+          "rann",
+          "te"
+        ]
+      },
+      {
+        "word": "schnurstracks",
+        "clean": "schnurstracks",
+        "syllables": [
+          "schnurst",
+          "racks"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "Hänsel,",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "öffnete",
+        "clean": "öffnete",
+        "syllables": [
+          "öff",
+          "ne",
+          "te"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Stall",
+        "clean": "Stall",
+        "syllables": [
+          "Stall"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "rief:",
+        "clean": "rief",
+        "syllables": [
+          "rief"
+        ]
+      },
+      {
+        "word": "„Hänsel,",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "wir",
+        "clean": "wir",
+        "syllables": [
+          "wir"
+        ]
+      },
+      {
+        "word": "sind",
+        "clean": "sind",
+        "syllables": [
+          "sind"
+        ]
+      },
+      {
+        "word": "erlöst,",
+        "clean": "erlöst",
+        "syllables": [
+          "er",
+          "löst"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "alte",
+        "clean": "alte",
+        "syllables": [
+          "al",
+          "te"
+        ]
+      },
+      {
+        "word": "Hexe",
+        "clean": "Hexe",
+        "syllables": [
+          "He",
+          "xe"
+        ]
+      },
+      {
+        "word": "ist",
+        "clean": "ist",
+        "syllables": [
+          "ist"
+        ]
+      },
+      {
+        "word": "tot.“",
+        "clean": "tot",
+        "syllables": [
+          "tot"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_da_sprang_h_nsel_heraus_und_um",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Da sprang Hänsel heraus und umarmte Gretel vor Freude!",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "sprang",
+        "clean": "sprang",
+        "syllables": [
+          "sprang"
+        ]
+      },
+      {
+        "word": "Hänsel",
+        "clean": "Hänsel",
+        "syllables": [
+          "Hän",
+          "sel"
+        ]
+      },
+      {
+        "word": "heraus",
+        "clean": "heraus",
+        "syllables": [
+          "he",
+          "raus"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "umarmte",
+        "clean": "umarmte",
+        "syllables": [
+          "u",
+          "marm",
+          "te"
+        ]
+      },
+      {
+        "word": "Gretel",
+        "clean": "Gretel",
+        "syllables": [
+          "Gre",
+          "tel"
+        ]
+      },
+      {
+        "word": "vor",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      },
+      {
+        "word": "Freude!",
+        "clean": "Freude",
+        "syllables": [
+          "Freu",
+          "de"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_dann_verlie_en_sie_den_unheili",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Dann verließen sie den unheiligen Ort und schlugen sich in den Wald.",
+    "words": [
+      {
+        "word": "Dann",
+        "clean": "Dann",
+        "syllables": [
+          "Dann"
+        ]
+      },
+      {
+        "word": "verließen",
+        "clean": "verließen",
+        "syllables": [
+          "ver",
+          "lie",
+          "ßen"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "unheiligen",
+        "clean": "unheiligen",
+        "syllables": [
+          "un",
+          "hei",
+          "li",
+          "gen"
+        ]
+      },
+      {
+        "word": "Ort",
+        "clean": "Ort",
+        "syllables": [
+          "Ort"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "schlugen",
+        "clean": "schlugen",
+        "syllables": [
+          "schlu",
+          "gen"
+        ]
+      },
+      {
+        "word": "sich",
+        "clean": "sich",
+        "syllables": [
+          "sich"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Wald.",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_als_sie_ein_paar_stunden_gegan",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Als sie ein paar Stunden gegangen waren, kam ihnen die Umgebung immer bekannter vor, und endlich erblickten sie von weitem das Haus ihres Vaters.",
+    "words": [
+      {
+        "word": "Als",
+        "clean": "Als",
+        "syllables": [
+          "Als"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "ein",
+        "clean": "ein",
+        "syllables": [
+          "ein"
+        ]
+      },
+      {
+        "word": "paar",
+        "clean": "paar",
+        "syllables": [
+          "pa",
+          "ar"
+        ]
+      },
+      {
+        "word": "Stunden",
+        "clean": "Stunden",
+        "syllables": [
+          "Stun",
+          "den"
+        ]
+      },
+      {
+        "word": "gegangen",
+        "clean": "gegangen",
+        "syllables": [
+          "ge",
+          "gan",
+          "gen"
+        ]
+      },
+      {
+        "word": "waren,",
+        "clean": "waren",
+        "syllables": [
+          "wa",
+          "ren"
+        ]
+      },
+      {
+        "word": "kam",
+        "clean": "kam",
+        "syllables": [
+          "kam"
+        ]
+      },
+      {
+        "word": "ihnen",
+        "clean": "ihnen",
+        "syllables": [
+          "ih",
+          "nen"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Umgebung",
+        "clean": "Umgebung",
+        "syllables": [
+          "Um",
+          "ge",
+          "bung"
+        ]
+      },
+      {
+        "word": "immer",
+        "clean": "immer",
+        "syllables": [
+          "im",
+          "mer"
+        ]
+      },
+      {
+        "word": "bekannter",
+        "clean": "bekannter",
+        "syllables": [
+          "be",
+          "kann",
+          "ter"
+        ]
+      },
+      {
+        "word": "vor,",
+        "clean": "vor",
+        "syllables": [
+          "vor"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "endlich",
+        "clean": "endlich",
+        "syllables": [
+          "end",
+          "lich"
+        ]
+      },
+      {
+        "word": "erblickten",
+        "clean": "erblickten",
+        "syllables": [
+          "erb",
+          "lick",
+          "ten"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "von",
+        "clean": "von",
+        "syllables": [
+          "von"
+        ]
+      },
+      {
+        "word": "weitem",
+        "clean": "weitem",
+        "syllables": [
+          "wei",
+          "tem"
+        ]
+      },
+      {
+        "word": "das",
+        "clean": "das",
+        "syllables": [
+          "das"
+        ]
+      },
+      {
+        "word": "Haus",
+        "clean": "Haus",
+        "syllables": [
+          "Haus"
+        ]
+      },
+      {
+        "word": "ihres",
+        "clean": "ihres",
+        "syllables": [
+          "ih",
+          "res"
+        ]
+      },
+      {
+        "word": "Vaters.",
+        "clean": "Vaters",
+        "syllables": [
+          "Va",
+          "ters"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_da_begannen_sie_zu_laufen__st",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Da begannen sie zu laufen, stürzten in die Stube hinein und fielen ihrem Vater um den Hals.",
+    "words": [
+      {
+        "word": "Da",
+        "clean": "Da",
+        "syllables": [
+          "Da"
+        ]
+      },
+      {
+        "word": "begannen",
+        "clean": "begannen",
+        "syllables": [
+          "be",
+          "gan",
+          "nen"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "zu",
+        "clean": "zu",
+        "syllables": [
+          "zu"
+        ]
+      },
+      {
+        "word": "laufen,",
+        "clean": "laufen",
+        "syllables": [
+          "lau",
+          "fen"
+        ]
+      },
+      {
+        "word": "stürzten",
+        "clean": "stürzten",
+        "syllables": [
+          "stürz",
+          "ten"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Stube",
+        "clean": "Stube",
+        "syllables": [
+          "Stu",
+          "be"
+        ]
+      },
+      {
+        "word": "hinein",
+        "clean": "hinein",
+        "syllables": [
+          "hi",
+          "nein"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "fielen",
+        "clean": "fielen",
+        "syllables": [
+          "fie",
+          "len"
+        ]
+      },
+      {
+        "word": "ihrem",
+        "clean": "ihrem",
+        "syllables": [
+          "ih",
+          "rem"
+        ]
+      },
+      {
+        "word": "Vater",
+        "clean": "Vater",
+        "syllables": [
+          "Va",
+          "ter"
+        ]
+      },
+      {
+        "word": "um",
+        "clean": "um",
+        "syllables": [
+          "um"
+        ]
+      },
+      {
+        "word": "den",
+        "clean": "den",
+        "syllables": [
+          "den"
+        ]
+      },
+      {
+        "word": "Hals.",
+        "clean": "Hals",
+        "syllables": [
+          "Hals"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_der_mann_hatte_keine_frohe_stu",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Der Mann hatte keine frohe Stunde gehabt, seit er die Kinder im Wald gelassen hatte und die Stiefmutter hatte ihn verlassen.",
+    "words": [
+      {
+        "word": "Der",
+        "clean": "Der",
+        "syllables": [
+          "Der"
+        ]
+      },
+      {
+        "word": "Mann",
+        "clean": "Mann",
+        "syllables": [
+          "Mann"
+        ]
+      },
+      {
+        "word": "hatte",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "keine",
+        "clean": "keine",
+        "syllables": [
+          "kei",
+          "ne"
+        ]
+      },
+      {
+        "word": "frohe",
+        "clean": "frohe",
+        "syllables": [
+          "fro",
+          "he"
+        ]
+      },
+      {
+        "word": "Stunde",
+        "clean": "Stunde",
+        "syllables": [
+          "Stun",
+          "de"
+        ]
+      },
+      {
+        "word": "gehabt,",
+        "clean": "gehabt",
+        "syllables": [
+          "ge",
+          "habt"
+        ]
+      },
+      {
+        "word": "seit",
+        "clean": "seit",
+        "syllables": [
+          "seit"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "im",
+        "clean": "im",
+        "syllables": [
+          "im"
+        ]
+      },
+      {
+        "word": "Wald",
+        "clean": "Wald",
+        "syllables": [
+          "Wald"
+        ]
+      },
+      {
+        "word": "gelassen",
+        "clean": "gelassen",
+        "syllables": [
+          "ge",
+          "las",
+          "sen"
+        ]
+      },
+      {
+        "word": "hatte",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "die",
+        "clean": "die",
+        "syllables": [
+          "die"
+        ]
+      },
+      {
+        "word": "Stiefmutter",
+        "clean": "Stiefmutter",
+        "syllables": [
+          "Stief",
+          "mut",
+          "ter"
+        ]
+      },
+      {
+        "word": "hatte",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "ihn",
+        "clean": "ihn",
+        "syllables": [
+          "ihn"
+        ]
+      },
+      {
+        "word": "verlassen.",
+        "clean": "verlassen",
+        "syllables": [
+          "ver",
+          "las",
+          "sen"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
+  },
+  {
+    "id": "g3_story__h_nsel_und_gretel_er_war_sehr_gl_cklich__dass_er",
+    "grade": 3,
+    "theme": "Story: Hänsel und Gretel",
+    "sentence": "Er war sehr glücklich, dass er seine lieben Kinder wieder hatte und sie lebten in lauter Freude zusammen.",
+    "words": [
+      {
+        "word": "Er",
+        "clean": "Er",
+        "syllables": [
+          "Er"
+        ]
+      },
+      {
+        "word": "war",
+        "clean": "war",
+        "syllables": [
+          "war"
+        ]
+      },
+      {
+        "word": "sehr",
+        "clean": "sehr",
+        "syllables": [
+          "sehr"
+        ]
+      },
+      {
+        "word": "glücklich,",
+        "clean": "glücklich",
+        "syllables": [
+          "glück",
+          "lich"
+        ]
+      },
+      {
+        "word": "dass",
+        "clean": "dass",
+        "syllables": [
+          "dass"
+        ]
+      },
+      {
+        "word": "er",
+        "clean": "er",
+        "syllables": [
+          "er"
+        ]
+      },
+      {
+        "word": "seine",
+        "clean": "seine",
+        "syllables": [
+          "sei",
+          "ne"
+        ]
+      },
+      {
+        "word": "lieben",
+        "clean": "lieben",
+        "syllables": [
+          "lie",
+          "ben"
+        ]
+      },
+      {
+        "word": "Kinder",
+        "clean": "Kinder",
+        "syllables": [
+          "Kin",
+          "der"
+        ]
+      },
+      {
+        "word": "wieder",
+        "clean": "wieder",
+        "syllables": [
+          "wie",
+          "der"
+        ]
+      },
+      {
+        "word": "hatte",
+        "clean": "hatte",
+        "syllables": [
+          "hat",
+          "te"
+        ]
+      },
+      {
+        "word": "und",
+        "clean": "und",
+        "syllables": [
+          "und"
+        ]
+      },
+      {
+        "word": "sie",
+        "clean": "sie",
+        "syllables": [
+          "sie"
+        ]
+      },
+      {
+        "word": "lebten",
+        "clean": "lebten",
+        "syllables": [
+          "leb",
+          "ten"
+        ]
+      },
+      {
+        "word": "in",
+        "clean": "in",
+        "syllables": [
+          "in"
+        ]
+      },
+      {
+        "word": "lauter",
+        "clean": "lauter",
+        "syllables": [
+          "lau",
+          "ter"
+        ]
+      },
+      {
+        "word": "Freude",
+        "clean": "Freude",
+        "syllables": [
+          "Freu",
+          "de"
+        ]
+      },
+      {
+        "word": "zusammen.",
+        "clean": "zusammen",
+        "syllables": [
+          "zu",
+          "sam",
+          "men"
+        ]
+      }
+    ],
+    "story": "Hänsel und Gretel"
   }
 ]

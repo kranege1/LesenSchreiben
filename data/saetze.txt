@@ -939,3 +939,58 @@
 3 | Großschreibung Nomen | Das Schiff fährt über das tiefe, weite Meer.
 3 | Großschreibung Nomen | Wir freuen uns über den Besuch der netten Tante.
 3 | Großschreibung Nomen | Der Koch schneidet das frische Gemüse mit dem Messer.
+
+# 3. Klasse: Hänsel und Gretel
+3 | Story: Hänsel und Gretel | Es war einmal ein armer Holzfäller, der mit seinen Kindern, Hänsel und Gretel, am Rande eines großen Waldes lebte.
+3 | Story: Hänsel und Gretel | Ihre Mutter war gestorben und der Vater hatte wieder geheiratet.
+3 | Story: Hänsel und Gretel | Eines Nachts hörten die Kinder wie die Stiefmutter heimlich zum Vater sprach: „All unsere Vorräte sind leer, wir haben nur noch einen halben Laib Brot.“
+3 | Story: Hänsel und Gretel | „Die Kinder müssen fort, wir sollten sie tief in den Wald führen, damit sie den Weg nicht wieder heraus finden; sonst müssen wir alle verhungern.“
+3 | Story: Hänsel und Gretel | Dem Vater wurde es schwer ums Herz.
+3 | Story: Hänsel und Gretel | Doch er gab nach und willigte ein.
+3 | Story: Hänsel und Gretel | Als die Alten schliefen, begann Gretel zu weinen.
+3 | Story: Hänsel und Gretel | Hänsel tröstete sie: „Weine nicht! Versuch zu schlafen, der liebe Gott wird uns schon helfen.“
+3 | Story: Hänsel und Gretel | Am frühen Morgen bekam jedes der Kinder ein Stückchen Brot.
+3 | Story: Hänsel und Gretel | Auf dem Weg in den Wald bröckelte es Hänsel in der Tasche und warf nach und nach unbemerkt einen Brotkrumen auf die Erde.
+3 | Story: Hänsel und Gretel | Die Kinder wurden tief in den Wald geführt und der Vater entzündete ein großes Feuer.
+3 | Story: Hänsel und Gretel | Die Stiefmutter sprach: „Bleibt hier sitzen, wenn ihr müde seid, könnt ihr schlafen. Wir gehen Holz hacken, und heute Abend holen wir euch wieder ab.“
+3 | Story: Hänsel und Gretel | Als es Mittag war, schliefen sie ein.
+3 | Story: Hänsel und Gretel | Der Abend verging, aber niemand kam.
+3 | Story: Hänsel und Gretel | Sie erwachten erst in der finsteren Nacht.
+3 | Story: Hänsel und Gretel | Hänsel sagte: „Lass uns warten bis der Mond aufgeht, dann werden wir die Brotkrumen sehen, die ich ausgestreut habe, die zeigen uns den Weg nach Haus.“
+3 | Story: Hänsel und Gretel | Als der Mond kam, machten sie sich auf, aber sie fanden keinen Krumen mehr, denn die vielen Vögel, die in Wald und Feld umher flogen, hatten sie weggepickt.
+3 | Story: Hänsel und Gretel | So gerieten sie immer tiefer in den Wald.
+3 | Story: Hänsel und Gretel | Als es hell wurde, kamen sie an ein Häuschen, das aus Brot gebaut war, und mit Kuchen gedeckt.
+3 | Story: Hänsel und Gretel | Die Fenster waren aus hellem Zucker.
+3 | Story: Hänsel und Gretel | „Da wollen wir uns dran machen“, sprach Hänsel, griff in die Höhe und brach etwas vom Dach ab.
+3 | Story: Hänsel und Gretel | Gretel stellte sich an die Scheiben und knusperte daran.
+3 | Story: Hänsel und Gretel | Da rief eine dünne Stimme aus der Stube heraus: „Knusper, knusper, Knäusschen, wer knuspert an meinem Häuschen?“
+3 | Story: Hänsel und Gretel | Die Kinder antworteten: „Der Wind, der Wind, das himmlische Kind“, und aßen weiter.
+3 | Story: Hänsel und Gretel | Da ging auf einmal die Türe auf, und eine steinalte Frau, die sich auf einen Stock stützte, kam heraus.
+3 | Story: Hänsel und Gretel | Hänsel und Gretel erschraken so sehr, dass sie alles fallen ließen was sie in den Händen hielten.
+3 | Story: Hänsel und Gretel | Die Alte wackelte mit dem Kopf und sprach: „Ei, ihr lieben Kinder, kommt nur herein, es geschieht euch nichts.“
+3 | Story: Hänsel und Gretel | Sie fasste beide an der Hand und führte sie in ihr Häuschen.
+3 | Story: Hänsel und Gretel | Dort gab es Milch und Pfannkuchen mit Apfelbrei.
+3 | Story: Hänsel und Gretel | Danach wurden zwei schöne Bettchen gemacht.
+3 | Story: Hänsel und Gretel | Hänsel und Gretel legten sich hinein und fühlten sich wie im Himmel.
+3 | Story: Hänsel und Gretel | Früh morgens, ehe die Kinder erwacht waren, packte die Alte Hänsel und sperrte ihn hinter einer Gittertür ein.
+3 | Story: Hänsel und Gretel | Dann ging sie zu Gretel, rüttelte sie wach und rief: „Steh auf, hol Wasser und koch deinem Bruder etwas Gutes, der sitzt draußen im Stall und soll fett werden.“
+3 | Story: Hänsel und Gretel | Gretel begann bitterlich zu weinen, aber es war alles vergebens, sie musste tun was die böse Hexe verlangte.
+3 | Story: Hänsel und Gretel | Nun wurde dem armen Hänsel das beste Essen gekocht.
+3 | Story: Hänsel und Gretel | Jeden Morgen rief die Alte: „Hänsel, streck einen Finger heraus, damit ich fühle ob du fett bist.“
+3 | Story: Hänsel und Gretel | Hänsel streckte ihr aber nur ein Knöchelchen heraus, und die Alte, die trübe Augen hatte, konnte es nicht sehen, und meinte es sei Hänsels Finger.
+3 | Story: Hänsel und Gretel | Sie wunderte sich, dass er gar nicht fetter wurde.
+3 | Story: Hänsel und Gretel | Als vier Wochen um waren und Hänsel weiter mager blieb, überkam sie die Ungeduld.
+3 | Story: Hänsel und Gretel | Die Hexe stieß Gretel hinaus zum Backofen, aus dem die Flammen schon herausschlugen.
+3 | Story: Hänsel und Gretel | „Kriech hinein“, sagte die Hexe, „und schau ob genug vorgeheizt ist.“
+3 | Story: Hänsel und Gretel | Wenn Gretel drin war, wollte sie den Ofen zumachen.
+3 | Story: Hänsel und Gretel | Aber Gretel merkte was sie im Sinn hatte und sprach: „Ich weiß nicht wie ich’s machen soll; wie komm ich da hinein?“
+3 | Story: Hänsel und Gretel | Die Alte entgegnete: „Die Öffnung ist groß genug, siehst du, ich könnte selbst hinein“, bückte sich und steckte den Kopf in den Backofen.
+3 | Story: Hänsel und Gretel | Da gab ihr Gretel einen Stoß, dass sie hinein flog, knallte die eiserne Tür zu und schob den Riegel vor.
+3 | Story: Hänsel und Gretel | Gretel rannte schnurstracks zu Hänsel, öffnete den Stall und rief: „Hänsel, wir sind erlöst, die alte Hexe ist tot.“
+3 | Story: Hänsel und Gretel | Da sprang Hänsel heraus und umarmte Gretel vor Freude!
+3 | Story: Hänsel und Gretel | Dann verließen sie den unheiligen Ort und schlugen sich in den Wald.
+3 | Story: Hänsel und Gretel | Als sie ein paar Stunden gegangen waren, kam ihnen die Umgebung immer bekannter vor, und endlich erblickten sie von weitem das Haus ihres Vaters.
+3 | Story: Hänsel und Gretel | Da begannen sie zu laufen, stürzten in die Stube hinein und fielen ihrem Vater um den Hals.
+3 | Story: Hänsel und Gretel | Der Mann hatte keine frohe Stunde gehabt, seit er die Kinder im Wald gelassen hatte und die Stiefmutter hatte ihn verlassen.
+3 | Story: Hänsel und Gretel | Er war sehr glücklich, dass er seine lieben Kinder wieder hatte und sie lebten in lauter Freude zusammen.
+
