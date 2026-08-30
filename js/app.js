@@ -268,24 +268,66 @@ class Application {
         document.getElementById('btn-read-skip').addEventListener('click', () => this.nextSentence());
         document.getElementById('btn-summary-close').addEventListener('click', () => this.closeSummaryModal());
 
-        // Global App Reload & Cache clear
+        // Global App Reload & Cache clear with timestamp comparison
         const reloadBtn = document.getElementById('btn-app-reload');
         if (reloadBtn) {
             reloadBtn.addEventListener('click', async () => {
-                this.showStatusToast("App wird neu geladen und Cache geleert... 🔄");
-                
+                const timestampEl = document.getElementById('app-build-timestamp');
+                const localBuildText = timestampEl ? timestampEl.innerText.trim() : '';
+                const localMatch = localBuildText.match(/\[Build:\s*([^\]]+)\]/i);
+                const localTimestamp = localMatch ? localMatch[1] : localBuildText;
+
+                console.log(`[Reload] Lokaler Build Timestamp: "${localTimestamp}"`);
+                this.showStatusToast("Vergleiche Timestamps & leere Cache... 🔄", 2000);
+
+                let serverTimestamp = null;
+                try {
+                    // Fetch fresh index.html with cache-busting to inspect server build timestamp
+                    const res = await fetch('./index.html?t=' + Date.now(), {
+                        cache: 'no-store',
+                        headers: {
+                            'Cache-Control': 'no-cache, no-store, must-revalidate',
+                            'Pragma': 'no-cache'
+                        }
+                    });
+                    if (res.ok) {
+                        const htmlText = await res.text();
+                        const match = htmlText.match(/\[Build:\s*([^\]]+)\]/i);
+                        if (match && match[1]) {
+                            serverTimestamp = match[1].trim();
+                        }
+                    }
+                } catch (err) {
+                    console.warn('[Reload] Server-Timestamp konnte nicht abgerufen werden:', err);
+                }
+
+                console.log(`[Reload] Server Build Timestamp: "${serverTimestamp || 'unbekannt'}"`);
+
+                if (serverTimestamp && localTimestamp && serverTimestamp !== localTimestamp) {
+                    console.log(`[Reload] Update festgestellt: Lokal (${localTimestamp}) vs Server (${serverTimestamp})`);
+                    this.showStatusToast(`Neuer Build (${serverTimestamp})! Lade neu... 🔄`, 3000);
+                } else if (serverTimestamp) {
+                    console.log(`[Reload] Timestamps identisch (${serverTimestamp}). Cache wird vollständig geleert.`);
+                    this.showStatusToast(`App neu geladen (${serverTimestamp}) 🔄`, 3000);
+                } else {
+                    this.showStatusToast("App wird vollständig neu geladen... 🔄", 3000);
+                }
+
                 // Clear service workers
                 if ('serviceWorker' in navigator) {
                     try {
                         const regs = await navigator.serviceWorker.getRegistrations();
                         for (let reg of regs) {
+                            if (reg.active) {
+                                reg.active.postMessage('CLEAR_CACHE');
+                            }
                             await reg.unregister();
                         }
                     } catch (e) {
                         console.warn("Failed to unregister service workers:", e);
                     }
                 }
-                
+
                 // Clear Cache Storage
                 if ('caches' in window) {
                     try {
@@ -297,9 +339,18 @@ class Application {
                         console.warn("Failed to clear caches:", e);
                     }
                 }
-                
-                // Force reload
-                window.location.reload(true);
+
+                // Clear sessionStorage
+                try {
+                    sessionStorage.clear();
+                } catch (e) {}
+
+                // Short delay so the user sees the toast, then hard reload with cache-bust parameter
+                setTimeout(() => {
+                    const cleanUrl = new URL(window.location.href);
+                    cleanUrl.searchParams.set('reload', Date.now().toString());
+                    window.location.href = cleanUrl.toString();
+                }, 400);
             });
         }
 
