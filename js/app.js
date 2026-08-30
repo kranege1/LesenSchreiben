@@ -44,16 +44,18 @@ const ARTICLES = new Set(["der", "die", "das", "des", "dem", "den", "ein", "eine
 const PREPOSITIONS = new Set(["in", "im", "auf", "unter", "über", "vor", "hinter", "neben", "an", "am", "mit", "für", "von", "vom", "zu", "zum", "zur", "nach", "bei", "beim", "durch", "aus", "gegen", "ohne", "um", "wegen", "seit", "während"]);
 const PRONOUNS = new Set(["ich", "du", "er", "sie", "es", "wir", "ihr", "sie", "mich", "dich", "ihn", "uns", "euch", "ihnen", "mein", "meine", "meinen", "meinem", "meiner", "meines", "dein", "deine", "deinen", "deinem", "deiner", "deines", "sein", "seine", "seinen", "seinem", "seines", "ihr", "ihre", "ihren", "ihrem", "ihrer", "ihres", "unser", "unsere", "unseren", "unserem", "unserer", "unseres", "euer", "euere", "eueren", "euerem", "euerer", "eueres", "wer", "was", "wem", "wen", "dieser", "diese", "dieses", "diesen", "diesem", "dieser", "jener", "jene", "jenes", "man", "jemand", "niemand", "etwas", "nichts", "selbst", "einander"]);
 const CONJUNCTIONS = new Set(["und", "oder", "aber", "denn", "sondern", "weil", "dass", "wenn", "als", "obwohl", "da", "damit", "sodass", "solange", "bis", "ehe", "seitdem", "sowie", "während", "wie", "ob"]);
-const ADVERBS = new Set(["hier", "dort", "da", "heute", "morgen", "gestern", "jetzt", "sofort", "dann", "oft", "immer", "nie", "selten", "manchmal", "sehr", "gern", "gerne", "vielleicht", "wohl", "schon", "erst", "nur", "auch", "noch", "fast", "schwer", "leicht", "leise", "laut", "schnell", "langsam"]);
+const ADVERBS = new Set(["hier", "dort", "da", "heute", "morgen", "übermorgen", "gestern", "vorgestern", "jetzt", "sofort", "dann", "oft", "immer", "nie", "nimmermehr", "selten", "manchmal", "sehr", "gern", "gerne", "vielleicht", "wohl", "schon", "erst", "nur", "auch", "noch", "fast", "schwer", "leicht", "leise", "laut", "schnell", "langsam", "draußen", "drinnen", "oben", "unten", "vorn", "vorne", "hinten", "links", "rechts", "überall", "nirgends", "daheim", "früher", "später", "zusammen", "zuerst", "zuletzt", "vorher", "nachher", "damals", "bisher", "überhaupt", "ebenso", "genauso"]);
 const COMMON_VERBS = new Set([
     "bellt", "trinkt", "liegt", "steht", "rennt", "singt", "lacht", "malt", "lernt", "liest", "spielt", "schwimmt",
     "tanzt", "schläft", "bauen", "suchen", "finden", "entdecken", "fahren", "wohnen", "fliegt", "kriecht", "leuchtet",
-    "gehen", "laufen", "schreiben", "essen", "kommen", "haben", "ist", "sind", "war", "waren", "backen", "putzen",
-    "bringen", "ziehen", "lassen", "müssen", "können", "wollen", "sollen", "dürfen", "zeigt", "öffnet", "knarrt",
-    "brennt", "leuchten", "schleichen", "liegt", "hält", "leckt", "tickt", "sitzt", "schützt", "zuckt", "kocht",
-    "backt", "rollt", "frisst", "schlüpft", "wollt", "spielt", "saugt", "fallen", "rodeln", "werfen", "tragen",
+    "gehen", "laufen", "schreiben", "essen", "kommen", "haben", "ist", "sind", "war", "waren", "bist", "sein", "backen", "putzen",
+    "bringen", "ziehen", "lassen", "müssen", "können", "wollen", "sollen", "dürfen", "kann", "kannst", "muss", "musst",
+    "darf", "darfst", "will", "willst", "soll", "sollst", "mag", "magst", "weiß", "weißt", "hat", "hatte", "hatten", "wird", "wurde", "wurden",
+    "gibt", "geht", "komme", "kommt", "macht", "machte", "sieht", "siehst", "sah", "sahen",
+    "zeigt", "öffnet", "knarrt", "brennt", "leuchten", "schleichen", "hält", "leckt", "tickt", "sitzt", "schützt", "zuckt", "kocht",
+    "backt", "rollt", "frisst", "schlüpft", "wollt", "saugt", "fallen", "rodeln", "werfen", "tragen",
     "wachsen", "blühen", "reifen", "regnet", "weht", "plätschert", "fließt", "riecht", "lachen", "spitzen", "packen",
-    "schneiden", "sitzen", "sprechen", "springen", "stehen", "jagt", "putzt", "landen", "fangen", "beobachten",
+    "schneiden", "sprechen", "springen", "jagt", "putzt", "landen", "fangen", "beobachten",
     "brauen", "schlagen", "basteln", "graben", "erforschen", "wandern", "spritzen", "schnüffelt", "füttert",
     "krabbeln", "erschreckt", "knacken", "klettern", "sammeln", "stellen", "rinnt", "schimmert", "glänzt",
     "zeichnen", "erklärt", "leitet", "gießt", "feiern", "raschelt", "kehren", "wärmt", "wiegen", "schmiegt",
@@ -516,6 +518,7 @@ class Application {
         if (PREPOSITIONS.has(lowerWord)) return "Präposition";
         if (PRONOUNS.has(lowerWord)) return "Pronomen";
         if (CONJUNCTIONS.has(lowerWord)) return "Konjunktion";
+        if (ADVERBS.has(lowerWord)) return "Adverb";
         
         // Capitalized check
         const isCapitalized = /^[A-ZÄÖÜ]/.test(word);
