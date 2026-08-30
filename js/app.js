@@ -613,6 +613,8 @@ class Application {
                 setTimeout(() => {
                     this.canvas.resize();
                 }, 50);
+            } else if (viewId === 'menu-view') {
+                this.renderCategorySelector();
             }
         }
     }
@@ -765,10 +767,26 @@ class Application {
         this.switchView('menu-view');
     }
 
-    renderCategorySelector() {
+    async renderCategorySelector() {
         if (!this.currentProfile) return;
         const currentGrade = this.currentProfile.grade;
         
+        // Fetch practice progress list for this profile to calculate attempt counts
+        let progressList = [];
+        try {
+            progressList = await this.db.getProfileProgress(this.currentProfile.id);
+        } catch (e) {
+            console.warn("Failed to fetch profile progress for category badges:", e);
+        }
+        
+        // Map sentenceId -> attempts
+        const attemptsMap = {};
+        progressList.forEach(p => {
+            if (p.attempts > 0) {
+                attemptsMap[p.sentenceId] = p.attempts;
+            }
+        });
+
         // Extract unique spelling categories from all sentences, prioritizing current grade categories
         const allGradeSentences = this.sentences.filter(s => !s.story);
         const currentGradeThemes = [...new Set(allGradeSentences.filter(s => s.grade === currentGrade).map(s => s.theme).filter(Boolean))];
@@ -801,6 +819,20 @@ class Application {
         if (!allAvailable.includes(this.currentCategory)) {
             this.currentCategory = "Alle";
         }
+
+        const getCategoryAttempts = (theme) => {
+            let total = 0;
+            if (theme === "Alle") {
+                allGradeSentences.forEach(s => {
+                    if (attemptsMap[s.id]) total += attemptsMap[s.id];
+                });
+            } else {
+                allGradeSentences.filter(s => s.theme === theme).forEach(s => {
+                    if (attemptsMap[s.id]) total += attemptsMap[s.id];
+                });
+            }
+            return total;
+        };
         
         const createPill = (theme, targetContainer) => {
             const pill = document.createElement('button');
@@ -831,14 +863,66 @@ class Application {
             else if (theme === "Endung -ig/-lich") emoji = "🏷️";
             else if (theme === "Großschreibung Nomen") emoji = "🔠";
             
-            pill.innerText = `${emoji} ${theme}`;
+            const attempts = getCategoryAttempts(theme);
+
+            pill.style.display = 'inline-flex';
+            pill.style.alignItems = 'center';
+            pill.style.gap = '6px';
+
+            const textSpan = document.createElement('span');
+            textSpan.innerText = `${emoji} ${theme}`;
+            pill.appendChild(textSpan);
+
+            // Practice count bubble / badge
+            const badge = document.createElement('span');
+            badge.className = 'practice-bubble';
+            badge.innerText = `${attempts}×`;
+            badge.style.fontSize = '11px';
+            badge.style.fontWeight = '700';
+            badge.style.padding = '2px 7px';
+            badge.style.borderRadius = '10px';
+            badge.style.lineHeight = '1';
+            badge.style.transition = 'all 0.2s ease';
+
+            if (pill.classList.contains('active')) {
+                badge.style.background = 'rgba(255, 255, 255, 0.25)';
+                badge.style.color = '#FFFFFF';
+            } else if (attempts > 0) {
+                badge.style.background = 'rgba(0, 122, 255, 0.12)';
+                badge.style.color = 'var(--accent-blue)';
+            } else {
+                badge.style.background = 'var(--system-gray-light)';
+                badge.style.color = 'var(--text-secondary)';
+                badge.style.opacity = '0.6';
+            }
+
+            pill.appendChild(badge);
+
             pill.addEventListener('click', () => {
-                // Remove active class from all pills in BOTH containers
-                document.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
+                // Remove active class and update badge styles from all pills
+                document.querySelectorAll('.category-pill').forEach(p => {
+                    p.classList.remove('active');
+                    const b = p.querySelector('.practice-bubble');
+                    if (b) {
+                        const countVal = parseInt(b.innerText) || 0;
+                        if (countVal > 0) {
+                            b.style.background = 'rgba(0, 122, 255, 0.12)';
+                            b.style.color = 'var(--accent-blue)';
+                        } else {
+                            b.style.background = 'var(--system-gray-light)';
+                            b.style.color = 'var(--text-secondary)';
+                            b.style.opacity = '0.6';
+                        }
+                    }
+                });
                 
                 pill.classList.add('active');
+                badge.style.background = 'rgba(255, 255, 255, 0.25)';
+                badge.style.color = '#FFFFFF';
+                badge.style.opacity = '1';
+
                 this.currentCategory = theme;
-                this.showStatusToast(`Übungsschwerpunkt: ${theme}`);
+                this.showStatusToast(`Übungsschwerpunkt: ${theme} (${attempts}× geübt)`);
                 this.playEventSound('exercise_select');
             });
             targetContainer.appendChild(pill);
@@ -2308,7 +2392,7 @@ class Application {
         this.renderDailyScoresChart('week');
     }
 
-    showStoriesView() {
+    async showStoriesView() {
         if (!this.currentProfile) return;
         const currentGrade = this.currentProfile.grade;
         
@@ -2316,6 +2400,21 @@ class Application {
         if (!container) return;
         container.innerHTML = "";
         
+        // Fetch practice progress list for this profile to calculate story attempts
+        let progressList = [];
+        try {
+            progressList = await this.db.getProfileProgress(this.currentProfile.id);
+        } catch (e) {
+            console.warn("Failed to fetch profile progress for stories:", e);
+        }
+
+        const attemptsMap = {};
+        progressList.forEach(p => {
+            if (p.attempts > 0) {
+                attemptsMap[p.sentenceId] = p.attempts;
+            }
+        });
+
         // Group all stories from all grades
         const storySentences = this.sentences.filter(s => s.story);
         const storiesMap = {};
@@ -2351,6 +2450,16 @@ class Application {
         
         storyNames.forEach(storyName => {
             const sList = storiesMap[storyName];
+
+            // Calculate story practice statistics
+            let totalAttempts = 0;
+            let practicedCount = 0;
+            sList.forEach(s => {
+                if (attemptsMap[s.id]) {
+                    totalAttempts += attemptsMap[s.id];
+                    practicedCount++;
+                }
+            });
             
             const card = document.createElement('div');
             card.style.display = 'flex';
@@ -2366,12 +2475,13 @@ class Application {
             const info = document.createElement('div');
             info.style.display = 'flex';
             info.style.flexDirection = 'column';
-            info.style.gap = '4px';
+            info.style.gap = '6px';
             info.style.flex = '1';
             
             const titleRow = document.createElement('div');
             titleRow.style.display = 'flex';
-            titleRow.style.alignItems = 'baseline';
+            titleRow.style.alignItems = 'center';
+            titleRow.style.flexWrap = 'wrap';
             titleRow.style.gap = '8px';
             
             const title = document.createElement('h3');
@@ -2385,8 +2495,32 @@ class Application {
             count.style.opacity = '0.6';
             count.innerText = `(${sList.length} Sätze)`;
             
+            // Story Practice Count Badge
+            const practiceBadge = document.createElement('span');
+            practiceBadge.className = 'story-practice-bubble';
+            practiceBadge.style.fontSize = '11px';
+            practiceBadge.style.fontWeight = '700';
+            practiceBadge.style.padding = '2px 8px';
+            practiceBadge.style.borderRadius = '12px';
+            practiceBadge.style.display = 'inline-flex';
+            practiceBadge.style.alignItems = 'center';
+            practiceBadge.style.gap = '3px';
+
+            if (totalAttempts > 0) {
+                practiceBadge.style.background = 'rgba(52, 199, 89, 0.14)';
+                practiceBadge.style.color = '#34C759';
+                practiceBadge.style.border = '1px solid rgba(52, 199, 89, 0.3)';
+                practiceBadge.innerText = `✓ ${totalAttempts}× geübt (${practicedCount}/${sList.length} Sätze)`;
+            } else {
+                practiceBadge.style.background = 'var(--system-gray-light)';
+                practiceBadge.style.color = 'var(--text-secondary)';
+                practiceBadge.style.opacity = '0.7';
+                practiceBadge.innerText = `0× geübt`;
+            }
+
             titleRow.appendChild(title);
             titleRow.appendChild(count);
+            titleRow.appendChild(practiceBadge);
             info.appendChild(titleRow);
             
             // Preview
