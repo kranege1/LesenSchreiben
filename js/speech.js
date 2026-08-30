@@ -38,20 +38,21 @@ export class AppSpeech {
         this.recognition.continuous = true;
 
         this.recognition.onresult = (event) => {
-            let interimTranscript = '';
-            let finalTranscript = '';
+            let fullTranscript = '';
 
-            for (let i = event.resultIndex; i < event.results.length; ++i) {
-                if (event.results[i].isFinal) {
-                    finalTranscript += event.results[i][0].transcript;
-                } else {
-                    interimTranscript += event.results[i][0].transcript;
+            // Always iterate from i = 0 to capture all final and interim tokens,
+            // preventing dropped first words when event.resultIndex advances.
+            for (let i = 0; i < event.results.length; ++i) {
+                if (event.results[i] && event.results[i][0]) {
+                    fullTranscript += event.results[i][0].transcript + ' ';
                 }
             }
 
-            const fullTranscript = (finalTranscript + ' ' + interimTranscript).trim().toLowerCase();
-            this.onInterimResult(fullTranscript);
-            this._processTranscript(fullTranscript);
+            fullTranscript = fullTranscript.trim().toLowerCase();
+            if (fullTranscript) {
+                this.onInterimResult(fullTranscript);
+                this._processTranscript(fullTranscript);
+            }
         };
 
         this.recognition.onerror = (e) => {
@@ -67,7 +68,6 @@ export class AppSpeech {
 
         this.recognition.onend = () => {
             if (this.isListening) {
-                // Keep listening or restart if expected, but let's handle via state
                 try {
                     this.recognition.start();
                 } catch (e) {
@@ -92,14 +92,22 @@ export class AppSpeech {
         this.targetWords = wordsArray.map(w => w.clean.toLowerCase());
         this.currentWordIndex = startIndex;
         this.isListening = true;
-        
         this.recognition.lang = locale;
 
+        // Reset previous recognition session to ensure a clean result buffer for the new sentence
         try {
-            this.recognition.start();
-        } catch (e) {
-            console.warn("Recognition already started or starting:", e);
-        }
+            this.recognition.abort();
+        } catch (e) {}
+
+        setTimeout(() => {
+            if (this.isListening) {
+                try {
+                    this.recognition.start();
+                } catch (e) {
+                    console.warn("Recognition start warning:", e);
+                }
+            }
+        }, 60);
     }
 
     stop() {
@@ -202,6 +210,26 @@ export class AppSpeech {
      */
     _isFuzzyMatch(sNorm, tNorm) {
         if (sNorm === tNorm) return true;
+
+        // Common German Speech Recognition mishearings for short words & sentence starters
+        const shortWordEquivalents = {
+            "es": ["is", "ez", "s", "äh", "ist"],
+            "das": ["dass", "des", "da"],
+            "der": ["dea", "dar", "den"],
+            "die": ["di", "de"],
+            "ein": ["eim", "a", "einen"],
+            "eine": ["einer", "ein"],
+            "als": ["ass", "az"],
+            "und": ["unt", "un"],
+            "im": ["in", "imm"],
+            "in": ["im", "inn"],
+            "da": ["dar", "das"]
+        };
+
+        if (shortWordEquivalents[tNorm] && shortWordEquivalents[tNorm].includes(sNorm)) {
+            return true;
+        }
+
         if (sNorm.length < 2 || tNorm.length < 2) return false;
 
         const distance = this._editDistance(sNorm, tNorm);
